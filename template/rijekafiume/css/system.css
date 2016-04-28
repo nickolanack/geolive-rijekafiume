@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+input.system-openid, input.com-system-openid {
+    background: url("//openid.net/images/login-bg.gif") no-repeat scroll 0 50% #FFFFFF;
+    color: #000000;
+    padding-left: 18px;
+}
+.system-unpublished {
+    background: none repeat scroll 0 0 #E8EDF1;
+    border-bottom: 4px solid #C4D3DF;
+    border-top: 4px solid #C4D3DF;
+}
+#system-message {
+    margin-bottom: 10px;
+    padding: 0;
+}
+#system-message dt {
+    font-weight: bold;
+}
+#system-message dd {
+    margin: 0;
+    text-indent: 30px;
+}
+#system-message dd ul {
+    border-bottom: 3px solid #84A7DB;
+    border-top: 3px solid #84A7DB;
+    color: #0055BB;
+    list-style: none outside none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#system-message dt.message {
+    display: none;
+}
+#system-message dd.message {
+}
+#system-message dt.error {
+    display: none;
+}
+#system-message dd.error ul {
+    background-color: #E6C0C0;
+    border-bottom: 1px solid #DE7A7B;
+    border-top: 1px solid #DE7A7B;
+    color: #CC0000;
+}
+#system-message dt.notice {
+    display: none;
+}
+#system-message dd.notice ul {
+    background: none repeat scroll 0 0 #EFE7B8;
+    border-bottom: 3px solid #F0DC7E;
+    border-top: 3px solid #F0DC7E;
+    color: #CC0000;
+}
+#system-debug {
+    background-color: #FFFFFF;
+    color: #CCCCCC;
+    margin: 10px;
+    padding: 10px;
+}
+#system-debug div {
+    font-size: 11px;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>rijekafiume</name>
+	<author>Nick Blackwell</author>
+	<authorEmail>nick@geolive.ca</authorEmail>
+	<authorUrl>geolive.ca</authorUrl>
+	<copyright>Copyright Nick Blackwell Software</copyright>
+	<license>MITt</license>
+	<version>1.0.0</version>
+	<description>Template for RijekaFiume rijekafiume.geolive.ca</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>top</position>
+		<position>top-menu</position>
+		<position>bottom</position>
+		<position>bottom-menu</position>
+		<positon>report</positon>
+		</positions>
+	
+	<config>
+		<fields 
+			name="params"
+		 	addfieldpath="/administrator/components/com_geolive/cms/joomla/32x/fields">
+		
+			<fieldset name="advanced">
+			<field name="width" type="slider" default="940"
+					label="Content Width"
+					description="adjust the slider to select the site content width"
+					required="true"
+					min="700"
+					max="1500"
+				/>
+				
+				
+			<field name="backgroundColor" type="rgb" default="white"
+					label="Background Color"
+					description="the main site background color"
+					required="true"
+			/>
+			
+			<field name="backgroundColor2" type="rgb" default="#F5F5F5"
+					label="Background Complimentary Color"
+					description="the main site background color, should be similar to background"
+					required="true"
+			/>
+				
+			<field name="siteTitleColor" type="rgb" default="purple"
+					label="Site Title Color"
+					description="Site title, and minor color, links etc"
+					required="true"
+			/>
+			
+
+
+			</fieldset>
+		</fields>
+	</config>
+		
+</extension>

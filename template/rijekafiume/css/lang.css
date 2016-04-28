@@ -1,0 +1,21 @@
+body .lang-hr {
+    display: none;
+}
+body.lang-hr .lang-hr {
+    display: initial;
+}
+
+
+body .lang-en {
+    display: none;
+}
+body.lang-en .lang-en {
+    display: initial;
+}
+
+
+div.lang {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

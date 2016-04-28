@@ -1,0 +1,146 @@
+.item_103 {
+	background-color: #FAEFCC;
+}
+
+.item_103 #wrapper:after {
+	display: none;
+}
+
+div#GLMap_RijekaFiume_1Container {
+	border-bottom: 1px solid;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+/* page setup to make map fit =====================================*/
+.item_103 #maincontent {
+	max-width: 100%;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+}
+
+@media only screen and (max-width: 1304px) {
+	.item_103 #maincontent {
+		margin-top: 9.4em;
+	}
+}
+
+@media only screen and (max-width:957px) {
+	.item_103 #maincontent {
+		margin-top: 9.4em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.item_103 #maincontent {
+		margin-top: 9.4em;
+	}
+}
+
+/* next and back buttons ======================================== */
+.EmapNav .WizardButtonContainer .submit {
+	content: "";
+	background-image:
+		url("/templates/rijekafiume/images/media-images/submit-button.png");
+	position: absolute;
+	height: 91px;
+	right:-85px;
+	top:80px;
+	width: 77px;
+	background-color: transparent;
+	border:none;
+}
+
+.EmapNav .WizardButtonContainer .next {
+	content: "";
+	background-image:
+		url("/templates/rijekafiume/images/media-images/next-button.png");
+	position: absolute;	
+	height: 91px;
+	right: -85px;
+	top: 80px;
+	width: 77px;
+	border: none;
+	background-color: transparent;
+}
+
+
+.EmapNav .WizardButtonContainer .back {
+	content: "";
+	background-image:
+		url("/templates/rijekafiume/images/media-images/back-button.png");
+	position: absolute;
+	height:91px;
+	left: -85px;
+	top: 80px;
+	width: 77px;
+	background-color: transparent;
+	border:none;
+}
+
+.EmapNav .WizardButton span.btn-label {
+ 	display: none;
+}
+
+.geoliveSqueezeWindow {
+	padding-bottom: 0;
+}
+
+.EmapNav .cancel {
+	display: none;
+}
+
+.EmapNav .WizardButton>.buttonLabel {
+	display: none;
+}
+
+
+/*general map styling ==================================== */
+.AttributesContainer .TextAttribute_Title {
+	color: #000000;
+}
+
+.geolive_window_page .control_icons>span {
+	background-color: white;
+}
+
+.geolive_window_title_content>span {
+	color: #000000;
+}
+
+.geolive_mediaMap_container>.geolive_inner {
+	border: none;
+}
+
+.infowindow_title {
+	background-image:
+		url("http://ict4ag.geolive.ca/templates/rijekafiume/images/GEOLiveSmallCopy.png");
+	background-repeat: no-repeat;
+	margin-right: 12px;
+	padding-left: 39px;
+	padding-top: 10px;
+}
+
+.AttributesContainer {
+	margin-top: 4px;
+}
+
+.videoLink {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.geolive_window_footer {
+	padding-bottom: 4px;
+	padding-right: 5px;
+}
+/* post box media buttons ================================== */
+
+
+
+/*General Marker wizard styling ================================= */
+
