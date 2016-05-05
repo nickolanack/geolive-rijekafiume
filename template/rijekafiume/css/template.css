@@ -36,6 +36,7 @@ nav ul.nav.menu li {
 	position: relative;
 	text-align: center;
 	transition: all 0.3s ease 0s;
+	    margin: 5px;
 }
 nav ul.nav.menu li a {
 	color: #000;
@@ -43,6 +44,7 @@ nav ul.nav.menu li a {
 	outline: 0 none;
 	padding: 4px 8px 2px;
 	text-decoration: none;
+	background: none;
 }
 nav ul.nav.menu li.active a {
 	color: #ffffff;
@@ -362,4 +364,9 @@ label.element-invisible {
     border: none;
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
         text-shadow: none;
+}
+
+.nav .btn:hover, .nav .btn:focus, .nav .btn:active, .nav .btn.active, .nav .btn.disabled, .nav .btn[disabled] {
+    color: #333;
+    background-color: #CCC09F;
 }

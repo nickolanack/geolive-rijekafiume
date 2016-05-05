@@ -36,4 +36,11 @@ window.addEvent("load", function() {
     	e.stop();
     	window.openLoginWindow();
     });
+
+    $$('.item-130')[0].addEvent('click', function(e){
+        e.stop();
+        window.openLoginWindow();
+    });
+
+    
 });

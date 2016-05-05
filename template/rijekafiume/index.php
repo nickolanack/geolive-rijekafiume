@@ -132,8 +132,16 @@ if(file_exists((dirname(__FILE__)).DS.'css'.DS.$component.'.css')){
 
 			<div id="pushmenu-parent" style="visibility: hidden; pointer-events: none;     position: absolute;">
 				<div id="pushmenu">
-						<h3 id="pushmenu-message"><?php echo 'User Login' ?></h3>
+						<h3 id="pushmenu-message"><?php echo JFactory::getUser()->guest?'User Login':'Sign out'; ?></h3>
 						<jdoc:include type="modules" name="login" />
+						<script type="text/javascript">
+							window.addEvent('domready',function(){
+								$$('.nav.menu li').forEach(function(a){
+									a.addClass('btn');
+								});
+							});
+
+						</script>
 				</div>		
 
 			</div>
