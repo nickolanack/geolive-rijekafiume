@@ -36,6 +36,11 @@ JHTML::_('jquery.framework');
 
 $doc = JFactory::getDocument();
 $doc->addStyleSheet($this->baseurl . '/media/jui/css/bootstrap.min.css');
+include_once dirname(dirname(__DIR__)).'/administrator/components/com_geolive/core.php';
+Behavior('modal');
+
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/pushmenu.js');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/pushmenu.css');
 
 
 ?>
@@ -125,70 +130,13 @@ if(file_exists((dirname(__FILE__)).DS.'css'.DS.$component.'.css')){
 
 			<jdoc:include type="modules" name="top" />
 
-			<div id="loginWidth">
-						<?php if(JFactory::getUser()->guest){?>
-						<div id="loginPopContent" style="z-index:999;">
-							<div class="slidedown">
-								<table>
-									<tr>
-										<td colspan="2"><jdoc:include type="modules" name="login" />
-										</td>
-									</tr>
-								</table>
-								<hr>
-								<table>
-									<tr>
-										<td><img src="templates/rijekafiume/images/user.png" alt="User"
-											title="User" width="30" class="userimage" /></td>
-										<td><jdoc:include type="modules" name="register" /></td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>
-											<p class="loginRegisterText">
-												<a href="component/users/?view=remind">Forgot your username?</a>
-											</p>
-											<p class="loginRegisterText">
-												<a href="component/users/?view=reset">Forgot your password?</a>
-											</p>
-										</td>
-									</tr>
-								</table>
-								<hr>
-								<table>
-									<tr>
-										<td><a href="component/hs_users/?view=registration"><img
-												src="templates/rijekafiume/images/registerUser.png"
-												alt="Register" title="Register" width="30"
-												class="registerimage" /> </a></td>
-										<td><p class="loginRegisterText">
-												<a href="component/users/?view=registration">Register as a
-													new user</a>
-											</p></td>
-									</tr>
-								</table>
-							</div>
-						</div>
-						<?php }else{
+			<div id="pushmenu-parent" style="visibility: hidden; pointer-events: none;     position: absolute;">
+				<div id="pushmenu">
+						<h3 id="pushmenu-message"><?php echo 'User Login' ?></h3>
+						<jdoc:include type="modules" name="login" />
+				</div>		
 
-							
-							
-							?>
-						<form id="login-form" class="form-vertical" method="post" action="/login">
-							<input type="hidden" value="com_users" name="option"> 
-							<input type="hidden" value="user.logout" name="task"> 
-							<input type="hidden" value="<?php echo base64_encode("index.php?Itemid=".$item);?>" name="return"> 
-							<input type="hidden" value="1" name="<?php echo JSession::getFormToken(); ?>">
-						</form>
-						<script type="text/javascript">
-								$("logout").addEvent("click", function(){
-									$("login-form").submit();
-									})
-							</script>
-						<?php } 
-						?>
-
-					</div>
+			</div>
 
 			</nav> </header> <!-- end header -->
 		</div> <!-- end headcontainer -->

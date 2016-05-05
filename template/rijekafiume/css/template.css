@@ -53,20 +53,7 @@ nav ul.nav.menu li:hover a {
 }
 
 /* ----- custom css for register ----- */
-#modlgn-username.input-small {
-    background-color: #CCCCCC;
-    border: 1px solid black;
-    height: 18px;
-    margin-bottom: 5px;
-    width: 100px;
-}
 
-#modlgn-passwd.input-small {
-	background-color: #CCCCCC;
-	border: 1px solid black;
-	width:100px;
-	height:18px;
-}
 
 #form-login-submit {
 	margin-top: 5px;
@@ -278,38 +265,39 @@ ul.hs_social_list li.socials.google span.icon {
 
 /* ----- text for login with socials ----- */
 
-ul.hs_social_list li.socials.facebook span.name:after {
-	font-size: 14px;
-	content: "Login with Facebook";
-	padding-left:40px;
-}
-
-ul.hs_social_list li.socials.google span.name:after {
-	font-size: 14px;
-	content: "Login with Google+";
-	padding-left:40px;
-}
-
 ul.hs_social_list li.socials.google span.name {
-	font-size: 0;
+	
 }
 
 ul.hs_social_list li.socials.facebook span.name {
-	font-size: 0;
+	
+}
+
+#pushmenu a {
+    color: #006dcc;
+    font-size: 12px;
+    text-align: left;
+}
+.hs_social_list {
+    padding: 0;
+    margin-left: 65px;
+    margin-top: 30px;
 }
 
 /* ----- background image ----- */
 #wrapper:after{
+
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     content: "";
     background: url(/templates/rijekafiume/images/backgrounds/water-view-black-white.jpg);
-    background-size:cover;
-    background-position: bottom;
+    background-size: cover;
+    background-position: top;
+
 }
 
 
@@ -325,16 +313,15 @@ ul.hs_social_list li.socials.facebook span.name {
 	width: 100%;
 }
 
-.hbox.hs_token_target {
-    color: #FFFFFF;
-}
+
 
 /* ----- translucent background ----- */
 
-.background>* {
-	background-color: rgb(217, 217, 217);
-	border-radius: 10px 10px 10px 10px;
-	padding: 40px;
+.background>.item-page {
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
 
 /* home page */
@@ -350,8 +337,29 @@ ul.hs_social_list li.socials.facebook span.name {
 
 /*bootstrap*/
 
+#pushmenu span.add-on {
 
-.btn {
-    border-radius: 1px;
-    margin: 2px;
+}
+
+label.element-invisible {
+    display: none;
+}
+
+#pushmenu a.btn {
+    height: 20px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-left: none;
+    box-shadow: none;
+}
+
+*.btn, input[type="button"].btn, input[type="reset"].btn, input[type="submit"].btn {
+    line-height: 35px;
+    padding: 4px 17px;
+    border-radius: 2px;
+    margin: 5px;
+    background-image: none;
+    border: none;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+        text-shadow: none;
 }

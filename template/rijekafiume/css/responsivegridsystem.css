@@ -426,7 +426,7 @@ header {
 
 @media only screen and (min-width: 960px) {
 	#maincontent {
-		margin-top: 11em;
+		margin-top: 50px;
 	}
 }
 
@@ -754,7 +754,7 @@ p {
 		padding: 0;
 	}
 	#maincontent {
-		margin-top: 12em;
+		margin-top: 50px;
 	}
 	.item_103 #maincontent {
 		margin-top: 10.3em;
@@ -792,7 +792,7 @@ p {
 	}
 	#maincontent {
 		width: 93.75%;
-		margin-top: 16em;
+		    margin-top: 50px;
 	}
 	footer {
 		width: 93.75%;
