@@ -1,10 +1,6 @@
-{
-	"layer_id_0":"Komercijalne aktivnosti i industrija",
-	"layer_id_1":"Uprava i vojne aktivnosti",
-	"layer_id_2":"Obrazovanje i kultura",
-	"layer_id_3":"Stanovanje",
-	"layer_id_4":"Javna mjesta i spomenici",
 
+//timeline
+{
 
 	"pin_1804":"Austrijska uprava",
 	"pin_1822":"Mađarska uprava",
@@ -26,6 +22,42 @@
 	"era_1924_1941":"Talijanska uprava",
 	"era_1941_1947":"Drugi svjetski rat",
 	"era_1947_1990":"Jugoslavenska uprava",
-	"era_1990_2015":"Hrvatska uprava"
+	"era_1990_2015":"Hrvatska uprava",
 
+
+    "layer_22_title": "Komercijalne aktivnosti i industrija",
+    "layer_19_title": "Uprava i vojne aktivnosti",
+    "layer_20_title": "Obrazovanje i kultura",
+    "layer_21_title": "Stanovanje",
+
+	"search_placeholder":"Pretraži lokacije, predmete, oznake...",
+	"search_reset_tip":"resetiraj filtere",
+	"tagcloud_theme_label":"Tema",
+
+
+	
+	"tagcloud_italian_value":"Talijansko",
+	"tagcloud_leisure_value":"Slobodno vrijeme",
+	"tagcloud_religion_value":"Talijansko",
+	"tagcloud_minority_value":"Manjinsko",
+	"tagcloud_croatian_value":"Hrvatsko",
+	"tagcloud_family_value":"Obiteljsko",
+	"tagcloud_personal_value":"Osobno",
+	"tagcloud_serbian_value":"Srpsko",
+	"tagcloud_partisan_value":"Partizansko",
+	"tagcloud_austrian_value":"Austrijsko",
+	"tagcloud_culture_value":"Kultura",
+	"tagcloud_everydaylife_value":"Svakodnevni život",
+	"tagcloud_politics_value":"Politika",
+	"tagcloud_hungarian_value":"Mađarsko",
+	"tagcloud_nazism_value":"Nacizam",
+	"tagcloud_macedonian_value":"Makedonsko",
+	"tagcloud_slovenian_value":"Slovensko",
+	"tagcloud_jewish_value":"Židovsko",
+	"tagcloud_yugoslav_value":"Jugoslavensko",
+	"tagcloud_communism_value":"Komunizam",
+	"tagcloud_association_value":"Udruženja",
+	"tagcloud_education_value":"Obrazovanje",
+	"tagcloud_slovak_value":"Slovačko"
+	
 }
