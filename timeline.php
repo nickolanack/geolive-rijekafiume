@@ -3,6 +3,43 @@
  * Copy the following into Timeline onRender script input (do not include the <script> tags...)
  */
 
+
+//TODO: this cannot be added in english mode
+if(Cookie.read('lang')=='lang-hr'){
+	AddLocalization({
+		"layer_id_0":"Komercijalne aktivnosti i industrija",
+		"layer_id_1":"Uprava i vojne aktivnosti",
+		"layer_id_2":"Obrazovanje i kultura",
+		"layer_id_3":"Stanovanje",
+		"layer_id_4":"Javna mjesta i spomenici",
+
+
+		"pin_1804":"Austrijska uprava",
+		"pin_1822":"Mađarska uprava",
+		"pin_1848":"Privremena hrvatska uprava",
+		"pin_1868":"Hrvatsko-ugarska nagodba",
+		"pin_1919":"Mirovni sporazum u St. Germainu",
+		"pin_1920":"Rapalski ugovor",
+		"pin_1924":"Rimski ugovor",
+		"pin_april_1941_tip":"Travanj 1941",
+		"pin_april_1941":"Talijanska okupacija Sušaka",
+		"pin_1943":"Kapitulacija Italije i njemačka okupacija Rijeke",
+		"pin_may_1945_tip":"Svibanj 1945",
+		"pin_may_1945":"Jugoslavensko zauzeće Rijeke",
+		"pin_1947":"Pariški mirovni ugovor",
+
+
+		"era_1815_1914":"Habsburška uprava",
+		"era_1914_1924":"Prvi svjetski rat",
+		"era_1924_1941":"Talijanska uprava",
+		"era_1941_1947":"Drugi svjetski rat",
+		"era_1947_1990":"Jugoslavenska uprava",
+		"era_1990_2015":"Hrvatska uprava"
+
+	});
+}
+
+
 var erraSpan=container.appendChild(new Element('span', {'class':'era-s'}));
 var barBack=erraSpan.appendChild(new Element('div', {'class':'era-bar bk'}));
 var graphBar=erraSpan.appendChild(new Element('div',{'class':'timeline-graph'}))
@@ -30,7 +67,7 @@ Array.each(eras, function(era){
 	var r=[dateToPercent(s), dateToPercent(e)]
 	bar.appendChild(new Element('div', {
 		'class':'era e-'+era.start+' '+era.label.replace(' ', '-').toLowerCase(),
-		'data-label':era.label,
+		'data-label':Localize(era.label, "era_"+era.start+"_"+era.end),
 		styles:{
 			left:r[0]+'%',
 			width:r[1]+'%'
@@ -53,6 +90,8 @@ barBack.appendChild(new Element('div', {
 
 
 var eventsBar=container.appendChild(new Element('div', {'class':'events-bar'}));
+
+
 
 
 //event class: a, b, c, and d are used to alter the height and label directions
@@ -79,7 +118,7 @@ Array.each(events, function(event){
 	var startPercent=dateToPercent(startOffset);
 	var pin =eventsBar.appendChild(new Element('div', {
 		'class':'e-'+event.start+' '+(event.class||'a'),
-		'data-label':event.start,
+		'data-label':Localize(event.start, "pin_"+(event.start.toLowerCase().replace(' ','_'))+"_tip"),
 		styles:{
 			left:startPercent+'%',
 		}
@@ -89,7 +128,7 @@ Array.each(events, function(event){
 
 	new UIPopover(pin, {anchor:UIPopover.AnchorTo(['top']),
 		title:'',
-		description:event.label//,
+		description:Localize(event.label,"pin_"+(event.start.toLowerCase().replace(' ','_')))//,
 		//hideDelay:500,
 		//margin:50
 	});
