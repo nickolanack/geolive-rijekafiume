@@ -1,0 +1,1 @@
+new UIPopover(image, {title:map.getLayerManager().getLayer(layer).getTitle(),anchor:UIPopover.AnchorTo(['bottom'])});
