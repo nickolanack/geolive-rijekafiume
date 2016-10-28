@@ -1,0 +1,490 @@
+[
+    {
+        "id": "1",
+        "name": "markerAttributes",
+        "description": "",
+        "label": "",
+        "suffix": "_7315",
+        "metadata": {
+            "title": "markerAttributes",
+            "readAccess": "public",
+            "appliesTo": [
+                "marker"
+            ],
+            "id": "1",
+            "suffix": "_7315",
+            "description": "",
+            "fields": [
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "startDate",
+                    "label": "Start Date",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "endDate",
+                    "label": "End Date",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "keywords",
+                    "label": "",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 1,
+                            "allowHtml": false,
+                            "allowMedia": false,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": false,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": true
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "language",
+                    "label": "Language",
+                    "description": "displays list of languages for user to select from",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": false,
+                            "allowLinks": false
+                        },
+                        "listOptions": {
+                            "takeSugesstions": false,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": true
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "descriptionField",
+                    "label": "Description",
+                    "description": "description field to hold marker description (intended description field is being used to upload media on a separate wizard step)",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "depreciated_negativeExperience",
+                    "label": "Negative Experience",
+                    "description": "",
+                    "fieldType": "boolean",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldBooleanOptions": {
+                        "trueIcon": false,
+                        "falseIcon": false,
+                        "hideFalse": false,
+                        "trueLabel": "",
+                        "falseLabel": "",
+                        "useFieldIcon": false
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "depreciated_positiveExperience",
+                    "label": "Positive Experience",
+                    "description": "",
+                    "fieldType": "boolean",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldBooleanOptions": {
+                        "trueIcon": false,
+                        "falseIcon": false,
+                        "hideFalse": false,
+                        "trueLabel": "",
+                        "falseLabel": "",
+                        "useFieldIcon": false
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "depreciated_type",
+                    "label": "User Type",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 1,
+                            "limitMaxWords": 1,
+                            "allowHtml": false,
+                            "allowMedia": false,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": false,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "depreciated_media",
+                    "label": "Media",
+                    "description": "html multimedia content will be formatted",
+                    "fieldType": "text",
+                    "color": "#ffffff",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "depreciated_relatedSAs",
+                    "label": "Related Self Advocates",
+                    "description": "this field contains relationships to self advocates",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": true
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "1",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_7315",
+                    "title": "institutionalAffiliation",
+                    "label": "Institutional Affiliation",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "userAttributes",
+        "description": "",
+        "label": "",
+        "suffix": "_7419",
+        "metadata": {
+            "title": "userAttributes",
+            "readAccess": "public",
+            "appliesTo": [
+                "user"
+            ],
+            "id": "2",
+            "suffix": "_7419",
+            "description": "",
+            "fields": [
+                {
+                    "visibility": "public",
+                    "tableId": "2",
+                    "tableName": "userAttributes",
+                    "tableSuffix": "_7419",
+                    "title": "isSA",
+                    "label": "Is Self Advocate",
+                    "description": "indicates whether the user has at least one item in the sa layer",
+                    "fieldType": "boolean",
+                    "color": "#ffffff",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldBooleanOptions": {
+                        "trueIcon": false,
+                        "falseIcon": false,
+                        "hideFalse": true,
+                        "trueLabel": "",
+                        "falseLabel": "",
+                        "useFieldIcon": false
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "2",
+                    "tableName": "userAttributes",
+                    "tableSuffix": "_7419",
+                    "title": "saName",
+                    "label": "Self Advocate Name",
+                    "description": "Self advocates first and last name used to create connections between placemarks and self advocates",
+                    "fieldType": "text",
+                    "color": "#ffffff",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "2",
+                    "tableName": "userAttributes",
+                    "tableSuffix": "_7419",
+                    "title": "lastName",
+                    "label": "Last Name",
+                    "description": "Self advocates last name used to create connections between placemarks and self advocates",
+                    "fieldType": "text",
+                    "color": "#ffffff",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "2",
+                    "tableName": "userAttributes",
+                    "tableSuffix": "_7419",
+                    "title": "example",
+                    "label": "",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "#FFFFFF",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ]
+        }
+    }
+]
