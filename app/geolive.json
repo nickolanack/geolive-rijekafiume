@@ -229,8 +229,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": -129,
-                            "y": 167
+                            "x": -109,
+                            "y": 187
                         },
                         "children": [
                             {
@@ -247,8 +247,8 @@
                                     []
                                 ],
                                 "_diagramState": {
-                                    "x": 244,
-                                    "y": 137
+                                    "x": 264,
+                                    "y": 157
                                 },
                                 "children": [
                                     {
@@ -265,8 +265,8 @@
                                             []
                                         ],
                                         "_diagramState": {
-                                            "x": 652,
-                                            "y": 156
+                                            "x": 672,
+                                            "y": 176
                                         },
                                         "children": [
                                             {
@@ -359,6 +359,7 @@
                                                                 "className": "",
                                                                 "label": "{field.label}",
                                                                 "showLabel": false,
+                                                                "showAddWord": true,
                                                                 "fontColor": "rgb(0, 0, 0)",
                                                                 "hoverColor": "rgb(143, 188, 143)",
                                                                 "selectedColor": "rgb(143, 188, 143)",
