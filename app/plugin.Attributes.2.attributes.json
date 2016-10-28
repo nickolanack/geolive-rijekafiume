@@ -85,16 +85,16 @@
                     "tableName": "markerAttributes",
                     "tableSuffix": "_7315",
                     "title": "keywords",
-                    "label": "",
+                    "label": "Keywords",
                     "description": "",
                     "fieldType": "text",
-                    "color": "#FFFFFF",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {
-                        "textType": "input",
+                        "textType": "options",
                         "inputOptions": {
-                            "buildAutocomplete": false,
+                            "buildAutocomplete": true,
                             "requireModeration": false,
                             "limitMaxChars": 0,
                             "limitMaxWords": 1,
@@ -180,82 +180,6 @@
                     "tableId": "1",
                     "tableName": "markerAttributes",
                     "tableSuffix": "_7315",
-                    "title": "depreciated_negativeExperience",
-                    "label": "Negative Experience",
-                    "description": "",
-                    "fieldType": "boolean",
-                    "color": "#FFFFFF",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
-                        "hideFalse": false,
-                        "trueLabel": "",
-                        "falseLabel": "",
-                        "useFieldIcon": false
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "1",
-                    "tableName": "markerAttributes",
-                    "tableSuffix": "_7315",
-                    "title": "depreciated_positiveExperience",
-                    "label": "Positive Experience",
-                    "description": "",
-                    "fieldType": "boolean",
-                    "color": "#FFFFFF",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
-                        "hideFalse": false,
-                        "trueLabel": "",
-                        "falseLabel": "",
-                        "useFieldIcon": false
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "1",
-                    "tableName": "markerAttributes",
-                    "tableSuffix": "_7315",
-                    "title": "depreciated_type",
-                    "label": "User Type",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "#FFFFFF",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "options",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 1,
-                            "limitMaxWords": 1,
-                            "allowHtml": false,
-                            "allowMedia": false,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": false,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "1",
-                    "tableName": "markerAttributes",
-                    "tableSuffix": "_7315",
                     "title": "depreciated_media",
                     "label": "Media",
                     "description": "html multimedia content will be formatted",
@@ -282,38 +206,6 @@
                         }
                     },
                     "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "1",
-                    "tableName": "markerAttributes",
-                    "tableSuffix": "_7315",
-                    "title": "depreciated_relatedSAs",
-                    "label": "Related Self Advocates",
-                    "description": "this field contains relationships to self advocates",
-                    "fieldType": "text",
-                    "color": "#FFFFFF",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "options",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": true
                 },
                 {
                     "visibility": "public",

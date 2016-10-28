@@ -211,15 +211,15 @@
             "metadata": {
                 "class": "DescisionNode",
                 "_diagramState": {
-                    "x": -290,
-                    "y": 149
+                    "x": -210,
+                    "y": 147
                 },
                 "children": [
                     {
                         "class": "Node",
                         "_diagramState": {
-                            "x": -279,
-                            "y": 211
+                            "x": -200,
+                            "y": 207
                         }
                     },
                     {
@@ -229,15 +229,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": -17,
-                            "y": 303
+                            "x": -129,
+                            "y": 167
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 19,
-                                    "y": 163
+                                    "x": 223,
+                                    "y": 336
                                 }
                             },
                             {
@@ -247,15 +247,15 @@
                                     []
                                 ],
                                 "_diagramState": {
-                                    "x": 358,
-                                    "y": 301
+                                    "x": 244,
+                                    "y": 137
                                 },
                                 "children": [
                                     {
                                         "class": "Node",
                                         "_diagramState": {
-                                            "x": 394,
-                                            "y": 161
+                                            "x": 596,
+                                            "y": 360
                                         }
                                     },
                                     {
@@ -265,15 +265,15 @@
                                             []
                                         ],
                                         "_diagramState": {
-                                            "x": 912,
-                                            "y": 294
+                                            "x": 652,
+                                            "y": 156
                                         },
                                         "children": [
                                             {
                                                 "class": "Node",
                                                 "_diagramState": {
-                                                    "x": 1244,
-                                                    "y": 456
+                                                    "x": 1004,
+                                                    "y": 325
                                                 }
                                             }
                                         ],
@@ -315,7 +315,8 @@
                                                                 "maxChars": 0,
                                                                 "showExpandInput": true,
                                                                 "toolbarPosition": "bottom",
-                                                                "textFormatScript": ""
+                                                                "textFormatScript": "",
+                                                                "mediaIconTint": "rgb(100, 149, 237)"
                                                             }
                                                         },
                                                         {
@@ -356,7 +357,7 @@
                                                                     }
                                                                 ],
                                                                 "className": "",
-                                                                "label": "Keywords",
+                                                                "label": "{field.label}",
                                                                 "showLabel": false,
                                                                 "fontColor": "rgb(0, 0, 0)",
                                                                 "hoverColor": "rgb(143, 188, 143)",
@@ -374,7 +375,12 @@
                                                             "config": {
                                                                 "className": "WizardFooter",
                                                                 "reduceOpacity": false,
-                                                                "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js"
+                                                                "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                                "labelForCancel": "cancel",
+                                                                "labelForSubmit": "submit",
+                                                                "labelForNext": "next",
+                                                                "labelForPrevious": "previous",
+                                                                "showCancel": true
                                                             }
                                                         }
                                                     ]
@@ -388,7 +394,10 @@
                                                 "content",
                                                 "footer",
                                                 "menu"
-                                            ]
+                                            ],
+                                            "_diagramState": {
+                                                "minimized": false
+                                            }
                                         }
                                     }
                                 ],
@@ -521,6 +530,7 @@
                                                         "maxChars": 0,
                                                         "mandatory": false,
                                                         "multiEntry": false,
+                                                        "autocomplete": true,
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "date",
@@ -571,6 +581,7 @@
                                                         "maxChars": 0,
                                                         "mandatory": false,
                                                         "multiEntry": false,
+                                                        "autocomplete": true,
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "date",
@@ -580,7 +591,8 @@
                                                 {
                                                     "type": "WizardScriptElement",
                                                     "config": {
-                                                        "script": "\nvar cbx=new Element('input', {type:'checkbox', checked:true});\nvar label=new Element('label',{\nhtml:'This is an ongoing event ',\nstyles:{\n  color:\"cornflowerblue\",\n  'margin-top': '20px',\n  'text-align': 'right'\n}\n});\nlabel.appendChild(cbx);\n\n\nvar endDateObject=moduleGroup[moduleIndex-1].TextFieldModule;\nif(endDateObject&&endDateObject instanceof TextFieldModule){\n\n\tendDateObject.addEvent('change',function(){\n\t\tvar v=endDateObject.getValue();\n\t\tif(v){\n\t\t\tif(cbx.checked){\n\t\t\t\tcbx.checked=false;\n\t\t\t}\n\t\t}else{\n\t\t\tcbx.checked=true;\n\t\t}\n\t});\n\n\tcbx.addEvent('click', function(){\n\t\tif(cbx.checked){\n\t\t\tendDateObject.setValue(\"\");\n\t\t}\n\t});\n\n}else{\n\talert('CustomScript:'+moduleIndex+' Expected to find TextFieldModule (endDate) for custom script at index - 1');\n}\n\n\nreturn label;"
+                                                        "script": "\nvar cbx=new Element('input', {type:'checkbox', checked:true});\nvar label=new Element('label',{\nhtml:'This is an ongoing event ',\nstyles:{\n  color:\"cornflowerblue\",\n  'margin-top': '20px',\n  'text-align': 'right'\n}\n});\nlabel.appendChild(cbx);\n\n\nvar endDateObject=moduleGroup[moduleIndex-1].TextFieldModule;\nif(endDateObject&&endDateObject instanceof TextFieldModule){\n\n\tendDateObject.addEvent('change',function(){\n\t\tvar v=endDateObject.getValue();\n\t\tif(v){\n\t\t\tif(cbx.checked){\n\t\t\t\tcbx.checked=false;\n\t\t\t}\n\t\t}else{\n\t\t\tcbx.checked=true;\n\t\t}\n\t});\n\n\tcbx.addEvent('click', function(){\n\t\tif(cbx.checked){\n\t\t\tendDateObject.setValue(\"\");\n\t\t}\n\t});\n\n}else{\n\talert('CustomScript:'+moduleIndex+' Expected to find TextFieldModule (endDate) for custom script at index - 1');\n}\n\n\nreturn label;",
+                                                        "identifier": "customScriptElement"
                                                     }
                                                 },
                                                 {
@@ -627,6 +639,7 @@
                                                         "maxChars": 0,
                                                         "mandatory": false,
                                                         "multiEntry": false,
+                                                        "autocomplete": true,
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "none",
@@ -642,7 +655,12 @@
                                                     "config": {
                                                         "className": "WizardFooter",
                                                         "reduceOpacity": false,
-                                                        "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js"
+                                                        "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                        "labelForCancel": "cancel",
+                                                        "labelForSubmit": "submit",
+                                                        "labelForNext": "next",
+                                                        "labelForPrevious": "previous",
+                                                        "showCancel": true
                                                     }
                                                 }
                                             ]
@@ -656,7 +674,10 @@
                                         "content",
                                         "footer",
                                         "menu"
-                                    ]
+                                    ],
+                                    "_diagramState": {
+                                        "minimized": false
+                                    }
                                 }
                             }
                         ],
@@ -687,7 +708,8 @@
                                             "type": "WizardStepTitle",
                                             "config": {
                                                 "className": "",
-                                                "text": "<h3>Select a type<\/h3>"
+                                                "text": "<h3>Select a type<\/h3>",
+                                                "identifier": "htmlLabel"
                                             }
                                         },
                                         {
@@ -724,7 +746,12 @@
                                             "config": {
                                                 "className": "WizardFooter",
                                                 "reduceOpacity": false,
-                                                "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js"
+                                                "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "submit",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": true
                                             }
                                         }
                                     ]
@@ -738,7 +765,10 @@
                                 "content",
                                 "footer",
                                 "menu"
-                            ]
+                            ],
+                            "_diagramState": {
+                                "minimized": false
+                            }
                         }
                     }
                 ]
