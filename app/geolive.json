@@ -1525,8 +1525,13 @@
         "parameters": {
             "widgetTitle": "add a label or comment for this widget",
             "readAccess": "public",
-            "position": "",
-            "showAllIcons": 0
+            "position": "RIGHT_CENTER",
+            "showAllIcons": false,
+            "guestLoginDrop": true,
+            "onDropScript": "widget.AttributesSearchDropMarker.17.onDropScript.js",
+            "dropIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/I8N_daP_[G]_[ImAgE]_bv0.png"
+            ]
         }
     },
     "widget.19": {
@@ -1611,16 +1616,6 @@
             "customCSS": "widget.CSS.27.customCSS.css",
             "widgetTitle": "",
             "readAccess": "public"
-        }
-    },
-    "widget.28": {
-        "name": "Attribute Search Drop",
-        "instance": "AttributesSearchDropMarker",
-        "parameters": {
-            "showAllIcons": true,
-            "widgetTitle": "",
-            "readAccess": "public",
-            "position": ""
         }
     },
     "widget.29": {
