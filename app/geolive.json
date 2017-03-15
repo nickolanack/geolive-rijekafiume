@@ -1870,5 +1870,10 @@
             "readAccess": "special",
             "position": "RIGHT_BOTTOM"
         }
+    },
+    "widget.48": {
+        "name": "App Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {}
     }
 }
