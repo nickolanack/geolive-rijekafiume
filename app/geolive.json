@@ -1874,7 +1874,11 @@
     "widget.48": {
         "name": "App Javascript",
         "instance": "CustomBehaviorScript",
-        "parameters": {}
+        "parameters": {
+            "customScript": "widget.CustomBehaviorScript.48.customScript.js",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
     },
     "widget.49": {
         "name": "Uncluster Button",
