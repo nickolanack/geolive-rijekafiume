@@ -972,10 +972,16 @@
                             "50.0%",
                             "100.0%"
                         ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_[G]_OCF_bH7_lZQ.png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
                     }
                 }
             },
-            "widgetTitle": "add a label or comment for this widget",
+            "widgetTitle": "Tile Buttons",
             "readAccess": "public",
             "tileIcon": [],
             "controlColor": "rgb(0, 0, 0)",
@@ -983,7 +989,14 @@
             "guestLoginDrag": true,
             "onDragEndScript": "defaultBehaviorFn();",
             "useTipIconsetLayerTitle": false,
-            "formatTipScript": ""
+            "formatTipScript": "",
+            "showLogoutProfile": false,
+            "displayMapSave": "1",
+            "profileIcon": null,
+            "onDisplayTileScript": "",
+            "onProfileClickScript": "",
+            "_raw_layerMap": null,
+            "_raw_tipMap": null
         }
     },
     "widget.11": {
