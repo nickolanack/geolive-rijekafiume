@@ -1879,6 +1879,14 @@
     "widget.49": {
         "name": "Uncluster Button",
         "instance": "LayerClusterToggleTile",
-        "parameters": {}
+        "parameters": {
+            "controlColor": "rgb(0, 0, 0)",
+            "tileIcon": [],
+            "unclusterTip": "Toggle Placemark Clustering",
+            "clusterTip": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
     }
 }
