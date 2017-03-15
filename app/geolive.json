@@ -1875,8 +1875,8 @@
         "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "widget.CustomBehaviorScript.48.customScript.js",
-            "widgetTitle": "",
+            "customScript": "Cluster Style.customScript.js",
+            "widgetTitle": "Cluster Style",
             "readAccess": "public"
         }
     },
