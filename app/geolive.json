@@ -883,10 +883,15 @@
             "hideEmptyPredefinedValues": true,
             "showValuesOutsidePredefined": true,
             "cloudMetadata": [],
-            "widgetTitle": "add a label or comment for this widget",
+            "widgetTitle": "Theme Tab",
             "readAccess": "public",
             "position": "TOP_CENTER",
-            "attributeSelection": []
+            "attributeSelection": [],
+            "formatCloudScript": "",
+            "formatTagScript": "",
+            "formatTabButtonScript": "",
+            "onSelectionChangedScript": "defaultBehaviorFn();",
+            "sendNotifications": false
         }
     },
     "widget.10": {
