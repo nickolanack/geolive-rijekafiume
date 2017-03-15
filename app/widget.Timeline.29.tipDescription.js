@@ -1,0 +1,1 @@
+Drag the timeline control points or drag the center bar to filter the map to show project within the selected time frame

@@ -179,6 +179,26 @@
         "instance": "Deploy",
         "parameters": "_Deploy.json"
     },
+    "plugin.30": {
+        "name": "Email",
+        "instance": "Email",
+        "parameters": {}
+    },
+    "plugin.31": {
+        "name": "Events",
+        "instance": "Events",
+        "parameters": {}
+    },
+    "plugin.32": {
+        "name": "Links",
+        "instance": "Links",
+        "parameters": {}
+    },
+    "plugin.33": {
+        "name": "Search Plugin",
+        "instance": "Search",
+        "parameters": {}
+    },
     "widget.2": {
         "name": "Google Controls",
         "instance": "GoogleControl",
@@ -376,7 +396,7 @@
                                                             "config": {
                                                                 "className": "WizardFooter",
                                                                 "reduceOpacity": false,
-                                                                "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                                "onCompleteScript": "defaultBehaviorFn();",
                                                                 "labelForCancel": "cancel",
                                                                 "labelForSubmit": "submit",
                                                                 "labelForNext": "next",
@@ -446,7 +466,7 @@
                                                                 "tableSuffix": "_7315",
                                                                 "title": "descriptionField",
                                                                 "label": "Description",
-                                                                "description": "description field to hold marker description (intended description field is being used to upload media on a separate wizard step)",
+                                                                "description": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.description.js",
                                                                 "fieldType": "text",
                                                                 "color": "#FFFFFF",
                                                                 "searchability": "public",
@@ -592,7 +612,7 @@
                                                 {
                                                     "type": "WizardScriptElement",
                                                     "config": {
-                                                        "script": "\nvar cbx=new Element('input', {type:'checkbox', checked:true});\nvar label=new Element('label',{\nhtml:'This is an ongoing event ',\nstyles:{\n  color:\"cornflowerblue\",\n  'margin-top': '20px',\n  'text-align': 'right'\n}\n});\nlabel.appendChild(cbx);\n\n\nvar endDateObject=moduleGroup[moduleIndex-1].TextFieldModule;\nif(endDateObject&&endDateObject instanceof TextFieldModule){\n\n\tendDateObject.addEvent('change',function(){\n\t\tvar v=endDateObject.getValue();\n\t\tif(v){\n\t\t\tif(cbx.checked){\n\t\t\t\tcbx.checked=false;\n\t\t\t}\n\t\t}else{\n\t\t\tcbx.checked=true;\n\t\t}\n\t});\n\n\tcbx.addEvent('click', function(){\n\t\tif(cbx.checked){\n\t\t\tendDateObject.setValue(\"\");\n\t\t}\n\t});\n\n}else{\n\talert('CustomScript:'+moduleIndex+' Expected to find TextFieldModule (endDate) for custom script at index - 1');\n}\n\n\nreturn label;",
+                                                        "script": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.4.config.script.js",
                                                         "identifier": "customScriptElement"
                                                     }
                                                 },
@@ -656,7 +676,7 @@
                                                     "config": {
                                                         "className": "WizardFooter",
                                                         "reduceOpacity": false,
-                                                        "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                        "onCompleteScript": "defaultBehaviorFn();",
                                                         "labelForCancel": "cancel",
                                                         "labelForSubmit": "submit",
                                                         "labelForNext": "next",
@@ -747,7 +767,7 @@
                                             "config": {
                                                 "className": "WizardFooter",
                                                 "reduceOpacity": false,
-                                                "onCompleteScript": "widget.WizardBuilder.4.metadata.children.1.builderMetadata.positions.footer.modules.0.config.onCompleteScript.js",
+                                                "onCompleteScript": "defaultBehaviorFn();",
                                                 "labelForCancel": "cancel",
                                                 "labelForSubmit": "submit",
                                                 "labelForNext": "next",
@@ -809,10 +829,10 @@
         "parameters": {}
     },
     "widget.32": {
-        "name": "Custom Behavior Script",
+        "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
-            "customScript": "widget.CustomBehaviorScript.32.customScript.js",
+            "customScript": "custom map style.customScript.js",
             "widgetTitle": "custom map style",
             "readAccess": "public"
         }
@@ -961,7 +981,7 @@
             "controlColor": "rgb(0, 0, 0)",
             "subControlColor": "rgb(100, 149, 237)",
             "guestLoginDrag": true,
-            "onDragEndScript": "widget.TileButtons.10.onDragEndScript.js",
+            "onDragEndScript": "defaultBehaviorFn();",
             "useTipIconsetLayerTitle": false,
             "formatTipScript": ""
         }
@@ -1126,7 +1146,7 @@
                                                 "tableSuffix": "_7315",
                                                 "title": "descriptionField",
                                                 "label": "Description",
-                                                "description": "description field to hold marker description (intended description field is being used to upload media on a separate wizard step)",
+                                                "description": "widget.TabbedInfoWindowBuilder.12.metadata.0.positions.content.modules.1.config.attributeFieldArray.0.description.js",
                                                 "fieldType": "text",
                                                 "color": "#FFFFFF",
                                                 "searchability": "public",
@@ -1528,7 +1548,7 @@
             "position": "RIGHT_CENTER",
             "showAllIcons": false,
             "guestLoginDrop": true,
-            "onDropScript": "widget.AttributesSearchDropMarker.17.onDropScript.js",
+            "onDropScript": "defaultBehaviorFn();",
             "dropIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/I8N_daP_[G]_[ImAgE]_bv0.png"
             ]
@@ -1553,11 +1573,11 @@
                 "maxWidth": 235
             },
             "guestLoginDrag": true,
-            "editableLayerScript": "widget.Legend.19.editableLayerScript.js",
+            "editableLayerScript": "return true",
             "formatLayerScript": "",
             "formatLayerPopoverScript": "",
             "formatLegendScript": "",
-            "onDragEndScript": "widget.Legend.19.onDragEndScript.js"
+            "onDragEndScript": "defaultBehaviorFn();"
         }
     },
     "widget.33": {
@@ -1697,7 +1717,7 @@
             "widgetTitle": "",
             "readAccess": "public",
             "tipTitle": "Project Date Filter",
-            "tipDescription": "Drag the timeline control points or drag the center bar to filter the map to show project within the selected time frame",
+            "tipDescription": "widget.Timeline.29.tipDescription.js",
             "onRenderScript": "widget.Timeline.29.onRenderScript.js",
             "lockMinDate": "1804-01-01",
             "lockMaxDate": "2015-01-01",
