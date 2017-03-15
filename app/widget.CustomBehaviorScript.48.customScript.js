@@ -6,15 +6,21 @@ if (window.Cluster) {
 	ClusterSymbol.IconStyle = function(name) {
 
 		var colorsForLayer = {
-			"1":'rgb(31,120,180)',
-			"2":'rgb(223,194,125)',
-			"5":'rgb(166,97,26)'
+			"19":'rgb(31,120,180)',
+			"20":'rgb(223,194,125)',
+			"21":'rgb(166,97,26)',
+                        "22":'rgb(31,120,180)',
+			"23":'rgb(223,194,125)',
+			"24":'rgb(166,97,26)'
 
 		}
 		var activeColorsForLayer = {
-			"1":'rgb(31,120,180)',
-			"2":'rgb(223,194,125)',
-			"5":'rgb(166,97,26)'
+			"19":'rgb(31,120,180)',
+			"20":'rgb(223,194,125)',
+			"21":'rgb(166,97,26)',
+                        "22":'rgb(31,120,180)',
+			"23":'rgb(223,194,125)',
+			"24":'rgb(166,97,26)'
 		};
 		var me = this;
 		var getColor = function(colorMap,
