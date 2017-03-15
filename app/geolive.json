@@ -1875,5 +1875,10 @@
         "name": "App Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {}
+    },
+    "widget.49": {
+        "name": "Uncluster Button",
+        "instance": "LayerClusterToggleTile",
+        "parameters": {}
     }
 }
