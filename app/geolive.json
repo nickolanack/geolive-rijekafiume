@@ -859,8 +859,11 @@
             "readAccess": "public",
             "searchColor": "rgb(145, 128, 77)",
             "searchTintColor": "rgb(0,0,0)",
-            "clearColor": "rgb(145, 128, 77)",
-            "clearTintColor": "rgb(0,0,0)"
+            "clearColor": "rgb(47, 150, 180)",
+            "clearTintColor": "rgb(0,0,0)",
+            "placeholderText": "Search Location, Items, Attributes...",
+            "searchUsers": false,
+            "alwaysShowClear": true
         }
     },
     "widget.13": {
