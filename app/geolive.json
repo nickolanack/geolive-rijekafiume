@@ -1253,6 +1253,7 @@
                                         "maxHeight": 0,
                                         "maxWidth": 300,
                                         "showLabels": true,
+                                        "showEmpty": false,
                                         "showTitle": false,
                                         "title": "",
                                         "formatValueElement": "",
@@ -1300,6 +1301,7 @@
                                         "maxHeight": 0,
                                         "maxWidth": 300,
                                         "showLabels": true,
+                                        "showEmpty": false,
                                         "showTitle": false,
                                         "title": "",
                                         "formatValueElement": "",
@@ -1347,6 +1349,7 @@
                                         "maxHeight": 0,
                                         "maxWidth": 300,
                                         "showLabels": true,
+                                        "showEmpty": false,
                                         "showTitle": false,
                                         "title": "Date",
                                         "formatValueElement": "",
@@ -1394,6 +1397,7 @@
                                         "maxHeight": 0,
                                         "maxWidth": 300,
                                         "showLabels": true,
+                                        "showEmpty": false,
                                         "showTitle": false,
                                         "title": "",
                                         "formatValueElement": "",
@@ -1411,7 +1415,10 @@
                                         "dragConfirmMessage": "save new position",
                                         "dragConfirm": false,
                                         "geocodeMove": true,
-                                        "templateName": "MapItemTemplate"
+                                        "templateName": "MapItemTemplate",
+                                        "showEdit": true,
+                                        "showMove": true,
+                                        "showDelete": true
                                     }
                                 }
                             ]
@@ -1431,7 +1438,8 @@
                                     "type": "WizardStepTitle",
                                     "config": {
                                         "className": "",
-                                        "text": "Placemark"
+                                        "text": "Placemark",
+                                        "identifier": "htmlLabel"
                                     }
                                 }
                             ]
@@ -1443,7 +1451,8 @@
                         "footer",
                         "menu",
                         "tab"
-                    ]
+                    ],
+                    "_diagramState": []
                 },
                 {
                     "positions": {
@@ -1463,7 +1472,7 @@
                                 {
                                     "type": "plugin.Discussions.Discussion",
                                     "config": {
-                                        "width": 300,
+                                        "width": 450,
                                         "height": 200,
                                         "heightUnit": "px"
                                     }
@@ -1496,7 +1505,8 @@
                         "footer",
                         "menu",
                         "tab"
-                    ]
+                    ],
+                    "_diagramState": []
                 },
                 {
                     "positions": {
@@ -1529,7 +1539,8 @@
                         "footer",
                         "menu",
                         "tab"
-                    ]
+                    ],
+                    "_diagramState": []
                 }
             ],
             "hideSingleTab": true,
