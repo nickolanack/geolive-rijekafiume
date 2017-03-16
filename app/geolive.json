@@ -166,7 +166,8 @@
                     "tagcloud_education_value": "Obrazovanje",
                     "tagcloud_slovak_value": "Slova\u010dko"
                 }
-            }
+            },
+            "googleTranslateApiKey": "XXXX-XXXX"
         }
     },
     "plugin.28": {
