@@ -52,7 +52,7 @@
         "parameters": {}
     },
     "plugin.8": {
-        "name": "Discussions",
+        "name": "Discussion Feed",
         "instance": "Discussions",
         "parameters": {}
     },
@@ -830,7 +830,7 @@
         "parameters": {}
     },
     "widget.32": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "custom map style.customScript.js",
@@ -1553,7 +1553,7 @@
         }
     },
     "widget.39": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "widget.CSS.39.customCSS.css",
@@ -1663,7 +1663,7 @@
         }
     },
     "widget.27": {
-        "name": "Custom CSS",
+        "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
             "customCSS": "widget.CSS.27.customCSS.css",
@@ -1887,7 +1887,7 @@
         }
     },
     "widget.48": {
-        "name": "App Javascript",
+        "name": "Javascript",
         "instance": "CustomBehaviorScript",
         "parameters": {
             "customScript": "Cluster Style.customScript.js",
@@ -1907,5 +1907,10 @@
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
+    },
+    "widget.50": {
+        "name": "Users Item Filter",
+        "instance": "UsersItemFilter",
+        "parameters": {}
     }
 }
