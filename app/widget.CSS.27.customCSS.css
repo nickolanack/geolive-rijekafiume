@@ -286,3 +286,16 @@ input.discussion-textbox {
 .info-window_window_page {
     width: 450px;
 }
+
+
+
+span.search-bar-btn.left.fltr-bldr.users-items.c {
+    position: absolute;
+    left: -32px;
+}
+
+span.search-bar-btn.left.search {
+    position: absolute;
+    left: 13px;
+    float: none;
+}
