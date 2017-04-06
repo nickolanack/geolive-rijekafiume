@@ -4,8 +4,8 @@
 
 
 //TODO: this cannot be added in english mode
-
 //TODO: this cannot be added in english mode
+//
 if(Cookie.read('lang')=='lang-hr'){
 	AddLocalization({
 		"layer_id_0":"Komercijalne aktivnosti i industrija",
