@@ -1442,8 +1442,7 @@
                                     "type": "WizardStepTitle",
                                     "config": {
                                         "className": "",
-                                        "text": "Placemark",
-                                        "identifier": "htmlLabel"
+                                        "text": "Placemark"
                                     }
                                 }
                             ]
