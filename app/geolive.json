@@ -1407,6 +1407,19 @@
                                         "formatValueElement": "",
                                         "formatContainerElement": ""
                                     }
+                                },
+                                {
+                                    "type": "ShareLinks",
+                                    "config": {
+                                        "className": "",
+                                        "fbid": "404085089977844",
+                                        "twitVia": "@rijekafiume.mapping",
+                                        "hashtag": "#rijekafiumemapping",
+                                        "siteTitle": "Rijeka Fiume",
+                                        "siteURL": "rijekafiume.geolive.ca",
+                                        "siteDescription": "widget.TabbedInfoWindowBuilder.12.metadata.0.positions.content.modules.6.config.siteDescription.js",
+                                        "formatClass": "s-icon"
+                                    }
                                 }
                             ]
                         },
