@@ -1666,8 +1666,8 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "widget.CSS.27.customCSS.css",
-            "widgetTitle": "",
+            "customCSS": "Rijeka Theme.customCSS.css",
+            "widgetTitle": "Rijeka Theme",
             "readAccess": "public"
         }
     },
