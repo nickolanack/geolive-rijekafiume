@@ -1911,6 +1911,10 @@
     "widget.50": {
         "name": "Users Item Filter",
         "instance": "UsersItemFilter",
-        "parameters": {}
+        "parameters": {
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
     }
 }
