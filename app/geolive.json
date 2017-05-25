@@ -2051,5 +2051,12 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.52": {
+        "name": "Legend",
+        "instance": "Legend",
+        "parameters": {
+            "position": "LEFT_CENTER"
+        }
     }
 }
