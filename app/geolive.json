@@ -2002,5 +2002,10 @@
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
+    },
+    "widget.51": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
     }
 }
