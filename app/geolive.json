@@ -2006,6 +2006,50 @@
     "widget.51": {
         "name": "Tile Buttons",
         "instance": "TileButtons",
-        "parameters": {}
+        "parameters": {
+            "sections": [
+                "fullscreen",
+                "home"
+            ],
+            "controlColor": "rgb(48,84,107)",
+            "subControlColor": "rgb(100, 149, 237)",
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "showLogoutProfile": false,
+            "tileIcon": [],
+            "groupIcon": [],
+            "position": "RIGHT_CENTER",
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "markerSize": 32,
+            "tileSize": 50,
+            "showToolTips": false,
+            "fullscreenTip": false,
+            "homeTip": false,
+            "markerTip": false,
+            "loginTip": false,
+            "logoutTip": false,
+            "profileTip": false,
+            "displayMapSave": "1",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "profileIcon": null,
+            "useTipIconsetLayerTitle": false,
+            "formatTipScript": "",
+            "onDisplayTileScript": "",
+            "onProfileClickScript": "",
+            "markerIconset": [],
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": [],
+            "_raw_layerMap": null,
+            "_raw_tipMap": null,
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
     }
 }
