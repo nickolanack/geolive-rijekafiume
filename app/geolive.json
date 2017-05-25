@@ -64,7 +64,13 @@
     "plugin.25": {
         "name": "User Interface",
         "instance": "UserInterface",
-        "parameters": {}
+        "parameters": {
+            "defaultRoute": {
+                "view": "plugin",
+                "plugin": "UserInterface",
+                "pluginView": "front"
+            }
+        }
     },
     "plugin.11": {
         "name": "Filesystem",
@@ -252,6 +258,22 @@
         "instance": "Search",
         "parameters": {}
     },
+    "plugin.34": {
+        "name": "Monolog Plugin",
+        "instance": "Monolog",
+        "parameters": {
+            "logPath": "{core}\/log",
+            "logToSentry": false
+        }
+    },
+    "plugin.35": {
+        "name": "Sentry IO Error reporting",
+        "instance": "SentryIO",
+        "parameters": {
+            "clientSecretUrl": "XXXX-XXXX",
+            "clientPublicUrl": "https:\/\/3504daac359744ba9eabd126ba04c588@sentry.io\/172282"
+        }
+    },
     "widget.2": {
         "name": "Google Controls",
         "instance": "GoogleControl",
@@ -278,7 +300,7 @@
         }
     },
     "widget.4": {
-        "name": "Marker Wizard",
+        "name": "Generic Wizard",
         "instance": "WizardBuilder",
         "parameters": {
             "metadata": {
@@ -854,100 +876,6 @@
             "onSaveScript": "",
             "beforeSubmitScript": "",
             "templateName": "MapItemTemplate"
-        }
-    },
-    "widget.34": {
-        "name": "Map Layers Widget",
-        "instance": "Layers",
-        "parameters": {}
-    },
-    "widget.35": {
-        "name": "Search Engine Optimization Helper",
-        "instance": "SearchEngineOptimizationHelper",
-        "parameters": {}
-    },
-    "widget.36": {
-        "name": "No Javascript Helper",
-        "instance": "NoJavascriptHelper",
-        "parameters": {}
-    },
-    "widget.37": {
-        "name": "Login Behavior",
-        "instance": "LoginWizard",
-        "parameters": {}
-    },
-    "widget.38": {
-        "name": "Session Behavior",
-        "instance": "Session",
-        "parameters": {}
-    },
-    "widget.32": {
-        "name": "Javascript",
-        "instance": "CustomBehaviorScript",
-        "parameters": {
-            "customScript": "custom map style.customScript.js",
-            "widgetTitle": "custom map style",
-            "readAccess": "public"
-        }
-    },
-    "widget.14": {
-        "name": "Attr Search Bar",
-        "instance": "AttributesSearch",
-        "parameters": {
-            "position": "TOP_CENTER",
-            "barWidth": 500,
-            "locationSearch": true,
-            "showFilterBuilder": true,
-            "hoverTheme": false,
-            "themeLabel": "Theme",
-            "showCloud": true,
-            "cloudTable": "",
-            "cloudField": "",
-            "mapitemSearchLabel": "Placemarks",
-            "locationSearchLabel": "Locations",
-            "showDemoTags": false,
-            "demoTagsMinimum": 10,
-            "cloudResults": 30,
-            "widgetTitle": "",
-            "readAccess": "public",
-            "searchColor": "rgb(145, 128, 77)",
-            "searchTintColor": "rgb(0,0,0)",
-            "clearColor": "rgb(47, 150, 180)",
-            "clearTintColor": "rgb(0,0,0)",
-            "placeholderText": "Search Location, Items, Attributes...",
-            "searchUsers": false,
-            "alwaysShowClear": true
-        }
-    },
-    "widget.13": {
-        "name": "Attribute Cloud",
-        "instance": "AttributesCloud",
-        "parameters": {
-            "tabLabel": "Theme",
-            "className": "add a class attribute value to the tab element",
-            "cloudTable": "markerAttributes",
-            "cloudField": "keywords",
-            "showDemoTags": false,
-            "demoTagsMinimum": 10,
-            "cloudResults": 30,
-            "tabColor": "rgb(145, 128, 77)",
-            "fontColor": "rgb(0, 0, 0)",
-            "showItemCount": true,
-            "scaleItemsWithCount": true,
-            "scaleItemsMax": 25,
-            "scaleItemsMin": 12,
-            "hideEmptyPredefinedValues": true,
-            "showValuesOutsidePredefined": true,
-            "cloudMetadata": [],
-            "widgetTitle": "Theme Tab",
-            "readAccess": "public",
-            "position": "TOP_CENTER",
-            "attributeSelection": [],
-            "formatCloudScript": "",
-            "formatTagScript": "",
-            "formatTabButtonScript": "",
-            "onSelectionChangedScript": "defaultBehaviorFn();",
-            "sendNotifications": false
         }
     },
     "widget.10": {
@@ -1616,24 +1544,64 @@
             "readAccess": "public"
         }
     },
-    "widget.39": {
-        "name": "Stylesheet",
-        "instance": "CSS",
+    "widget.13": {
+        "name": "Attribute Cloud",
+        "instance": "AttributesCloud",
         "parameters": {
-            "customCSS": "widget.CSS.39.customCSS.css",
-            "widgetTitle": "",
-            "readAccess": "public"
+            "tabLabel": "Theme",
+            "className": "add a class attribute value to the tab element",
+            "cloudTable": "markerAttributes",
+            "cloudField": "keywords",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "tabColor": "rgb(145, 128, 77)",
+            "fontColor": "rgb(0, 0, 0)",
+            "showItemCount": true,
+            "scaleItemsWithCount": true,
+            "scaleItemsMax": 25,
+            "scaleItemsMin": 12,
+            "hideEmptyPredefinedValues": true,
+            "showValuesOutsidePredefined": true,
+            "cloudMetadata": [],
+            "widgetTitle": "Theme Tab",
+            "readAccess": "public",
+            "position": "TOP_CENTER",
+            "attributeSelection": [],
+            "formatCloudScript": "",
+            "formatTagScript": "",
+            "formatTabButtonScript": "",
+            "onSelectionChangedScript": "defaultBehaviorFn();",
+            "sendNotifications": false
         }
     },
-    "widget.24": {
-        "name": "Cluster Behavior",
-        "instance": "ClusterBehaviors",
+    "widget.14": {
+        "name": "Attr Search Bar",
+        "instance": "AttributesSearch",
         "parameters": {
-            "spreadClusters": 0,
-            "spreadClustersWithAnimation": 1,
-            "widgetTitle": "add a label or comment for this widget",
+            "position": "TOP_CENTER",
+            "barWidth": 500,
+            "locationSearch": true,
+            "showFilterBuilder": true,
+            "hoverTheme": false,
+            "themeLabel": "Theme",
+            "showCloud": true,
+            "cloudTable": "",
+            "cloudField": "",
+            "mapitemSearchLabel": "Placemarks",
+            "locationSearchLabel": "Locations",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "widgetTitle": "",
             "readAccess": "public",
-            "position": ""
+            "searchColor": "rgb(145, 128, 77)",
+            "searchTintColor": "rgb(0,0,0)",
+            "clearColor": "rgb(47, 150, 180)",
+            "clearTintColor": "rgb(0,0,0)",
+            "placeholderText": "Search Location, Items, Attributes...",
+            "searchUsers": false,
+            "alwaysShowClear": true
         }
     },
     "widget.17": {
@@ -1677,45 +1645,16 @@
             "onDragEndScript": "defaultBehaviorFn();"
         }
     },
-    "widget.33": {
-        "name": "Flexible Height Widget",
-        "instance": "FlexibleHeight",
-        "parameters": {}
-    },
-    "widget.40": {
-        "name": "Map Layers Widget",
-        "instance": "Layers",
-        "parameters": {}
-    },
-    "widget.41": {
-        "name": "Search Engine Optimization Helper",
-        "instance": "SearchEngineOptimizationHelper",
-        "parameters": {}
-    },
-    "widget.42": {
-        "name": "No Javascript Helper",
-        "instance": "NoJavascriptHelper",
-        "parameters": {}
-    },
-    "widget.43": {
-        "name": "Login Behavior",
-        "instance": "LoginWizard",
-        "parameters": {}
-    },
-    "widget.44": {
-        "name": "Session Behavior",
-        "instance": "Session",
-        "parameters": {}
-    },
-    "widget.45": {
-        "name": "Google Controls",
-        "instance": "GoogleControl",
-        "parameters": {}
-    },
-    "widget.46": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
+    "widget.24": {
+        "name": "Cluster Behavior",
+        "instance": "ClusterBehaviors",
+        "parameters": {
+            "spreadClusters": 0,
+            "spreadClustersWithAnimation": 1,
+            "widgetTitle": "add a label or comment for this widget",
+            "readAccess": "public",
+            "position": ""
+        }
     },
     "widget.26": {
         "name": "Url Variables Parser",
@@ -1822,6 +1761,89 @@
             "roundDownMonth": true,
             "sendNotifications": false
         }
+    },
+    "widget.32": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "custom map style.customScript.js",
+            "widgetTitle": "custom map style",
+            "readAccess": "public"
+        }
+    },
+    "widget.33": {
+        "name": "Flexible Height Widget",
+        "instance": "FlexibleHeight",
+        "parameters": {}
+    },
+    "widget.34": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.35": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.36": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.37": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.38": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.39": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "widget.CSS.39.customCSS.css",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.40": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.41": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.42": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.43": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.44": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.45": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {}
+    },
+    "widget.46": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
     },
     "widget.47": {
         "name": "Attr CSV Export",
