@@ -200,4 +200,4 @@ var OverlayLayer = (function() {
 var overlaysSpan=container.appendChild(new Element('span', {'class':'overlays'}));
 var overlays=<?php echo json_encode(array_map(function($id){return MapController::LoadLayer($id)->getMetadata(); }, array(25, 26, 27, 28, 29, 31, 30)), JSON_PRETTY_PRINT);?>;
 
-overlays.forEach(function(meta){ new OverlayLayer(application, meta); });
+overlays.slice(0,1).forEach(function(meta){ new OverlayLayer(application, meta); });
