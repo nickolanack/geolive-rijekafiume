@@ -176,3 +176,26 @@ fillGradientArray: [
 	});
 
 }).execute();
+
+
+
+var OverlayLayer = (function() {
+
+	if(!window.GeoliveLayer){
+		if(window.console&&console.warn){
+			console.warn('GeoliveLayer is not defined');
+		}
+		return null;
+	}
+
+	return new Class({
+		Extends: GeoliveLayer
+	});
+
+
+
+})()
+
+
+var overlaysSpan=container.appendChild(new Element('span', {'class':'overlays'}));
+var overlays=[<?php echo json_encode(MapController::LoadLayer(1)->getMetadata(), JSON_PRETTY_PRINT);?>];

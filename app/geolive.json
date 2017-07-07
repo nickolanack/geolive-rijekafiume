@@ -913,7 +913,12 @@
             "lockMaxDate": "2015-01-01",
             "showTip": false,
             "roundDownMonth": true,
-            "sendNotifications": false
+            "sendNotifications": false,
+            "useTileButton": false,
+            "hideTimelineAtStart": true,
+            "tileIcon": [],
+            "tilePosition": "",
+            "target": "map.1"
         }
     },
     "widget.32": {
