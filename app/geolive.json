@@ -928,7 +928,13 @@
     "widget.33": {
         "name": "Flexible Height Widget",
         "instance": "FlexibleHeight",
-        "parameters": {}
+        "parameters": {
+            "offset": 200,
+            "customScript": "",
+            "widgetTitle": "",
+            "target": "map.1",
+            "readAccess": "public"
+        }
     },
     "widget.34": {
         "name": "Map Layers Widget",
