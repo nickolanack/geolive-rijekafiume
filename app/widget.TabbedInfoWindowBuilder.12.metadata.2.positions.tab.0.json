@@ -1,0 +1,6 @@
+{
+    "type": "InfoWindowTab",
+    "config": {
+        "requireItemWriteAccess": false
+    }
+}

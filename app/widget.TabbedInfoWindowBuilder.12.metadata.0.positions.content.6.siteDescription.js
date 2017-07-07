@@ -1,1 +1,0 @@
-A map used to show events occurring in Rijeka from 1945 to 1960

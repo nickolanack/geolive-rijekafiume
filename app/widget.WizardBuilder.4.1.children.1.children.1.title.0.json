@@ -1,0 +1,15 @@
+{
+    "type": "WizardSteps",
+    "config": {
+        "iconValue": [],
+        "className": "post-box",
+        "manualValue": "1",
+        "width": 651,
+        "height": 415,
+        "labelMethod": "auto",
+        "elasticity": false,
+        "minHeight": 200,
+        "minWidth": 400,
+        "showSteps": true
+    }
+}

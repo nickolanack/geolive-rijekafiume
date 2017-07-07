@@ -119,112 +119,7 @@
         "name": "Language",
         "instance": "Language",
         "parameters": {
-            "localizations": {
-                "hr": {
-                    "pin_1804": "Austrijska uprava",
-                    "pin_1822": "Ma\u0111arska uprava",
-                    "pin_1848": "Privremena hrvatska uprava",
-                    "pin_1868": "Hrvatsko-ugarska nagodba",
-                    "pin_1919": "Mirovni sporazum u St. Germainu",
-                    "pin_1920": "Rapalski ugovor",
-                    "pin_1924": "Rimski ugovor",
-                    "pin_april_1941_tip": "Travanj 1941",
-                    "pin_april_1941": "Talijanska okupacija Su\u0161aka",
-                    "pin_1943": "Kapitulacija Italije i njema\u010dka okupacija Rijeke",
-                    "pin_may_1945_tip": "Svibanj 1945",
-                    "pin_may_1945": "Jugoslavensko zauze\u0107e Rijeke",
-                    "pin_1947": "Pari\u0161ki mirovni ugovor",
-                    "era_1815_1914": "Habsbur\u0161ka uprava",
-                    "era_1914_1924": "Prvi svjetski rat",
-                    "era_1924_1941": "Talijanska uprava",
-                    "era_1941_1947": "Drugi svjetski rat",
-                    "era_1947_1990": "Jugoslavenska uprava",
-                    "era_1990_2015": "Hrvatska uprava",
-                    "layer_22_title": "Komercijalne aktivnosti i industrija",
-                    "layer_19_title": "Uprava i vojne aktivnosti",
-                    "layer_20_title": "Obrazovanje i kultura",
-                    "layer_21_title": "Stanovanje",
-                    "layer_23_title": "Javna mjesta i spomenici",
-                    "search_placeholder": "Pretra\u017ei lokacije, predmete, oznake...",
-                    "search_reset_tip": "resetiraj filtere",
-                    "tagcloud_theme_label": "Tema",
-                    "tagcloud_italian_value": "Talijansko",
-                    "tagcloud_leisure_value": "Slobodno vrijeme",
-                    "tagcloud_religion_value": "Talijansko",
-                    "tagcloud_minority_value": "Manjinsko",
-                    "tagcloud_croatian_value": "Hrvatsko",
-                    "tagcloud_family_value": "Obiteljsko",
-                    "tagcloud_personal_value": "Osobno",
-                    "tagcloud_serbian_value": "Srpsko",
-                    "tagcloud_partisan_value": "Partizansko",
-                    "tagcloud_austrian_value": "Austrijsko",
-                    "tagcloud_culture_value": "Kultura",
-                    "tagcloud_everydaylife_value": "Svakodnevni \u017eivot",
-                    "tagcloud_politics_value": "Politika",
-                    "tagcloud_hungarian_value": "Ma\u0111arsko",
-                    "tagcloud_nazism_value": "Nacizam",
-                    "tagcloud_macedonian_value": "Makedonsko",
-                    "tagcloud_slovenian_value": "Slovensko",
-                    "tagcloud_jewish_value": "\u017didovsko",
-                    "tagcloud_yugoslav_value": "Jugoslavensko",
-                    "tagcloud_communism_value": "Komunizam",
-                    "tagcloud_association_value": "Udru\u017eenja",
-                    "tagcloud_education_value": "Obrazovanje",
-                    "tagcloud_slovak_value": "Slova\u010dko"
-                },
-                "it": {
-                    "pin_1804": "Asburgo (Periodo Asburgico\/Napoleonico)",
-                    "pin_1822": "Amministrazione ungherese",
-                    "pin_1848": "Amministrazione croata",
-                    "pin_1868": "Corpus Separatum Ungherese",
-                    "pin_1919": "D&#39;Annunzio",
-                    "pin_1920": "Stato Libero di Fiume",
-                    "pin_1924": "Regno d&#39;Italia (Trattato di Roma)",
-                    "pin_april_1941_tip": "Travanj 1941",
-                    "pin_april_1941": "Occupazione italiana di Sussak",
-                    "pin_1943": "Armistizio e occupazione tedesca (Zona Operaz. Lit. Adiatico)",
-                    "pin_may_1945_tip": "Svibanj 1945",
-                    "pin_may_1945": "Fiume liberata dai partigiani jugoslavi",
-                    "pin_1947": "Trattato di Pace di Parigi (Annessione Jugoslavia)",
-                    "era_1815_1914": "Habsbur\u0161ka uprava",
-                    "era_1914_1924": "Prvi svjetski rat",
-                    "era_1924_1941": "Talijanska uprava",
-                    "era_1941_1947": "Drugi svjetski rat",
-                    "era_1947_1990": "Jugoslavenska uprava",
-                    "era_1990_2015": "Hrvatska uprava",
-                    "layer_22_title": "Commercio e industria",
-                    "layer_19_title": "Amministrazione e siti militari",
-                    "layer_20_title": "Istruzione - Cultura",
-                    "layer_21_title": "Residenze - Vita privata",
-                    "layer_23_title": "Luoghi pubblici - Monumenti",
-                    "search_placeholder": "Cerca luoghi, fatti, temi",
-                    "search_reset_tip": "Reimposta il filtro (Reset)",
-                    "tagcloud_theme_label": "Tema",
-                    "tagcloud_italian_value": "Talijansko",
-                    "tagcloud_leisure_value": "Tempo libero",
-                    "tagcloud_religion_value": "Italiano",
-                    "tagcloud_minority_value": "Minoranza",
-                    "tagcloud_croatian_value": "Croato",
-                    "tagcloud_family_value": "Famiglia",
-                    "tagcloud_personal_value": "Vita privata",
-                    "tagcloud_serbian_value": "Serbo",
-                    "tagcloud_partisan_value": "Resistenza",
-                    "tagcloud_austrian_value": "Austriaco",
-                    "tagcloud_culture_value": "Cultura",
-                    "tagcloud_everydaylife_value": "Vita quotidiana",
-                    "tagcloud_politics_value": "Politica",
-                    "tagcloud_hungarian_value": "Ungherese",
-                    "tagcloud_nazism_value": "Nazismo",
-                    "tagcloud_macedonian_value": "Macedone",
-                    "tagcloud_slovenian_value": "Sloveno",
-                    "tagcloud_jewish_value": "Ebraico",
-                    "tagcloud_yugoslav_value": "Jugoslavo",
-                    "tagcloud_communism_value": "Comunismo",
-                    "tagcloud_association_value": "Associazioni",
-                    "tagcloud_education_value": "Istruzione",
-                    "tagcloud_slovak_value": "Slovacco"
-                }
-            },
+            "localizations": "plugin.Language.27.localizations.json",
             "googleTranslateApiKey": "XXXX-XXXX"
         }
     },
@@ -310,146 +205,59 @@
                     "y": 147
                 },
                 "children": [
-                    {
-                        "class": "Node",
-                        "_diagramState": {
-                            "x": -200,
-                            "y": 207
-                        }
-                    },
+                    "widget.WizardBuilder.4.metadata.children.0.json",
                     {
                         "title": "layer selection",
                         "class": "AttributesTableNode",
                         "fields": [
-                            []
+                            "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
                             "x": -109,
                             "y": 187
                         },
                         "children": [
-                            {
-                                "class": "Node",
-                                "_diagramState": {
-                                    "x": 223,
-                                    "y": 336
-                                }
-                            },
+                            "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
                                 "title": "details",
                                 "class": "AttributesTableNode",
                                 "fields": [
-                                    []
+                                    "widget.WizardBuilder.4.metadata.children.1.children.1.fields.0.json"
                                 ],
                                 "_diagramState": {
                                     "x": 264,
                                     "y": 157
                                 },
                                 "children": [
-                                    {
-                                        "class": "Node",
-                                        "_diagramState": {
-                                            "x": 596,
-                                            "y": 360
-                                        }
-                                    },
+                                    "widget.WizardBuilder.4.metadata.children.1.children.1.children.0.json",
                                     {
                                         "title": "Media",
                                         "class": "AttributesTableNode",
                                         "fields": [
-                                            []
+                                            "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.fields.0.json"
                                         ],
                                         "_diagramState": {
                                             "x": 672,
                                             "y": 176
                                         },
                                         "children": [
-                                            {
-                                                "class": "Node",
-                                                "_diagramState": {
-                                                    "x": 1004,
-                                                    "y": 325
-                                                }
-                                            }
+                                            "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.children.0.json"
                                         ],
                                         "builderMetadata": {
                                             "positions": {
                                                 "title": {
                                                     "modules": [
-                                                        {
-                                                            "type": "WizardSteps",
-                                                            "config": {
-                                                                "iconValue": [],
-                                                                "className": "post-box",
-                                                                "manualValue": "1",
-                                                                "width": 651,
-                                                                "height": 415,
-                                                                "labelMethod": "auto",
-                                                                "elasticity": false,
-                                                                "minHeight": 200,
-                                                                "minWidth": 400,
-                                                                "showSteps": true
-                                                            }
-                                                        }
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.title.modules.0.json"
                                                     ]
                                                 },
                                                 "content": {
                                                     "modules": [
-                                                        {
-                                                            "type": "WizardDescriptionField",
-                                                            "config": {
-                                                                "label": "Add Media",
-                                                                "message": "add a description",
-                                                                "lines": 3,
-                                                                "mandatory": false,
-                                                                "showAudios": true,
-                                                                "showImages": true,
-                                                                "showDocuments": true,
-                                                                "showVideos": true,
-                                                                "className": "no-text",
-                                                                "maxChars": 0,
-                                                                "showExpandInput": true,
-                                                                "toolbarPosition": "bottom",
-                                                                "textFormatScript": "",
-                                                                "mediaIconTint": "rgb(100, 149, 237)"
-                                                            }
-                                                        },
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.content.modules.0.json",
                                                         {
                                                             "type": "plugin.Attributes.WizardTagCloud",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    {
-                                                                        "visibility": "public",
-                                                                        "tableId": "1",
-                                                                        "tableName": "markerAttributes",
-                                                                        "tableSuffix": "_7315",
-                                                                        "title": "keywords",
-                                                                        "label": "",
-                                                                        "description": "",
-                                                                        "fieldType": "text",
-                                                                        "color": "#FFFFFF",
-                                                                        "searchability": "public",
-                                                                        "editability": "registered",
-                                                                        "fieldTextOptions": {
-                                                                            "textType": "input",
-                                                                            "inputOptions": {
-                                                                                "buildAutocomplete": false,
-                                                                                "requireModeration": false,
-                                                                                "limitMaxChars": 0,
-                                                                                "limitMaxWords": 1,
-                                                                                "allowHtml": false,
-                                                                                "allowMedia": false,
-                                                                                "allowLinks": true
-                                                                            },
-                                                                            "listOptions": {
-                                                                                "takeSugesstions": false,
-                                                                                "buildTree": false,
-                                                                                "iconize": false,
-                                                                                "colorize": false
-                                                                            }
-                                                                        },
-                                                                        "allowMultiple": true
-                                                                    }
+                                                                    "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
@@ -466,19 +274,7 @@
                                                 },
                                                 "footer": {
                                                     "modules": [
-                                                        {
-                                                            "type": "WizardButtons",
-                                                            "config": {
-                                                                "className": "WizardFooter",
-                                                                "reduceOpacity": false,
-                                                                "onCompleteScript": "defaultBehaviorFn();",
-                                                                "labelForCancel": "cancel",
-                                                                "labelForSubmit": "submit",
-                                                                "labelForNext": "next",
-                                                                "labelForPrevious": "previous",
-                                                                "showCancel": true
-                                                            }
-                                                        }
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.footer.modules.0.json"
                                                     ]
                                                 },
                                                 "menu": {
@@ -501,71 +297,17 @@
                                     "positions": {
                                         "title": {
                                             "modules": [
-                                                {
-                                                    "type": "WizardSteps",
-                                                    "config": {
-                                                        "iconValue": [],
-                                                        "className": "",
-                                                        "manualValue": "1",
-                                                        "width": 651,
-                                                        "height": 385,
-                                                        "labelMethod": "auto",
-                                                        "elasticity": false,
-                                                        "minHeight": 200,
-                                                        "minWidth": 400,
-                                                        "showSteps": true
-                                                    }
-                                                }
+                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.title.modules.0.json"
                                             ]
                                         },
                                         "content": {
                                             "modules": [
-                                                {
-                                                    "type": "WizardTitleField",
-                                                    "config": {
-                                                        "label": "Title",
-                                                        "message": "add a title",
-                                                        "className": "",
-                                                        "maxChars": 0,
-                                                        "textFormatScript": ""
-                                                    }
-                                                },
+                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.0.json",
                                                 {
                                                     "type": "plugin.Attributes.WizardDescriptionAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            {
-                                                                "visibility": "public",
-                                                                "tableId": "1",
-                                                                "tableName": "markerAttributes",
-                                                                "tableSuffix": "_7315",
-                                                                "title": "descriptionField",
-                                                                "label": "Description",
-                                                                "description": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.description.js",
-                                                                "fieldType": "text",
-                                                                "color": "#FFFFFF",
-                                                                "searchability": "public",
-                                                                "editability": "registered",
-                                                                "fieldTextOptions": {
-                                                                    "textType": "input",
-                                                                    "inputOptions": {
-                                                                        "buildAutocomplete": false,
-                                                                        "requireModeration": false,
-                                                                        "limitMaxChars": 0,
-                                                                        "limitMaxWords": 0,
-                                                                        "allowHtml": false,
-                                                                        "allowMedia": true,
-                                                                        "allowLinks": true
-                                                                    },
-                                                                    "listOptions": {
-                                                                        "takeSugesstions": true,
-                                                                        "buildTree": false,
-                                                                        "iconize": false,
-                                                                        "colorize": false
-                                                                    }
-                                                                },
-                                                                "allowMultiple": false
-                                                            }
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                         ],
                                                         "label": "Description",
                                                         "message": "add a description",
@@ -586,38 +328,7 @@
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            {
-                                                                "visibility": "public",
-                                                                "tableId": "1",
-                                                                "tableName": "markerAttributes",
-                                                                "tableSuffix": "_7315",
-                                                                "title": "startDate",
-                                                                "label": "Start Date",
-                                                                "description": "",
-                                                                "fieldType": "text",
-                                                                "color": "#FFFFFF",
-                                                                "searchability": "public",
-                                                                "editability": "registered",
-                                                                "fieldTextOptions": {
-                                                                    "textType": "input",
-                                                                    "inputOptions": {
-                                                                        "buildAutocomplete": false,
-                                                                        "requireModeration": false,
-                                                                        "limitMaxChars": 0,
-                                                                        "limitMaxWords": 0,
-                                                                        "allowHtml": false,
-                                                                        "allowMedia": true,
-                                                                        "allowLinks": true
-                                                                    },
-                                                                    "listOptions": {
-                                                                        "takeSugesstions": true,
-                                                                        "buildTree": false,
-                                                                        "iconize": false,
-                                                                        "colorize": false
-                                                                    }
-                                                                },
-                                                                "allowMultiple": false
-                                                            }
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "Start Date",
@@ -637,38 +348,7 @@
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            {
-                                                                "visibility": "public",
-                                                                "tableId": "1",
-                                                                "tableName": "markerAttributes",
-                                                                "tableSuffix": "_7315",
-                                                                "title": "endDate",
-                                                                "label": "End Date",
-                                                                "description": "",
-                                                                "fieldType": "text",
-                                                                "color": "#FFFFFF",
-                                                                "searchability": "public",
-                                                                "editability": "registered",
-                                                                "fieldTextOptions": {
-                                                                    "textType": "input",
-                                                                    "inputOptions": {
-                                                                        "buildAutocomplete": false,
-                                                                        "requireModeration": false,
-                                                                        "limitMaxChars": 0,
-                                                                        "limitMaxWords": 0,
-                                                                        "allowHtml": false,
-                                                                        "allowMedia": true,
-                                                                        "allowLinks": true
-                                                                    },
-                                                                    "listOptions": {
-                                                                        "takeSugesstions": true,
-                                                                        "buildTree": false,
-                                                                        "iconize": false,
-                                                                        "colorize": false
-                                                                    }
-                                                                },
-                                                                "allowMultiple": false
-                                                            }
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "End Date",
@@ -695,38 +375,7 @@
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            {
-                                                                "visibility": "public",
-                                                                "tableId": "1",
-                                                                "tableName": "markerAttributes",
-                                                                "tableSuffix": "_7315",
-                                                                "title": "institutionalAffiliation",
-                                                                "label": "Institutional Affiliation",
-                                                                "description": "",
-                                                                "fieldType": "text",
-                                                                "color": "rgb(undefined, undefined, undefined)",
-                                                                "searchability": "public",
-                                                                "editability": "registered",
-                                                                "fieldTextOptions": {
-                                                                    "textType": "input",
-                                                                    "inputOptions": {
-                                                                        "buildAutocomplete": false,
-                                                                        "requireModeration": false,
-                                                                        "limitMaxChars": 0,
-                                                                        "limitMaxWords": 0,
-                                                                        "allowHtml": false,
-                                                                        "allowMedia": true,
-                                                                        "allowLinks": true
-                                                                    },
-                                                                    "listOptions": {
-                                                                        "takeSugesstions": true,
-                                                                        "buildTree": false,
-                                                                        "iconize": false,
-                                                                        "colorize": false
-                                                                    }
-                                                                },
-                                                                "allowMultiple": false
-                                                            }
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.5.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "Institutional Affiliation",
@@ -746,19 +395,7 @@
                                         },
                                         "footer": {
                                             "modules": [
-                                                {
-                                                    "type": "WizardButtons",
-                                                    "config": {
-                                                        "className": "WizardFooter",
-                                                        "reduceOpacity": false,
-                                                        "onCompleteScript": "defaultBehaviorFn();",
-                                                        "labelForCancel": "cancel",
-                                                        "labelForSubmit": "submit",
-                                                        "labelForNext": "next",
-                                                        "labelForPrevious": "previous",
-                                                        "showCancel": true
-                                                    }
-                                                }
+                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.footer.modules.0.json"
                                             ]
                                         },
                                         "menu": {
@@ -781,33 +418,12 @@
                             "positions": {
                                 "title": {
                                     "modules": [
-                                        {
-                                            "type": "WizardSteps",
-                                            "config": {
-                                                "iconValue": [],
-                                                "className": "",
-                                                "manualValue": "1",
-                                                "width": 552,
-                                                "height": 331,
-                                                "labelMethod": "auto",
-                                                "elasticity": false,
-                                                "minHeight": 200,
-                                                "minWidth": 400,
-                                                "showSteps": true
-                                            }
-                                        }
+                                        "widget.WizardBuilder.4.metadata.children.1.builderMetadata.positions.title.modules.0.json"
                                     ]
                                 },
                                 "content": {
                                     "modules": [
-                                        {
-                                            "type": "WizardStepTitle",
-                                            "config": {
-                                                "className": "",
-                                                "text": "<h3>Select a type<\/h3>",
-                                                "identifier": "htmlLabel"
-                                            }
-                                        },
+                                        "widget.WizardBuilder.4.metadata.children.1.builderMetadata.positions.content.modules.0.json",
                                         {
                                             "type": "WizardIconizedLayerSelect",
                                             "config": {
@@ -837,19 +453,7 @@
                                 },
                                 "footer": {
                                     "modules": [
-                                        {
-                                            "type": "WizardButtons",
-                                            "config": {
-                                                "className": "WizardFooter",
-                                                "reduceOpacity": false,
-                                                "onCompleteScript": "defaultBehaviorFn();",
-                                                "labelForCancel": "cancel",
-                                                "labelForSubmit": "submit",
-                                                "labelForNext": "next",
-                                                "labelForPrevious": "previous",
-                                                "showCancel": true
-                                            }
-                                        }
+                                        "widget.WizardBuilder.4.metadata.children.1.builderMetadata.positions.footer.modules.0.json"
                                     ]
                                 },
                                 "menu": {
@@ -999,79 +603,35 @@
                     "y": 152
                 },
                 "children": [
-                    {
-                        "class": "Node",
-                        "_diagramState": {
-                            "x": -39,
-                            "y": 214
-                        }
-                    },
+                    "widget.DiscussionPostWizardBuilder.11.metadata.children.0.json",
                     {
                         "title": "Discussion Wizard",
                         "class": "AttributesTableNode",
                         "fields": [
-                            []
+                            "widget.DiscussionPostWizardBuilder.11.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
                             "x": 210,
                             "y": 155
                         },
                         "children": [
-                            {
-                                "class": "Node",
-                                "_diagramState": {
-                                    "x": 509,
-                                    "y": 300
-                                }
-                            }
+                            "widget.DiscussionPostWizardBuilder.11.metadata.children.1.children.0.json"
                         ],
                         "builderMetadata": {
                             "positions": {
                                 "title": {
                                     "modules": [
-                                        {
-                                            "type": "WizardSteps",
-                                            "config": {
-                                                "className": "discussion-media",
-                                                "manualValue": "1",
-                                                "iconValue": "",
-                                                "width": 299,
-                                                "height": 254,
-                                                "labelMethod": "auto",
-                                                "elasticity": false,
-                                                "minHeight": 299,
-                                                "minWidth": 220,
-                                                "showSteps": false
-                                            }
-                                        }
+                                        "widget.DiscussionPostWizardBuilder.11.metadata.children.1.builderMetadata.positions.title.modules.0.json"
                                     ]
                                 },
                                 "content": {
                                     "modules": [
-                                        {
-                                            "type": "plugin.Discussions.WizardDiscussionReply",
-                                            "config": {
-                                                "label": "Post a message",
-                                                "message": "add post",
-                                                "lines": 5,
-                                                "className": "post-box",
-                                                "mandatory": false,
-                                                "mandatoryColor": "#FFDFDF",
-                                                "autoArrange": true,
-                                                "oneLine": true,
-                                                "maxChars": 0
-                                            }
-                                        }
+                                        "widget.DiscussionPostWizardBuilder.11.metadata.children.1.builderMetadata.positions.content.modules.0.json"
                                     ]
                                 },
                                 "footer": {
                                     "modules": [
-                                        {
-                                            "type": "WizardButtons",
-                                            "config": {
-                                                "className": "WizardFooter"
-                                            }
-                                        }
+                                        "widget.DiscussionPostWizardBuilder.11.metadata.children.1.builderMetadata.positions.footer.modules.0.json"
                                     ]
                                 },
                                 "menu": {
@@ -1097,382 +657,17 @@
         "instance": "TabbedInfoWindowBuilder",
         "parameters": {
             "metadata": [
+                "widget.TabbedInfoWindowBuilder.12.metadata.0.json",
                 {
                     "positions": {
                         "title": {
                             "modules": [
-                                {
-                                    "type": "DefaultTitle",
-                                    "config": {
-                                        "className": "",
-                                        "maxChars": 0
-                                    }
-                                }
+                                "widget.TabbedInfoWindowBuilder.12.metadata.1.positions.title.modules.0.json"
                             ]
                         },
                         "content": {
                             "modules": [
-                                {
-                                    "type": "DefaultDescription",
-                                    "config": {
-                                        "className": "",
-                                        "imageWidth": 300,
-                                        "imageHeight": 240,
-                                        "multiImageWidth": 100,
-                                        "multiImageHeight": 75,
-                                        "portraitImageWidth": 75,
-                                        "portraitImageHeight": 100,
-                                        "autoArrange": true,
-                                        "oneLine": true,
-                                        "maxChars": 0,
-                                        "maxWidth": 0,
-                                        "showAudios": true,
-                                        "showVideos": true,
-                                        "showImages": true,
-                                        "showDocuments": true,
-                                        "showLinks": true,
-                                        "showExternalContent": true,
-                                        "embedPortrait": true,
-                                        "preferLocalContent": true,
-                                        "portraitClip": true
-                                    }
-                                },
-                                {
-                                    "type": "plugin.Attributes.DescriptionAttribute",
-                                    "config": {
-                                        "attributeFieldArray": [
-                                            {
-                                                "visibility": "public",
-                                                "tableId": "1",
-                                                "tableName": "markerAttributes",
-                                                "tableSuffix": "_7315",
-                                                "title": "descriptionField",
-                                                "label": "Description",
-                                                "description": "widget.TabbedInfoWindowBuilder.12.metadata.0.positions.content.modules.1.config.attributeFieldArray.0.description.js",
-                                                "fieldType": "text",
-                                                "color": "#FFFFFF",
-                                                "searchability": "public",
-                                                "editability": "registered",
-                                                "fieldTextOptions": {
-                                                    "textType": "input",
-                                                    "inputOptions": {
-                                                        "buildAutocomplete": false,
-                                                        "requireModeration": false,
-                                                        "limitMaxChars": 0,
-                                                        "limitMaxWords": 0,
-                                                        "allowHtml": false,
-                                                        "allowMedia": true,
-                                                        "allowLinks": true
-                                                    },
-                                                    "listOptions": {
-                                                        "takeSugesstions": true,
-                                                        "buildTree": false,
-                                                        "iconize": false,
-                                                        "colorize": false
-                                                    }
-                                                },
-                                                "allowMultiple": false
-                                            }
-                                        ],
-                                        "className": "",
-                                        "imageWidth": 300,
-                                        "imageHeight": 240,
-                                        "multiImageWidth": 100,
-                                        "multiImageHeight": 75,
-                                        "portraitImageWidth": 75,
-                                        "portraitImageHeight": 100,
-                                        "autoArrange": true,
-                                        "oneLine": true,
-                                        "maxChars": 0,
-                                        "maxWidth": 0,
-                                        "showAudios": true,
-                                        "showVideos": true,
-                                        "showImages": true,
-                                        "showDocuments": true,
-                                        "showLinks": true,
-                                        "showExternalContent": true,
-                                        "embedPortrait": true,
-                                        "preferLocalContent": true,
-                                        "portraitClip": true
-                                    }
-                                },
-                                {
-                                    "type": "plugin.Attributes.TextAttributes",
-                                    "config": {
-                                        "attributeFieldArray": [
-                                            {
-                                                "visibility": "public",
-                                                "tableId": "1",
-                                                "tableName": "markerAttributes",
-                                                "tableSuffix": "_7315",
-                                                "title": "keywords",
-                                                "label": "",
-                                                "description": "",
-                                                "fieldType": "text",
-                                                "color": "#FFFFFF",
-                                                "searchability": "public",
-                                                "editability": "registered",
-                                                "fieldTextOptions": {
-                                                    "textType": "input",
-                                                    "inputOptions": {
-                                                        "buildAutocomplete": false,
-                                                        "requireModeration": false,
-                                                        "limitMaxChars": 0,
-                                                        "limitMaxWords": 1,
-                                                        "allowHtml": false,
-                                                        "allowMedia": false,
-                                                        "allowLinks": true
-                                                    },
-                                                    "listOptions": {
-                                                        "takeSugesstions": false,
-                                                        "buildTree": false,
-                                                        "iconize": false,
-                                                        "colorize": false
-                                                    }
-                                                },
-                                                "allowMultiple": true
-                                            }
-                                        ],
-                                        "className": "keywords",
-                                        "maxHeight": 0,
-                                        "maxWidth": 300,
-                                        "showLabels": true,
-                                        "showEmpty": false,
-                                        "showTitle": false,
-                                        "title": "",
-                                        "formatValueElement": "",
-                                        "formatContainerElement": ""
-                                    }
-                                },
-                                {
-                                    "type": "plugin.Attributes.TextAttributes",
-                                    "config": {
-                                        "attributeFieldArray": [
-                                            {
-                                                "visibility": "public",
-                                                "tableId": "1",
-                                                "tableName": "markerAttributes",
-                                                "tableSuffix": "_7315",
-                                                "title": "institutionalAffiliation",
-                                                "label": "Institutional Affiliation",
-                                                "description": "",
-                                                "fieldType": "text",
-                                                "color": "rgb(undefined, undefined, undefined)",
-                                                "searchability": "public",
-                                                "editability": "registered",
-                                                "fieldTextOptions": {
-                                                    "textType": "input",
-                                                    "inputOptions": {
-                                                        "buildAutocomplete": false,
-                                                        "requireModeration": false,
-                                                        "limitMaxChars": 0,
-                                                        "limitMaxWords": 0,
-                                                        "allowHtml": false,
-                                                        "allowMedia": true,
-                                                        "allowLinks": true
-                                                    },
-                                                    "listOptions": {
-                                                        "takeSugesstions": true,
-                                                        "buildTree": false,
-                                                        "iconize": false,
-                                                        "colorize": false
-                                                    }
-                                                },
-                                                "allowMultiple": false
-                                            }
-                                        ],
-                                        "className": "",
-                                        "maxHeight": 0,
-                                        "maxWidth": 300,
-                                        "showLabels": true,
-                                        "showEmpty": false,
-                                        "showTitle": false,
-                                        "title": "",
-                                        "formatValueElement": "",
-                                        "formatContainerElement": ""
-                                    }
-                                },
-                                {
-                                    "type": "plugin.Attributes.TextAttributes",
-                                    "config": {
-                                        "attributeFieldArray": [
-                                            {
-                                                "visibility": "public",
-                                                "tableId": "1",
-                                                "tableName": "markerAttributes",
-                                                "tableSuffix": "_7315",
-                                                "title": "startDate",
-                                                "label": "Start Date",
-                                                "description": "",
-                                                "fieldType": "text",
-                                                "color": "#FFFFFF",
-                                                "searchability": "public",
-                                                "editability": "registered",
-                                                "fieldTextOptions": {
-                                                    "textType": "input",
-                                                    "inputOptions": {
-                                                        "buildAutocomplete": false,
-                                                        "requireModeration": false,
-                                                        "limitMaxChars": 0,
-                                                        "limitMaxWords": 0,
-                                                        "allowHtml": false,
-                                                        "allowMedia": true,
-                                                        "allowLinks": true
-                                                    },
-                                                    "listOptions": {
-                                                        "takeSugesstions": true,
-                                                        "buildTree": false,
-                                                        "iconize": false,
-                                                        "colorize": false
-                                                    }
-                                                },
-                                                "allowMultiple": false
-                                            }
-                                        ],
-                                        "className": "",
-                                        "maxHeight": 0,
-                                        "maxWidth": 300,
-                                        "showLabels": true,
-                                        "showEmpty": false,
-                                        "showTitle": false,
-                                        "title": "Date",
-                                        "formatValueElement": "",
-                                        "formatContainerElement": ""
-                                    }
-                                },
-                                {
-                                    "type": "plugin.Attributes.TextAttributes",
-                                    "config": {
-                                        "attributeFieldArray": [
-                                            {
-                                                "visibility": "public",
-                                                "tableId": "1",
-                                                "tableName": "markerAttributes",
-                                                "tableSuffix": "_7315",
-                                                "title": "endDate",
-                                                "label": "End Date",
-                                                "description": "",
-                                                "fieldType": "text",
-                                                "color": "#FFFFFF",
-                                                "searchability": "public",
-                                                "editability": "registered",
-                                                "fieldTextOptions": {
-                                                    "textType": "input",
-                                                    "inputOptions": {
-                                                        "buildAutocomplete": false,
-                                                        "requireModeration": false,
-                                                        "limitMaxChars": 0,
-                                                        "limitMaxWords": 0,
-                                                        "allowHtml": false,
-                                                        "allowMedia": true,
-                                                        "allowLinks": true
-                                                    },
-                                                    "listOptions": {
-                                                        "takeSugesstions": true,
-                                                        "buildTree": false,
-                                                        "iconize": false,
-                                                        "colorize": false
-                                                    }
-                                                },
-                                                "allowMultiple": false
-                                            }
-                                        ],
-                                        "className": "",
-                                        "maxHeight": 0,
-                                        "maxWidth": 300,
-                                        "showLabels": true,
-                                        "showEmpty": false,
-                                        "showTitle": false,
-                                        "title": "",
-                                        "formatValueElement": "",
-                                        "formatContainerElement": ""
-                                    }
-                                },
-                                {
-                                    "type": "ShareLinks",
-                                    "config": {
-                                        "className": "",
-                                        "fbid": "404085089977844",
-                                        "twitVia": "@rijekafiume.mapping",
-                                        "hashtag": "#rijekafiumemapping",
-                                        "siteTitle": "Rijeka Fiume",
-                                        "siteURL": "rijekafiume.geolive.ca",
-                                        "siteDescription": "widget.TabbedInfoWindowBuilder.12.metadata.0.positions.content.modules.6.config.siteDescription.js",
-                                        "formatClass": "s-icon"
-                                    }
-                                }
-                            ]
-                        },
-                        "footer": {
-                            "modules": [
-                                {
-                                    "type": "DefaultEdit",
-                                    "config": {
-                                        "className": "",
-                                        "dragConfirmMessage": "save new position",
-                                        "dragConfirm": false,
-                                        "geocodeMove": true,
-                                        "templateName": "MapItemTemplate",
-                                        "showEdit": true,
-                                        "showMove": true,
-                                        "showDelete": true
-                                    }
-                                }
-                            ]
-                        },
-                        "menu": {
-                            "modules": []
-                        },
-                        "tab": {
-                            "modules": [
-                                {
-                                    "type": "InfoWindowTab",
-                                    "config": {
-                                        "requireItemWriteAccess": false
-                                    }
-                                },
-                                {
-                                    "type": "WizardStepTitle",
-                                    "config": {
-                                        "className": "",
-                                        "text": "Placemark"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    "positionList": [
-                        "title",
-                        "content",
-                        "footer",
-                        "menu",
-                        "tab"
-                    ],
-                    "_diagramState": []
-                },
-                {
-                    "positions": {
-                        "title": {
-                            "modules": [
-                                {
-                                    "type": "DefaultTitle",
-                                    "config": {
-                                        "className": "",
-                                        "maxChars": 0
-                                    }
-                                }
-                            ]
-                        },
-                        "content": {
-                            "modules": [
-                                {
-                                    "type": "plugin.Discussions.Discussion",
-                                    "config": {
-                                        "width": 450,
-                                        "height": 200,
-                                        "heightUnit": "px"
-                                    }
-                                }
+                                "widget.TabbedInfoWindowBuilder.12.metadata.1.positions.content.modules.0.json"
                             ]
                         },
                         "footer": {
@@ -1483,12 +678,7 @@
                         },
                         "tab": {
                             "modules": [
-                                {
-                                    "type": "InfoWindowTab",
-                                    "config": {
-                                        "requireItemWriteAccess": false
-                                    }
-                                },
+                                "widget.TabbedInfoWindowBuilder.12.metadata.1.positions.tab.modules.0.json",
                                 {
                                     "type": "plugin.Discussions.DiscussionTab"
                                 }
@@ -1520,12 +710,7 @@
                         },
                         "tab": {
                             "modules": [
-                                {
-                                    "type": "InfoWindowTab",
-                                    "config": {
-                                        "requireItemWriteAccess": false
-                                    }
-                                }
+                                "widget.TabbedInfoWindowBuilder.12.metadata.2.positions.tab.modules.0.json"
                             ]
                         }
                     },
@@ -1685,38 +870,7 @@
             "minSpanColor": "#EEEEEE",
             "knobColor": "rgb(255, 255, 238)",
             "attributeSelection": [
-                {
-                    "visibility": "public",
-                    "tableId": "1",
-                    "tableName": "markerAttributes",
-                    "tableSuffix": "_7315",
-                    "title": "startDate",
-                    "label": "Start Date",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "#FFFFFF",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
+                "widget.Timeline.29.attributeSelection.0.json",
                 {
                     "visibility": "public",
                     "tableId": "1",
@@ -1853,113 +1007,7 @@
             "uploadImage": [],
             "controlColor": "rgb(48,84,107)",
             "exportMetadata": {
-                "fields": {
-                    "item id": "mapitem.id",
-                    "item owner id": "mapitem.uid",
-                    "item owner name": {
-                        "field": "mapitem.uid",
-                        "formatter": "useridtoname"
-                    },
-                    "item owner email": {
-                        "field": "mapitem.uid",
-                        "formatter": "useridtoemail"
-                    },
-                    "layer id": "layer.id",
-                    "layer title": "layer.name",
-                    "title": "mapitem.name",
-                    "coordinates": {
-                        "field": "mapitem.coordinates",
-                        "formatter": "coordinates"
-                    },
-                    "description": {
-                        "field": "mapitem.description",
-                        "formatter": "htmltoplaintext"
-                    },
-                    "image count": {
-                        "field": "mapitem.description",
-                        "formatter": "countimages"
-                    },
-                    "url": {
-                        "field": "mapitem.id",
-                        "formatter": "idtourl"
-                    },
-                    "created date": "mapitem.creationDate",
-                    "last modification date": "mapitem.modificationDate",
-                    "last editor": {
-                        "field": "mapitem.id",
-                        "formatter": "itemeditors"
-                    },
-                    "edit count": {
-                        "field": "mapitem.id",
-                        "formatter": "itemeditcount"
-                    },
-                    "read access": "mapitem.readAccess",
-                    "item views": "mapitem.views",
-                    "Start Date": {
-                        "field": "attributes.1.startDate",
-                        "formatter": "attributes.text"
-                    },
-                    "End Date": {
-                        "field": "attributes.1.endDate",
-                        "formatter": "attributes.text"
-                    },
-                    "keywords": {
-                        "field": "attributes.1.keywords",
-                        "formatter": "attributes.text"
-                    },
-                    "Language": {
-                        "field": "attributes.1.language",
-                        "formatter": "attributes.text"
-                    },
-                    "Description": {
-                        "field": "attributes.1.descriptionField",
-                        "formatter": "attributes.text"
-                    },
-                    "Negative Experience": {
-                        "field": "attributes.1.depreciated_negativeExperience",
-                        "formatter": "attributes.boolean"
-                    },
-                    "Positive Experience": {
-                        "field": "attributes.1.depreciated_positiveExperience",
-                        "formatter": "attributes.boolean"
-                    },
-                    "User Type": {
-                        "field": "attributes.1.depreciated_type",
-                        "formatter": "attributes.text"
-                    },
-                    "Media": {
-                        "field": "attributes.1.depreciated_media",
-                        "formatter": "attributes.text"
-                    },
-                    "Related Self Advocates": {
-                        "field": "attributes.1.depreciated_relatedSAs",
-                        "formatter": "attributes.text"
-                    },
-                    "Institutional Affiliation": {
-                        "field": "attributes.1.institutionalAffiliation",
-                        "formatter": "attributes.text"
-                    },
-                    "Is Self Advocate": {
-                        "field": "attributes.2.isSA",
-                        "formatter": "attributes.boolean"
-                    },
-                    "Self Advocate Name": {
-                        "field": "attributes.2.saName",
-                        "formatter": "attributes.text"
-                    },
-                    "Last Name": {
-                        "field": "attributes.2.lastName",
-                        "formatter": "attributes.text"
-                    },
-                    "example": {
-                        "field": "attributes.2.example",
-                        "formatter": "attributes.text"
-                    }
-                },
-                "order": {
-                    "layer id": "ASC",
-                    "item id": "ASC"
-                }
+                "fields": "DEFAULT"
             },
             "showImport": false,
             "tileIcon": [],
@@ -1969,7 +1017,11 @@
             "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
             "widgetTitle": "",
             "readAccess": "special",
-            "position": "RIGHT_BOTTOM"
+            "position": "RIGHT_BOTTOM",
+            "tileHoverTip": "Download CSV File",
+            "filterRowScript": "return true;",
+            "filterFieldsScript": "return true;",
+            "target": "map.1"
         }
     },
     "widget.48": {

@@ -1,1 +1,0 @@
-description field to hold marker description (intended description field is being used to upload media on a separate wizard step)

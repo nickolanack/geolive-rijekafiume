@@ -1,0 +1,15 @@
+{
+    "type": "WizardSteps",
+    "config": {
+        "className": "discussion-media",
+        "manualValue": "1",
+        "iconValue": "",
+        "width": 299,
+        "height": 254,
+        "labelMethod": "auto",
+        "elasticity": false,
+        "minHeight": 299,
+        "minWidth": 220,
+        "showSteps": false
+    }
+}

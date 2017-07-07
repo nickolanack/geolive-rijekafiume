@@ -1,0 +1,8 @@
+{
+    "type": "plugin.Discussions.Discussion",
+    "config": {
+        "width": 450,
+        "height": 200,
+        "heightUnit": "px"
+    }
+}

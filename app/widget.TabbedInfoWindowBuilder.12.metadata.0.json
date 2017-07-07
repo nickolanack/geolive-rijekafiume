@@ -1,0 +1,353 @@
+{
+    "positions": {
+        "title": {
+            "modules": [
+                {
+                    "type": "DefaultTitle",
+                    "config": {
+                        "className": "",
+                        "maxChars": 0
+                    }
+                }
+            ]
+        },
+        "content": {
+            "modules": [
+                {
+                    "type": "DefaultDescription",
+                    "config": {
+                        "className": "",
+                        "imageWidth": 300,
+                        "imageHeight": 240,
+                        "multiImageWidth": 100,
+                        "multiImageHeight": 75,
+                        "portraitImageWidth": 75,
+                        "portraitImageHeight": 100,
+                        "autoArrange": true,
+                        "oneLine": true,
+                        "maxChars": 0,
+                        "maxWidth": 0,
+                        "showAudios": true,
+                        "showVideos": true,
+                        "showImages": true,
+                        "showDocuments": true,
+                        "showLinks": true,
+                        "showExternalContent": true,
+                        "embedPortrait": true,
+                        "preferLocalContent": true,
+                        "portraitClip": true
+                    }
+                },
+                {
+                    "type": "plugin.Attributes.DescriptionAttribute",
+                    "config": {
+                        "attributeFieldArray": [
+                            {
+                                "visibility": "public",
+                                "tableId": "1",
+                                "tableName": "markerAttributes",
+                                "tableSuffix": "_7315",
+                                "title": "descriptionField",
+                                "label": "Description",
+                                "description": "description field to hold marker description (intended description field is being used to upload media on a separate wizard step)",
+                                "fieldType": "text",
+                                "color": "#FFFFFF",
+                                "searchability": "public",
+                                "editability": "registered",
+                                "fieldTextOptions": {
+                                    "textType": "input",
+                                    "inputOptions": {
+                                        "buildAutocomplete": false,
+                                        "requireModeration": false,
+                                        "limitMaxChars": 0,
+                                        "limitMaxWords": 0,
+                                        "allowHtml": false,
+                                        "allowMedia": true,
+                                        "allowLinks": true
+                                    },
+                                    "listOptions": {
+                                        "takeSugesstions": true,
+                                        "buildTree": false,
+                                        "iconize": false,
+                                        "colorize": false
+                                    }
+                                },
+                                "allowMultiple": false
+                            }
+                        ],
+                        "className": "",
+                        "imageWidth": 300,
+                        "imageHeight": 240,
+                        "multiImageWidth": 100,
+                        "multiImageHeight": 75,
+                        "portraitImageWidth": 75,
+                        "portraitImageHeight": 100,
+                        "autoArrange": true,
+                        "oneLine": true,
+                        "maxChars": 0,
+                        "maxWidth": 0,
+                        "showAudios": true,
+                        "showVideos": true,
+                        "showImages": true,
+                        "showDocuments": true,
+                        "showLinks": true,
+                        "showExternalContent": true,
+                        "embedPortrait": true,
+                        "preferLocalContent": true,
+                        "portraitClip": true
+                    }
+                },
+                {
+                    "type": "plugin.Attributes.TextAttributes",
+                    "config": {
+                        "attributeFieldArray": [
+                            {
+                                "visibility": "public",
+                                "tableId": "1",
+                                "tableName": "markerAttributes",
+                                "tableSuffix": "_7315",
+                                "title": "keywords",
+                                "label": "",
+                                "description": "",
+                                "fieldType": "text",
+                                "color": "#FFFFFF",
+                                "searchability": "public",
+                                "editability": "registered",
+                                "fieldTextOptions": {
+                                    "textType": "input",
+                                    "inputOptions": {
+                                        "buildAutocomplete": false,
+                                        "requireModeration": false,
+                                        "limitMaxChars": 0,
+                                        "limitMaxWords": 1,
+                                        "allowHtml": false,
+                                        "allowMedia": false,
+                                        "allowLinks": true
+                                    },
+                                    "listOptions": {
+                                        "takeSugesstions": false,
+                                        "buildTree": false,
+                                        "iconize": false,
+                                        "colorize": false
+                                    }
+                                },
+                                "allowMultiple": true
+                            }
+                        ],
+                        "className": "keywords",
+                        "maxHeight": 0,
+                        "maxWidth": 300,
+                        "showLabels": true,
+                        "showEmpty": false,
+                        "showTitle": false,
+                        "title": "",
+                        "formatValueElement": "",
+                        "formatContainerElement": ""
+                    }
+                },
+                {
+                    "type": "plugin.Attributes.TextAttributes",
+                    "config": {
+                        "attributeFieldArray": [
+                            {
+                                "visibility": "public",
+                                "tableId": "1",
+                                "tableName": "markerAttributes",
+                                "tableSuffix": "_7315",
+                                "title": "institutionalAffiliation",
+                                "label": "Institutional Affiliation",
+                                "description": "",
+                                "fieldType": "text",
+                                "color": "rgb(undefined, undefined, undefined)",
+                                "searchability": "public",
+                                "editability": "registered",
+                                "fieldTextOptions": {
+                                    "textType": "input",
+                                    "inputOptions": {
+                                        "buildAutocomplete": false,
+                                        "requireModeration": false,
+                                        "limitMaxChars": 0,
+                                        "limitMaxWords": 0,
+                                        "allowHtml": false,
+                                        "allowMedia": true,
+                                        "allowLinks": true
+                                    },
+                                    "listOptions": {
+                                        "takeSugesstions": true,
+                                        "buildTree": false,
+                                        "iconize": false,
+                                        "colorize": false
+                                    }
+                                },
+                                "allowMultiple": false
+                            }
+                        ],
+                        "className": "",
+                        "maxHeight": 0,
+                        "maxWidth": 300,
+                        "showLabels": true,
+                        "showEmpty": false,
+                        "showTitle": false,
+                        "title": "",
+                        "formatValueElement": "",
+                        "formatContainerElement": ""
+                    }
+                },
+                {
+                    "type": "plugin.Attributes.TextAttributes",
+                    "config": {
+                        "attributeFieldArray": [
+                            {
+                                "visibility": "public",
+                                "tableId": "1",
+                                "tableName": "markerAttributes",
+                                "tableSuffix": "_7315",
+                                "title": "startDate",
+                                "label": "Start Date",
+                                "description": "",
+                                "fieldType": "text",
+                                "color": "#FFFFFF",
+                                "searchability": "public",
+                                "editability": "registered",
+                                "fieldTextOptions": {
+                                    "textType": "input",
+                                    "inputOptions": {
+                                        "buildAutocomplete": false,
+                                        "requireModeration": false,
+                                        "limitMaxChars": 0,
+                                        "limitMaxWords": 0,
+                                        "allowHtml": false,
+                                        "allowMedia": true,
+                                        "allowLinks": true
+                                    },
+                                    "listOptions": {
+                                        "takeSugesstions": true,
+                                        "buildTree": false,
+                                        "iconize": false,
+                                        "colorize": false
+                                    }
+                                },
+                                "allowMultiple": false
+                            }
+                        ],
+                        "className": "",
+                        "maxHeight": 0,
+                        "maxWidth": 300,
+                        "showLabels": true,
+                        "showEmpty": false,
+                        "showTitle": false,
+                        "title": "Date",
+                        "formatValueElement": "",
+                        "formatContainerElement": ""
+                    }
+                },
+                {
+                    "type": "plugin.Attributes.TextAttributes",
+                    "config": {
+                        "attributeFieldArray": [
+                            {
+                                "visibility": "public",
+                                "tableId": "1",
+                                "tableName": "markerAttributes",
+                                "tableSuffix": "_7315",
+                                "title": "endDate",
+                                "label": "End Date",
+                                "description": "",
+                                "fieldType": "text",
+                                "color": "#FFFFFF",
+                                "searchability": "public",
+                                "editability": "registered",
+                                "fieldTextOptions": {
+                                    "textType": "input",
+                                    "inputOptions": {
+                                        "buildAutocomplete": false,
+                                        "requireModeration": false,
+                                        "limitMaxChars": 0,
+                                        "limitMaxWords": 0,
+                                        "allowHtml": false,
+                                        "allowMedia": true,
+                                        "allowLinks": true
+                                    },
+                                    "listOptions": {
+                                        "takeSugesstions": true,
+                                        "buildTree": false,
+                                        "iconize": false,
+                                        "colorize": false
+                                    }
+                                },
+                                "allowMultiple": false
+                            }
+                        ],
+                        "className": "",
+                        "maxHeight": 0,
+                        "maxWidth": 300,
+                        "showLabels": true,
+                        "showEmpty": false,
+                        "showTitle": false,
+                        "title": "",
+                        "formatValueElement": "",
+                        "formatContainerElement": ""
+                    }
+                },
+                {
+                    "type": "ShareLinks",
+                    "config": {
+                        "className": "",
+                        "fbid": "404085089977844",
+                        "twitVia": "@rijekafiume.mapping",
+                        "hashtag": "#rijekafiumemapping",
+                        "siteTitle": "Rijeka Fiume",
+                        "siteURL": "rijekafiume.geolive.ca",
+                        "siteDescription": "A map used to show events occurring in Rijeka from 1945 to 1960",
+                        "formatClass": "s-icon"
+                    }
+                }
+            ]
+        },
+        "footer": {
+            "modules": [
+                {
+                    "type": "DefaultEdit",
+                    "config": {
+                        "className": "",
+                        "dragConfirmMessage": "save new position",
+                        "dragConfirm": false,
+                        "geocodeMove": true,
+                        "templateName": "MapItemTemplate",
+                        "showEdit": true,
+                        "showMove": true,
+                        "showDelete": true
+                    }
+                }
+            ]
+        },
+        "menu": {
+            "modules": []
+        },
+        "tab": {
+            "modules": [
+                {
+                    "type": "InfoWindowTab",
+                    "config": {
+                        "requireItemWriteAccess": false
+                    }
+                },
+                {
+                    "type": "WizardStepTitle",
+                    "config": {
+                        "className": "",
+                        "text": "Placemark"
+                    }
+                }
+            ]
+        }
+    },
+    "positionList": [
+        "title",
+        "content",
+        "footer",
+        "menu",
+        "tab"
+    ],
+    "_diagramState": {}
+}

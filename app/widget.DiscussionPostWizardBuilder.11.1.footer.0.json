@@ -1,0 +1,6 @@
+{
+    "type": "WizardButtons",
+    "config": {
+        "className": "WizardFooter"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "plugin.Discussions.WizardDiscussionReply",
+    "config": {
+        "label": "Post a message",
+        "message": "add post",
+        "lines": 5,
+        "className": "post-box",
+        "mandatory": false,
+        "mandatoryColor": "#FFDFDF",
+        "autoArrange": true,
+        "oneLine": true,
+        "maxChars": 0
+    }
+}

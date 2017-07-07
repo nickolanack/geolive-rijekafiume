@@ -1,0 +1,8 @@
+{
+    "type": "WizardStepTitle",
+    "config": {
+        "className": "",
+        "text": "<h3>Select a type<\/h3>",
+        "identifier": "htmlLabel"
+    }
+}
