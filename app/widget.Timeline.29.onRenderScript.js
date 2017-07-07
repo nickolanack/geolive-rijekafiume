@@ -198,4 +198,4 @@ var OverlayLayer = (function() {
 
 
 var overlaysSpan=container.appendChild(new Element('span', {'class':'overlays'}));
-var overlays=[<?php echo json_encode(MapController::LoadLayer(1)->getMetadata(), JSON_PRETTY_PRINT);?>];
+var overlays=[<?php echo json_encode(MapController::LoadLayer(25)->getMetadata(), JSON_PRETTY_PRINT);?>];
