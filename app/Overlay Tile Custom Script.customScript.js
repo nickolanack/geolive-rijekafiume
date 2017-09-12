@@ -16,7 +16,7 @@
 //             },
 			
 			
-			$featureMedatadata['polyStyle']['color']='7f000000';
+			$featureMedatadata['polyStyle']['color']='7f00ff00';
 			$featureMedatadata['lineStyle']['color']='ff699ab3';
 			Emit('onCustomRender', $featureMetadata);
 			SpatialRenderer::RenderFeatureOnTile($featureMetadata, $image, $bounds);
