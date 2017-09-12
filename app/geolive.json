@@ -1340,5 +1340,14 @@
             "target": "map.1",
             "readAccess": "public"
         }
+    },
+    "widget.57": {
+        "name": "Function",
+        "instance": "UserFunction",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "",
+            "customScript": ""
+        }
     }
 }
