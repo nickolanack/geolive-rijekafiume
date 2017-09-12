@@ -1145,18 +1145,130 @@
             "contentTemplate": "",
             "comments": "",
             "parameters": {
-                "hello": {
-                    "type": "text",
-                    "name": "hello",
-                    "placeholder": "example config field",
-                    "default": "World",
-                    "label": "Hello"
+                "layer-25": {
+                    "type": "images",
+                    "name": "layer-25",
+                    "default": [],
+                    "label": "layer-25",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-25-color": {
+                    "type": "color",
+                    "name": "layer-25-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-25-color"
+                },
+                "layer-26": {
+                    "type": "images",
+                    "name": "layer-26",
+                    "default": [],
+                    "label": "Water",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-26-color": {
+                    "type": "color",
+                    "name": "layer-26-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-26-color"
+                },
+                "layer-27": {
+                    "type": "images",
+                    "name": "layer-27",
+                    "default": [],
+                    "label": "Water",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-27-color": {
+                    "type": "color",
+                    "name": "layer-27-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-27-color"
+                },
+                "layer-28": {
+                    "type": "images",
+                    "name": "layer-28",
+                    "default": [],
+                    "label": "layer-28",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-28-color": {
+                    "type": "color",
+                    "name": "layer-28-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-28-color"
+                },
+                "layer-29": {
+                    "type": "images",
+                    "name": "layer-29",
+                    "default": [],
+                    "label": "layer-29",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-29-color": {
+                    "type": "color",
+                    "name": "layer-29-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-29-color"
+                },
+                "layer-30": {
+                    "type": "images",
+                    "name": "layer-30",
+                    "default": [],
+                    "label": "layer-30",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-30-color": {
+                    "type": "color",
+                    "name": "layer-30-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-30-color"
+                },
+                "layer-31": {
+                    "type": "images",
+                    "name": "layer-31",
+                    "default": [],
+                    "label": "layer-31",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-31-color": {
+                    "type": "color",
+                    "name": "layer-31-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-31-color"
                 }
             },
             "hello": "World",
             "widgetTitle": "Polygon Configuration",
             "target": "polygon-config",
-            "readAccess": "public"
+            "readAccess": "public",
+            "layer-25": [],
+            "layer-25-color": "rgb(0,0,0)",
+            "layer-26": [],
+            "layer-26-color": "rgb(0,0,0)",
+            "layer-27": [],
+            "layer-27-color": "rgb(0,0,0)",
+            "layer-28": [],
+            "layer-28-color": "rgb(0,0,0)",
+            "layer-29": [],
+            "layer-29-color": "rgb(0,0,0)",
+            "layer-30": [],
+            "layer-30-color": "rgb(0,0,0)",
+            "layer-31": [],
+            "layer-31-color": "rgb(0,0,0)"
         }
     },
     "widget.55": {
