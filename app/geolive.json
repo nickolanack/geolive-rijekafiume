@@ -765,7 +765,7 @@
         "instance": "AttributesSearch",
         "parameters": {
             "position": "TOP_CENTER",
-            "barWidth": 670,
+            "barWidth": 699,
             "locationSearch": true,
             "showFilterBuilder": true,
             "hoverTheme": false,
