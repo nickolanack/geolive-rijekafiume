@@ -1,13 +1,7 @@
 {
-    "type": "DefaultDescription",
+    "type": "WizardScriptElement",
     "config": {
-        "className": "",
-        "imageWidth": 300,
-        "imageHeight": 240,
-        "multiImageWidth": 100,
-        "multiImageHeight": 75,
-        "autoArrange": true,
-        "oneLine": true,
-        "maxChars": 0
+        "script": "        \n        \n        \n        var div = new Element('div',{\"id\":\"violationType-filter\"});\n          \n            \n            var names=<?php echo json_encode(GetWidget('polygon-icons')->getIconsetData()->names); ?>;\n            var icons=<?php echo json_encode(GetWidget('polygon-icons')->getIconsetData()->icons); ?>;\n            \n            var iconSelection = new UIIconizedSelectionControl(div, {\n              allowMultipleSelection: true,\n              allowEmptySelection: true,\n              icons: icons\n              \n            });\n            \n            \n            iconSelection.addEvent('loadIcon', function(icon, i, asset) {\n              new UIPopover(asset, {\n                title: names[i].capitalize(),\n                anchor: UIPopover.AnchorTo(['bottom'])\n              });\n            }); \n            \n   \n            iconSelection.addEvent('selectionChanged', function(selection) {\n\n                \/\/hide show layers\n            \n            });\n\n            \n\n            \n            \n            \n            return div;",
+        "identifier": "customScriptElement"
     }
 }
