@@ -1345,9 +1345,10 @@
         "name": "Function",
         "instance": "UserFunction",
         "parameters": {
-            "widgetTitle": "",
-            "target": "",
-            "customScript": ""
+            "widgetTitle": "Overlay Tile Custom Script",
+            "target": "overlay-tile-fn",
+            "customScript": "",
+            "readAccess": "public"
         }
     }
 }
