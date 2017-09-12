@@ -1352,5 +1352,10 @@
             "customScript": "",
             "readAccess": "public"
         }
+    },
+    "widget.58": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {}
     }
 }
