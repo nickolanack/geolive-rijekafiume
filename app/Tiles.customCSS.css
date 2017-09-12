@@ -127,3 +127,20 @@ span.WizardFooter {
     box-shadow: 0 0 4px rgba(0,0,0,0.8);
     border-radius: 2px;
 }
+
+
+.polygon-overlay-menu .icn-s-lst li:after {
+    content: attr(data-label);
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    width:calc( 100% + 40px );
+    
+    text-overflow:ellipsis
+}
+
+.polygon-overlay-menu .icn-s-lst li{
+    margin:30px;
+    margin-bottom:50px;
+   
+}

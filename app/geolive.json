@@ -970,9 +970,10 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "widget.CSS.39.customCSS.css",
-            "widgetTitle": "",
-            "readAccess": "public"
+            "customCSS": "Tiles.customCSS.css",
+            "widgetTitle": "Tiles",
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.40": {
