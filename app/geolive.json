@@ -1197,7 +1197,14 @@
                     },
                     "content": {
                         "modules": [
-                            "Polygon Overlays.metadata.positions.content.modules.0.json"
+                            "Polygon Overlays.metadata.positions.content.modules.0.json",
+                            {
+                                "type": "WizardScriptElement",
+                                "config": {
+                                    "script": "Polygon Overlays.metadata.positions.content.modules.1.config.script.js",
+                                    "identifier": "customScriptElement"
+                                }
+                            }
                         ]
                     },
                     "footer": {
