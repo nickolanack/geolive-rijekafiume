@@ -1,3 +1,5 @@
+<?php
+
 //'featureMetadata' => $featureMetadata,
 			//	'image' => $image,
 			//	'bounds' => $bounds,
@@ -6,3 +8,5 @@
 			//	'zoom' => $zoom,
 			$featureMedatadata['']='';
 			SpatialRenderer::RenderFeatureOnTile($featureMetadata, $image, $bounds);
+			
+?>
