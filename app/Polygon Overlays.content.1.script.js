@@ -2,7 +2,7 @@
 <?php  
 
 if(GetClient()->isAdmin()){
-    $link=GetWidget('polygon-icons')->modalViewParams('form')[url];
+    $link=GetWidget('polygon-icons')->modalViewParams('form')['url'];
     ?>
     var link=<?php echo json_encode($link);?>;
     <?php
