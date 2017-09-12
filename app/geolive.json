@@ -1121,5 +1121,10 @@
         "parameters": {
             "position": "LEFT_CENTER"
         }
+    },
+    "widget.53": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {}
     }
 }
