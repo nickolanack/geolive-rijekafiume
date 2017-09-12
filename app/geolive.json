@@ -1125,7 +1125,16 @@
     "widget.53": {
         "name": "Named Iconset",
         "instance": "NamedIconset",
-        "parameters": {}
+        "parameters": {
+            "exposeIconset": true,
+            "iconsetName": "",
+            "icons": [],
+            "iconsetMetadata": [],
+            "widgetTitle": "Named Polygon Icons",
+            "target": "polygon-icons",
+            "readAccess": "public",
+            "position": ""
+        }
     },
     "widget.54": {
         "name": "Configuration",
