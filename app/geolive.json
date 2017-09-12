@@ -1139,6 +1139,22 @@
     "widget.54": {
         "name": "Configuration",
         "instance": "Configuration",
-        "parameters": {}
+        "parameters": {
+            "contentTemplate": "",
+            "comments": "",
+            "parameters": {
+                "hello": {
+                    "type": "text",
+                    "name": "hello",
+                    "placeholder": "example config field",
+                    "default": "World",
+                    "label": "Hello"
+                }
+            },
+            "hello": "World",
+            "widgetTitle": "Polygon Configuration",
+            "target": "polygon-config",
+            "readAccess": "public"
+        }
     }
 }
