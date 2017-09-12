@@ -1169,8 +1169,8 @@
             "iconActive": [],
             "customScript": "",
             "className": "",
-            "viewType": "",
-            "namedView": "",
+            "viewType": "view",
+            "namedView": "polygonOverlays",
             "showInlineEdit": false,
             "namedFormView": "",
             "showDeleteButton": false,
@@ -1181,7 +1181,7 @@
             "widgetTitle": "",
             "target": "map.1",
             "readAccess": "public",
-            "position": ""
+            "position": "RIGHT_CENTER"
         }
     }
 }
