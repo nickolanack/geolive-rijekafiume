@@ -1183,5 +1183,10 @@
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
+    },
+    "widget.56": {
+        "name": "Detail View",
+        "instance": "InfoWindowBuilder",
+        "parameters": {}
     }
 }
