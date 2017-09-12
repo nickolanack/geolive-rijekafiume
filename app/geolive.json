@@ -1126,5 +1126,10 @@
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {}
+    },
+    "widget.54": {
+        "name": "Configuration",
+        "instance": "Configuration",
+        "parameters": {}
     }
 }
