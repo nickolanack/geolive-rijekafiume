@@ -1160,6 +1160,28 @@
     "widget.55": {
         "name": "Search Bar Tab View",
         "instance": "SearchBarTabOverlayView",
-        "parameters": {}
+        "parameters": {
+            "tabColor": "rgb(176, 0, 176)",
+            "fontColor": "rgba(0,0,0)",
+            "tabName": "Overlays",
+            "showIcon": true,
+            "icon": [],
+            "iconActive": [],
+            "customScript": "",
+            "className": "",
+            "viewType": "",
+            "namedView": "",
+            "showInlineEdit": false,
+            "namedFormView": "",
+            "showDeleteButton": false,
+            "deleteItemScript": "defaultBehaviorFn()",
+            "formatModuleScript": "",
+            "resolveItemScript": "",
+            "itemButtonsScript": "return [];",
+            "widgetTitle": "",
+            "target": "map.1",
+            "readAccess": "public",
+            "position": ""
+        }
     }
 }
