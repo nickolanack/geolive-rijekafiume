@@ -1187,6 +1187,40 @@
     "widget.56": {
         "name": "Detail View",
         "instance": "InfoWindowBuilder",
-        "parameters": {}
+        "parameters": {
+            "metadata": {
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "positions": {
+                    "title": {
+                        "modules": [
+                            "Polygon Overlays.metadata.positions.title.modules.0.json"
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            "Polygon Overlays.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            "Polygon Overlays.metadata.positions.footer.modules.0.json"
+                        ]
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                }
+            },
+            "templateName": "polygonOverlays",
+            "requireTarget": true,
+            "widgetTitle": "Polygon Overlays",
+            "target": "map.1",
+            "readAccess": "public"
+        }
     }
 }
