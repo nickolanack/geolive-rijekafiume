@@ -2,7 +2,7 @@
 $config=GetWidget('polygon-config');
 for($i=25;$i<=31;$i++){
 ?>
-    .icn-s-lst li.layer-<?php echo $i; ?>:hover::before, .icn-s-lst li.list-icn-a.selected::before {
+    .icn-s-lst li.layer-<?php echo $i; ?>{
     background-color: <?php echo $config->getParameter('layer-'.$i.'-color', 'rgb(0, 0, 0)');?>;
     }
 <?php
