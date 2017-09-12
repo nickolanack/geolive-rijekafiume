@@ -1356,6 +1356,11 @@
     "widget.58": {
         "name": "Stylesheet",
         "instance": "CSS",
-        "parameters": {}
+        "parameters": {
+            "customCSS": "Generated Styles.customCSS.css",
+            "widgetTitle": "Generated Styles",
+            "target": "map.1",
+            "readAccess": "public"
+        }
     }
 }
