@@ -765,7 +765,7 @@
         "instance": "AttributesSearch",
         "parameters": {
             "position": "TOP_CENTER",
-            "barWidth": 500,
+            "barWidth": 670,
             "locationSearch": true,
             "showFilterBuilder": true,
             "hoverTheme": false,
@@ -786,7 +786,8 @@
             "clearTintColor": "rgb(0,0,0)",
             "placeholderText": "Search Location, Items, Attributes...",
             "searchUsers": false,
-            "alwaysShowClear": true
+            "alwaysShowClear": true,
+            "target": "map.1"
         }
     },
     "widget.17": {
