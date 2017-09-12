@@ -1156,5 +1156,10 @@
             "target": "polygon-config",
             "readAccess": "public"
         }
+    },
+    "widget.55": {
+        "name": "Search Bar Tab View",
+        "instance": "SearchBarTabOverlayView",
+        "parameters": {}
     }
 }
