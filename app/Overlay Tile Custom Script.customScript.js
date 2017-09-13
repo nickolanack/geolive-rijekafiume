@@ -15,7 +15,7 @@
 //                 "width": 1
 //             },
 				
-			Emit('onCustomRender', $featureMetadata);
+			GetLogger('layertile')->info('custom render', $featureMetadata);
 			
 			$featureMedatadata['polyStyle']['color']='7f00ff00';
 			$featureMedatadata['lineStyle']['color']='ff699ab3';
