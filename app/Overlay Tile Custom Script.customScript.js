@@ -17,8 +17,8 @@
 				
 			GetLogger('layertile')->info('custom render', $featureMetadata);
 			
-			$featureMedatadata['polyStyle']['color']='7f00ff00';
-			$featureMedatadata['lineStyle']['color']='ff699ab3';
+			$featureMetadata['polyStyle']['color']='7f00ff00';
+			$featureMetadata['lineStyle']['color']='ff699ab3';
 		
 			SpatialRenderer::RenderFeatureOnTile($featureMetadata, $image, $bounds);
 			
