@@ -157,7 +157,7 @@
         "name": "Monolog Plugin",
         "instance": "Monolog",
         "parameters": {
-            "logPath": "{core}\/..\/log",
+            "logPath": "{front}\/..\/log",
             "logToSentry": false
         }
     },
