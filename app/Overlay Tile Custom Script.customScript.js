@@ -32,10 +32,12 @@
                
 
 				
-			GetLogger('layertile')->info('custom render', $featureMetadata);
+			
 			
 			$featureMetadata['polyStyle']['color']=$kmlcolor;
 			$featureMetadata['lineStyle']['color']=$kmlline;
+			
+			GetLogger('layertile')->info('custom render', $featureMetadata);
 		
 			SpatialRenderer::RenderFeatureOnTile($featureMetadata, $image, $bounds);
 			
