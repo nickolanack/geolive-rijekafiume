@@ -3,11 +3,16 @@
 
 if(GetClient()->isAdmin()){
     $linkPoly=GetWidget('polygon-config')->modalViewParams('form')['url'];
-    $linkPoly=GetWidget('tab')->modalViewParams('form')['url'];
+    $linkTab=GetWidget(55)->modalViewParams('form')['url'];
     ?>
-    var link=<?php echo json_encode($linkPoly);?>;
+    var linkPoly=<?php echo json_encode($linkPoly);?>;
+    var linkTab=<?php echo json_encode($linkTab);?>;
  
-    return new Element('a', {"href":link, "_target":"blank", "html":"Edit Polygons"});
+    var div=new Element('div');
+    div.appendChild(new Element('a', {"href":linkPoly, "_target":"blank", "html":"Edit Polygons"}));
+    div.appendChild(new Element('a', {"href":linkTab, "_target":"blank", "html":"Edit Tab"}));
+    return div;
+    
  
     <?php  
 }
