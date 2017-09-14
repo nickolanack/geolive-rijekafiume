@@ -1290,7 +1290,7 @@
         "instance": "SearchBarTabOverlayView",
         "parameters": {
             "tabColor": "rgb(176, 0, 176)",
-            "fontColor": "rgb(141, 0, 141)",
+            "fontColor": "rgb(255, 255, 255)",
             "tabName": "Overlays",
             "showIcon": true,
             "icon": [],
