@@ -1291,7 +1291,7 @@
         "parameters": {
             "tabColor": "rgb(0, 139, 191)",
             "fontColor": "rgb(0, 0, 0)",
-            "tabName": "Overlays",
+            "tabName": "Time Periods",
             "showIcon": true,
             "icon": [],
             "iconActive": [],
