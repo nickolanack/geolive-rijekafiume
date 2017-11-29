@@ -47,7 +47,7 @@ var bar=erraSpan.appendChild(new Element('div', {'class':'era-bar'}));
 var graphBarDetail=erraSpan.appendChild(new Element('div',{'class':'timeline-graph detail'}))
 
 var eras=[
-{start:'1815', end:'1914', label:'habsburg era'},
+{start:'1719', end:'1914', label:'habsburg era'},
 {start:'1914', end:'1924', label:'WWI'},
 {start:'1924', end:'1941', label:'italian fiume'},
 {start:'1941', end:'1947', label:'WWII'},
