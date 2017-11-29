@@ -910,7 +910,7 @@
             "tipTitle": "Project Date Filter",
             "tipDescription": "widget.Timeline.29.tipDescription.js",
             "onRenderScript": "widget.Timeline.29.onRenderScript.js",
-            "lockMinDate": "1804-01-01",
+            "lockMinDate": "1719-01-01",
             "lockMaxDate": "2015-01-01",
             "showTip": false,
             "roundDownMonth": true,
