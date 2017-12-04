@@ -166,7 +166,8 @@
         "instance": "SentryIO",
         "parameters": {
             "clientSecretUrl": "XXXX-XXXX",
-            "clientPublicUrl": "https:\/\/3504daac359744ba9eabd126ba04c588@sentry.io\/172282"
+            "clientPublicUrl": "https:\/\/3504daac359744ba9eabd126ba04c588@sentry.io\/172282",
+            "enabled": true
         }
     },
     "widget.2": {
@@ -1314,7 +1315,7 @@
     },
     "widget.56": {
         "name": "Detail View",
-        "instance": "InfoWindowBuilder",
+        "instance": "DetailView",
         "parameters": {
             "metadata": {
                 "positions": {
@@ -1373,6 +1374,14 @@
             "widgetTitle": "Generated Styles",
             "target": "map.1",
             "readAccess": "public"
+        }
+    },
+    "widget.59": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "<h3>Select a type<\/h3>",
+            "widgetTitle": "module..text"
         }
     }
 }
