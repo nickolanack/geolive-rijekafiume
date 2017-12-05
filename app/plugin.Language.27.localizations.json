@@ -35,7 +35,8 @@
         "fullscreen_button_tip": "Prikaz preko cijelog zaslona",
         "home_button_tip": "Po\u010detni polo\u017eaj karte",
         "home_button_geolocate_tip": "Va\u0161a trenutna lokacija",
-        "add_marker_button_tip": "Povuci i ispusti oznake mjesta"
+        "add_marker_button_tip": "Povuci i ispusti oznake mjesta",
+        "tab_overlay_widget_55": "Razdoblja"
     },
     "it": {
         "layer_22_title": "Commercio e industria",
@@ -73,6 +74,7 @@
         "fullscreen_button_tip": "Schermo intero",
         "home_button_tip": "Pagina iniziale",
         "home_button_geolocate_tip": "Tu sei qui",
-        "add_marker_button_tip": "Trascina e aggiungi un marker"
+        "add_marker_button_tip": "Trascina e aggiungi un marker",
+        "tab_overlay_widget_55": "Periodi di tempo"
     }
 }
