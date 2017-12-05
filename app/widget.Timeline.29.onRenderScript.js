@@ -16,13 +16,15 @@ if(ln=='lang-hr'||ln=="lang-it"){
     		"pin_1809_1813":"Ilirske Provincije (do 1813)",
     		"pin_1822":"Mađarska uprava",
     		"pin_1848":"Hrvatska uprava",
-    		"pin_1868":"Hrvatsko-ugarska nagodba",
-    		"pin_1919":"Mirovni sporazum u St. Germainu",
-    		"pin_1920":"Rapalski ugovor",
-    		"pin_1924":"Rimski ugovor",
+    		"pin_1868":"Mađarski Corpus Separatum",
+    	
+    		"pin_1920":"Slobodna Država Rijeka",
+    		"pin_1922":"Sušak dio Kraljevine SHS",
+    	
     		"pin_april_1941_tip":"Travanj 1941",
     		"pin_april_1941":"Talijanska okupacija Sušaka",
-    		"pin_1943":"Kapitulacija Italije i njemačka okupacija Rijeke",
+    		
+    		"pin_1943":"Kapitulacija Italije i njemačka okupacija Rijeke (OZAK)",
     		"pin_may_1945_tip":"Svibanj 1945",
     		"pin_may_1945":"Jugoslavensko zauzeće Rijeke",
     		"pin_1947":"Pariški mirovni ugovor",
@@ -42,6 +44,15 @@ if(ln=='lang-hr'||ln=="lang-it"){
             "pin_1809_1813":"Province Illiriche (fino al 1813)",
             "pin_1822":"Amministrazione ungherese",
             "pin_1848":"Amministrazione croata",
+            "pin_1868":"Corpus Separatum della Corona Ungherese",
+            
+            "pin_1920":"Stato Libero di Fiume",
+            "pin_1922":"Sussak nel Regno SHS (Jugoslavia)",
+            
+            "pin_april_1941_tip":"Aprile 1941",
+    		"pin_april_1941":"Occupazione italiana di Sussak",
+    		
+    		"pin_1943":"Armistizio e occupazione tedesca (Zona d’operazioni del Litorale Adriatico)",
         }
 	    
 	})[ln]);
