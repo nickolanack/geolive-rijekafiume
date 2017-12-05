@@ -32,11 +32,12 @@ if(ln=='lang-hr'||ln=="lang-it"){
             "pin_1948":"Spojenje Zameta i Sušaka sa Rijekom",
     
     		"era_1719_1914":"Habsburška Monarhija",
-    		"era_1914_1924":"Prvi svjetski rat",
-    		"era_1924_1941":"Talijanska uprava",
-    		"era_1941_1947":"Drugi svjetski rat",
-    		"era_1947_1990":"Jugoslavenska uprava",
-    		"era_1990_2015":"Hrvatska uprava"
+    		"era_1914_1920":"Prvi svjetski rat",
+    		"era_1920_1924":"Slobodna Država Rijeka",
+    		"era_1924_1941":"Podeljeno Italija/Jugoslavija (SHS)",
+    		"era_1941_1945":"Drugi svjetski rat",
+    		"era_1945_1991":"Jugoslavija",
+    		"era_1991_2015":"Hrvatska"
     
         },
         'lang-it':{
@@ -60,6 +61,15 @@ if(ln=='lang-hr'||ln=="lang-it"){
     		
     		"pin_1947":"Trattato di pace",
     		"pin_1948":"Unificazione di Zamet e Sussak con Fiume",
+    		
+    		
+    		"era_1719_1914":"Impero asburgico",
+    		"era_1914_1920":"Prima guerra mondiale",
+    		"era_1920_1924":"Stato Libero di Fiume",
+    		"era_1924_1941":"DivisoItalia/Jugoslavia",
+    		"era_1941_1945":"Seconda guerra mondiale",
+    		"era_1945_1991":"Jugoslavia",
+    		"era_1991_2015":"Croazia"
         }
 	    
 	})[ln]);
@@ -72,12 +82,13 @@ var bar=erraSpan.appendChild(new Element('div', {'class':'era-bar'}));
 var graphBarDetail=erraSpan.appendChild(new Element('div',{'class':'timeline-graph detail'}))
 
 var eras=[
-{start:'1719', end:'1914', label:'habsburg era'},
-{start:'1914', end:'1924', label:'WWI'},
-{start:'1924', end:'1941', label:'italian fiume'},
-{start:'1941', end:'1947', label:'WWII'},
-{start:'1947', end:'1990', label:'yugoslav rijeka'},
-{start:'1990', end:'2015', label:'croatian rijeka'}
+{start:'1719', end:'1914', label:'Habsburg Empire'},
+{start:'1914', end:'1920', label:'WWI'},
+{start:'1920', end:'1924', label:'Free State of Rijeka'},
+{start:'1924', end:'1941', label:'Divided Italy/Yugoslavia'},
+{start:'1941', end:'1945', label:'WWII'},
+{start:'1945', end:'1991', label:'Yugoslavia'},
+{start:'1991', end:'2015', label:'Croatia'}
 
 ];
 var dateToPercent=function(time){
