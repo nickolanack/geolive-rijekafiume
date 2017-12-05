@@ -99,17 +99,20 @@ var eventsBar=container.appendChild(new Element('div', {'class':'events-bar'}));
 //event class: a, b, c, and d are used to alter the height and label directions
 
 var events=[
-{start:'1804', label:'under Austrian control'},
-{start:'1822', label:'under Hungarian control'},
-{start:'1848', end:'1867', label:'under Croation control'},
-{start:'1868', label:'Hungarian-Croatian compromise'},
-{start:'1919', label:'treaty of St. Germain'},
-{start:'1920', label:'treaty of Rapallo', 'class':'b'},
-{start:'1924', label:'treaty of rome', 'class':'c'},
+{start:'1719', label:'free port'},
+{start:'1779', label:'Corpus Separatum of Hungary'},
+{start:'1809', end:'1813', label:'Illiryan Provinces (until 1813)'},
+{start:'1822', label:'Hungarian administration'},
+{start:'1848', end:'1867', label:'Croatian administration'},
+{start:'1868', label:'Corpus Separatum of Hungary'},
+{start:'1919', label:'D&#39;Annunzio'},
+{start:'1920', label:'Free State of Rijeka', 'class':'b'},
+{start:'1922', label:'Sušak in SHS Kingdom'},
 {start:'April 1941', label:'Italian occupation of Susak'},
-{start:'1943', label:'surrender to Allies followed by inclusion in German Adriatic Littoral Zone', 'class':'b'},
+{start:'1943', label:'Italian surrender to Allies followed by inclusion in German Adriatic Littoral Zone', 'class':'b'},
 {start:'May 1945', label:'Yugoslav capture of Rijeka', 'class':'c'},
 {start:'1947', label:'Paris peace treaty', 'class':'d'},
+{start:'1948', label:'Unification of Zamet and Sušak with Rijeka'},
 ];
 
 Array.each(events, function(event){
