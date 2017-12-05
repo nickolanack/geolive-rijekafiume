@@ -64,10 +64,12 @@ Array.each(eras, function(era){
 
 	var s=eraRange[0]-range[0];
 	var e=eraRange[1]-eraRange[0];
-	var r=[dateToPercent(s), dateToPercent(e)]
+	var r=[dateToPercent(s), dateToPercent(e)];
+	var label=Localize(era.label, "era_"+era.start+"_"+era.end)
 	bar.appendChild(new Element('div', {
 		'class':'era e-'+era.start+' '+era.label.replace(' ', '-').toLowerCase(),
-		'data-label':Localize(era.label, "era_"+era.start+"_"+era.end),
+		'data-label':label,
+		'title':label,
 		styles:{
 			left:r[0]+'%',
 			width:r[1]+'%'
