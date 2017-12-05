@@ -12,8 +12,10 @@ if(ln=='lang-hr'||ln=="lang-it"){
     
     
     		"pin_1719":"Slobodna Luka",
+    		"pin_1779":"Mađarski Corpus Separatum",
+    		"pin_1809_1813":"Ilirske Provincije (do 1813)",
     		"pin_1822":"Mađarska uprava",
-    		"pin_1848":"Privremena hrvatska uprava",
+    		"pin_1848":"Hrvatska uprava",
     		"pin_1868":"Hrvatsko-ugarska nagodba",
     		"pin_1919":"Mirovni sporazum u St. Germainu",
     		"pin_1920":"Rapalski ugovor",
@@ -36,7 +38,10 @@ if(ln=='lang-hr'||ln=="lang-it"){
         },
         'lang-it':{
             "pin_1719":"Porto Franco",
-            
+            "pin_1779":"Corpus Separatum della Corona Ungherese",
+            "pin_1809_1813":"Province Illiriche (fino al 1813)",
+            "pin_1822":"Amministrazione ungherese",
+            "pin_1848":"Amministrazione croata",
         }
 	    
 	})[ln]);
