@@ -109,20 +109,23 @@ if(file_exists((dirname(__FILE__)).DS.'css'.DS.$component.'.css')){
 
 }
 
+$ln='lang-'.(key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER)?substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2):'en');
+
+
 ?>
 </head>
 
 
-<body data-lang="<?php echo ($ln='lang-'.substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));?>" class="<?php echo $component;?> <?php echo "item_".$item;
+<body data-lang="<?php echo ($ln);?>" class="<?php echo $component;?> <?php echo "item_".$item;
 
-	echo ' '.($ln='lang-'.substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
+	echo ' '.($ln);
 	echo ' '.JFactory::getLanguage()->getTag();
 
  ?>">
 	<div id="wrapper">
 		<div id="headcontainer">
 			<header class="group"> 
-			<div class="lang"><button class="btn" data-lang="lang-en">En</button><button class="btn" data-lang="lang-hr">Hr</button></div>
+			<div class="lang"><button class="btn" data-lang="lang-en">En</button><button class="btn" data-lang="lang-hr">Hr</button><button class="btn" data-lang="lang-it">It</button></div>
 			<div id="toplogo">
 			<img class="toplogo" src="/templates/rijekafiume/images/rijeka-logo-grey.png" alt="rijeka logo" title="rijeka logo" />
 			</div>
