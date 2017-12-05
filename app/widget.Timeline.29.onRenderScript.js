@@ -29,6 +29,7 @@ if(ln=='lang-hr'||ln=="lang-it"){
     		"pin_may_1945":"Jugoslavensko zauzeće Rijeke",
     		"pin_1947":"Pariški mirovni ugovor",
     
+            "pin_1948":"Spojenje Zameta i Sušaka sa Rijekom",
     
     		"era_1719_1914":"Habsburška Monarhija",
     		"era_1914_1924":"Prvi svjetski rat",
@@ -53,6 +54,12 @@ if(ln=='lang-hr'||ln=="lang-it"){
     		"pin_april_1941":"Occupazione italiana di Sussak",
     		
     		"pin_1943":"Armistizio e occupazione tedesca (Zona d’operazioni del Litorale Adriatico)",
+    		
+    		"pin_may_1945_tip":"Maggio 1945",
+    		"pin_may_1945":"Fiume liberata dai partigiani jugoslavi",
+    		
+    		"pin_1947":"Trattato di pace",
+    		"pin_1948":"Unificazione di Zamet e Sussak con Fiume",
         }
 	    
 	})[ln]);
