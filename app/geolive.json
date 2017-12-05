@@ -119,7 +119,6 @@
         "name": "Language",
         "instance": "Language",
         "parameters": {
-            "localizations": "plugin.Language.27.localizations.json",
             "googleTranslateApiKey": "XXXX-XXXX"
         }
     },
