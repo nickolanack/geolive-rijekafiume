@@ -30,7 +30,7 @@ if(Cookie.read('lang')=='lang-hr'){
 		"pin_1947":"Pariški mirovni ugovor",
 
 
-		"era_1815_1914":"Habsburška uprava",
+		"era_1719_1914":"Habsburška uprava",
 		"era_1914_1924":"Prvi svjetski rat",
 		"era_1924_1941":"Talijanska uprava",
 		"era_1941_1947":"Drugi svjetski rat",
