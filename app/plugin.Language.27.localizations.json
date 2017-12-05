@@ -31,7 +31,11 @@
         "tagcloud_communism_value": "Komunizam",
         "tagcloud_association_value": "Udru\u017eenja",
         "tagcloud_education_value": "Obrazovanje",
-        "tagcloud_slovak_value": "Slova\u010dko"
+        "tagcloud_slovak_value": "Slova\u010dko",
+        "fullscreen_button_tip": "Prikaz preko cijelog zaslona",
+        "home_button_tip": "Po\u010detni polo\u017eaj karte",
+        "home_button_geolocate_tip": "Va\u0161a trenutna lokacija",
+        "add_marker_button_tip": "Povuci i ispusti oznake mjesta"
     },
     "it": {
         "layer_22_title": "Commercio e industria",
@@ -65,6 +69,10 @@
         "tagcloud_communism_value": "Comunismo",
         "tagcloud_association_value": "Associazioni",
         "tagcloud_education_value": "Istruzione",
-        "tagcloud_slovak_value": "Slovacco"
+        "tagcloud_slovak_value": "Slovacco",
+        "fullscreen_button_tip": "Schermo intero",
+        "home_button_tip": "Pagina iniziale",
+        "home_button_geolocate_tip": "Tu sei qui",
+        "add_marker_button_tip": "Trascina e aggiungi un marker"
     }
 }
