@@ -200,7 +200,7 @@
         "instance": "WizardBuilder",
         "parameters": {
             "metadata": {
-                "class": "DescisionNode",
+                "class": "DecisionNode",
                 "_diagramState": {
                     "x": -210,
                     "y": 147
@@ -214,68 +214,89 @@
                             "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": -109,
-                            "y": 187
+                            "x": -99,
+                            "y": 197
                         },
                         "children": [
                             "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
+                                "class": "InsertNode",
+                                "_diagramState": {
+                                    "x": -139,
+                                    "y": 363
+                                }
+                            },
+                            {
                                 "title": "details",
                                 "class": "AttributesTableNode",
                                 "fields": [
-                                    "widget.WizardBuilder.4.metadata.children.1.children.1.fields.0.json"
+                                    "widget.WizardBuilder.4.metadata.children.1.children.2.fields.0.json"
                                 ],
                                 "_diagramState": {
-                                    "x": 264,
-                                    "y": 157
+                                    "x": 274,
+                                    "y": 167
                                 },
                                 "children": [
-                                    "widget.WizardBuilder.4.metadata.children.1.children.1.children.0.json",
+                                    "widget.WizardBuilder.4.metadata.children.1.children.2.children.0.json",
+                                    {
+                                        "class": "InsertNode",
+                                        "_diagramState": {
+                                            "x": 234,
+                                            "y": 380
+                                        }
+                                    },
                                     {
                                         "title": "Media",
                                         "class": "AttributesTableNode",
                                         "fields": [
-                                            "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.fields.0.json"
+                                            "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 672,
-                                            "y": 176
+                                            "x": 682,
+                                            "y": 186
                                         },
                                         "children": [
-                                            "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.children.0.json"
+                                            "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.children.0.json",
+                                            {
+                                                "class": "InsertNode",
+                                                "_diagramState": {
+                                                    "x": 642,
+                                                    "y": 352
+                                                }
+                                            }
                                         ],
                                         "builderMetadata": {
                                             "positions": {
                                                 "title": {
                                                     "modules": [
-                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.title.modules.0.json"
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.title.modules.0.json"
                                                     ]
                                                 },
                                                 "content": {
                                                     "modules": [
-                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.content.modules.0.json",
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.0.json",
                                                         {
                                                             "type": "plugin.Attributes.WizardTagCloud",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
+                                                                    "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
                                                                 "showLabel": false,
-                                                                "showAddWord": true,
+                                                                "showAddWord": false,
                                                                 "fontColor": "rgb(0, 0, 0)",
                                                                 "hoverColor": "rgb(143, 188, 143)",
                                                                 "selectedColor": "rgb(143, 188, 143)",
                                                                 "shuffleTags": false,
-                                                                "tags": "[\n\t[1,  \"Leisure\"], \n\t[1, \"Association\"],\n\t[1, \"Education\"],\n\t[1, \"Culture\"],\n\t[1, \"Politics\"],\n\t[1, \"Everyday life\"],\n\t[1, \"Family\"],\n\t[1, \"Religion\"],\n\t[1, \"Personal\"],\n\n\t[1, \"Partisan\"],\n\t[1, \"Clandestine\"],\n\t[1, \"Communism\"],\n\t[1, \"Fascism\"],\n\t[1, \"Nazism\"],\n\t[1, \"Ethnic cleansing\"],\n\n\t[1, \"D'Annunzio\"],\n\t[1, \"World War I\"],\n\t[1, \"World War II\"],\n\n\t[1, \"Yugoslav\"],\n\t[1, \"Istrian\"],\n\t[1, \"Italian\"],\n\t[1, \"Croatian\"],\n\t[1, \"Serbian\"],\n\t[1, \"Slovenian\"],\n\t[1, \"Jewish\"],\n\t[1, \"Hungarian\"],\n\t[1, \"Macedonian\"],\n\t[1, \"Austrian\"],\n\t[1, \"German\"],\n\t[1, \"Roma\"],\n\t[1, \"Slovak\"],\n\t[1, \"Minority\"]\n]"
+                                                                "tags": "[\n\t[1,  \"Leisure\"], \n\t[1, \"Association\"],\n\t[1, \"Education\"],\n\t[1, \"Culture\"],\n\t[1, \"Politics\"],\n\t[1, \"Everyday life\"],\n\t[1, \"Family\"],\n\t[1, \"Religion\"],\n\t[1, \"Personal\"],\n\n\t[1, \"Partisan\"],\n\n\t[1, \"Communism\"],\n\t[1, \"Fascism\"],\n\t[1, \"Nazism\"],\n\n\n\t[1, \"D'Annunzio\"],\n\t[1, \"World War I\"],\n\t[1, \"World War II\"],\n\n\t[1, \"Yugoslav\"],\n\n\t[1, \"Italian\"],\n\t[1, \"Croatian\"],\n\t[1, \"Serbian\"],\n\t[1, \"Slovenian\"],\n\t[1, \"Jewish\"],\n\t[1, \"Hungarian\"],\n\t[1, \"Macedonian\"],\n\t[1, \"Austrian\"],\n\t[1, \"German\"],\n\n\t[1, \"Slovak\"],\n\t[1, \"Minority\"],\n\t\n\t[1, \"Socialism\"],\n\t[1, \"Antifascism\"],\n\t[1, \"War of Croatian Independence\"],\n\t[1, \"Sport\"],\n\t[1, \"Art\"],\n\t[1, \"Violence\"]\n]"
                                                             }
                                                         }
                                                     ]
                                                 },
                                                 "footer": {
                                                     "modules": [
-                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.footer.modules.0.json"
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.footer.modules.0.json"
                                                     ]
                                                 },
                                                 "menu": {
@@ -298,17 +319,17 @@
                                     "positions": {
                                         "title": {
                                             "modules": [
-                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.title.modules.0.json"
+                                                "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.title.modules.0.json"
                                             ]
                                         },
                                         "content": {
                                             "modules": [
-                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.0.json",
+                                                "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.0.json",
                                                 {
                                                     "type": "plugin.Attributes.WizardDescriptionAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                         ],
                                                         "label": "Description",
                                                         "message": "add a description",
@@ -322,14 +343,15 @@
                                                         "maxChars": 0,
                                                         "showExpandInput": true,
                                                         "toolbarPosition": "bottom",
-                                                        "textFormatScript": ""
+                                                        "textFormatScript": "",
+                                                        "onRenderModuleFn": ""
                                                     }
                                                 },
                                                 {
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "Start Date",
@@ -342,14 +364,16 @@
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "date",
-                                                        "iconTint": "rgb(100, 149, 237)"
+                                                        "iconTint": "rgb(100, 149, 237)",
+                                                        "onRenderTextFieldScript": "",
+                                                        "formatValueScript": ""
                                                     }
                                                 },
                                                 {
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "End Date",
@@ -362,13 +386,15 @@
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "date",
-                                                        "iconTint": "rgb(100, 149, 237)"
+                                                        "iconTint": "rgb(100, 149, 237)",
+                                                        "onRenderTextFieldScript": "",
+                                                        "formatValueScript": ""
                                                     }
                                                 },
                                                 {
                                                     "type": "WizardScriptElement",
                                                     "config": {
-                                                        "script": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.4.config.script.js",
+                                                        "script": "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.4.config.script.js",
                                                         "identifier": "customScriptElement"
                                                     }
                                                 },
@@ -376,7 +402,7 @@
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.5.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.5.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "Institutional Affiliation",
@@ -389,14 +415,16 @@
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "none",
-                                                        "iconTint": "rgb(100, 149, 237)"
+                                                        "iconTint": "rgb(100, 149, 237)",
+                                                        "onRenderTextFieldScript": "",
+                                                        "formatValueScript": ""
                                                     }
                                                 }
                                             ]
                                         },
                                         "footer": {
                                             "modules": [
-                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.footer.modules.0.json"
+                                                "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.footer.modules.0.json"
                                             ]
                                         },
                                         "menu": {
@@ -480,7 +508,10 @@
             "onUpdateScript": "",
             "onSaveScript": "",
             "beforeSubmitScript": "",
-            "templateName": "MapItemTemplate"
+            "templateName": "MapItemTemplate",
+            "onLoadScript": "",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.10": {

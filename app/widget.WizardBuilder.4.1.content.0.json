@@ -1,8 +1,9 @@
 {
-    "type": "WizardStepTitle",
+    "type": "InlineHtml",
     "config": {
         "className": "",
         "text": "<h3>Select a type<\/h3>",
-        "identifier": "htmlLabel"
+        "template": "",
+        "templateVariablesScript": ""
     }
 }

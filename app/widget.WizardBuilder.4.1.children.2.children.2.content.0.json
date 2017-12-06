@@ -14,6 +14,7 @@
         "showExpandInput": true,
         "toolbarPosition": "bottom",
         "textFormatScript": "",
-        "mediaIconTint": "rgb(100, 149, 237)"
+        "mediaIconTint": "rgb(100, 149, 237)",
+        "onRenderModuleFn": ""
     }
 }
