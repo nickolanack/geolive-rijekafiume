@@ -1405,7 +1405,8 @@
             "requireTarget": true,
             "widgetTitle": "Polygon Overlays",
             "target": "map.1",
-            "readAccess": "public"
+            "readAccess": "public",
+            "onRenderApplictionScript": ""
         }
     },
     "widget.57": {
