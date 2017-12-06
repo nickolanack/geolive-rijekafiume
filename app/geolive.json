@@ -858,7 +858,8 @@
         "parameters": {
             "customCSS": "Rijeka Theme.customCSS.css",
             "widgetTitle": "Rijeka Theme",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.29": {
