@@ -1325,11 +1325,9 @@
                 "components\/com_geolive\/users_files\/user_files_691\/Uploads\/Y6a_lTz_zMh_[ImAgE]_[G].png"
             ],
             "layer-30-color": "rgb(157, 174, 0)",
-            "layer-31": [
-                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/lu7_XmZ_[ImAgE]_8ps_[G].png"
-            ],
             "layer-31-color": "rgb(0, 125, 125)",
-            "formatParametersScript": "return $parameters;"
+            "formatParametersScript": "return $parameters;",
+            "layer-31": null
         }
     },
     "widget.55": {
