@@ -1238,63 +1238,63 @@
                 },
                 "layer-32": {
                     "type": "images",
-                    "name": "layer-31",
+                    "name": "layer-32",
                     "default": [],
-                    "label": "layer-31",
+                    "label": "layer-32",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
                 },
                 "layer-32-color": {
                     "type": "color",
-                    "name": "layer-31-color",
+                    "name": "layer-32-color",
                     "default": "rgb(0,0,0)",
-                    "label": "layer-31-color"
+                    "label": "layer-32-color"
                 },
                 "layer-33": {
                     "type": "images",
-                    "name": "layer-31",
+                    "name": "layer-33",
                     "default": [],
-                    "label": "layer-31",
+                    "label": "layer-33",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
                 },
                 "layer-33-color": {
                     "type": "color",
-                    "name": "layer-31-color",
+                    "name": "layer-33-color",
                     "default": "rgb(0,0,0)",
-                    "label": "layer-31-color"
+                    "label": "layer-33-color"
                 },
                 "layer-34": {
                     "type": "images",
-                    "name": "layer-31",
+                    "name": "layer-34",
                     "default": [],
-                    "label": "layer-31",
+                    "label": "layer-34",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
                 },
                 "layer-34-color": {
                     "type": "color",
-                    "name": "layer-31-color",
+                    "name": "layer-34-color",
                     "default": "rgb(0,0,0)",
-                    "label": "layer-31-color"
+                    "label": "layer-34-color"
                 },
                 "layer-35": {
                     "type": "images",
-                    "name": "layer-31",
+                    "name": "layer-35",
                     "default": [],
-                    "label": "layer-31",
+                    "label": "layer-35",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
                 },
                 "layer-35-color": {
                     "type": "color",
-                    "name": "layer-31-color",
+                    "name": "layer-35-color",
                     "default": "rgb(0,0,0)",
-                    "label": "layer-31-color"
+                    "label": "layer-35-color"
                 }
             },
             "hello": "World",
@@ -1327,7 +1327,15 @@
             "layer-30-color": "rgb(157, 174, 0)",
             "layer-31-color": "rgb(0, 125, 125)",
             "formatParametersScript": "return $parameters;",
-            "layer-31": null
+            "layer-31": null,
+            "layer-32": [],
+            "layer-32-color": "rgb(0,0,0)",
+            "layer-33": [],
+            "layer-33-color": "rgb(0,0,0)",
+            "layer-34": [],
+            "layer-34-color": "rgb(0,0,0)",
+            "layer-35": [],
+            "layer-35-color": "rgb(0,0,0)"
         }
     },
     "widget.55": {
