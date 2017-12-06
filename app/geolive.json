@@ -1236,7 +1236,7 @@
                     "default": "rgb(0,0,0)",
                     "label": "layer-30-color"
                 },
-                "layer-31": {
+                "layer-32": {
                     "type": "images",
                     "name": "layer-31",
                     "default": [],
@@ -1245,7 +1245,52 @@
                     "maxWidth": 64,
                     "limit": 1
                 },
-                "layer-31-color": {
+                "layer-32-color": {
+                    "type": "color",
+                    "name": "layer-31-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-31-color"
+                },
+                "layer-33": {
+                    "type": "images",
+                    "name": "layer-31",
+                    "default": [],
+                    "label": "layer-31",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-33-color": {
+                    "type": "color",
+                    "name": "layer-31-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-31-color"
+                },
+                "layer-34": {
+                    "type": "images",
+                    "name": "layer-31",
+                    "default": [],
+                    "label": "layer-31",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-34-color": {
+                    "type": "color",
+                    "name": "layer-31-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-31-color"
+                },
+                "layer-35": {
+                    "type": "images",
+                    "name": "layer-31",
+                    "default": [],
+                    "label": "layer-31",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-35-color": {
                     "type": "color",
                     "name": "layer-31-color",
                     "default": "rgb(0,0,0)",
@@ -1283,7 +1328,8 @@
             "layer-31": [
                 "components\/com_geolive\/users_files\/user_files_691\/Uploads\/lu7_XmZ_[ImAgE]_8ps_[G].png"
             ],
-            "layer-31-color": "rgb(0, 125, 125)"
+            "layer-31-color": "rgb(0, 125, 125)",
+            "formatParametersScript": "return $parameters;"
         }
     },
     "widget.55": {
