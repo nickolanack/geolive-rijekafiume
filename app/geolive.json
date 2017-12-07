@@ -1360,10 +1360,14 @@
             "layer-31-color": "rgb(0, 125, 125)",
             "formatParametersScript": "return $parameters;",
             "layer-31": null,
-            "layer-32": [],
-            "layer-32-color": "rgb(0,0,0)",
-            "layer-33": [],
-            "layer-33-color": "rgb(0,0,0)",
+            "layer-32": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/1JY_[G]_ppe_vGi_[ImAgE].png"
+            ],
+            "layer-32-color": "rgb(60, 152, 0)",
+            "layer-33": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_AGa_Ao4_[G]_mbG.png"
+            ],
+            "layer-33-color": "rgb(235, 212, 0)",
             "layer-34": [],
             "layer-34-color": "rgb(0,0,0)",
             "layer-35": [],
