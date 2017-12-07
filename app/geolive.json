@@ -1368,10 +1368,14 @@
                 "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_AGa_Ao4_[G]_mbG.png"
             ],
             "layer-33-color": "rgb(235, 212, 0)",
-            "layer-34": [],
-            "layer-34-color": "rgb(0,0,0)",
-            "layer-35": [],
-            "layer-35-color": "rgb(0,0,0)"
+            "layer-34": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/FUI_0YL_[G]_dpR_[ImAgE].png"
+            ],
+            "layer-34-color": "rgb(0, 179, 179)",
+            "layer-35": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_lBO_[G]_mVe_BFe.png"
+            ],
+            "layer-35-color": "rgb(215, 0, 165)"
         }
     },
     "widget.55": {
