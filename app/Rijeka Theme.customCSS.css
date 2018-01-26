@@ -299,3 +299,21 @@ span.search-bar-btn.left.search {
     left: 13px;
     float: none;
 }
+
+
+
+
+
+
+
+.icn-s-lst li {
+    height: 60px;
+    width: 60px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.icn-s-lst li>img {
+    top: 12px;
+    height: 36px;
+}

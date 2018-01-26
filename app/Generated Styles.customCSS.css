@@ -1,0 +1,11 @@
+<?php
+$config=GetWidget('polygon-config');
+for($i=25;$i<=31;$i++){
+?>
+    .icn-s-lst li.layer<?php echo $i; ?>:hover::before, .icn-s-lst li.layer<?php echo $i; ?>.selected::before{
+    background-color: <?php echo  str_replace(')',',0.5)',str_replace('rgb','rgba',$config->getParameter('layer-'.$i.'-color', 'rgb(0, 0, 0)')));?>;
+    }
+<?php
+    
+}
+?>

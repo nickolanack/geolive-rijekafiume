@@ -119,8 +119,8 @@
         "name": "Language",
         "instance": "Language",
         "parameters": {
-            "localizations": "plugin.Language.27.localizations.json",
-            "googleTranslateApiKey": "XXXX-XXXX"
+            "googleTranslateApiKey": "XXXX-XXXX",
+            "localizations": "plugin.Language.27.localizations.json"
         }
     },
     "plugin.28": {
@@ -157,7 +157,7 @@
         "name": "Monolog Plugin",
         "instance": "Monolog",
         "parameters": {
-            "logPath": "{core}\/..\/log",
+            "logPath": "{front}\/..\/log",
             "logToSentry": false
         }
     },
@@ -166,7 +166,8 @@
         "instance": "SentryIO",
         "parameters": {
             "clientSecretUrl": "XXXX-XXXX",
-            "clientPublicUrl": "https:\/\/3504daac359744ba9eabd126ba04c588@sentry.io\/172282"
+            "clientPublicUrl": "https:\/\/3504daac359744ba9eabd126ba04c588@sentry.io\/172282",
+            "enabled": true
         }
     },
     "widget.2": {
@@ -199,7 +200,7 @@
         "instance": "WizardBuilder",
         "parameters": {
             "metadata": {
-                "class": "DescisionNode",
+                "class": "DecisionNode",
                 "_diagramState": {
                     "x": -210,
                     "y": 147
@@ -213,68 +214,89 @@
                             "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": -109,
-                            "y": 187
+                            "x": -99,
+                            "y": 197
                         },
                         "children": [
                             "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
+                                "class": "InsertNode",
+                                "_diagramState": {
+                                    "x": -139,
+                                    "y": 363
+                                }
+                            },
+                            {
                                 "title": "details",
                                 "class": "AttributesTableNode",
                                 "fields": [
-                                    "widget.WizardBuilder.4.metadata.children.1.children.1.fields.0.json"
+                                    "widget.WizardBuilder.4.metadata.children.1.children.2.fields.0.json"
                                 ],
                                 "_diagramState": {
-                                    "x": 264,
-                                    "y": 157
+                                    "x": 274,
+                                    "y": 167
                                 },
                                 "children": [
-                                    "widget.WizardBuilder.4.metadata.children.1.children.1.children.0.json",
+                                    "widget.WizardBuilder.4.metadata.children.1.children.2.children.0.json",
+                                    {
+                                        "class": "InsertNode",
+                                        "_diagramState": {
+                                            "x": 234,
+                                            "y": 380
+                                        }
+                                    },
                                     {
                                         "title": "Media",
                                         "class": "AttributesTableNode",
                                         "fields": [
-                                            "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.fields.0.json"
+                                            "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 672,
-                                            "y": 176
+                                            "x": 682,
+                                            "y": 186
                                         },
                                         "children": [
-                                            "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.children.0.json"
+                                            "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.children.0.json",
+                                            {
+                                                "class": "InsertNode",
+                                                "_diagramState": {
+                                                    "x": 642,
+                                                    "y": 352
+                                                }
+                                            }
                                         ],
                                         "builderMetadata": {
                                             "positions": {
                                                 "title": {
                                                     "modules": [
-                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.title.modules.0.json"
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.title.modules.0.json"
                                                     ]
                                                 },
                                                 "content": {
                                                     "modules": [
-                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.content.modules.0.json",
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.0.json",
                                                         {
                                                             "type": "plugin.Attributes.WizardTagCloud",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
+                                                                    "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
                                                                 "showLabel": false,
-                                                                "showAddWord": true,
+                                                                "showAddWord": false,
                                                                 "fontColor": "rgb(0, 0, 0)",
                                                                 "hoverColor": "rgb(143, 188, 143)",
                                                                 "selectedColor": "rgb(143, 188, 143)",
                                                                 "shuffleTags": false,
-                                                                "tags": "[\n\t[1,  \"Leisure\"], \n\t[1, \"Association\"],\n\t[1, \"Education\"],\n\t[1, \"Culture\"],\n\t[1, \"Politics\"],\n\t[1, \"Everyday life\"],\n\t[1, \"Family\"],\n\t[1, \"Religion\"],\n\t[1, \"Personal\"],\n\n\t[1, \"Partisan\"],\n\t[1, \"Clandestine\"],\n\t[1, \"Communism\"],\n\t[1, \"Fascism\"],\n\t[1, \"Nazism\"],\n\t[1, \"Ethnic cleansing\"],\n\n\t[1, \"D'Annunzio\"],\n\t[1, \"World War I\"],\n\t[1, \"World War II\"],\n\n\t[1, \"Yugoslav\"],\n\t[1, \"Istrian\"],\n\t[1, \"Italian\"],\n\t[1, \"Croatian\"],\n\t[1, \"Serbian\"],\n\t[1, \"Slovenian\"],\n\t[1, \"Jewish\"],\n\t[1, \"Hungarian\"],\n\t[1, \"Macedonian\"],\n\t[1, \"Austrian\"],\n\t[1, \"German\"],\n\t[1, \"Roma\"],\n\t[1, \"Slovak\"],\n\t[1, \"Minority\"]\n]"
+                                                                "tags": "[\n\t[1,  \"Leisure\"], \n\t[1, \"Association\"],\n\t[1, \"Education\"],\n\t[1, \"Culture\"],\n\t[1, \"Politics\"],\n\t[1, \"Everyday life\"],\n\t[1, \"Family\"],\n\t[1, \"Religion\"],\n\t[1, \"Personal\"],\n\n\t[1, \"Partisan\"],\n\n\t[1, \"Communism\"],\n\t[1, \"Fascism\"],\n\t[1, \"Nazism\"],\n\n\n\t[1, \"D'Annunzio\"],\n\t[1, \"World War I\"],\n\t[1, \"World War II\"],\n\n\t[1, \"Yugoslav\"],\n\n\t[1, \"Italian\"],\n\t[1, \"Croatian\"],\n\t[1, \"Serbian\"],\n\t[1, \"Slovenian\"],\n\t[1, \"Jewish\"],\n\t[1, \"Hungarian\"],\n\t[1, \"Macedonian\"],\n\t[1, \"Austrian\"],\n\t[1, \"German\"],\n\n\t[1, \"Slovak\"],\n\t[1, \"Minority\"],\n\t\n\t[1, \"Socialism\"],\n\t[1, \"Antifascism\"],\n\t[1, \"War of Croatian Independence\"],\n\t[1, \"Sport\"],\n\t[1, \"Art\"],\n\t[1, \"Violence\"]\n]"
                                                             }
                                                         }
                                                     ]
                                                 },
                                                 "footer": {
                                                     "modules": [
-                                                        "widget.WizardBuilder.4.metadata.children.1.children.1.children.1.builderMetadata.positions.footer.modules.0.json"
+                                                        "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.footer.modules.0.json"
                                                     ]
                                                 },
                                                 "menu": {
@@ -297,17 +319,17 @@
                                     "positions": {
                                         "title": {
                                             "modules": [
-                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.title.modules.0.json"
+                                                "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.title.modules.0.json"
                                             ]
                                         },
                                         "content": {
                                             "modules": [
-                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.0.json",
+                                                "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.0.json",
                                                 {
                                                     "type": "plugin.Attributes.WizardDescriptionAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                         ],
                                                         "label": "Description",
                                                         "message": "add a description",
@@ -321,14 +343,15 @@
                                                         "maxChars": 0,
                                                         "showExpandInput": true,
                                                         "toolbarPosition": "bottom",
-                                                        "textFormatScript": ""
+                                                        "textFormatScript": "",
+                                                        "onRenderModuleFn": ""
                                                     }
                                                 },
                                                 {
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "Start Date",
@@ -341,14 +364,16 @@
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "date",
-                                                        "iconTint": "rgb(100, 149, 237)"
+                                                        "iconTint": "rgb(100, 149, 237)",
+                                                        "onRenderTextFieldScript": "",
+                                                        "formatValueScript": ""
                                                     }
                                                 },
                                                 {
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "End Date",
@@ -361,13 +386,15 @@
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "date",
-                                                        "iconTint": "rgb(100, 149, 237)"
+                                                        "iconTint": "rgb(100, 149, 237)",
+                                                        "onRenderTextFieldScript": "",
+                                                        "formatValueScript": ""
                                                     }
                                                 },
                                                 {
                                                     "type": "WizardScriptElement",
                                                     "config": {
-                                                        "script": "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.4.config.script.js",
+                                                        "script": "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.4.config.script.js",
                                                         "identifier": "customScriptElement"
                                                     }
                                                 },
@@ -375,7 +402,7 @@
                                                     "type": "plugin.Attributes.WizardTextAttribute",
                                                     "config": {
                                                         "attributeFields": [
-                                                            "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.content.modules.5.config.attributeFields.0.json"
+                                                            "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.5.config.attributeFields.0.json"
                                                         ],
                                                         "className": "",
                                                         "label": "Institutional Affiliation",
@@ -388,14 +415,16 @@
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
                                                         "formatter": "none",
-                                                        "iconTint": "rgb(100, 149, 237)"
+                                                        "iconTint": "rgb(100, 149, 237)",
+                                                        "onRenderTextFieldScript": "",
+                                                        "formatValueScript": ""
                                                     }
                                                 }
                                             ]
                                         },
                                         "footer": {
                                             "modules": [
-                                                "widget.WizardBuilder.4.metadata.children.1.children.1.builderMetadata.positions.footer.modules.0.json"
+                                                "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.footer.modules.0.json"
                                             ]
                                         },
                                         "menu": {
@@ -479,7 +508,10 @@
             "onUpdateScript": "",
             "onSaveScript": "",
             "beforeSubmitScript": "",
-            "templateName": "MapItemTemplate"
+            "templateName": "MapItemTemplate",
+            "onLoadScript": "",
+            "requireTarget": true,
+            "target": "map.1"
         }
     },
     "widget.10": {
@@ -765,7 +797,7 @@
         "instance": "AttributesSearch",
         "parameters": {
             "position": "TOP_CENTER",
-            "barWidth": 500,
+            "barWidth": 699,
             "locationSearch": true,
             "showFilterBuilder": true,
             "hoverTheme": false,
@@ -786,7 +818,8 @@
             "clearTintColor": "rgb(0,0,0)",
             "placeholderText": "Search Location, Items, Attributes...",
             "searchUsers": false,
-            "alwaysShowClear": true
+            "alwaysShowClear": true,
+            "target": "map.1"
         }
     },
     "widget.17": {
@@ -856,7 +889,8 @@
         "parameters": {
             "customCSS": "Rijeka Theme.customCSS.css",
             "widgetTitle": "Rijeka Theme",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.29": {
@@ -909,7 +943,7 @@
             "tipTitle": "Project Date Filter",
             "tipDescription": "widget.Timeline.29.tipDescription.js",
             "onRenderScript": "widget.Timeline.29.onRenderScript.js",
-            "lockMinDate": "1804-01-01",
+            "lockMinDate": "1719-01-01",
             "lockMaxDate": "2015-01-01",
             "showTip": false,
             "roundDownMonth": true,
@@ -970,9 +1004,10 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "widget.CSS.39.customCSS.css",
-            "widgetTitle": "",
-            "readAccess": "public"
+            "customCSS": "Tiles.customCSS.css",
+            "widgetTitle": "Tiles",
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.40": {
@@ -1120,6 +1155,326 @@
         "instance": "Legend",
         "parameters": {
             "position": "LEFT_CENTER"
+        }
+    },
+    "widget.53": {
+        "name": "Named Iconset",
+        "instance": "NamedIconset",
+        "parameters": {
+            "exposeIconset": true,
+            "iconsetName": "",
+            "icons": [],
+            "iconsetMetadata": [],
+            "widgetTitle": "Named Polygon Icons",
+            "target": "polygon-icons",
+            "readAccess": "public",
+            "position": ""
+        }
+    },
+    "widget.54": {
+        "name": "Configuration",
+        "instance": "Configuration",
+        "parameters": {
+            "contentTemplate": "",
+            "comments": "",
+            "parameters": {
+                "layer-25": {
+                    "type": "images",
+                    "name": "layer-25",
+                    "default": [],
+                    "label": "layer-25",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-25-color": {
+                    "type": "color",
+                    "name": "layer-25-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-25-color"
+                },
+                "layer-26": {
+                    "type": "images",
+                    "name": "layer-26",
+                    "default": [],
+                    "label": "Water",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-26-color": {
+                    "type": "color",
+                    "name": "layer-26-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-26-color"
+                },
+                "layer-27": {
+                    "type": "images",
+                    "name": "layer-27",
+                    "default": [],
+                    "label": "Water",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-27-color": {
+                    "type": "color",
+                    "name": "layer-27-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-27-color"
+                },
+                "layer-28": {
+                    "type": "images",
+                    "name": "layer-28",
+                    "default": [],
+                    "label": "layer-28",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-28-color": {
+                    "type": "color",
+                    "name": "layer-28-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-28-color"
+                },
+                "layer-29": {
+                    "type": "images",
+                    "name": "layer-29",
+                    "default": [],
+                    "label": "layer-29",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-29-color": {
+                    "type": "color",
+                    "name": "layer-29-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-29-color"
+                },
+                "layer-30": {
+                    "type": "images",
+                    "name": "layer-30",
+                    "default": [],
+                    "label": "layer-30",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-30-color": {
+                    "type": "color",
+                    "name": "layer-30-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-30-color"
+                },
+                "layer-32": {
+                    "type": "images",
+                    "name": "layer-32",
+                    "default": [],
+                    "label": "layer-32",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-32-color": {
+                    "type": "color",
+                    "name": "layer-32-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-32-color"
+                },
+                "layer-33": {
+                    "type": "images",
+                    "name": "layer-33",
+                    "default": [],
+                    "label": "layer-33",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-33-color": {
+                    "type": "color",
+                    "name": "layer-33-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-33-color"
+                },
+                "layer-34": {
+                    "type": "images",
+                    "name": "layer-34",
+                    "default": [],
+                    "label": "layer-34",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-34-color": {
+                    "type": "color",
+                    "name": "layer-34-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-34-color"
+                },
+                "layer-35": {
+                    "type": "images",
+                    "name": "layer-35",
+                    "default": [],
+                    "label": "layer-35",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "layer-35-color": {
+                    "type": "color",
+                    "name": "layer-35-color",
+                    "default": "rgb(0,0,0)",
+                    "label": "layer-35-color"
+                }
+            },
+            "hello": "World",
+            "widgetTitle": "Polygon Configuration",
+            "target": "polygon-config",
+            "readAccess": "public",
+            "layer-25": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/V7r_[ImAgE]_sbf_5QD_[G].png"
+            ],
+            "layer-25-color": "rgb(150, 0, 182)",
+            "layer-26": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_[G]_uVI_suY_MyU.png"
+            ],
+            "layer-26-color": "rgb(0, 0, 209)",
+            "layer-27": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/3b_[G]_[ImAgE]_DH_ZoN.png"
+            ],
+            "layer-27-color": "rgb(0, 112, 31)",
+            "layer-28": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/2ek_[ImAgE]_OIY_[G]_c8o.png"
+            ],
+            "layer-28-color": "rgb(203, 0, 4)",
+            "layer-29": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_iUi_YVE_[G]_WtG.png"
+            ],
+            "layer-29-color": "rgb(164, 112, 0)",
+            "layer-30": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/Y6a_lTz_zMh_[ImAgE]_[G].png"
+            ],
+            "layer-30-color": "rgb(157, 174, 0)",
+            "layer-31-color": "rgb(0, 125, 125)",
+            "formatParametersScript": "return $parameters;",
+            "layer-31": null,
+            "layer-32": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/1JY_[G]_ppe_vGi_[ImAgE].png"
+            ],
+            "layer-32-color": "rgb(60, 152, 0)",
+            "layer-33": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_AGa_Ao4_[G]_mbG.png"
+            ],
+            "layer-33-color": "rgb(235, 212, 0)",
+            "layer-34": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/FUI_0YL_[G]_dpR_[ImAgE].png"
+            ],
+            "layer-34-color": "rgb(0, 179, 179)",
+            "layer-35": [
+                "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_lBO_[G]_mVe_BFe.png"
+            ],
+            "layer-35-color": "rgb(215, 0, 165)"
+        }
+    },
+    "widget.55": {
+        "name": "Search Bar Tab View",
+        "instance": "SearchBarTabOverlayView",
+        "parameters": {
+            "tabColor": "rgb(0, 139, 191)",
+            "fontColor": "rgb(0, 0, 0)",
+            "tabName": "Time Periods",
+            "showIcon": true,
+            "icon": [],
+            "iconActive": [],
+            "customScript": "",
+            "className": "",
+            "viewType": "view",
+            "namedView": "polygonOverlays",
+            "showInlineEdit": false,
+            "namedFormView": "",
+            "showDeleteButton": false,
+            "deleteItemScript": "defaultBehaviorFn()",
+            "formatModuleScript": "",
+            "resolveItemScript": "",
+            "itemButtonsScript": "return [];",
+            "widgetTitle": "",
+            "target": "map.1",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.56": {
+        "name": "Detail View",
+        "instance": "DetailView",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "title": {
+                        "modules": []
+                    },
+                    "content": {
+                        "modules": [
+                            "Polygon Overlays.metadata.positions.content.modules.0.json",
+                            {
+                                "type": "WizardScriptElement",
+                                "config": {
+                                    "script": "Polygon Overlays.metadata.positions.content.modules.1.config.script.js",
+                                    "identifier": "customScriptElement"
+                                }
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "modules": []
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "_diagramState": []
+            },
+            "templateName": "polygonOverlays",
+            "requireTarget": true,
+            "widgetTitle": "Polygon Overlays",
+            "target": "map.1",
+            "readAccess": "public",
+            "onRenderApplictionScript": ""
+        }
+    },
+    "widget.57": {
+        "name": "Function",
+        "instance": "UserFunction",
+        "parameters": {
+            "widgetTitle": "Overlay Tile Custom Script",
+            "target": "overlay-tile-fn",
+            "customScript": "Overlay Tile Custom Script.customScript.js",
+            "readAccess": "public"
+        }
+    },
+    "widget.58": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "Generated Styles.customCSS.css",
+            "widgetTitle": "Generated Styles",
+            "target": "map.1",
+            "readAccess": "public"
+        }
+    },
+    "widget.59": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "<h3>Select a type<\/h3>",
+            "widgetTitle": "module..text"
         }
     }
 }
