@@ -5,6 +5,13 @@ body.lang-hr .lang-hr {
     display: initial;
 }
 
+body .lang-it {
+    display: none;
+}
+body.lang-it .lang-it {
+    display: initial;
+}
+
 
 body .lang-en {
     display: none;
