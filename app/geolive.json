@@ -170,6 +170,11 @@
             "enabled": true
         }
     },
+    "plugin.36": {
+        "name": "Mobile Device Interface",
+        "instance": "IOSApplication",
+        "parameters": {}
+    },
     "widget.2": {
         "name": "Google Controls",
         "instance": "GoogleControl",
