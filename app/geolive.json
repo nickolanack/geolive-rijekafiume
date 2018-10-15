@@ -87,7 +87,11 @@
         "instance": "Maps",
         "parameters": {
             "enableLayerSyncronization": true,
-            "onlyShowMarkersInIconset": false
+            "onlyShowMarkersInIconset": false,
+            "tileCachePath": "",
+            "googleMapsServerApiKey": "XXXX-XXXX",
+            "layerDisplayFilterScript": "",
+            "formatMapitemScript": ""
         }
     },
     "plugin.13": {
