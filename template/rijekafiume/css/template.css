@@ -319,7 +319,7 @@ ul.hs_social_list li.socials.facebook span.name {
 
 /* ----- translucent background ----- */
 
-.background>.item-page {
+.background>.item-page, .background>.blog-featured {
     background-color: #f0f0f0;
     border-radius: 3px;
     padding: 40px;
