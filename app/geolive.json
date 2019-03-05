@@ -1507,6 +1507,15 @@
                     "type": "images",
                     "name": "aboutIcon",
                     "default": [],
+                    "label": "About",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "surveyIcon": {
+                    "type": "images",
+                    "name": "surveyIcon",
+                    "default": [],
                     "label": "Survey",
                     "maxHeight": 64,
                     "maxWidth": 64,
@@ -1515,6 +1524,24 @@
                 "mapIcon": {
                     "type": "images",
                     "name": "mapIcon",
+                    "default": [],
+                    "label": "Map",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "profileIcon": {
+                    "type": "images",
+                    "name": "profileIcon",
+                    "default": [],
+                    "label": "Profile",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                "augmentedIcon": {
+                    "type": "images",
+                    "name": "augmentedIcon",
                     "default": [],
                     "label": "Augmented",
                     "maxHeight": 64,
