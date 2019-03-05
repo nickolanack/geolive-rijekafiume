@@ -1489,6 +1489,17 @@
     "widget.60": {
         "name": "Configuration",
         "instance": "Configuration",
-        "parameters": {}
+        "parameters": {
+            "contentTemplate": "",
+            "comments": "",
+            "formatParametersScript": "return $parameters;",
+            "parameters": [
+                "widget.Configuration.60.parameters.0.json"
+            ],
+            "appLogo": [],
+            "widgetTitle": "",
+            "target": "none",
+            "readAccess": "public"
+        }
     }
 }
