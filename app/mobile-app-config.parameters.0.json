@@ -1,9 +1,0 @@
-{
-    "type": "images",
-    "name": "appLogo",
-    "default": [],
-    "label": "Logo",
-    "maxHeight": 256,
-    "maxWidth": 256,
-    "limit": 1
-}

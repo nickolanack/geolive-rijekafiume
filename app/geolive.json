@@ -1493,54 +1493,35 @@
             "contentTemplate": "",
             "comments": "",
             "formatParametersScript": "return $parameters;",
-            "parameters": [
-                "mobile-app-config.parameters.0.json",
-                {
+            "parameters": {
+                "appLogo": {
                     "type": "images",
-                    "name": "aboutIcon",
+                    "name": "appLogo",
                     "default": [],
-                    "label": "About",
-                    "maxHeight": 64,
-                    "maxWidth": 64,
+                    "label": "Logo",
+                    "maxHeight": 256,
+                    "maxWidth": 256,
                     "limit": 1
                 },
-                {
+                "aboutIcon": {
                     "type": "images",
-                    "name": "surveyIcon",
+                    "name": "aboutIcon",
                     "default": [],
                     "label": "Survey",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
                 },
-                {
+                "mapIcon": {
                     "type": "images",
                     "name": "mapIcon",
-                    "default": [],
-                    "label": "Map",
-                    "maxHeight": 64,
-                    "maxWidth": 64,
-                    "limit": 1
-                },
-                {
-                    "type": "images",
-                    "name": "profileIcon",
-                    "default": [],
-                    "label": "Profile",
-                    "maxHeight": 64,
-                    "maxWidth": 64,
-                    "limit": 1
-                },
-                {
-                    "type": "images",
-                    "name": "augmentedIcon",
                     "default": [],
                     "label": "Augmented",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
                 }
-            ],
+            },
             "appLogo": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_[G]_ewP_Th3_6Nj.png"
             ],
