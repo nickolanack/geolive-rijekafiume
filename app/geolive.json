@@ -1494,14 +1494,64 @@
             "comments": "",
             "formatParametersScript": "return $parameters;",
             "parameters": [
-                "mobile-app-config.parameters.0.json"
+                "mobile-app-config.parameters.0.json",
+                {
+                    "type": "images",
+                    "name": "aboutIcon",
+                    "default": [],
+                    "label": "Image",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "surveyIcon",
+                    "default": [],
+                    "label": "Image",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "mapIcon",
+                    "default": [],
+                    "label": "Image",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "profileIcon",
+                    "default": [],
+                    "label": "Image",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "augmentedIcon",
+                    "default": [],
+                    "label": "Image",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                }
             ],
             "appLogo": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_[G]_ewP_Th3_6Nj.png"
             ],
             "widgetTitle": "mobile-app-config",
             "target": "mobile-app-config",
-            "readAccess": "public"
+            "readAccess": "public",
+            "aboutIcon": [],
+            "surveyIcon": [],
+            "mapIcon": [],
+            "profileIcon": [],
+            "augmentedIcon": []
         }
     }
 }
