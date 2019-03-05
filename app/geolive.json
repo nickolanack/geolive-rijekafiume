@@ -1485,5 +1485,10 @@
             "contentTemplate": "<h3>Select a type<\/h3>",
             "widgetTitle": "module..text"
         }
+    },
+    "widget.60": {
+        "name": "Configuration",
+        "instance": "Configuration",
+        "parameters": {}
     }
 }
