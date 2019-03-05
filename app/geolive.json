@@ -1494,13 +1494,13 @@
             "comments": "",
             "formatParametersScript": "return $parameters;",
             "parameters": [
-                "widget.Configuration.60.parameters.0.json"
+                "mobile-app-config.parameters.0.json"
             ],
             "appLogo": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_[G]_ewP_Th3_6Nj.png"
             ],
-            "widgetTitle": "",
-            "target": "none",
+            "widgetTitle": "mobile-app-config",
+            "target": "mobile-app-config",
             "readAccess": "public"
         }
     }
