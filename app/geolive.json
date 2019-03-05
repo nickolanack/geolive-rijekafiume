@@ -1547,11 +1547,21 @@
             "widgetTitle": "mobile-app-config",
             "target": "mobile-app-config",
             "readAccess": "public",
-            "aboutIcon": [],
-            "surveyIcon": [],
-            "mapIcon": [],
-            "profileIcon": [],
-            "augmentedIcon": []
+            "aboutIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_8he_yD9_uFw_[G].png"
+            ],
+            "surveyIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/zlG_bJ7_[G]_[ImAgE]_h7s.png"
+            ],
+            "mapIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_[G]_sMO_4P6_g6Q.png"
+            ],
+            "profileIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/64q_2vs_[G]_aVO_[ImAgE].png"
+            ],
+            "augmentedIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_awz_[G]_ScZ_knh.png"
+            ]
         }
     }
 }
