@@ -1691,19 +1691,19 @@
             "metadata": {
                 "title": "markerAttributes",
                 "_tableDiagramState": {
-                    "x": 316,
-                    "y": 269
+                    "x": 0,
+                    "y": 0
                 },
                 "_diagramState": {
-                    "x": 316,
-                    "y": 269
+                    "x": 0,
+                    "y": 0
                 },
                 "appliesTo": [
                     "marker"
                 ],
                 "_typeDiagramState": {
-                    "x": 100,
-                    "y": 300
+                    "x": 0,
+                    "y": 0
                 },
                 "readAccess": "public",
                 "maxEntries": 1,
@@ -1712,19 +1712,11 @@
                 "fields": [
                     "markerAttributes.metadata.fields.0.json",
                     {
-                        "icon": [],
-                        "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
-                            "hideFalse": true,
-                            "trueLabel": "",
-                            "falseLabel": "",
-                            "useFieldIcon": false
-                        },
                         "was": "",
                         "title": "endDate",
                         "label": "End Date",
                         "description": "",
+                        "icon": [],
                         "color": "#FFFFFF",
                         "visibility": "public",
                         "editability": "registered",
@@ -1753,22 +1745,22 @@
                             "precision": 0,
                             "limitMinValue": 0,
                             "limitMaxValue": 0
-                        }
-                    },
-                    {
-                        "icon": [],
+                        },
                         "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
                             "hideFalse": true,
                             "trueLabel": "",
                             "falseLabel": "",
-                            "useFieldIcon": false
-                        },
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
                         "was": "keywords",
                         "title": "keywords",
                         "label": "Keywords",
                         "description": "",
+                        "icon": [],
                         "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
@@ -1797,22 +1789,22 @@
                             "precision": 0,
                             "limitMinValue": "0",
                             "limitMaxValue": "0"
-                        }
-                    },
-                    {
-                        "icon": [],
+                        },
                         "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
                             "hideFalse": true,
                             "trueLabel": "",
                             "falseLabel": "",
-                            "useFieldIcon": false
-                        },
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
                         "was": "",
                         "title": "language",
                         "label": "Language",
                         "description": "markerAttributes.metadata.fields.3.description.js",
+                        "icon": [],
                         "color": "#FFFFFF",
                         "visibility": "public",
                         "editability": "registered",
@@ -1841,22 +1833,22 @@
                             "precision": 0,
                             "limitMinValue": 0,
                             "limitMaxValue": 0
-                        }
-                    },
-                    {
-                        "icon": [],
+                        },
                         "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
                             "hideFalse": true,
                             "trueLabel": "",
                             "falseLabel": "",
-                            "useFieldIcon": false
-                        },
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
                         "was": "",
                         "title": "descriptionField",
                         "label": "Description",
                         "description": "markerAttributes.metadata.fields.4.description.js",
+                        "icon": [],
                         "color": "#FFFFFF",
                         "visibility": "public",
                         "editability": "registered",
@@ -1885,22 +1877,22 @@
                             "precision": 0,
                             "limitMinValue": 0,
                             "limitMaxValue": 0
-                        }
-                    },
-                    {
-                        "icon": [],
+                        },
                         "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
                             "hideFalse": true,
                             "trueLabel": "",
                             "falseLabel": "",
-                            "useFieldIcon": false
-                        },
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
                         "was": "",
                         "title": "depreciated_media",
                         "label": "Media",
                         "description": "markerAttributes.metadata.fields.5.description.js",
+                        "icon": [],
                         "color": "#ffffff",
                         "visibility": "public",
                         "editability": "registered",
@@ -1929,22 +1921,22 @@
                             "precision": 0,
                             "limitMinValue": 0,
                             "limitMaxValue": 0
-                        }
-                    },
-                    {
-                        "icon": [],
+                        },
                         "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
                             "hideFalse": true,
                             "trueLabel": "",
                             "falseLabel": "",
-                            "useFieldIcon": false
-                        },
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
                         "was": "",
                         "title": "institutionalAffiliation",
                         "label": "Institutional Affiliation",
                         "description": "",
+                        "icon": [],
                         "color": "rgb(undefined, undefined, undefined)",
                         "visibility": "public",
                         "editability": "registered",
@@ -1973,11 +1965,21 @@
                             "precision": 0,
                             "limitMinValue": "",
                             "limitMaxValue": ""
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
                         }
                     }
                 ]
             },
-            "target": "markerAttributes"
+            "target": "markerAttributes",
+            "readAccess": "public",
+            "position": ""
         }
     },
     "widget.63": {
