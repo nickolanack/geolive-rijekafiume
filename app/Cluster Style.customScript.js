@@ -19,7 +19,7 @@ if (window.Cluster) {
 		var getColor = function(colorMap,
 			defaultColor) {
 			try {
-				var lid = me.cluster_.markers_[0].wrapper.getLayer().getId();
+				var lid = me.cluster_.markers_[0]._layerid;
 				if (colorMap['' + lid]) {
 					return colorMap['' + lid];
 				}

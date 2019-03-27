@@ -1422,7 +1422,8 @@
         "parameters": {
             "customScript": "Cluster Style.customScript.js",
             "widgetTitle": "Cluster Style",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.49": {
