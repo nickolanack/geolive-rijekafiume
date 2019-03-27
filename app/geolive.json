@@ -1990,19 +1990,19 @@
             "metadata": {
                 "title": "userAttributes",
                 "_tableDiagramState": {
-                    "x": 316,
-                    "y": 269
+                    "x": 0,
+                    "y": 0
                 },
                 "_diagramState": {
-                    "x": 316,
-                    "y": 269
+                    "x": 0,
+                    "y": 0
                 },
                 "appliesTo": [
                     "user"
                 ],
                 "_typeDiagramState": {
-                    "x": 100,
-                    "y": 300
+                    "x": 0,
+                    "y": 0
                 },
                 "readAccess": "public",
                 "maxEntries": 1,
@@ -2011,19 +2011,11 @@
                 "fields": [
                     "userAttributes.metadata.fields.0.json",
                     {
-                        "icon": [],
-                        "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
-                            "hideFalse": true,
-                            "trueLabel": "",
-                            "falseLabel": "",
-                            "useFieldIcon": false
-                        },
                         "was": "",
                         "title": "saName",
                         "label": "Self Advocate Name",
                         "description": "userAttributes.metadata.fields.1.description.js",
+                        "icon": [],
                         "color": "#ffffff",
                         "visibility": "public",
                         "editability": "registered",
@@ -2052,22 +2044,22 @@
                             "precision": 0,
                             "limitMinValue": 0,
                             "limitMaxValue": 0
-                        }
-                    },
-                    {
-                        "icon": [],
+                        },
                         "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
                             "hideFalse": true,
                             "trueLabel": "",
                             "falseLabel": "",
-                            "useFieldIcon": false
-                        },
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
                         "was": "",
                         "title": "lastName",
                         "label": "Last Name",
                         "description": "userAttributes.metadata.fields.2.description.js",
+                        "icon": [],
                         "color": "#ffffff",
                         "visibility": "public",
                         "editability": "registered",
@@ -2096,22 +2088,22 @@
                             "precision": 0,
                             "limitMinValue": 0,
                             "limitMaxValue": 0
-                        }
-                    },
-                    {
-                        "icon": [],
+                        },
                         "fieldBooleanOptions": {
-                            "trueIcon": [],
-                            "falseIcon": [],
                             "hideFalse": true,
                             "trueLabel": "",
                             "falseLabel": "",
-                            "useFieldIcon": false
-                        },
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
+                        }
+                    },
+                    {
                         "was": "",
                         "title": "example",
                         "label": "",
                         "description": "",
+                        "icon": [],
                         "color": "#FFFFFF",
                         "visibility": "public",
                         "editability": "registered",
@@ -2140,11 +2132,21 @@
                             "precision": 0,
                             "limitMinValue": 0,
                             "limitMaxValue": 0
+                        },
+                        "fieldBooleanOptions": {
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false,
+                            "trueIcon": [],
+                            "falseIcon": []
                         }
                     }
                 ]
             },
-            "target": "userAttributes"
+            "target": "userAttributes",
+            "readAccess": "public",
+            "position": ""
         }
     }
 }
