@@ -1682,5 +1682,467 @@
             "widgetTitle": "site.error.html",
             "target": "site.error.html"
         }
+    },
+    "widget.62": {
+        "name": "Attributes Table",
+        "instance": "AttributesTable",
+        "parameters": {
+            "widgetTitle": "markerAttributes",
+            "metadata": {
+                "title": "markerAttributes",
+                "_tableDiagramState": {
+                    "x": 316,
+                    "y": 269
+                },
+                "_diagramState": {
+                    "x": 316,
+                    "y": 269
+                },
+                "appliesTo": [
+                    "marker"
+                ],
+                "_typeDiagramState": {
+                    "x": 100,
+                    "y": 300
+                },
+                "readAccess": "public",
+                "maxEntries": 1,
+                "createAutomatically": 1,
+                "description": "",
+                "fields": [
+                    "markerAttributes.metadata.fields.0.json",
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "endDate",
+                        "label": "End Date",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": 0,
+                            "limitMaxValue": 0
+                        }
+                    },
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "keywords",
+                        "title": "keywords",
+                        "label": "Keywords",
+                        "description": "",
+                        "color": "rgb(NaN, NaN, NaN)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": true,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 1,
+                                "allowHtml": false,
+                                "allowMedia": false,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": false,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "0",
+                            "limitMaxValue": "0"
+                        }
+                    },
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "language",
+                        "label": "Language",
+                        "description": "markerAttributes.metadata.fields.3.description.js",
+                        "color": "#FFFFFF",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": true,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "options",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": false,
+                                "allowLinks": false
+                            },
+                            "listOptions": {
+                                "takeSugesstions": false,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": 0,
+                            "limitMaxValue": 0
+                        }
+                    },
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "descriptionField",
+                        "label": "Description",
+                        "description": "markerAttributes.metadata.fields.4.description.js",
+                        "color": "#FFFFFF",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": 0,
+                            "limitMaxValue": 0
+                        }
+                    },
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "depreciated_media",
+                        "label": "Media",
+                        "description": "markerAttributes.metadata.fields.5.description.js",
+                        "color": "#ffffff",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": 0,
+                            "limitMaxValue": 0
+                        }
+                    },
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "institutionalAffiliation",
+                        "label": "Institutional Affiliation",
+                        "description": "",
+                        "color": "rgb(undefined, undefined, undefined)",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": "",
+                            "limitMaxValue": ""
+                        }
+                    }
+                ]
+            },
+            "target": "markerAttributes"
+        }
+    },
+    "widget.63": {
+        "name": "Attributes Table",
+        "instance": "AttributesTable",
+        "parameters": {
+            "widgetTitle": "userAttributes",
+            "metadata": {
+                "title": "userAttributes",
+                "_tableDiagramState": {
+                    "x": 316,
+                    "y": 269
+                },
+                "_diagramState": {
+                    "x": 316,
+                    "y": 269
+                },
+                "appliesTo": [
+                    "user"
+                ],
+                "_typeDiagramState": {
+                    "x": 100,
+                    "y": 300
+                },
+                "readAccess": "public",
+                "maxEntries": 1,
+                "createAutomatically": 1,
+                "description": "",
+                "fields": [
+                    "userAttributes.metadata.fields.0.json",
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "saName",
+                        "label": "Self Advocate Name",
+                        "description": "userAttributes.metadata.fields.1.description.js",
+                        "color": "#ffffff",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": 0,
+                            "limitMaxValue": 0
+                        }
+                    },
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "lastName",
+                        "label": "Last Name",
+                        "description": "userAttributes.metadata.fields.2.description.js",
+                        "color": "#ffffff",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": 0,
+                            "limitMaxValue": 0
+                        }
+                    },
+                    {
+                        "icon": [],
+                        "fieldBooleanOptions": {
+                            "trueIcon": [],
+                            "falseIcon": [],
+                            "hideFalse": true,
+                            "trueLabel": "",
+                            "falseLabel": "",
+                            "useFieldIcon": false
+                        },
+                        "was": "",
+                        "title": "example",
+                        "label": "",
+                        "description": "",
+                        "color": "#FFFFFF",
+                        "visibility": "public",
+                        "editability": "registered",
+                        "searchability": "public",
+                        "allowMultiple": false,
+                        "fieldType": "text",
+                        "fieldTextOptions": {
+                            "textType": "input",
+                            "inputOptions": {
+                                "buildAutocomplete": false,
+                                "requireModeration": false,
+                                "limitMaxChars": 0,
+                                "limitMaxWords": 0,
+                                "allowHtml": false,
+                                "allowMedia": true,
+                                "allowLinks": true
+                            },
+                            "listOptions": {
+                                "takeSugesstions": true,
+                                "buildTree": false,
+                                "iconize": false,
+                                "colorize": false
+                            }
+                        },
+                        "fieldNumberOptions": {
+                            "precision": 0,
+                            "limitMinValue": 0,
+                            "limitMaxValue": 0
+                        }
+                    }
+                ]
+            },
+            "target": "userAttributes"
+        }
     }
 }
