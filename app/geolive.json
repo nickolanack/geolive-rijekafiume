@@ -1149,7 +1149,7 @@
         "parameters": {
             "downloadImage": [],
             "uploadImage": [],
-            "controlColor": "rgb(48,84,107)",
+            "controlColor": "rgb(0, 0, 0)",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
