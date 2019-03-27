@@ -1672,5 +1672,14 @@
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_awz_[G]_ScZ_knh.png"
             ]
         }
+    },
+    "widget.61": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "Error",
+            "widgetTitle": "site.error.html",
+            "target": "site.error.html"
+        }
     }
 }
