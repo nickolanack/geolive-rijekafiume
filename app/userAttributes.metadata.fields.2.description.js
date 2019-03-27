@@ -1,1 +1,0 @@
-Self advocates last name used to create connections between placemarks and self advocates
