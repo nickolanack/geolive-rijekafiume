@@ -59,7 +59,9 @@
     "plugin.15": {
         "name": "External Content",
         "instance": "ExternalContent",
-        "parameters": {}
+        "parameters": {
+            "youtube-api-key": ""
+        }
     },
     "plugin.25": {
         "name": "User Interface",
@@ -76,10 +78,22 @@
         "name": "Filesystem",
         "instance": "Filesystem",
         "parameters": {
-            "dropbox-app-key": "",
+            "enableFileMetadataCache": true,
             "showDropboxImagePicker": false,
+            "dropbox-app-key": "",
             "uploadViewInlineCss": "",
-            "uploadViewPageScript": "plugin.Filesystem.11.uploadViewPageScript.js"
+            "uploadViewPageScript": "plugin.Filesystem.11.uploadViewPageScript.js",
+            "enableFileAttributes": false,
+            "fileAttributesTableName": "filesystemAttributes",
+            "useS3Storage": false,
+            "bucket": "",
+            "folder": "",
+            "region": "us-west-2",
+            "version": "latest",
+            "key": "",
+            "secret": "",
+            "useCloudFront": false,
+            "cloudFrontDomain": ""
         }
     },
     "plugin.12": {
@@ -88,8 +102,9 @@
         "parameters": {
             "enableLayerSyncronization": true,
             "onlyShowMarkersInIconset": false,
-            "tileCachePath": "",
             "googleMapsServerApiKey": "XXXX-XXXX",
+            "googleMapsVersion": "",
+            "tileCachePath": "",
             "layerDisplayFilterScript": "",
             "formatMapitemScript": ""
         }
@@ -97,7 +112,18 @@
     "plugin.13": {
         "name": "Users",
         "instance": "Users",
-        "parameters": {}
+        "parameters": {
+            "customUserGroups": [],
+            "customUserScript": "",
+            "customGroupMemberOfGroupScript": "",
+            "defaultImage": [],
+            "userProfileImageScript": "return $defaultImage;",
+            "validateEmail": true,
+            "magicLinkUrl": "",
+            "useRecaptcha": false,
+            "recaptchaKey": false,
+            "recaptchaSecret": false
+        }
     },
     "plugin.17": {
         "name": "Google Maps",
@@ -140,7 +166,23 @@
     "plugin.30": {
         "name": "Email",
         "instance": "Email",
-        "parameters": {}
+        "parameters": {
+            "fromEmail": "",
+            "fromEmailName": "",
+            "useSmtp": false,
+            "smtpHost": "",
+            "username": "",
+            "password": "",
+            "port": "587",
+            "useMailgun": false,
+            "domain": "",
+            "apiKey": "",
+            "validateSenderDomain": false,
+            "useGlobalMailTemplate": false,
+            "globalTemplate": "DefaultMailerTemplate",
+            "recieveMail": false,
+            "recieveMailSecretToken": "XXXX-XXXX"
+        }
     },
     "plugin.31": {
         "name": "Events",
@@ -161,6 +203,7 @@
         "name": "Monolog Plugin",
         "instance": "Monolog",
         "parameters": {
+            "enabled": true,
             "logPath": "{front}\/..\/log",
             "logToSentry": false
         }
@@ -171,7 +214,8 @@
         "parameters": {
             "clientSecretUrl": "XXXX-XXXX",
             "clientPublicUrl": "https:\/\/3504daac359744ba9eabd126ba04c588@sentry.io\/172282",
-            "enabled": false
+            "enabled": false,
+            "enabledFrontEnd": false
         }
     },
     "plugin.36": {
@@ -208,6 +252,16 @@
         "name": "Generic Wizard",
         "instance": "WizardBuilder",
         "parameters": {
+            "widgetTitle": "",
+            "target": "map.1",
+            "templateName": "MapItemTemplate",
+            "requireTarget": true,
+            "resolveItemScript": "return item;",
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "onLoadScript": "",
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
@@ -511,47 +565,122 @@
                     }
                 ]
             },
-            "readAccess": "public",
+            "readAccess": "public"
+        }
+    },
+    "widget.34": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.35": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.36": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.37": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.38": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.32": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "custom map style.customScript.js",
+            "widgetTitle": "custom map style",
+            "readAccess": "public"
+        }
+    },
+    "widget.14": {
+        "name": "Attr Search Bar",
+        "instance": "AttributesSearch",
+        "parameters": {
+            "position": "TOP_CENTER",
+            "barWidth": 699,
+            "locationSearch": true,
+            "showFilterBuilder": true,
+            "hoverTheme": false,
+            "themeLabel": "Theme",
+            "showCloud": true,
+            "cloudTable": "",
+            "cloudField": "",
+            "mapitemSearchLabel": "Placemarks",
+            "locationSearchLabel": "Locations",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
             "widgetTitle": "",
-            "onCreateScript": "",
-            "onUpdateScript": "",
-            "onSaveScript": "",
-            "beforeSubmitScript": "",
-            "templateName": "MapItemTemplate",
-            "onLoadScript": "",
-            "requireTarget": true,
+            "readAccess": "public",
+            "searchColor": "rgb(145, 128, 77)",
+            "searchTintColor": "rgb(0,0,0)",
+            "clearColor": "rgb(47, 150, 180)",
+            "clearTintColor": "rgb(0,0,0)",
+            "placeholderText": "Search Location, Items, Attributes...",
+            "searchUsers": false,
+            "alwaysShowClear": true,
             "target": "map.1"
+        }
+    },
+    "widget.13": {
+        "name": "Attribute Cloud",
+        "instance": "AttributesCloud",
+        "parameters": {
+            "tabLabel": "Theme",
+            "className": "add a class attribute value to the tab element",
+            "cloudTable": "markerAttributes",
+            "cloudField": "keywords",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "tabColor": "rgb(145, 128, 77)",
+            "fontColor": "rgb(0, 0, 0)",
+            "showItemCount": true,
+            "scaleItemsWithCount": true,
+            "scaleItemsMax": 25,
+            "scaleItemsMin": 12,
+            "hideEmptyPredefinedValues": true,
+            "showValuesOutsidePredefined": true,
+            "cloudMetadata": [],
+            "widgetTitle": "Theme Tab",
+            "readAccess": "public",
+            "position": "TOP_CENTER",
+            "attributeSelection": [],
+            "formatCloudScript": "",
+            "formatTagScript": "",
+            "formatTabButtonScript": "",
+            "onSelectionChangedScript": "defaultBehaviorFn();",
+            "sendNotifications": false
         }
     },
     "widget.10": {
         "name": "Tile Buttons",
         "instance": "TileButtons",
         "parameters": {
-            "sections": [
-                "fullscreen",
-                "home",
-                "iconset"
-            ],
-            "discussionTag": false,
-            "iconSetReferenceName": "",
-            "markerSearch": true,
-            "groupIcon": [
-                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/I8N_daP_[G]_[ImAgE]_bv0.png"
-            ],
+            "widgetTitle": "Tile Buttons",
+            "target": "",
             "position": "RIGHT_CENTER",
-            "offsetX": 100,
-            "offsetY": 100,
-            "tilePadding": 0,
-            "direction": "auto",
-            "markerSize": 44,
+            "fullscreen": true,
+            "home": true,
+            "iconset": true,
+            "login": true,
+            "logout": true,
+            "controlColor": "rgb(0, 0, 0)",
+            "subControlColor": "rgb(100, 149, 237)",
+            "tileIcon": [],
+            "displayMapSave": "1",
             "tileSize": 54,
-            "showToolTips": true,
-            "fullscreenTip": false,
-            "homeTip": false,
-            "markerTip": false,
-            "loginTip": false,
-            "logoutTip": false,
-            "profileTip": false,
+            "markerSize": 44,
             "markerIconset": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/HL3_3dN_gb3_[G]_[ImAgE].png",
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/Znf_[G]_[ImAgE]_BW_o1q.png",
@@ -560,13 +689,6 @@
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/ibn_K0H_[ImAgE]_[G]_qOw.png",
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_[G]_OCF_bH7_lZQ.png"
             ],
-            "layerMap": {
-                "components\/com_geolive\/users_files\/user_files_681\/Uploads\/[ImAgE]_Vm0_[G]_1MU_JEB.png": "10",
-                "components\/com_geolive\/users_files\/user_files_681\/Uploads\/[ImAgE]_[G]_YZA_LN6_11Z.png": "11",
-                "components\/com_geolive\/users_files\/user_files_681\/Uploads\/oAA_[G]_fOp_[ImAgE]_TJB.png": "12"
-            },
-            "tipMap": [],
-            "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
                     "components\/com_geolive\/users_files\/user_files_680\/Uploads\/HL3_3dN_gb3_[G]_[ImAgE].png": 21,
@@ -615,20 +737,44 @@
                     }
                 }
             },
-            "widgetTitle": "Tile Buttons",
-            "readAccess": "public",
-            "tileIcon": [],
-            "controlColor": "rgb(0, 0, 0)",
-            "subControlColor": "rgb(100, 149, 237)",
+            "groupIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/I8N_daP_[G]_[ImAgE]_bv0.png"
+            ],
+            "showToolTips": true,
+            "useTipIconsetLayerTitle": false,
+            "showLogoutProfile": false,
+            "formatTipScript": "",
             "guestLoginDrag": true,
             "onDragEndScript": "defaultBehaviorFn();",
-            "useTipIconsetLayerTitle": false,
-            "formatTipScript": "",
-            "showLogoutProfile": false,
-            "displayMapSave": "1",
-            "profileIcon": null,
             "onDisplayTileScript": "",
             "onProfileClickScript": "",
+            "sections": [
+                "fullscreen",
+                "home",
+                "iconset"
+            ],
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "fullscreenTip": false,
+            "homeTip": false,
+            "markerTip": false,
+            "loginTip": false,
+            "logoutTip": false,
+            "profileTip": false,
+            "layerMap": {
+                "components\/com_geolive\/users_files\/user_files_681\/Uploads\/[ImAgE]_Vm0_[G]_1MU_JEB.png": "10",
+                "components\/com_geolive\/users_files\/user_files_681\/Uploads\/[ImAgE]_[G]_YZA_LN6_11Z.png": "11",
+                "components\/com_geolive\/users_files\/user_files_681\/Uploads\/oAA_[G]_fOp_[ImAgE]_TJB.png": "12"
+            },
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "readAccess": "public",
+            "profileIcon": null,
             "_raw_layerMap": null,
             "_raw_tipMap": null
         }
@@ -697,6 +843,13 @@
         "name": "Tabbed Info-Window",
         "instance": "TabbedInfoWindowBuilder",
         "parameters": {
+            "widgetTitle": "",
+            "target": "",
+            "templateName": "{target}",
+            "requireTarget": true,
+            "resolveItemScript": "return item",
+            "onRenderApplictionScript": "",
+            "notifyViewer": false,
             "metadata": [
                 "widget.TabbedInfoWindowBuilder.12.metadata.0.json",
                 {
@@ -766,69 +919,30 @@
                 }
             ],
             "hideSingleTab": true,
-            "widgetTitle": "",
             "readAccess": "public"
         }
     },
-    "widget.13": {
-        "name": "Attribute Cloud",
-        "instance": "AttributesCloud",
+    "widget.39": {
+        "name": "Stylesheet",
+        "instance": "CSS",
         "parameters": {
-            "tabLabel": "Theme",
-            "className": "add a class attribute value to the tab element",
-            "cloudTable": "markerAttributes",
-            "cloudField": "keywords",
-            "showDemoTags": false,
-            "demoTagsMinimum": 10,
-            "cloudResults": 30,
-            "tabColor": "rgb(145, 128, 77)",
-            "fontColor": "rgb(0, 0, 0)",
-            "showItemCount": true,
-            "scaleItemsWithCount": true,
-            "scaleItemsMax": 25,
-            "scaleItemsMin": 12,
-            "hideEmptyPredefinedValues": true,
-            "showValuesOutsidePredefined": true,
-            "cloudMetadata": [],
-            "widgetTitle": "Theme Tab",
-            "readAccess": "public",
-            "position": "TOP_CENTER",
-            "attributeSelection": [],
-            "formatCloudScript": "",
-            "formatTagScript": "",
-            "formatTabButtonScript": "",
-            "onSelectionChangedScript": "defaultBehaviorFn();",
-            "sendNotifications": false
+            "cacheable": false,
+            "link": false,
+            "widgetTitle": "Tiles",
+            "target": "map.1",
+            "customCSS": "Tiles.customCSS.css",
+            "readAccess": "public"
         }
     },
-    "widget.14": {
-        "name": "Attr Search Bar",
-        "instance": "AttributesSearch",
+    "widget.24": {
+        "name": "Cluster Behavior",
+        "instance": "ClusterBehaviors",
         "parameters": {
-            "position": "TOP_CENTER",
-            "barWidth": 699,
-            "locationSearch": true,
-            "showFilterBuilder": true,
-            "hoverTheme": false,
-            "themeLabel": "Theme",
-            "showCloud": true,
-            "cloudTable": "",
-            "cloudField": "",
-            "mapitemSearchLabel": "Placemarks",
-            "locationSearchLabel": "Locations",
-            "showDemoTags": false,
-            "demoTagsMinimum": 10,
-            "cloudResults": 30,
-            "widgetTitle": "",
+            "spreadClusters": 0,
+            "spreadClustersWithAnimation": 1,
+            "widgetTitle": "add a label or comment for this widget",
             "readAccess": "public",
-            "searchColor": "rgb(145, 128, 77)",
-            "searchTintColor": "rgb(0,0,0)",
-            "clearColor": "rgb(47, 150, 180)",
-            "clearTintColor": "rgb(0,0,0)",
-            "placeholderText": "Search Location, Items, Attributes...",
-            "searchUsers": false,
-            "alwaysShowClear": true,
-            "target": "map.1"
+            "position": ""
         }
     },
     "widget.17": {
@@ -872,19 +986,82 @@
             "onDragEndScript": "defaultBehaviorFn();"
         }
     },
-    "widget.24": {
-        "name": "Cluster Behavior",
-        "instance": "ClusterBehaviors",
+    "widget.33": {
+        "name": "Flexible Height Widget",
+        "instance": "FlexibleHeight",
         "parameters": {
-            "spreadClusters": 0,
-            "spreadClustersWithAnimation": 1,
-            "widgetTitle": "add a label or comment for this widget",
-            "readAccess": "public",
-            "position": ""
+            "widgetTitle": "",
+            "target": "map.1",
+            "offset": 200,
+            "maxHeight": "1000",
+            "minHeight": "400",
+            "customScript": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.40": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.41": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.42": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.43": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.44": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.45": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {}
+    },
+    "widget.46": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "",
+            "position": "LEFT_TOP",
+            "fullscreen": true,
+            "home": true,
+            "iconset": true,
+            "login": true,
+            "logout": true,
+            "controlColor": "rgb(48,84,107)",
+            "subControlColor": "rgb(100, 149, 237)",
+            "tileIcon": [],
+            "displayMapSave": true,
+            "tileSize": 50,
+            "markerSize": 32,
+            "markerIconset": [],
+            "iconsetMetadata": [],
+            "groupIcon": [],
+            "showToolTips": false,
+            "useTipIconsetLayerTitle": false,
+            "showLogoutProfile": false,
+            "formatTipScript": "",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "onDisplayTileScript": "",
+            "onProfileClickScript": ""
         }
     },
     "widget.26": {
-        "name": "Url Variables Parser",
+        "name": "Map Url Segment Parser",
         "instance": "UrlVariablesBehavior",
         "parameters": {
             "widgetTitle": "",
@@ -896,10 +1073,12 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Rijeka Theme.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Rijeka Theme",
-            "readAccess": "public",
-            "target": "map.1"
+            "target": "map.1",
+            "customCSS": "Rijeka Theme.customCSS.css",
+            "readAccess": "public"
         }
     },
     "widget.29": {
@@ -964,96 +1143,6 @@
             "target": "map.1"
         }
     },
-    "widget.32": {
-        "name": "Javascript",
-        "instance": "CustomBehaviorScript",
-        "parameters": {
-            "customScript": "custom map style.customScript.js",
-            "widgetTitle": "custom map style",
-            "readAccess": "public"
-        }
-    },
-    "widget.33": {
-        "name": "Flexible Height Widget",
-        "instance": "FlexibleHeight",
-        "parameters": {
-            "offset": 200,
-            "customScript": "",
-            "widgetTitle": "",
-            "target": "map.1",
-            "readAccess": "public"
-        }
-    },
-    "widget.34": {
-        "name": "Map Layers Widget",
-        "instance": "Layers",
-        "parameters": {}
-    },
-    "widget.35": {
-        "name": "Search Engine Optimization Helper",
-        "instance": "SearchEngineOptimizationHelper",
-        "parameters": {}
-    },
-    "widget.36": {
-        "name": "No Javascript Helper",
-        "instance": "NoJavascriptHelper",
-        "parameters": {}
-    },
-    "widget.37": {
-        "name": "Login Behavior",
-        "instance": "LoginWizard",
-        "parameters": {}
-    },
-    "widget.38": {
-        "name": "Session Behavior",
-        "instance": "Session",
-        "parameters": {}
-    },
-    "widget.39": {
-        "name": "Stylesheet",
-        "instance": "CSS",
-        "parameters": {
-            "customCSS": "Tiles.customCSS.css",
-            "widgetTitle": "Tiles",
-            "readAccess": "public",
-            "target": "map.1"
-        }
-    },
-    "widget.40": {
-        "name": "Map Layers Widget",
-        "instance": "Layers",
-        "parameters": {}
-    },
-    "widget.41": {
-        "name": "Search Engine Optimization Helper",
-        "instance": "SearchEngineOptimizationHelper",
-        "parameters": {}
-    },
-    "widget.42": {
-        "name": "No Javascript Helper",
-        "instance": "NoJavascriptHelper",
-        "parameters": {}
-    },
-    "widget.43": {
-        "name": "Login Behavior",
-        "instance": "LoginWizard",
-        "parameters": {}
-    },
-    "widget.44": {
-        "name": "Session Behavior",
-        "instance": "Session",
-        "parameters": {}
-    },
-    "widget.45": {
-        "name": "Google Controls",
-        "instance": "GoogleControl",
-        "parameters": {}
-    },
-    "widget.46": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {}
-    },
     "widget.47": {
         "name": "Attr CSV Export",
         "instance": "AttributesCSVExport",
@@ -1079,101 +1168,14 @@
             "target": "map.1"
         }
     },
-    "widget.48": {
-        "name": "Javascript",
-        "instance": "CustomBehaviorScript",
-        "parameters": {
-            "customScript": "Cluster Style.customScript.js",
-            "widgetTitle": "Cluster Style",
-            "readAccess": "public"
-        }
-    },
-    "widget.49": {
-        "name": "Uncluster Button",
-        "instance": "LayerClusterToggleTile",
-        "parameters": {
-            "controlColor": "rgb(0, 0, 0)",
-            "tileIcon": [],
-            "unclusterTip": "Toggle Placemark Clustering",
-            "clusterTip": "",
-            "widgetTitle": "",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER"
-        }
-    },
-    "widget.50": {
-        "name": "Users Item Filter",
-        "instance": "UsersItemFilter",
-        "parameters": {
-            "widgetTitle": "",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER"
-        }
-    },
-    "widget.51": {
-        "name": "Tile Buttons",
-        "instance": "TileButtons",
-        "parameters": {
-            "sections": [
-                "fullscreen",
-                "home"
-            ],
-            "controlColor": "rgb(48,84,107)",
-            "subControlColor": "rgb(100, 149, 237)",
-            "discussionTag": false,
-            "iconSetReferenceName": "",
-            "markerSearch": true,
-            "showLogoutProfile": false,
-            "tileIcon": [],
-            "groupIcon": [],
-            "position": "RIGHT_CENTER",
-            "offsetX": 100,
-            "offsetY": 100,
-            "tilePadding": 0,
-            "direction": "auto",
-            "markerSize": 32,
-            "tileSize": 50,
-            "showToolTips": false,
-            "fullscreenTip": false,
-            "homeTip": false,
-            "markerTip": false,
-            "loginTip": false,
-            "logoutTip": false,
-            "profileTip": false,
-            "displayMapSave": "1",
-            "guestLoginDrag": true,
-            "onDragEndScript": "defaultBehaviorFn();",
-            "profileIcon": null,
-            "useTipIconsetLayerTitle": false,
-            "formatTipScript": "",
-            "onDisplayTileScript": "",
-            "onProfileClickScript": "",
-            "markerIconset": [],
-            "layerMap": [],
-            "tipMap": [],
-            "filterLayerMappedIcons": true,
-            "iconsetMetadata": [],
-            "_raw_layerMap": null,
-            "_raw_tipMap": null,
-            "widgetTitle": "",
-            "readAccess": "public"
-        }
-    },
-    "widget.52": {
-        "name": "Legend",
-        "instance": "Legend",
-        "parameters": {
-            "position": "LEFT_CENTER"
-        }
-    },
     "widget.53": {
         "name": "Named Iconset",
         "instance": "NamedIconset",
         "parameters": {
-            "exposeIconset": true,
-            "iconsetName": "",
             "icons": [],
             "iconsetMetadata": [],
+            "exposeIconset": true,
+            "iconsetName": "",
             "widgetTitle": "Named Polygon Icons",
             "target": "polygon-icons",
             "readAccess": "public",
@@ -1414,10 +1416,110 @@
             "position": "RIGHT_CENTER"
         }
     },
+    "widget.48": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "Cluster Style.customScript.js",
+            "widgetTitle": "Cluster Style",
+            "readAccess": "public"
+        }
+    },
+    "widget.49": {
+        "name": "Uncluster Button",
+        "instance": "LayerClusterToggleTile",
+        "parameters": {
+            "controlColor": "rgb(0, 0, 0)",
+            "tileIcon": [],
+            "unclusterTip": "Toggle Placemark Clustering",
+            "clusterTip": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.50": {
+        "name": "Users Item Filter",
+        "instance": "UsersItemFilter",
+        "parameters": {
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.51": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "",
+            "position": "RIGHT_CENTER",
+            "fullscreen": true,
+            "home": true,
+            "iconset": true,
+            "login": true,
+            "logout": true,
+            "controlColor": "rgb(48,84,107)",
+            "subControlColor": "rgb(100, 149, 237)",
+            "tileIcon": [],
+            "displayMapSave": "1",
+            "tileSize": 50,
+            "markerSize": 32,
+            "markerIconset": [],
+            "iconsetMetadata": [],
+            "groupIcon": [],
+            "showToolTips": false,
+            "useTipIconsetLayerTitle": false,
+            "showLogoutProfile": false,
+            "formatTipScript": "",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "onDisplayTileScript": "",
+            "onProfileClickScript": "",
+            "sections": [
+                "fullscreen",
+                "home"
+            ],
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "fullscreenTip": false,
+            "homeTip": false,
+            "markerTip": false,
+            "loginTip": false,
+            "logoutTip": false,
+            "profileTip": false,
+            "profileIcon": null,
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "_raw_layerMap": null,
+            "_raw_tipMap": null,
+            "readAccess": "public"
+        }
+    },
+    "widget.52": {
+        "name": "Legend",
+        "instance": "Legend",
+        "parameters": {
+            "position": "LEFT_CENTER"
+        }
+    },
     "widget.56": {
         "name": "Detail View",
         "instance": "DetailView",
         "parameters": {
+            "widgetTitle": "Polygon Overlays",
+            "target": "map.1",
+            "templateName": "polygonOverlays",
+            "requireTarget": true,
+            "resolveItemScript": "return item",
+            "onRenderApplictionScript": "",
+            "notifyViewer": false,
             "metadata": {
                 "positions": {
                     "title": {
@@ -1450,12 +1552,7 @@
                 ],
                 "_diagramState": []
             },
-            "templateName": "polygonOverlays",
-            "requireTarget": true,
-            "widgetTitle": "Polygon Overlays",
-            "target": "map.1",
-            "readAccess": "public",
-            "onRenderApplictionScript": ""
+            "readAccess": "public"
         }
     },
     "widget.57": {
@@ -1465,6 +1562,8 @@
             "widgetTitle": "Overlay Tile Custom Script",
             "target": "overlay-tile-fn",
             "customScript": "Overlay Tile Custom Script.customScript.js",
+            "language": "html\/text",
+            "returnsValue": false,
             "readAccess": "public"
         }
     },
@@ -1472,9 +1571,11 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "customCSS": "Generated Styles.customCSS.css",
+            "cacheable": false,
+            "link": false,
             "widgetTitle": "Generated Styles",
             "target": "map.1",
+            "customCSS": "Generated Styles.customCSS.css",
             "readAccess": "public"
         }
     },
