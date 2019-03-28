@@ -336,3 +336,11 @@ span.search-bar-btn.left.search {
     line-height: 20px;
     text-shadow: 0 0 2px black;
 }
+
+span.layer-group.minimized {
+    width: 95px;
+}
+
+span.indicator-switch {
+    margin-top: 17px;
+}
