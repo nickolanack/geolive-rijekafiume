@@ -1,5 +1,5 @@
 $vars=array_merge(
-    $_POST, array('internal'=>'data')
+    get_object_vars($json), array('internal'=>'data')
     );
     
 if(key_exists('data', $vars)){
@@ -11,12 +11,12 @@ GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
 		->to('nickblackwell82@gmail.com')
 		->send();
 
-if($_POST['field']=="title"){
+if($json->field=="title"){
     
     return true;
 }
 
-if($_POST['field']=="description"){
+if($json->field=="description"){
     
     return true;
 }
