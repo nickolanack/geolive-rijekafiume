@@ -958,11 +958,12 @@
         "name": "Function",
         "instance": "UserFunction",
         "parameters": {
-            "widgetTitle": "",
-            "target": "none",
+            "widgetTitle": "CSV Sync",
+            "target": "sync",
             "customScript": "",
-            "language": "html\/text",
-            "returnsValue": false
+            "language": "php",
+            "returnsValue": false,
+            "readAccess": "public"
         }
     },
     "widget.24": {
