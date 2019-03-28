@@ -38,7 +38,7 @@ if(key_exists('description', $json)){
     $feature->setDescription($json->title);
 }
 
-GetPlugin('Maps');
+GetPlugin('Attributes');
 
 if(key_exists('attributes', $json)){
     
