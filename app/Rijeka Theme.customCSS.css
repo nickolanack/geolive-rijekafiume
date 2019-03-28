@@ -317,3 +317,18 @@ span.search-bar-btn.left.search {
     top: 12px;
     height: 36px;
 }
+
+.default-cluster-labels:after {
+    content: attr(data-number);
+    font-size: 13px;
+    width: 20px;
+    left: -10px;
+    top: -9px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+    text-shadow: 0 0 2px black;
+}
