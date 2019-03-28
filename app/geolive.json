@@ -1969,9 +1969,11 @@
         "name": "Template",
         "instance": "Template",
         "parameters": {
-            "contentTemplate": "Message Content",
+            "contentTemplate": "email-syncSheet-content.contentTemplate.html",
             "widgetTitle": "email.syncSheet.content",
-            "target": "email.syncSheet.content"
+            "target": "email.syncSheet.content",
+            "comments": "",
+            "readAccess": "public"
         }
     }
 }
