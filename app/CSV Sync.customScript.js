@@ -24,6 +24,8 @@ if($json->type!=="marker"){
 }
 
 
+$updateInfo=array();
+
 GetPlugin('Maps');
 try {
     $feature = (new \spatial\FeatureLoader())->fromId((int) $json->id);
@@ -39,12 +41,13 @@ if(key_exists('description', $json)){
 }
 
 GetPlugin('Attributes');
+$attributes=(new \attributes\Record('markerAttributes'))->getValues((int) $json->id, $json->type);
 
-if(key_exists('attributes', $json)){
-    
+if(key_exists('attributes', $json)&&key_exists('markerAttributes', $json->attributes)){
+    $attributes=array_merge($attributes,  get_object_vars($json->attributes->markerAttributes));
 }
 
-$attributes=(new \attributes\Record('markerAttributes'))->getValues((int) $json->id, $json->type);
+
 
 return array(
     'marker'=>$feature->getMetadata(),
