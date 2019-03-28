@@ -960,7 +960,7 @@
         "parameters": {
             "widgetTitle": "CSV Sync",
             "target": "sync",
-            "customScript": "echo \"Hello World\";",
+            "customScript": "CSV Sync.customScript.js",
             "language": "php",
             "returnsValue": false,
             "readAccess": "public"
