@@ -158,9 +158,7 @@ opacity:0;
 .infowindow_tr {
   border-top-right-radius: 3px;
 }
-.infowindow_tab {
-  left: -14px;
-}
+
 .infowindow_tab .tab:first-child {
   border-left: 1px solid rgb(195, 182, 144);
 }
@@ -366,4 +364,20 @@ ul.step-numbers {
 
 .iw-content, .info-window_window_page{
    max-width:350px;
+}
+
+.gm-style-iw.gm-style-iw-c {
+     overflow: visible; 
+}
+
+.infowindow_tab {
+    left: 10px;
+    top: -23px;
+}
+
+.infowindow_tab .tab:first-child {
+    border-top-left-radius: 5px;
+}
+.infowindow_tab .tab:last-child {
+    border-top-right-radius: 5px;
 }
