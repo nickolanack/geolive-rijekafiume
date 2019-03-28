@@ -999,11 +999,6 @@
             "readAccess": "public"
         }
     },
-    "widget.41": {
-        "name": "Search Engine Optimization Helper",
-        "instance": "SearchEngineOptimizationHelper",
-        "parameters": {}
-    },
     "widget.42": {
         "name": "No Javascript Helper",
         "instance": "NoJavascriptHelper",
