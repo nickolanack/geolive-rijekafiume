@@ -999,11 +999,6 @@
             "readAccess": "public"
         }
     },
-    "widget.42": {
-        "name": "No Javascript Helper",
-        "instance": "NoJavascriptHelper",
-        "parameters": {}
-    },
     "widget.43": {
         "name": "Login Behavior",
         "instance": "LoginWizard",
