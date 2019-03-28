@@ -12,12 +12,10 @@ GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
 		->send();
 
 if($json->field=="title"){
-    
     return true;
 }
 
 if($json->field=="description"){
-    
     return true;
 }
 
