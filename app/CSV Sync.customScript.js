@@ -2,8 +2,8 @@ $vars=array_merge(
     get_object_vars($json), array('internal'=>'data')
     );
     
-if(key_exists('data', $vars)){
-    $vars['data']=json_decode($vars['data']);
+if(!key_exists('data', $vars)){
+    return $this->setError('Expected edit data in json');
 }
 
 
