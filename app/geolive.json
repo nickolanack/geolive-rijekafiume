@@ -954,18 +954,6 @@
             "readAccess": "public"
         }
     },
-    "widget.64": {
-        "name": "Function",
-        "instance": "UserFunction",
-        "parameters": {
-            "widgetTitle": "CSV Sync",
-            "target": "sync",
-            "customScript": "CSV Sync.customScript.js",
-            "language": "php",
-            "returnsValue": false,
-            "readAccess": "public"
-        }
-    },
     "widget.24": {
         "name": "Cluster Behavior",
         "instance": "ClusterBehaviors",
