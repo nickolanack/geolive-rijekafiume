@@ -1,9 +1,12 @@
-GetPlugin('Email')->getMailerWithTemplate('syncSheet', array_merge(
+$vars=array_merge(
 		    $_POST,
 			array(
 			    'internal'=>'data'	
 			)
-		))
+		);
+
+
+GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
 		->to('nickblackwell82@gmail.com')
 		->send();
 
