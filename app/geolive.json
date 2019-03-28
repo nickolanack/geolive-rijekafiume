@@ -999,11 +999,6 @@
             "readAccess": "public"
         }
     },
-    "widget.43": {
-        "name": "Login Behavior",
-        "instance": "LoginWizard",
-        "parameters": {}
-    },
     "widget.26": {
         "name": "Map Url Segment Parser",
         "instance": "UrlVariablesBehavior",
@@ -1152,7 +1147,7 @@
                     "type": "images",
                     "name": "layer-26",
                     "default": [],
-                    "label": "Water",
+                    "label": "layer-26",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
@@ -1167,7 +1162,7 @@
                     "type": "images",
                     "name": "layer-27",
                     "default": [],
-                    "label": "Water",
+                    "label": "layer-27",
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
@@ -1330,7 +1325,8 @@
             "layer-35": [
                 "components\/com_geolive\/users_files\/user_files_691\/Uploads\/[ImAgE]_lBO_[G]_mVe_BFe.png"
             ],
-            "layer-35-color": "rgb(215, 0, 165)"
+            "layer-35-color": "rgb(215, 0, 165)",
+            "formatOutputScript": "return $parameters;"
         }
     },
     "widget.55": {
