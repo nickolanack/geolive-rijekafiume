@@ -344,3 +344,8 @@ span.layer-group.minimized {
 span.indicator-switch {
     margin-top: 17px;
 }
+
+
+ul.step-numbers {
+    display: none;
+}
