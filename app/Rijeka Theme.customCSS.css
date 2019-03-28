@@ -318,6 +318,10 @@ span.search-bar-btn.left.search {
     height: 36px;
 }
 
+
+.default-cluster-labels {
+    font-size: 0;
+}
 .default-cluster-labels:after {
     content: attr(data-number);
     font-size: 13px;
