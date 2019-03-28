@@ -11,12 +11,17 @@ GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
 		->to('nickblackwell82@gmail.com')
 		->send();
 
-if($json->field=="title"){
-    return true;
+if(!key_exists('id', $json)){
+    return array("success"=>false, "message"=>'missing id');
 }
 
-if($json->field=="description"){
-    return true;
+if(!key_exists('type', $json)){
+    return array("success"=>false, "message"=>'type');
 }
+
+if($json->type!=="marker"){
+    return array("success"=>false, "message"=>'Expected type to be marker: '.$json->type);
+}
+
 
 return array("success"=>false, "message"=>'Invalid field: '.$json->field.': Expected title or description');
