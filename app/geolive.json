@@ -43,7 +43,27 @@
             "PrettyPrintJson": true,
             "JSCacheObfuscationEnabled": false,
             "ExternalizeWidgetScripts": true,
-            "phase": "production"
+            "phase": "production",
+            "showFrontEndEditButtons": false,
+            "ForceHTTPS": false,
+            "allowProxiesFrom": [
+                "*",
+                ""
+            ],
+            "pluginPaths": [
+                ""
+            ],
+            "widgetPaths": [
+                ""
+            ],
+            "modulePaths": [
+                ""
+            ],
+            "sandboxDomains": [
+                "*.z.geolive.ca",
+                "*.s22.ok.ubc.ca",
+                ""
+            ]
         }
     },
     "plugin.24": {
