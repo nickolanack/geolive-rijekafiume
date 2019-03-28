@@ -11,6 +11,14 @@ GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
 		->to('nickblackwell82@gmail.com')
 		->send();
 
+if($_POST['field']=="title"){
+    
+    return true;
+}
 
+if($_POST['field']=="description"){
+    
+    return true;
+}
 
-return array("success"=>true);
+return false;
