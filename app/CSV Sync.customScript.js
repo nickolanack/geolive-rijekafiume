@@ -13,4 +13,4 @@ GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
 
 
 
-echo json_encode(array("success"=>true));
+return array("success"=>true);
