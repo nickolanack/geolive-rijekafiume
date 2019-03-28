@@ -3,7 +3,7 @@ $vars=array_merge(
     );
     
 if(!key_exists('data', $vars)){
-    return $this->setError('Expected edit data in json');
+    return array("success"=>false, "message"=>'Expected edit data in json');
 }
 
 
@@ -19,4 +19,4 @@ if($json->field=="description"){
     return true;
 }
 
-return $this->setError('Invalid field: '.$json->field.': Expected title or description');
+return array("success"=>false, "message"=>'Invalid field: '.$json->field.': Expected title or description');
