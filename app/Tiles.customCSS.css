@@ -54,20 +54,6 @@
 
 
 
-.module-wizard .WizardButton {
-	background-color: #777777;
-	border: 1px solid black;
-	border-radius: 2px 2px 2px 2px;
-	cursor: pointer;
-	float: right;
-	list-style: none outside none;
-	margin-left: 2px;
-	overflow: hidden;
-	padding-bottom: 0;
-	padding-left: 0;
-	padding-top: 0;
-}
-
 span.t-btn.post {
 	background-color: white;
 }
