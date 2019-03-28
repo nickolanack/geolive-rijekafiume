@@ -1975,5 +1975,12 @@
             "comments": "",
             "readAccess": "public"
         }
+    },
+    "widget.67": {
+        "name": "Ajax Method",
+        "instance": "AjaxMethod",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
