@@ -1004,11 +1004,6 @@
         "instance": "LoginWizard",
         "parameters": {}
     },
-    "widget.45": {
-        "name": "Google Controls",
-        "instance": "GoogleControl",
-        "parameters": {}
-    },
     "widget.26": {
         "name": "Map Url Segment Parser",
         "instance": "UrlVariablesBehavior",
