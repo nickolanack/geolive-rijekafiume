@@ -1004,11 +1004,6 @@
         "instance": "LoginWizard",
         "parameters": {}
     },
-    "widget.44": {
-        "name": "Session Behavior",
-        "instance": "Session",
-        "parameters": {}
-    },
     "widget.45": {
         "name": "Google Controls",
         "instance": "GoogleControl",
