@@ -283,10 +283,6 @@ input.discussion-textbox {
     background-color: #CCC09F;
 }
 
-.info-window_window_page {
-    width: 450px;
-}
-
 
 
 span.search-bar-btn.left.fltr-bldr.users-items.c {
@@ -348,4 +344,26 @@ span.indicator-switch {
 
 ul.step-numbers {
     display: none;
+}
+
+
+ul.step-numbers {
+    display: none;
+}
+
+.form-navigation-btns .btn, .iw-footer .t-btn {
+    background: white;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+    cursor: pointer;
+    float: right;
+    list-style: none outside none;
+    margin: 3px;
+    padding: 0 15px;
+    height: 37px;
+    font-size: 14px;
+}
+
+.iw-content, .info-window_window_page{
+   max-width:350px;
 }
