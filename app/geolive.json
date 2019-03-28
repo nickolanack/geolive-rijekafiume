@@ -1953,5 +1953,23 @@
             "readAccess": "public",
             "position": ""
         }
+    },
+    "widget.65": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "Subject",
+            "widgetTitle": "email.syncSheet.subject",
+            "target": "email.syncSheet.subject"
+        }
+    },
+    "widget.66": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "Message Content",
+            "widgetTitle": "email.syncSheet.content",
+            "target": "email.syncSheet.content"
+        }
     }
 }
