@@ -21,4 +21,4 @@ if($json->field=="description"){
     return true;
 }
 
-return false;
+return $this->setError('Invalid field: '.$json->field.': Expected title or description');
