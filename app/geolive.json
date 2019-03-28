@@ -999,11 +999,6 @@
             "readAccess": "public"
         }
     },
-    "widget.40": {
-        "name": "Map Layers Widget",
-        "instance": "Layers",
-        "parameters": {}
-    },
     "widget.41": {
         "name": "Search Engine Optimization Helper",
         "instance": "SearchEngineOptimizationHelper",
