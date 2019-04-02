@@ -58,7 +58,7 @@
 			'attributes' => array("markerAttributes" => $attributes),
 		);
 
-	}
+	//}
 
 //}
 
