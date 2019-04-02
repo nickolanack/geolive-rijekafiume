@@ -1942,6 +1942,13 @@
             "position": ""
         }
     },
+    "widget.68": {
+        "name": "Configuration",
+        "instance": "Configuration",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.65": {
         "name": "Template",
         "instance": "Template",

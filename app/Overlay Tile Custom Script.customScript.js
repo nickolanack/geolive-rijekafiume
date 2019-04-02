@@ -1,4 +1,4 @@
- <?php
+<?php
 
 //'featureMetadata' => $featureMetadata,
 			//	'image' => $image,
