@@ -1954,7 +1954,7 @@
             "parameters": [
                 "csvSyncConfig.parameters.0.json"
             ],
-            "csvSecret": "",
+            "csvSecret": "XXXX-XXXX",
             "widgetTitle": "csvSyncConfig",
             "readAccess": "public"
         }
