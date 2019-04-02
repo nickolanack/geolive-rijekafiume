@@ -11,6 +11,11 @@ GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
 		->to('nickblackwell82@gmail.com')
 		->send();
 
+
+if(!(key_exists('secret', $json)&&$json->secret===GetWidget('csvSyncConfig')->getParameter('csvSecret'))){
+     return array("success"=>false, "message"=>'missing secret');
+}
+
 if(!key_exists('id', $json)){
     return array("success"=>false, "message"=>'missing id');
 }
