@@ -1,7 +1,3 @@
-<?php
-
-
-
 //class CsvSync {
 
 	//public function execute($json) {
