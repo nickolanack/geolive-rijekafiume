@@ -1,6 +1,10 @@
-class CsvSync {
+<?php
 
-	public function execute($json) {
+
+
+//class CsvSync {
+
+	//public function execute($json) {
 
 		$vars = array_merge(
 			get_object_vars($json), array('internal' => 'data')
@@ -60,9 +64,11 @@ class CsvSync {
 
 	}
 
-}
+//}
 
 
 
 
-return (new CsvSync())->execute($json);
+//return (new CsvSync())->execute($json);
+
+//return array("success"=>false, "message"=>'Invalid field: '.$json->field.': Expected title or description');
