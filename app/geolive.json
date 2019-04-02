@@ -1946,7 +1946,17 @@
         "name": "Configuration",
         "instance": "Configuration",
         "parameters": {
-            "target": "none"
+            "target": "csvSyncConfig",
+            "contentTemplate": "",
+            "comments": "",
+            "formatParametersScript": "return $parameters;",
+            "formatOutputScript": "return $parameters;",
+            "parameters": [
+                "csvSyncConfig.parameters.0.json"
+            ],
+            "csvSecret": "",
+            "widgetTitle": "csvSyncConfig",
+            "readAccess": "public"
         }
     },
     "widget.65": {
