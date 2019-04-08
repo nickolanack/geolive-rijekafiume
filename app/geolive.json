@@ -2033,7 +2033,9 @@
             "logout": false,
             "controlColor": "rgb(0, 0, 0)",
             "subControlColor": "rgb(100, 149, 237)",
-            "tileIcon": [],
+            "tileIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_94k_[ImAgE]_bLs_ome.png"
+            ],
             "displayMapSave": true,
             "tileSize": "50",
             "markerSize": "32",
