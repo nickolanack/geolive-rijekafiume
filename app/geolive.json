@@ -2198,7 +2198,7 @@
             "target": "forTheCuratedMap",
             "downloadImage": [],
             "uploadImage": [],
-            "controlColor": "rgb(48,84,107)",
+            "controlColor": "rgb(223, 0, 171)",
             "tileHoverTip": "Download CSV File",
             "exportMetadata": {
                 "fields": "DEFAULT"
