@@ -2000,7 +2000,9 @@
             "target": "tourMap",
             "templateName": "googlemap",
             "loadWidgetsWithTarget": "forTheCuratedMap",
-            "mapOptions": [],
+            "mapOptions": {
+                "height": 500
+            },
             "readAccess": "public"
         }
     }
