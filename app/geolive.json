@@ -2030,7 +2030,7 @@
             "fullscreen": true,
             "home": true,
             "iconset": true,
-            "login": true,
+            "login": false,
             "logout": false,
             "controlColor": "rgb(0, 0, 0)",
             "subControlColor": "rgb(100, 149, 237)",
