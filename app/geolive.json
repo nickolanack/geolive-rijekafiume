@@ -2025,18 +2025,18 @@
         "parameters": {
             "widgetTitle": "",
             "target": "none",
-            "position": "LEFT_TOP",
+            "position": "RIGHT_CENTER",
             "fullscreen": true,
             "home": true,
             "iconset": true,
-            "login": true,
-            "logout": true,
-            "controlColor": "rgb(48,84,107)",
+            "login": false,
+            "logout": false,
+            "controlColor": "rgb(0, 0, 0)",
             "subControlColor": "rgb(100, 149, 237)",
             "tileIcon": [],
             "displayMapSave": true,
-            "tileSize": 50,
-            "markerSize": 32,
+            "tileSize": "50",
+            "markerSize": "32",
             "markerIconset": [],
             "iconsetMetadata": [],
             "groupIcon": [],
@@ -2047,7 +2047,10 @@
             "guestLoginDrag": true,
             "onDragEndScript": "defaultBehaviorFn();",
             "onDisplayTileScript": "",
-            "onProfileClickScript": ""
+            "onProfileClickScript": "",
+            "layerMap": [],
+            "tipMap": [],
+            "readAccess": "public"
         }
     }
 }
