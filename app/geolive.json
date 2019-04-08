@@ -2067,5 +2067,18 @@
         "parameters": {
             "target": "none"
         }
+    },
+    "widget.73": {
+        "name": "Detail View",
+        "instance": "DetailView",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "none",
+            "templateName": "{target}",
+            "requireTarget": true,
+            "resolveItemScript": "return item",
+            "onRenderApplictionScript": "",
+            "notifyViewer": false
+        }
     }
 }
