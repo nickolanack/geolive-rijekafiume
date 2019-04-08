@@ -2199,7 +2199,7 @@
             "downloadImage": [],
             "uploadImage": [],
             "controlColor": "rgb(223, 0, 171)",
-            "tileHoverTip": "Download CSV File",
+            "tileHoverTip": "Download curated map data",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
@@ -2208,7 +2208,7 @@
             "exportEncoding": "UTF-8",
             "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
+            "filename": "Curated Tour Content DATE[Y-m-d (H.i.s)]",
             "filterRowScript": "return true;",
             "filterFieldsScript": "return true;",
             "widgetTitle": "",
