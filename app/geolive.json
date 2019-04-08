@@ -2190,5 +2190,12 @@
             },
             "readAccess": "public"
         }
+    },
+    "widget.74": {
+        "name": "Attr CSV Export",
+        "instance": "AttributesCSVExport",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
