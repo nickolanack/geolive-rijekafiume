@@ -2034,14 +2034,19 @@
             "logout": false,
             "controlColor": "rgb(0, 0, 0)",
             "subControlColor": "rgb(100, 149, 237)",
-            "tileIcon": [
-                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_94k_[ImAgE]_bLs_ome.png"
-            ],
+            "tileIcon": [],
             "displayMapSave": true,
             "tileSize": "50",
             "markerSize": "32",
-            "markerIconset": [],
-            "iconsetMetadata": [],
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_94k_[ImAgE]_bLs_ome.png"
+            ],
+            "iconsetMetadata": {
+                "layerMap": {
+                    "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_94k_[ImAgE]_bLs_ome.png": 36
+                },
+                "renderSettings": []
+            },
             "groupIcon": [],
             "showToolTips": false,
             "useTipIconsetLayerTitle": false,
