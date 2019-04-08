@@ -1995,12 +1995,13 @@
         "name": "Google Map",
         "instance": "GoogleMap",
         "parameters": {
-            "widgetTitle": "",
+            "widgetTitle": "Curated Tours Map",
             "loadMapId": "{default}",
-            "target": "none",
+            "target": "tourMap",
             "templateName": "googlemap",
-            "loadWidgetsWithTarget": "forTheMap",
-            "mapOptions": []
+            "loadWidgetsWithTarget": "forTheCuratedMap",
+            "mapOptions": [],
+            "readAccess": "public"
         }
     }
 }
