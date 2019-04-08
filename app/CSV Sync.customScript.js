@@ -39,24 +39,43 @@
 			return array("success" => false, "message" => 'Item ' . ((int) $json->id) . ': not found');
 		}
 
-		if (key_exists('title', $json)) {
-			$feature->setName($json->title);
-		}
-		if (key_exists('description', $json)) {
-			$feature->setDescription($json->title);
-		}
-
+		
 		GetPlugin('Attributes');
 		$attributes = (new \attributes\Record('markerAttributes'))->getValues((int) $json->id, $json->type);
 
-		if (key_exists('attributes', $json) && key_exists('markerAttributes', $json->attributes)) {
-			$attributes = array_merge($attributes, get_object_vars($json->attributes->markerAttributes));
-		}
 
-		return array(
+		$before=array(
 			'marker' => $feature->getMetadata(),
 			'attributes' => array("markerAttributes" => $attributes),
 		);
+
+
+		if(key_exists('title', $json)||key_exists('description', $json)){
+
+			if (key_exists('title', $json)) {
+				$feature->setName($json->title);
+			}
+			if (key_exists('description', $json)) {
+				$feature->setDescription($json->title);
+			}
+
+			(new \spatial\FeatureLoader())->save($feature);
+			
+		}
+
+		if (key_exists('attributes', $json) && key_exists('markerAttributes', $json->attributes)) {
+
+			(new \attributes\Record('markerAttributes'))->setValues((int) $json->id, $json->type, $json->attributes->markerAttributes);
+
+			$attributes = array_merge($attributes, get_object_vars($json->attributes->markerAttributes));
+		}
+
+		$after=array(
+			'marker' => $feature->getMetadata(),
+			'attributes' => array("markerAttributes" => $attributes),
+		);
+
+		return $after;
 
 	//}
 
