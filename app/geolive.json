@@ -1990,5 +1990,17 @@
             "widgetTitle": "CSV Sync",
             "readAccess": "public"
         }
+    },
+    "widget.69": {
+        "name": "Google Map",
+        "instance": "GoogleMap",
+        "parameters": {
+            "widgetTitle": "",
+            "loadMapId": "{default}",
+            "target": "none",
+            "templateName": "googlemap",
+            "loadWidgetsWithTarget": "forTheMap",
+            "mapOptions": []
+        }
     }
 }
