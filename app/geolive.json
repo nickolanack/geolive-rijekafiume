@@ -2010,7 +2010,7 @@
         "name": "Flexible Height Widget",
         "instance": "FlexibleHeight",
         "parameters": {
-            "widgetTitle": "Flexible Height",
+            "widgetTitle": "forTheCuratedMap",
             "target": "forTheCuratedMap",
             "offset": "100",
             "maxHeight": "1000",
