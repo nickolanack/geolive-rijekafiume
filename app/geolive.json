@@ -1996,7 +1996,7 @@
         "instance": "GoogleMap",
         "parameters": {
             "widgetTitle": "Curated Tours Map",
-            "loadMapId": "{default}",
+            "loadMapId": "4",
             "target": "tourMap",
             "templateName": "googlemap",
             "loadWidgetsWithTarget": "forTheCuratedMap",
