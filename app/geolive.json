@@ -2060,5 +2060,12 @@
             "tipMap": [],
             "readAccess": "public"
         }
+    },
+    "widget.72": {
+        "name": "Form View",
+        "instance": "UserWizardBuilder",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
