@@ -6,8 +6,8 @@ $parameters['types']=array(
 foreach($categories as $cat){
     if($cat){
         $parameters['types'][]=array(
-            "type"=>"html",
-            "html"=>$cat
+            "type"=>"heading",
+            "value"=>$cat
         );
     }
 }
