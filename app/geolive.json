@@ -1647,7 +1647,7 @@
             "formatOutputScript": "return $parameters;",
             "mainView": "menu-v1",
             "views": {
-                "menu-v1": "{view.augmented}",
+                "menu-v1": "{views.augmented}",
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
