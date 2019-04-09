@@ -2297,6 +2297,15 @@
             "readAccess": "public"
         }
     },
+    "widget.77": {
+        "name": "Attributes Table",
+        "instance": "AttributesTable",
+        "parameters": {
+            "widgetTitle": "",
+            "metadata": [],
+            "target": "none"
+        }
+    },
     "widget.76": {
         "name": "Javascript",
         "instance": "CustomBehaviorScript",
