@@ -1,0 +1,1 @@
+application.setDefaultFormView('loginView');

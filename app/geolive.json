@@ -2309,7 +2309,7 @@
         "instance": "CustomBehaviorScript",
         "parameters": {
             "target": "forTheCuratedMap",
-            "customScript": "",
+            "customScript": "widget.CustomBehaviorScript.76.customScript.js",
             "widgetTitle": "",
             "readAccess": "public"
         }
