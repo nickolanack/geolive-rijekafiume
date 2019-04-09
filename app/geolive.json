@@ -1644,7 +1644,7 @@
             "augmentedIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_awz_[G]_ScZ_knh.png"
             ],
-            "formatOutputScript": "return $parameters;",
+            "formatOutputScript": "mobile-app-config.formatOutputScript.js",
             "mainView": "menu-v1",
             "views": {
                 "menu-v1": [
