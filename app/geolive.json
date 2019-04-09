@@ -1645,7 +1645,7 @@
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_awz_[G]_ScZ_knh.png"
             ],
             "formatOutputScript": "return $parameters;",
-            "mainView": "menu-v1",
+            "mainView": "menu",
             "views": {
                 "menu-v1": "{menu.json}",
                 "menu": "{menu.json}",
