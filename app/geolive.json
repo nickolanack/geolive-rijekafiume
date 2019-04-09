@@ -1679,7 +1679,7 @@
                 "about": [
                     "mobile-app-config.views.about.0.json"
                 ],
-                "types": [],
+                "types": "{types}",
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
