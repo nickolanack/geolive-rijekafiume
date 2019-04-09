@@ -2302,8 +2302,34 @@
         "instance": "AttributesTable",
         "parameters": {
             "widgetTitle": "",
-            "metadata": [],
-            "target": "none"
+            "metadata": {
+                "title": "curatedAttributes",
+                "_tableDiagramState": {
+                    "x": 391,
+                    "y": 244
+                },
+                "_diagramState": {
+                    "x": 391,
+                    "y": 244
+                },
+                "appliesTo": [
+                    "marker"
+                ],
+                "_typeDiagramState": {
+                    "x": 100,
+                    "y": 300
+                },
+                "readAccess": "public",
+                "maxEntries": 1,
+                "createAutomatically": 1,
+                "description": "",
+                "fields": [
+                    "widget.AttributesTable.77.metadata.fields.0.json"
+                ]
+            },
+            "target": "curatedAttributes",
+            "readAccess": "public",
+            "position": ""
         }
     },
     "widget.76": {

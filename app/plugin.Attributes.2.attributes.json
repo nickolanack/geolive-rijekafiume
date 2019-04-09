@@ -241,5 +241,56 @@
                 }
             ]
         }
+    },
+    {
+        "id": "3",
+        "name": "curatedAttributes",
+        "description": "",
+        "label": "",
+        "suffix": "_7331",
+        "metadata": {
+            "title": "curatedAttributes",
+            "readAccess": "public",
+            "appliesTo": [
+                "marker"
+            ],
+            "id": "3",
+            "suffix": "_7331",
+            "description": "",
+            "fields": [
+                {
+                    "visibility": "public",
+                    "tableId": "3",
+                    "tableName": "curatedAttributes",
+                    "tableSuffix": "_7331",
+                    "title": "priority",
+                    "label": "Some Data 0",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ]
+        }
     }
 ]
