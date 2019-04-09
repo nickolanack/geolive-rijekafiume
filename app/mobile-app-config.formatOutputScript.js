@@ -6,7 +6,7 @@ $parameters['types']=array(
 foreach($categories as $cat){
     if($cat){
         $parameters['types']=array(
-            )
+            );
     }
 }
 
