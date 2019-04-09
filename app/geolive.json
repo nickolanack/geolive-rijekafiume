@@ -2303,5 +2303,12 @@
             "onLoadScript": "",
             "readAccess": "public"
         }
+    },
+    "widget.76": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
