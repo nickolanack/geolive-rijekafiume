@@ -3,21 +3,27 @@
     "className": "augmented-menu btn-main",
     "buttons": [
         {
-            "label": "hello",
+            "label": "periods",
             "action": "form",
-            "form": "augmented",
+            "form": "about",
             "icon": "{augmentedIcon}"
         },
         {
-            "label": "hello",
+            "label": "markers",
             "action": "form",
-            "form": "augmented",
+            "form": "about",
             "icon": "{augmentedIcon}"
         },
         {
-            "label": "hello",
+            "label": "tours",
             "action": "form",
-            "form": "augmented",
+            "form": "about",
+            "icon": "{augmentedIcon}"
+        },
+        {
+            "label": "your rijeka",
+            "action": "form",
+            "form": "about",
             "icon": "{augmentedIcon}"
         }
     ]
