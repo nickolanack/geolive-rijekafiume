@@ -1676,6 +1676,9 @@
                         ]
                     }
                 ],
+                "about": [
+                    "mobile-app-config.views.about.0.json"
+                ],
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
