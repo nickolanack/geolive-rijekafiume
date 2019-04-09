@@ -1106,25 +1106,27 @@
         "name": "Attr CSV Export",
         "instance": "AttributesCSVExport",
         "parameters": {
+            "widgetTitle": "",
+            "target": "map.1",
+            "position": "RIGHT_BOTTOM",
             "downloadImage": [],
-            "uploadImage": [],
             "controlColor": "rgb(0, 0, 0)",
+            "tileHoverTip": "Download CSV File",
+            "exportEncoding": "UTF-8",
+            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
-            "showImport": false,
-            "tileIcon": [],
-            "exportEncoding": "UTF-8",
-            "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
-            "widgetTitle": "",
-            "readAccess": "special",
-            "position": "RIGHT_BOTTOM",
-            "tileHoverTip": "Download CSV File",
-            "filterRowScript": "return true;",
+            "importEncoding": "UTF-8",
+            "showImport": false,
             "filterFieldsScript": "return true;",
-            "target": "map.1"
+            "filterRowScript": "return true;",
+            "formatFieldsScript": "return $fields;",
+            "formatRowScript": "return $record;",
+            "uploadImage": [],
+            "tileIcon": [],
+            "readAccess": "special"
         }
     },
     "widget.53": {
@@ -2195,25 +2197,27 @@
         "name": "Attr CSV Export",
         "instance": "AttributesCSVExport",
         "parameters": {
+            "widgetTitle": "",
             "target": "forTheCuratedMap",
+            "position": "RIGHT_CENTER",
             "downloadImage": [],
-            "uploadImage": [],
             "controlColor": "rgb(223, 0, 171)",
             "tileHoverTip": "Download curated map data",
+            "exportEncoding": "UTF-8",
+            "filename": "Curated Tour Content DATE[Y-m-d (H.i.s)]",
             "exportMetadata": {
                 "fields": "DEFAULT"
             },
-            "showImport": false,
-            "tileIcon": [],
-            "exportEncoding": "UTF-8",
-            "importEncoding": "UTF-8",
             "showImportEncoding": false,
-            "filename": "Curated Tour Content DATE[Y-m-d (H.i.s)]",
-            "filterRowScript": "return true;",
+            "importEncoding": "UTF-8",
+            "showImport": false,
             "filterFieldsScript": "return true;",
-            "widgetTitle": "",
-            "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "filterRowScript": "return true;",
+            "formatFieldsScript": "return $fields;",
+            "formatRowScript": "return $record;",
+            "uploadImage": [],
+            "tileIcon": [],
+            "readAccess": "public"
         }
     },
     "widget.75": {
