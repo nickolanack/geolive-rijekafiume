@@ -7,18 +7,6 @@
             "action": "form",
             "form": "augmented",
             "icon": "{augmentedIcon}"
-        },
-        {
-            "label": "{augmented-label}",
-            "action": "form",
-            "form": "augmented",
-            "icon": "{augmentedIcon}"
-        },
-        {
-            "label": "{augmented-label}",
-            "action": "form",
-            "form": "augmented",
-            "icon": "{augmentedIcon}"
         }
     ]
 }
