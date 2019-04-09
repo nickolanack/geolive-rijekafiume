@@ -41,12 +41,16 @@
 
 		
 		GetPlugin('Attributes');
-		$attributes = (new \attributes\Record('markerAttributes'))->getValues((int) $json->id, $json->type);
+		$markerAttributes = (new \attributes\Record('markerAttributes'))->getValues((int) $json->id, $json->type);
+		$curatedAttributes = (new \attributes\Record('curatedAttributes'))->getValues((int) $json->id, $json->type);
 
 
 		$before=array(
 			'marker' => $feature->getMetadata(),
-			'attributes' => array("markerAttributes" => $attributes),
+			'attributes' => array(
+				"markerAttributes" => $markerAttributes,
+				"curatedAttributes" => $curatedAttributes
+			),
 		);
 
 
@@ -63,17 +67,30 @@
 			
 		}
 
+		$after=array(
+			'marker' => $feature->getMetadata(),
+			'attributes' => array(
+				"markerAttributes" => $markerAttributes,
+				"curatedAttributes" => $curatedAttributes
+			)
+		);
+
 		if (key_exists('attributes', $json) && key_exists('markerAttributes', $json->attributes)) {
 
 			(new \attributes\Record('markerAttributes'))->setValues((int) $json->id, $json->type, $json->attributes->markerAttributes);
-
-			$attributes = array_merge($attributes, get_object_vars($json->attributes->markerAttributes));
+			$markerAttributes = array_merge($markerAttributes, get_object_vars($json->attributes->markerAttributes));
+			$after['attributes']["markerAttributes"]=$markerAttributes;
 		}
 
-		$after=array(
-			'marker' => $feature->getMetadata(),
-			'attributes' => array("markerAttributes" => $attributes),
-		);
+
+		if (key_exists('attributes', $json) && key_exists('curatedAttributes', $json->attributes)) {
+
+			(new \attributes\Record('curatedAttributes'))->setValues((int) $json->id, $json->type, $json->attributes->curatedAttributes);
+			$curatedAttributes = array_merge($curatedAttributes, get_object_vars($json->attributes->curatedAttributes));
+			$after['attributes']["curatedAttributes"]=$curatedAttributes;
+		}
+
+		
 
 		return $after;
 
