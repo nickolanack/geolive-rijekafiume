@@ -3,7 +3,7 @@
     "className": "augmented-menu btn-main",
     "buttons": [
         {
-            "label": "{augmented-label}",
+            "label": "hello",
             "action": "form",
             "form": "augmented",
             "icon": "{augmentedIcon}"
