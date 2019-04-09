@@ -1558,17 +1558,9 @@
             "contentTemplate": "",
             "comments": "",
             "formatParametersScript": "return $parameters;",
-            "parameters": {
-                "appLogo": {
-                    "type": "images",
-                    "name": "appLogo",
-                    "default": [],
-                    "label": "Logo",
-                    "maxHeight": 256,
-                    "maxWidth": 256,
-                    "limit": 1
-                },
-                "aboutIcon": {
+            "parameters": [
+                "mobile-app-config.parameters.0.json",
+                {
                     "type": "images",
                     "name": "aboutIcon",
                     "default": [],
@@ -1577,7 +1569,7 @@
                     "maxWidth": 64,
                     "limit": 1
                 },
-                "surveyIcon": {
+                {
                     "type": "images",
                     "name": "surveyIcon",
                     "default": [],
@@ -1586,7 +1578,7 @@
                     "maxWidth": 64,
                     "limit": 1
                 },
-                "mapIcon": {
+                {
                     "type": "images",
                     "name": "mapIcon",
                     "default": [],
@@ -1595,7 +1587,7 @@
                     "maxWidth": 64,
                     "limit": 1
                 },
-                "profileIcon": {
+                {
                     "type": "images",
                     "name": "profileIcon",
                     "default": [],
@@ -1604,7 +1596,7 @@
                     "maxWidth": 64,
                     "limit": 1
                 },
-                "augmentedIcon": {
+                {
                     "type": "images",
                     "name": "augmentedIcon",
                     "default": [],
@@ -1612,8 +1604,14 @@
                     "maxHeight": 64,
                     "maxWidth": 64,
                     "limit": 1
+                },
+                {
+                    "type": "text",
+                    "name": "mainView",
+                    "default": "menu",
+                    "label": "Main View"
                 }
-            },
+            ],
             "appLogo": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_[G]_ewP_Th3_6Nj.png"
             ],
@@ -1634,7 +1632,9 @@
             ],
             "augmentedIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_awz_[G]_ScZ_knh.png"
-            ]
+            ],
+            "formatOutputScript": "return $parameters;",
+            "mainView": "menu"
         }
     },
     "widget.61": {
