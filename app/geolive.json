@@ -1610,6 +1610,17 @@
                     "name": "mainView",
                     "default": "menu",
                     "label": "Main View"
+                },
+                {
+                    "type": "json",
+                    "name": "views",
+                    "default": {
+                        "menu-v1": "{menu.json}",
+                        "menu": "{menu.json}",
+                        "map": "{map.json}",
+                        "augmented": "{augmented.json}"
+                    },
+                    "label": "Views"
                 }
             ],
             "appLogo": [
@@ -1634,7 +1645,13 @@
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_awz_[G]_ScZ_knh.png"
             ],
             "formatOutputScript": "return $parameters;",
-            "mainView": "menu-v1"
+            "mainView": "menu-v1",
+            "views": {
+                "menu-v1": "{menu.json}",
+                "menu": "{menu.json}",
+                "map": "{map.json}",
+                "augmented": "{augmented.json}"
+            }
         }
     },
     "widget.61": {
