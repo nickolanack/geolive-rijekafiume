@@ -2293,7 +2293,7 @@
                 ]
             },
             "widgetTitle": "",
-            "templateName": "LoginWizard",
+            "templateName": "loginForm",
             "requireTarget": true,
             "resolveItemScript": "return item;",
             "beforeSubmitScript": "",
