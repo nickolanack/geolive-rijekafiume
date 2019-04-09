@@ -264,10 +264,10 @@
                     "tableName": "curatedAttributes",
                     "tableSuffix": "_7331",
                     "title": "priority",
-                    "label": "Some Data 0",
+                    "label": "Priority",
                     "description": "",
                     "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {

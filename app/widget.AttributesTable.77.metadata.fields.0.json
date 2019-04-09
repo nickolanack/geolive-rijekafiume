@@ -1,10 +1,10 @@
 {
     "was": "",
     "title": "priority",
-    "label": "Some Data 0",
+    "label": "Priority",
     "description": "",
     "icon": [],
-    "color": "rgb(undefined, undefined, undefined)",
+    "color": "rgb(NaN, NaN, NaN)",
     "visibility": "public",
     "editability": "registered",
     "searchability": "public",

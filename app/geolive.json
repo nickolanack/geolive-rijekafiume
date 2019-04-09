@@ -2305,12 +2305,12 @@
             "metadata": {
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
-                    "x": 391,
-                    "y": 244
+                    "x": 322,
+                    "y": 275
                 },
                 "_diagramState": {
-                    "x": 391,
-                    "y": 244
+                    "x": 322,
+                    "y": 275
                 },
                 "appliesTo": [
                     "marker"
