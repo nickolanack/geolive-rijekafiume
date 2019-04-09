@@ -1,1 +1,1 @@
-application.setDefaultLoginView('loginView');
+application.setDefaultLoginView('loginForm');
