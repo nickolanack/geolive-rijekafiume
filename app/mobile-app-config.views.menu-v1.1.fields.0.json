@@ -1,0 +1,21 @@
+{
+    "type": "buttonset",
+    "buttons": [
+        {
+            "label": "{map-label}",
+            "action": "form",
+            "form": "map",
+            "icon": "{mapIcon}",
+            "permissions": [
+                "gps"
+            ]
+        },
+        {
+            "label": "{profile-label}",
+            "action": "form",
+            "persist": true,
+            "form": "profile",
+            "icon": "{profileIcon}"
+        }
+    ]
+}

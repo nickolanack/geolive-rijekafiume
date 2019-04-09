@@ -1,0 +1,19 @@
+{
+    "type": "buttonset",
+    "buttons": [
+        {
+            "label": "Survey",
+            "action": "link",
+            "icon": "{surveyIcon}",
+            "link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSeX4fffGCudV_IvQMKwa0WIufPG1m-kgAAB0_U5fr9G15J87w\/viewform",
+            "className": "small-icon"
+        },
+        {
+            "label": "About",
+            "action": "form",
+            "form": "about",
+            "icon": "{aboutIcon}",
+            "className": "small-icon"
+        }
+    ]
+}

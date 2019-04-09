@@ -1647,7 +1647,35 @@
             "formatOutputScript": "return $parameters;",
             "mainView": "menu-v1",
             "views": {
-                "menu-v1": "{views.augmented}",
+                "menu-v1": [
+                    "mobile-app-config.views.menu-v1.0.json",
+                    {
+                        "type": "fieldset",
+                        "position": "bottom-center",
+                        "fields": [
+                            "mobile-app-config.views.menu-v1.1.fields.0.json"
+                        ]
+                    },
+                    {
+                        "type": "fieldset",
+                        "fields": [
+                            "mobile-app-config.views.menu-v1.2.fields.0.json"
+                        ]
+                    },
+                    {
+                        "type": "space"
+                    },
+                    {
+                        "type": "progressbar"
+                    },
+                    {
+                        "type": "fieldset",
+                        "position": "top-center",
+                        "fields": [
+                            "mobile-app-config.views.menu-v1.5.fields.0.json"
+                        ]
+                    }
+                ],
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
