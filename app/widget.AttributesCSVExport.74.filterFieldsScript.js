@@ -1,0 +1,1 @@
+return strpos($fieldFormat['field'], 'attributes.markerAttributes')===false);

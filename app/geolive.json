@@ -2211,7 +2211,7 @@
             "showImportEncoding": false,
             "importEncoding": "UTF-8",
             "showImport": false,
-            "filterFieldsScript": "return true;",
+            "filterFieldsScript": "widget.AttributesCSVExport.74.filterFieldsScript.js",
             "filterRowScript": "widget.AttributesCSVExport.74.filterRowScript.js",
             "formatFieldsScript": "return $fields;",
             "formatRowScript": "return $record;",
