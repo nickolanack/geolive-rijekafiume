@@ -11,7 +11,7 @@
         {
             "label": "markers",
             "action": "form",
-            "form": "about",
+            "form": "types",
             "icon": "{augmentedIcon}"
         },
         {
