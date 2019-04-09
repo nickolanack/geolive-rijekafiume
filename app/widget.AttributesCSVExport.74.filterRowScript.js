@@ -1,0 +1,1 @@
+return $record->{"layer id"}==36;

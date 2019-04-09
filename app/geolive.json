@@ -2212,7 +2212,7 @@
             "importEncoding": "UTF-8",
             "showImport": false,
             "filterFieldsScript": "return true;",
-            "filterRowScript": "return true;",
+            "filterRowScript": "widget.AttributesCSVExport.74.filterRowScript.js",
             "formatFieldsScript": "return $fields;",
             "formatRowScript": "return $record;",
             "uploadImage": [],
