@@ -1633,6 +1633,15 @@
                     "limit": 1
                 },
                 {
+                    "type": "images",
+                    "name": "userIcon",
+                    "default": [],
+                    "label": "User Items",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
                     "type": "text",
                     "name": "mainView",
                     "default": "menu",
@@ -1713,7 +1722,8 @@
             },
             "categoriesIcon": [],
             "periodsIcon": [],
-            "tourIcon": []
+            "tourIcon": [],
+            "userIcon": []
         }
     },
     "widget.61": {
