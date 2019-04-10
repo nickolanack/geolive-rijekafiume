@@ -1707,6 +1707,9 @@
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/DJ_[ImAgE]_u27_[G]_anT.png"
             ],
             "views": {
+                "test-list": [
+                    "mobile-app-config.views.test-list.0.json"
+                ],
                 "menu-v1": [
                     "mobile-app-config.views.menu-v1.0.json",
                     {

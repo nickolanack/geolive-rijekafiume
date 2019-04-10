@@ -1,0 +1,22 @@
+{
+    "type": "list",
+    "list": [
+        1,
+        2,
+        3
+    ],
+    "empty": [
+        {
+            "type": "heading",
+            "value": "nothing here"
+        }
+    ],
+    "before": [],
+    "listItemFields": [
+        {
+            "type": "label",
+            "value": "item"
+        }
+    ],
+    "after": []
+}
