@@ -20,7 +20,7 @@
             "action": "share",
             "link": "https:\/\/rijeka.geolive.ca\/app-download",
             "linkLabel": "Check out this app",
-            "icon": "{share}",
+            "icon": "{shareIcon}",
             "className": "small-icon"
         }
     ]
