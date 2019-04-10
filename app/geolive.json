@@ -1571,6 +1571,15 @@
                 },
                 {
                     "type": "images",
+                    "name": "shareIcon",
+                    "default": [],
+                    "label": "Share",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
                     "name": "surveyIcon",
                     "default": [],
                     "label": "Survey",
@@ -1731,7 +1740,8 @@
             ],
             "userIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_ggN_Yyt_[G]_RyT.png"
-            ]
+            ],
+            "shareIcon": []
         }
     },
     "widget.61": {
