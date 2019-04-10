@@ -1720,12 +1720,18 @@
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
             },
-            "categoriesIcon": [],
-            "periodsIcon": [],
+            "categoriesIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_jCE_3MY_[ImAgE]_b6E.png"
+            ],
+            "periodsIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/j3M_1f6_MQb_[G]_[ImAgE].png"
+            ],
             "tourIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_RJr_5OB_[G]_3bf.png"
             ],
-            "userIcon": []
+            "userIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_ggN_Yyt_[G]_RyT.png"
+            ]
         }
     },
     "widget.61": {
