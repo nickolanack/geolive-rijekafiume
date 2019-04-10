@@ -1606,6 +1606,33 @@
                     "limit": 1
                 },
                 {
+                    "type": "images",
+                    "name": "categoriesIcon",
+                    "default": [],
+                    "label": "Categories",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "periodsIcon",
+                    "default": [],
+                    "label": "Periods",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "tourIcon",
+                    "default": [],
+                    "label": "Tours",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
                     "type": "text",
                     "name": "mainView",
                     "default": "menu",
@@ -1683,7 +1710,10 @@
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
-            }
+            },
+            "categoriesIcon": [],
+            "periodsIcon": [],
+            "tourIcon": []
         }
     },
     "widget.61": {
