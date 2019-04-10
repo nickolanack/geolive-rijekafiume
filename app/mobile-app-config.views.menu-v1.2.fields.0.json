@@ -17,13 +17,13 @@
         {
             "label": "tours",
             "action": "form",
-            "form": "about",
+            "form": "placeholder",
             "icon": "{tourIcon}"
         },
         {
             "label": "your rijeka",
             "action": "form",
-            "form": "about",
+            "form": "placeholder",
             "icon": "{profileIcon}"
         }
     ]

@@ -1743,6 +1743,21 @@
                 "about": [
                     "mobile-app-config.views.about.0.json",
                     {
+                        "type": "html",
+                        "value": "This is a description of the app who its for and why it was made"
+                    },
+                    {
+                        "type": "html",
+                        "value": "This is a description of the research the team"
+                    },
+                    {
+                        "type": "html",
+                        "value": "This is a shoutout to Geolive mapping server and opensource software"
+                    }
+                ],
+                "placeholder": [
+                    "mobile-app-config.views.placeholder.0.json",
+                    {
                         "type": "label",
                         "value": "This is a placeholder page"
                     }
