@@ -1691,37 +1691,6 @@
             ],
             "formatOutputScript": "mobile-app-config.formatOutputScript.js",
             "mainView": "menu-v1",
-            "views": {
-                "menu-v1": [
-                    "mobile-app-config.views.menu-v1.0.json",
-                    {
-                        "type": "fieldset",
-                        "fields": [
-                            "mobile-app-config.views.menu-v1.1.fields.0.json"
-                        ]
-                    },
-                    {
-                        "type": "space"
-                    },
-                    {
-                        "type": "progressbar"
-                    },
-                    {
-                        "type": "fieldset",
-                        "position": "top-center",
-                        "fields": [
-                            "mobile-app-config.views.menu-v1.4.fields.0.json"
-                        ]
-                    }
-                ],
-                "about": [
-                    "mobile-app-config.views.about.0.json"
-                ],
-                "types": "{types}",
-                "menu": "{menu.json}",
-                "map": "{map.json}",
-                "augmented": "{augmented.json}"
-            },
             "categoriesIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_jCE_3MY_[ImAgE]_b6E.png"
             ],
