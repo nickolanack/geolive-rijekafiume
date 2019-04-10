@@ -9,7 +9,7 @@
             "className": "small-icon"
         },
         {
-            "label": "About",
+            "label": "Help\/About",
             "action": "form",
             "form": "about",
             "icon": "{aboutIcon}",
