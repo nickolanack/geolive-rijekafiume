@@ -1722,7 +1722,9 @@
             },
             "categoriesIcon": [],
             "periodsIcon": [],
-            "tourIcon": [],
+            "tourIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_RJr_5OB_[G]_3bf.png"
+            ],
             "userIcon": []
         }
     },
