@@ -1712,7 +1712,9 @@
                     {
                         "type": "fieldset",
                         "position": "bottom-center",
-                        "fields": []
+                        "fields": [
+                            "mobile-app-config.views.menu-v1.1.fields.0.json"
+                        ]
                     },
                     {
                         "type": "fieldset",
