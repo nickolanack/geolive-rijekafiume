@@ -2,10 +2,10 @@
     "type": "buttonset",
     "buttons": [
         {
-            "label": "Survey",
+            "label": "Issues",
             "action": "link",
             "icon": "{surveyIcon}",
-            "link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSeX4fffGCudV_IvQMKwa0WIufPG1m-kgAAB0_U5fr9G15J87w\/viewform",
+            "link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSd5Z3ugPsScom9p_lGJvGDGBh1prd-ubKxpRXPrS0A5xhNM8w\/viewform?usp=sf_link",
             "className": "small-icon"
         },
         {
