@@ -14,8 +14,11 @@
     "before": [],
     "listItemFields": [
         {
-            "type": "label",
-            "value": "item"
+            "type": "button",
+            "label": "tours",
+            "action": "form",
+            "form": "about",
+            "icon": "{tourIcon}"
         }
     ],
     "after": []
