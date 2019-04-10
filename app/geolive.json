@@ -1696,15 +1696,8 @@
                     "mobile-app-config.views.menu-v1.0.json",
                     {
                         "type": "fieldset",
-                        "position": "bottom-center",
                         "fields": [
                             "mobile-app-config.views.menu-v1.1.fields.0.json"
-                        ]
-                    },
-                    {
-                        "type": "fieldset",
-                        "fields": [
-                            "mobile-app-config.views.menu-v1.2.fields.0.json"
                         ]
                     },
                     {
@@ -1717,7 +1710,7 @@
                         "type": "fieldset",
                         "position": "top-center",
                         "fields": [
-                            "mobile-app-config.views.menu-v1.5.fields.0.json"
+                            "mobile-app-config.views.menu-v1.4.fields.0.json"
                         ]
                     }
                 ],

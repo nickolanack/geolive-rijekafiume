@@ -1,20 +1,29 @@
 {
     "type": "buttonset",
+    "className": "augmented-menu btn-main",
     "buttons": [
         {
-            "label": "{map-label}",
+            "label": "periods",
             "action": "form",
-            "form": "map",
-            "icon": "{mapIcon}",
-            "permissions": [
-                "gps"
-            ]
+            "form": "about",
+            "icon": "{periodsIcon}"
         },
         {
-            "label": "{profile-label}",
+            "label": "markers",
             "action": "form",
-            "persist": true,
-            "form": "profile",
+            "form": "types",
+            "icon": "{categoriesIcon}"
+        },
+        {
+            "label": "tours",
+            "action": "form",
+            "form": "about",
+            "icon": "{tourIcon}"
+        },
+        {
+            "label": "your rijeka",
+            "action": "form",
+            "form": "about",
             "icon": "{profileIcon}"
         }
     ]
