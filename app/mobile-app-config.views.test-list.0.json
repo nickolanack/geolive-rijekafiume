@@ -14,11 +14,20 @@
     "before": [],
     "listItemFields": [
         {
-            "type": "button",
-            "label": "tours",
-            "action": "form",
-            "form": "about",
-            "icon": "{tourIcon}"
+            "type": "fieldset",
+            "fields": [
+                {
+                    "type": "button",
+                    "label": "tours",
+                    "action": "form",
+                    "form": "about",
+                    "icon": "{tourIcon}"
+                },
+                {
+                    "type": "label",
+                    "value": "Label"
+                }
+            ]
         }
     ],
     "after": []
