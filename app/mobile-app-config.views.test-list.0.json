@@ -17,15 +17,12 @@
             "type": "fieldset",
             "fields": [
                 {
-                    "type": "button",
-                    "label": "tours",
-                    "action": "form",
-                    "form": "about",
-                    "icon": "{tourIcon}"
-                },
-                {
                     "type": "label",
                     "value": "Label"
+                },
+                {
+                    "type": "html",
+                    "html": "Hello World"
                 }
             ]
         }
