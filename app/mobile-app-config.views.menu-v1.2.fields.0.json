@@ -6,25 +6,25 @@
             "label": "periods",
             "action": "form",
             "form": "about",
-            "icon": "{augmentedIcon}"
+            "icon": "{periodsIcon}"
         },
         {
             "label": "markers",
             "action": "form",
             "form": "types",
-            "icon": "{augmentedIcon}"
+            "icon": "{categoriesIcon}"
         },
         {
             "label": "tours",
             "action": "form",
             "form": "about",
-            "icon": "{augmentedIcon}"
+            "icon": "{tourIcon}"
         },
         {
             "label": "your rijeka",
             "action": "form",
             "form": "about",
-            "icon": "{augmentedIcon}"
+            "icon": "{profileIcon}"
         }
     ]
 }
