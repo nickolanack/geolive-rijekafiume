@@ -14,6 +14,14 @@
             "form": "about",
             "icon": "{aboutIcon}",
             "className": "small-icon"
+        },
+        {
+            "label": "Share",
+            "action": "share",
+            "link": "https:\/\/rijeka.geolive.ca\/app-download",
+            "linkLabel": "Check out this app",
+            "icon": "{share}",
+            "className": "small-icon"
         }
     ]
 }
