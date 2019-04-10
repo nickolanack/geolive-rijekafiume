@@ -5,7 +5,7 @@
         {
             "label": "periods",
             "action": "form",
-            "form": "about",
+            "form": "test-list",
             "icon": "{periodsIcon}"
         },
         {
