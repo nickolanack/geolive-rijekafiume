@@ -1743,6 +1743,10 @@
                 "about": [
                     "mobile-app-config.views.about.0.json",
                     {
+                        "type": "heading",
+                        "value": "Rijeka Fiume App"
+                    },
+                    {
                         "type": "html",
                         "value": "This is a description of the app who its for and why it was made"
                     },
