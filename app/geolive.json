@@ -1736,6 +1736,7 @@
                         ]
                     }
                 ],
+                "types": "{types}",
                 "about": [
                     "mobile-app-config.views.about.0.json"
                 ],
