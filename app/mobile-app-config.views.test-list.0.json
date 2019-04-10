@@ -1,9 +1,18 @@
 {
     "type": "list",
     "list": [
-        1,
-        2,
-        3
+        {
+            "label": "Item 1",
+            "html": "some html"
+        },
+        {
+            "label": "Item 2",
+            "html": "some html 2"
+        },
+        {
+            "label": "Item 3",
+            "html": "some html 3"
+        }
     ],
     "empty": [
         {
@@ -18,11 +27,11 @@
             "fields": [
                 {
                     "type": "label",
-                    "value": "Label"
+                    "value": "{value.label}"
                 },
                 {
                     "type": "html",
-                    "value": "Hello World"
+                    "value": "{value.html}"
                 }
             ]
         }
