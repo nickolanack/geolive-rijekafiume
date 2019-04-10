@@ -1741,7 +1741,11 @@
                 ],
                 "types": "{types}",
                 "about": [
-                    "mobile-app-config.views.about.0.json"
+                    "mobile-app-config.views.about.0.json",
+                    {
+                        "type": "label",
+                        "value": "This is a placeholder page"
+                    }
                 ],
                 "menu": "{menu.json}",
                 "map": "{map.json}",
