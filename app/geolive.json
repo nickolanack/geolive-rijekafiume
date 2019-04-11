@@ -1681,6 +1681,12 @@
                     "label": "yourLabel"
                 },
                 {
+                    "type": "text",
+                    "name": "mapLabel",
+                    "default": "mapLabel",
+                    "label": "mapLabel"
+                },
+                {
                     "type": "json",
                     "name": "views",
                     "default": {
@@ -1799,7 +1805,8 @@
             "periodsLabel": "peRIods of DEVELOPMENT",
             "categoriesLabel": "RI mARkers TYPOLOGIES",
             "toursLabel": "A Real_scape of RIJEKA",
-            "yourLabel": "(Y)OUR RIjeka"
+            "yourLabel": "(Y)OUR RIjeka",
+            "mapLabel": "mapLabel"
         }
     },
     "widget.61": {
