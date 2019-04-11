@@ -6,7 +6,7 @@ if(strpos($fieldFormat['label'], 'layer ')===0){
     return false;
 }
 
-if(in_array(array('coordinates', 'image count', 'url',	'created date',	'last modification date', 'read access'), $fieldFormat['label'])){
+if(in_array($fieldFormat['label'], array('coordinates', 'image count', 'url',	'created date',	'last modification date', 'read access'))){
     return false;
 }
 
