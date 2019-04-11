@@ -5,10 +5,10 @@ foreach($categories as $cat){
     if($cat){
         $buttons[]=array(
             
-            "label": $cat,
-            "action": "form",
-            "view": "map",
-             "icon": "{categoriesIcon}"
+            "label"=>$cat,
+            "action"=> "form",
+            "view"=> "map",
+             "icon"=> "{categoriesIcon}"
         );
     }
 }
@@ -20,7 +20,7 @@ $parameters['types']=array(
             "fields"=>array(
                 array(
                     "type"=>"buttonset",
-                    "className": "btn-main",
+                    "className"=> "btn-main",
                     "buttons"=>$buttons
                 )
             )
