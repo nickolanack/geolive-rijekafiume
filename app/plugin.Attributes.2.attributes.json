@@ -487,11 +487,11 @@
                     "tableId": "3",
                     "tableName": "curatedAttributes",
                     "tableSuffix": "_7331",
-                    "title": "references",
+                    "title": "citations",
                     "label": "References",
                     "description": "",
                     "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {

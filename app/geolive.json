@@ -2493,19 +2493,19 @@
             "metadata": {
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
-                    "x": 442,
-                    "y": 145
+                    "x": 350,
+                    "y": 257
                 },
                 "_diagramState": {
-                    "x": 442,
-                    "y": 145
+                    "x": 350,
+                    "y": 257
                 },
                 "appliesTo": [
                     "marker"
                 ],
                 "_typeDiagramState": {
-                    "x": 209,
-                    "y": 283
+                    "x": 100,
+                    "y": 300
                 },
                 "readAccess": "public",
                 "maxEntries": 1,
@@ -2779,11 +2779,11 @@
                     },
                     {
                         "was": "",
-                        "title": "references",
+                        "title": "citations",
                         "label": "References",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
