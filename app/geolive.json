@@ -2842,7 +2842,10 @@
         "name": "Ajax Method",
         "instance": "AjaxMethod",
         "parameters": {
-            "target": "none"
+            "target": "none",
+            "customScript": "widget.AjaxMethod.78.customScript.js",
+            "widgetTitle": "",
+            "readAccess": "public"
         }
     }
 }
