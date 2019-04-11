@@ -1770,7 +1770,8 @@
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
-            }
+            },
+            "NaN": "periods test"
         }
     },
     "widget.61": {
