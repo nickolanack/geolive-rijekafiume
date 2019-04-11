@@ -1770,6 +1770,22 @@
                     }
                 ],
                 "types": "{types}",
+                "mainmap": [
+                    "mobile-app-config.views.mainmap.0.json",
+                    {
+                        "type": "map",
+                        "position": "detail-top",
+                        "layers": [
+                            36
+                        ],
+                        "center": [
+                            45.320116149473989,
+                            14.44043993835453
+                        ],
+                        "zoom": 13,
+                        "zoomToLocation": false
+                    }
+                ],
                 "periods": "{periods}",
                 "about": [
                     "mobile-app-config.views.about.0.json",
