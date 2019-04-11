@@ -27,7 +27,7 @@
 		}
 
 
-		if(str_pos($json->type, 'label-')===0){
+		if(strpos($json->type, 'label-')===0){
 			$name=explode('-', $json->type, 2);
 			$name=array_pop($name);
 
