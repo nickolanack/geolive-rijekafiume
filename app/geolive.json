@@ -2837,5 +2837,12 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.78": {
+        "name": "Ajax Method",
+        "instance": "AjaxMethod",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
