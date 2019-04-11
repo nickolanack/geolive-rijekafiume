@@ -28,7 +28,7 @@
 
 
 		if($json->type==='label'){
-			if(!(key_exists('title', $json)){
+			if(!(key_exists('title', $json))){
 				return array("success" => false, "message" => 'missing title');	
 			}
 			GetWidget('mobile-app-config')
