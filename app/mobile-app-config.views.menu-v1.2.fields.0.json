@@ -3,25 +3,25 @@
     "className": "augmented-menu btn-main",
     "buttons": [
         {
-            "label": "periods",
+            "label": "{periodsLabel}",
             "action": "form",
             "view": "periods",
             "icon": "{periodsIcon}"
         },
         {
-            "label": "markers",
+            "label": "{categoriesLabel}",
             "action": "form",
             "view": "types",
             "icon": "{categoriesIcon}"
         },
         {
-            "label": "tours",
+            "label": "{toursLabel}",
             "action": "form",
             "view": "placeholder",
             "icon": "{tourIcon}"
         },
         {
-            "label": "your rijeka",
+            "label": "{yourLabel}",
             "action": "form",
             "view": "placeholder",
             "icon": "{profileIcon}"
