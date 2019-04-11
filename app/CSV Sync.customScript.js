@@ -27,15 +27,15 @@
 		}
 
 
-		if($json->type==='label'){
+		if(str_pos($json->type, 'label-')===0){
+			$name=explode('-', $json->type, 2);
+			$name=array_pop($name);
+
 			if(!(key_exists('title', $json))){
 				return array("success" => false, "message" => 'missing title');	
 			}
-			if(!(key_exists('description', $json))){
-				return array("success" => false, "message" => 'missing description');	
-			}
 			GetWidget('mobile-app-config')
-				->setParameter($json->title, $json->description)
+				->setParameter($name, $json->title)
 				->storeParameters();
 
 			return true;
