@@ -2847,5 +2847,12 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.79": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
