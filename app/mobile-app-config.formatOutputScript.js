@@ -12,6 +12,22 @@ foreach($categories as $cat){
     }
 }
 
+
+
+$periods=(new \attributes\Record('curatedAttributes'))->distinctValues('period');
+$parameters['periods']=array(
+        
+    );
+foreach($periods as $period){
+    if($period){
+        $parameters['periods'][]=array(
+            "type"=>"heading",
+            "value"=>$period
+        );
+    }
+}
+
+ 
  
  
 return $parameters;
