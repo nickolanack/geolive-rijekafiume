@@ -1740,6 +1740,7 @@
                     }
                 ],
                 "types": "{types}",
+                "periods": "{periods}",
                 "about": [
                     "mobile-app-config.views.about.0.json",
                     {

@@ -5,25 +5,25 @@
         {
             "label": "periods",
             "action": "form",
-            "form": "test-list",
+            "view": "periods",
             "icon": "{periodsIcon}"
         },
         {
             "label": "markers",
             "action": "form",
-            "form": "types",
+            "view": "types",
             "icon": "{categoriesIcon}"
         },
         {
             "label": "tours",
             "action": "form",
-            "form": "placeholder",
+            "view": "placeholder",
             "icon": "{tourIcon}"
         },
         {
             "label": "your rijeka",
             "action": "form",
-            "form": "placeholder",
+            "view": "placeholder",
             "icon": "{profileIcon}"
         }
     ]
