@@ -1,8 +1,8 @@
-if(strpos($fieldFormat['label'] 'item owner')===0){
+if(strpos($fieldFormat['label'], 'item owner')===0){
     return false;
 }
 
-if(strpos($fieldFormat['label'] 'layer ')===0){
+if(strpos($fieldFormat['label'], 'layer ')===0){
     return false;
 }
 
