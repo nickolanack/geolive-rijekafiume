@@ -1657,6 +1657,30 @@
                     "label": "Main View"
                 },
                 {
+                    "type": "text",
+                    "name": "periodsLabel",
+                    "default": "periodsLabel",
+                    "label": "periodsLabel"
+                },
+                {
+                    "type": "text",
+                    "name": "categoriesLabel",
+                    "default": "categoriesLabel",
+                    "label": "categoriesLabel"
+                },
+                {
+                    "type": "text",
+                    "name": "toursLabel",
+                    "default": "toursLabel",
+                    "label": "toursLabel"
+                },
+                {
+                    "type": "text",
+                    "name": "yourLabel",
+                    "default": "yourLabel",
+                    "label": "yourLabel"
+                },
+                {
                     "type": "json",
                     "name": "views",
                     "default": {
@@ -1771,7 +1795,11 @@
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
             },
-            "NaN": "periods test"
+            "NaN": "periods test",
+            "periodsLabel": "periodsLabel",
+            "categoriesLabel": "categoriesLabel",
+            "toursLabel": "toursLabel",
+            "yourLabel": "yourLabel"
         }
     },
     "widget.61": {
