@@ -2852,7 +2852,24 @@
         "name": "Google Controls",
         "instance": "GoogleControl",
         "parameters": {
-            "target": "none"
+            "target": "forTheCuratedMap",
+            "showStreetControl": true,
+            "streetControlPosition": "LEFT_TOP",
+            "showPanControl": true,
+            "panControlPosition": "LEFT_TOP",
+            "showZoomControl": true,
+            "zoomControl": "SMALL",
+            "zoomControlPosition": "LEFT_TOP",
+            "showMapTypeControl": true,
+            "mapType": "HORIZONTAL_BAR",
+            "mapTypePosition": "TOP_RIGHT",
+            "showMapScaleControl": true,
+            "mapScaleType": "DEFAULT",
+            "mapScalePosition": "BOTTOM_RIGHT",
+            "showMapOverviewControl": false,
+            "mapOverviewControlOpened": false,
+            "widgetTitle": "",
+            "readAccess": "public"
         }
     }
 }
