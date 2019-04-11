@@ -7,7 +7,7 @@ foreach($categories as $cat){
             
             "label"=>$cat,
             "action"=> "form",
-            "view"=> "map",
+            "view"=> "mainmap",
              "icon"=> "{categoriesIcon}"
         );
     }
