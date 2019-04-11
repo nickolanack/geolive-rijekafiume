@@ -5,8 +5,7 @@ $layer=(int)$json->layer;
 
 return array(
     "items"=>(new spatial\Features())->listLayerItems($layer)
-
-        ->map(function($item)use(){
+        ->map(function($item){
             
            
             
