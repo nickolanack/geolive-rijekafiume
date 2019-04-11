@@ -23,8 +23,21 @@
 		}
 
 		if (!key_exists('type', $json)) {
-			return array("success" => false, "message" => 'type');
+			return array("success" => false, "message" => 'missing type');
 		}
+
+
+		if($json->type==='label'){
+			if(!(key_exists('title', $json){
+				return array("success" => false, "message" => 'missing title');	
+			}
+			GetWidget('mobile-app-config')
+				->setParameter($json->id, $json->title)
+				->storeParameters();
+
+			return true;
+		}
+
 
 		if ($json->type !== "marker") {
 			return array("success" => false, "message" => 'Expected type to be marker: ' . $json->type);
