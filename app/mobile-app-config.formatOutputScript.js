@@ -1,17 +1,33 @@
 GetPlugin('Attributes');
 $categories=(new \attributes\Record('curatedAttributes'))->distinctValues('category');
-$parameters['types']=array(
-        
-    );
+$buttons=array();
 foreach($categories as $cat){
     if($cat){
-        $parameters['types'][]=array(
-            "type"=>"heading",
+        $buttons[]=array(
+            "type"=>"button",
             "value"=>$cat
+
+            "label": $cat,
+            "action": "form",
+            "view": "map",
+             "icon": "{categoriesIcon}"
         );
     }
 }
 
+
+$parameters['types']=array(
+        array(
+            "type"=>"fieldset",
+            "fields"=>array(
+                array(
+                    "type"=>"buttonset",
+                    "className": "btn-main",
+                    "buttons"=>$buttons
+                )
+            )
+        )
+    );
 
 
 $periods=(new \attributes\Record('curatedAttributes'))->distinctValues('period');
