@@ -17,7 +17,7 @@
         {
             "label": "{toursLabel}",
             "action": "form",
-            "view": "mainmap",
+            "view": "map",
             "icon": "{tourIcon}"
         },
         {
