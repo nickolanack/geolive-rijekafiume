@@ -2842,7 +2842,7 @@
         "name": "Ajax Method",
         "instance": "AjaxMethod",
         "parameters": {
-            "target": "none",
+            "target": "listMarkers",
             "customScript": "widget.AjaxMethod.78.customScript.js",
             "widgetTitle": "",
             "readAccess": "public"
