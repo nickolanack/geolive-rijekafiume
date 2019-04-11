@@ -4,9 +4,7 @@ $buttons=array();
 foreach($categories as $cat){
     if($cat){
         $buttons[]=array(
-            "type"=>"button",
-            "value"=>$cat
-
+            
             "label": $cat,
             "action": "form",
             "view": "map",
