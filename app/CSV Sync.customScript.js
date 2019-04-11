@@ -1,3 +1,7 @@
+<?php
+
+
+
 //class CsvSync {
 
 	//public function execute($json) {
@@ -31,8 +35,11 @@
 			if(!(key_exists('title', $json))){
 				return array("success" => false, "message" => 'missing title');	
 			}
+			if(!(key_exists('description', $json))){
+				return array("success" => false, "message" => 'missing description');	
+			}
 			GetWidget('mobile-app-config')
-				->setParameter($json->id, $json->title)
+				->setParameter($json->title, $json->description)
 				->storeParameters();
 
 			return true;
