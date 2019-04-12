@@ -32,6 +32,10 @@ $periods=(new \attributes\Record('curatedAttributes'))->distinctValues('period')
 $parameters['periods']=array(
         
     );
+
+if(empty($periods){
+    $periods[]="Test";
+}
 foreach($periods as $period){
     if($period){
         $parameters['periods'][]=array(
