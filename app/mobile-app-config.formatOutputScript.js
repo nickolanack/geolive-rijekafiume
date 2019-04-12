@@ -33,7 +33,7 @@ $parameters['periods']=array(
         
     );
 
-if(empty($periods){
+if(empty($periods)){
     $periods[]="Test";
 }
 foreach($periods as $period){
