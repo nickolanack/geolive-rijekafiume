@@ -1775,9 +1775,7 @@
                     {
                         "type": "map",
                         "position": "detail-top",
-                        "layers": [
-                            36
-                        ],
+                        "layers": "{data.layers}",
                         "center": [
                             45.320116149473989,
                             14.44043993835453
