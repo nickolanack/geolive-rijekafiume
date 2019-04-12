@@ -5,7 +5,7 @@ $attr=new \attributes\Record('curatedAttributes');
 
 //$layer=(int)$json->layer;
 
-error_log(json_encode($json));
+
 
 return array(
     "items"=>array_filter((new spatial\Features())->listLayerItems(36)
@@ -18,6 +18,7 @@ return array(
             
         }), function($item)use($json){
                 
+            error_log(json_encode($json));
             if(key_exists("filterCategory",$json)){
                return $json->filterCategory==$item['attributes']['category'];
             }
