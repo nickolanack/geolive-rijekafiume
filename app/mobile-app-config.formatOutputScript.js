@@ -1,8 +1,13 @@
 GetPlugin('Attributes');
 $categories=(new \attributes\Record('curatedAttributes'))->distinctValues('category');
+$categories=array_filter($categories, function($c){
+    return !!$c;
+});
+
+
 $buttons=array();
 
-if(empty($categories)||(!is_array($categories))){
+if(empty($categories)){
     $categories=array("Test Cat");
 }
 foreach($categories as $cat){
@@ -33,12 +38,16 @@ $parameters['types']=array(
 
 
 $periods=(new \attributes\Record('curatedAttributes'))->distinctValues('period');
+$periods=array_filter($periods, function($p){
+    return !!$p;
+});
+
 $parameters['periods']=array(
         
     );
 
 if(empty($periods)){
-    $periods[]="Test";
+    $periods=array("Test");
 }
 foreach($periods as $period){
     if($period){
