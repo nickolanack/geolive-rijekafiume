@@ -18,7 +18,7 @@ return array(
             
         }), function($item)use($json){
                 
-            error_log(json_encode($json));
+            //error_log(json_encode($json));
             if(key_exists("filterCategory",$json)){
                return $json->filterCategory==$item['attributes']['category'];
             }
