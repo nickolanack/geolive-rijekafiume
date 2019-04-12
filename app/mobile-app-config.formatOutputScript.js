@@ -2,8 +2,8 @@ GetPlugin('Attributes');
 $categories=(new \attributes\Record('curatedAttributes'))->distinctValues('category');
 $buttons=array();
 
-if(empty($categories)){
-    $categories[]="Test Cat";
+if(empty($categories)||(!is_array($categories))){
+    $categories=array("Test Cat");
 }
 foreach($categories as $cat){
     if($cat){
