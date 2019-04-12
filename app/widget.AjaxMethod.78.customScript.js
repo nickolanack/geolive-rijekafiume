@@ -18,6 +18,15 @@ return array(
             
         }), function($item)use($json){
                 
+            if(key_exists("filterCategory",$json)){
+               return $json->filterCategory==$item['attributes']['category'];
+            }
+            if(key_exists("filterPeriod",$json)){
+               if(is_array($item['attributes']['category'])){
+                   return in_array($json->filterPeriod, $item['attributes']['category']);
+               }
+               return $json->filterPeriod==$item['attributes']['category'];
+            }
                 
             return true;
             
