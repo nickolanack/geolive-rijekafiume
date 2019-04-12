@@ -21,7 +21,7 @@ foreach($categories as $cat){
              "data"=> array(
                 "layers"=>array(array(
                     "id"=>36,
-                    "filterCategory"=>$cat
+                    "filter"=>array("filterCategory"=>$cat)
                 ))),
              
         );
