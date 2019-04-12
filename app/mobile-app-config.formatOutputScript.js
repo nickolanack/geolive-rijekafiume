@@ -19,10 +19,10 @@ foreach($categories as $cat){
             "view"=> "mainmap",
              "icon"=> "{categoriesIcon}",
              "data"=> array(
-                "layers"=>array(
+                "layers"=>array(array(
                     "id"=>36,
                     "filter"=>$cat
-                )),
+                ))),
              
         );
     }
