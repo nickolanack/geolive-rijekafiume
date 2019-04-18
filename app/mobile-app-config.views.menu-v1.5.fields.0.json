@@ -1,0 +1,27 @@
+{
+    "type": "buttonset",
+    "buttons": [
+        {
+            "label": "Issues",
+            "action": "link",
+            "icon": "{surveyIcon}",
+            "link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSd5Z3ugPsScom9p_lGJvGDGBh1prd-ubKxpRXPrS0A5xhNM8w\/viewform?usp=sf_link",
+            "className": "small-icon"
+        },
+        {
+            "label": "Help\/About",
+            "action": "form",
+            "form": "about",
+            "icon": "{aboutIcon}",
+            "className": "small-icon"
+        },
+        {
+            "label": "Share",
+            "action": "share",
+            "link": "https:\/\/rijeka.geolive.ca\/app-download",
+            "linkLabel": "Check out this app",
+            "icon": "{shareIcon}",
+            "className": "small-icon"
+        }
+    ]
+}
