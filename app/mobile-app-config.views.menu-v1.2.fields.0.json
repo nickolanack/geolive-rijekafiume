@@ -17,6 +17,11 @@
         {
             "label": "{toursLabel}",
             "action": "form",
+            "data": {
+                "layers": [
+                    36
+                ]
+            },
             "view": "mainmap",
             "icon": "{tourIcon}"
         },
