@@ -2493,19 +2493,19 @@
             "metadata": {
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
-                    "x": 322,
-                    "y": 275
+                    "x": 543,
+                    "y": 249
                 },
                 "_diagramState": {
-                    "x": 322,
-                    "y": 275
+                    "x": 543,
+                    "y": 249
                 },
                 "appliesTo": [
                     "marker"
                 ],
                 "_typeDiagramState": {
-                    "x": 100,
-                    "y": 300
+                    "x": 298,
+                    "y": 299
                 },
                 "readAccess": "public",
                 "maxEntries": 1,
@@ -2519,7 +2519,7 @@
                         "label": "Category",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
@@ -2563,11 +2563,11 @@
                         "label": "Period",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
-                        "allowMultiple": false,
+                        "allowMultiple": true,
                         "fieldType": "text",
                         "fieldTextOptions": {
                             "textType": "input",
@@ -2695,11 +2695,11 @@
                         "label": "Keywords",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
-                        "allowMultiple": false,
+                        "allowMultiple": true,
                         "fieldType": "text",
                         "fieldTextOptions": {
                             "textType": "input",
