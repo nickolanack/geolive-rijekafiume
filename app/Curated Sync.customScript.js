@@ -6,7 +6,7 @@ $vars = array_merge(
 		//     return array("success"=>false, "message"=>'Expected edit data in json');
 		// }
 
-		GetPlugin('Email')->getMailerWithTemplate('syncSheet', $vars)
+		GetPlugin('Email')->getMailerWithTemplate('syncCuratedSheet', $vars)
 			->to('nickblackwell82@gmail.com')
 			->send();
 
