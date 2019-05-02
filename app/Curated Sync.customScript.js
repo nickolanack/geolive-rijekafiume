@@ -27,6 +27,10 @@ $vars = array_merge(
 		    $feature = (new \spatial\FeatureLoader())->fromId((int) $update->id);
 		    $feature->setName($update->title);
 		    $feature->setDescription($update->description);
+		    (new \spatial\FeatureLoader())->save($feature);
+		    
+		    
+		    
 		    
 		}
 		
