@@ -14,6 +14,16 @@ $vars = array_merge(
 			return array("success" => false, "message" => 'missing secret');
 		}
 		
+		if(!key_exists('updates', $json)){
+		    return true;
+		}
+		
+		foreach($json->updates as $update){
+		    
+		    
+		    
+		    
+		}
 		
 		
 		return true;
