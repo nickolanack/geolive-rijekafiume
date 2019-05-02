@@ -2350,12 +2350,6 @@
             "onRenderApplictionScript": "",
             "notifyViewer": false,
             "metadata": {
-                "positionList": [
-                    "title",
-                    "content",
-                    "footer",
-                    "menu"
-                ],
                 "positions": {
                     "title": {
                         "modules": [
@@ -2364,7 +2358,249 @@
                     },
                     "content": {
                         "modules": [
-                            "widget.DetailView.73.metadata.positions.content.modules.0.json"
+                            "widget.DetailView.73.metadata.positions.content.modules.0.json",
+                            {
+                                "type": "plugin.Attributes.TextAttributes",
+                                "config": {
+                                    "attributeFieldArray": [
+                                        "widget.DetailView.73.metadata.positions.content.modules.1.config.attributeFieldArray.0.json",
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "3",
+                                            "tableName": "curatedAttributes",
+                                            "tableSuffix": "_7331",
+                                            "title": "category",
+                                            "label": "Category",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(NaN, NaN, NaN)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "3",
+                                            "tableName": "curatedAttributes",
+                                            "tableSuffix": "_7331",
+                                            "title": "period",
+                                            "label": "Period",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(NaN, NaN, NaN)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": true
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "3",
+                                            "tableName": "curatedAttributes",
+                                            "tableSuffix": "_7331",
+                                            "title": "media",
+                                            "label": "Media",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(NaN, NaN, NaN)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "3",
+                                            "tableName": "curatedAttributes",
+                                            "tableSuffix": "_7331",
+                                            "title": "address",
+                                            "label": "Address",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "3",
+                                            "tableName": "curatedAttributes",
+                                            "tableSuffix": "_7331",
+                                            "title": "keywords",
+                                            "label": "Keywords",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(NaN, NaN, NaN)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": true
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "3",
+                                            "tableName": "curatedAttributes",
+                                            "tableSuffix": "_7331",
+                                            "title": "researcher",
+                                            "label": "Researcher",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(undefined, undefined, undefined)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        },
+                                        {
+                                            "visibility": "public",
+                                            "tableId": "3",
+                                            "tableName": "curatedAttributes",
+                                            "tableSuffix": "_7331",
+                                            "title": "citations",
+                                            "label": "References",
+                                            "description": "",
+                                            "fieldType": "text",
+                                            "color": "rgb(NaN, NaN, NaN)",
+                                            "searchability": "public",
+                                            "editability": "registered",
+                                            "fieldTextOptions": {
+                                                "textType": "input",
+                                                "inputOptions": {
+                                                    "buildAutocomplete": false,
+                                                    "requireModeration": false,
+                                                    "limitMaxChars": 0,
+                                                    "limitMaxWords": 0,
+                                                    "allowHtml": false,
+                                                    "allowMedia": true,
+                                                    "allowLinks": true
+                                                },
+                                                "listOptions": {
+                                                    "takeSugesstions": true,
+                                                    "buildTree": false,
+                                                    "iconize": false,
+                                                    "colorize": false
+                                                }
+                                            },
+                                            "allowMultiple": false
+                                        }
+                                    ],
+                                    "className": "",
+                                    "maxHeight": 0,
+                                    "maxWidth": 300,
+                                    "showLabels": true,
+                                    "showEmpty": false,
+                                    "showTitle": false,
+                                    "title": "",
+                                    "formatData": "",
+                                    "formatValueElement": "",
+                                    "formatContainerElement": ""
+                                }
+                            }
                         ]
                     },
                     "footer": {
@@ -2375,7 +2611,14 @@
                     "menu": {
                         "modules": []
                     }
-                }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "_diagramState": []
             },
             "readAccess": "public"
         }
