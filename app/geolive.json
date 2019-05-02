@@ -3013,5 +3013,23 @@
             "widgetTitle": "Curated Sync",
             "readAccess": "public"
         }
+    },
+    "widget.81": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "Subject",
+            "widgetTitle": "email.syncCuratedSheet.subject",
+            "target": "email.syncCuratedSheet.subject"
+        }
+    },
+    "widget.82": {
+        "name": "Template",
+        "instance": "Template",
+        "parameters": {
+            "contentTemplate": "Message Content",
+            "widgetTitle": "email.syncCuratedSheet.content",
+            "target": "email.syncCuratedSheet.content"
+        }
     }
 }
