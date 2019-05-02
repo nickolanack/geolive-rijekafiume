@@ -3284,7 +3284,29 @@
         "instance": "AttributesSearch",
         "parameters": {
             "position": "TOP_CENTER",
-            "target": "none"
+            "target": "forTheCuratedMap",
+            "barWidth": 500,
+            "locationSearch": true,
+            "showFilterBuilder": true,
+            "hoverTheme": false,
+            "themeLabel": "Theme",
+            "showCloud": true,
+            "cloudTable": "",
+            "cloudField": "",
+            "mapitemSearchLabel": "Placemarks",
+            "locationSearchLabel": "Locations",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "searchColor": "#3a6ccf",
+            "searchTintColor": "rgb(0,0,0)",
+            "clearColor": "#3a6ccf",
+            "clearTintColor": "rgb(0,0,0)",
+            "placeholderText": "Search Location, Items, Attributes...",
+            "searchUsers": false,
+            "alwaysShowClear": true,
+            "widgetTitle": "",
+            "readAccess": "public"
         }
     }
 }
