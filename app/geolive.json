@@ -161,9 +161,9 @@
         "parameters": {}
     },
     "plugin.26": {
-        "name": "Pusher Message Server",
-        "instance": "PusherMessages",
-        "parameters": "_PusherMessages.json"
+        "name": "Message Subscription Server",
+        "instance": "MessageSystem",
+        "parameters": "_MessageSystem.json"
     },
     "plugin.27": {
         "name": "Language",
@@ -1104,7 +1104,7 @@
     },
     "widget.47": {
         "name": "Attr CSV Export",
-        "instance": "AttributesCSVExport",
+        "instance": "ExportData",
         "parameters": {
             "widgetTitle": "",
             "target": "map.1",
@@ -1112,6 +1112,7 @@
             "downloadImage": [],
             "controlColor": "rgb(0, 0, 0)",
             "tileHoverTip": "Download CSV File",
+            "skipConsitencyCheck": false,
             "exportEncoding": "UTF-8",
             "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
             "exportMetadata": {
@@ -2381,7 +2382,7 @@
     },
     "widget.74": {
         "name": "Attr CSV Export",
-        "instance": "AttributesCSVExport",
+        "instance": "ExportData",
         "parameters": {
             "widgetTitle": "",
             "target": "forTheCuratedMap",
@@ -2389,6 +2390,7 @@
             "downloadImage": [],
             "controlColor": "rgb(223, 0, 171)",
             "tileHoverTip": "Download curated map data",
+            "skipConsitencyCheck": false,
             "exportEncoding": "UTF-8",
             "filename": "Curated Tour Content DATE[Y-m-d (H.i.s)]",
             "exportMetadata": {
@@ -2397,8 +2399,8 @@
             "showImportEncoding": false,
             "importEncoding": "UTF-8",
             "showImport": false,
-            "filterFieldsScript": "widget.AttributesCSVExport.74.filterFieldsScript.js",
-            "filterRowScript": "widget.AttributesCSVExport.74.filterRowScript.js",
+            "filterFieldsScript": "widget.ExportData.74.filterFieldsScript.js",
+            "filterRowScript": "widget.ExportData.74.filterRowScript.js",
             "formatFieldsScript": "return $fields;",
             "formatRowScript": "return $record;",
             "uploadImage": [],
