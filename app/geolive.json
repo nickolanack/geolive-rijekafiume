@@ -3003,5 +3003,12 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.80": {
+        "name": "Ajax Method",
+        "instance": "AjaxMethod",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
