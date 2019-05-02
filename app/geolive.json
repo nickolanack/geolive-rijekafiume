@@ -3009,7 +3009,7 @@
         "instance": "AjaxMethod",
         "parameters": {
             "target": "curatedSync",
-            "customScript": "return true;",
+            "customScript": "Curated Sync.customScript.js",
             "widgetTitle": "Curated Sync",
             "readAccess": "public"
         }
