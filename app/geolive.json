@@ -3278,5 +3278,13 @@
             "comments": "",
             "readAccess": "public"
         }
+    },
+    "widget.83": {
+        "name": "Attr Search Bar",
+        "instance": "AttributesSearch",
+        "parameters": {
+            "position": "TOP_CENTER",
+            "target": "none"
+        }
     }
 }
