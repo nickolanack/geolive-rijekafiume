@@ -17,11 +17,16 @@ $vars = array_merge(
 		if(!key_exists('updates', $json)){
 		    return true;
 		}
-		
+		GetPlugin('Maps');
+		GetPlugin('Attributes');
 		foreach($json->updates as $update){
+		    if($update->type!="marker"){
+		        return array("success" => false, "message" => 'invalid type: '.$update->type);
+		    }
 		    
-		    
-		    
+		    $feature = (new \spatial\FeatureLoader())->fromId((int) $update->id);
+		    $feature->setName($update->title);
+		    $feature->setDescription($update->description);
 		    
 		}
 		
