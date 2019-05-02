@@ -3,7 +3,7 @@ if(strpos($fieldFormat['label'], 'item owner')===0){
 }
 
 if(strpos($fieldFormat['label'], 'layer ')===0){
-    return false;
+    //return false;
 }
 
 if(in_array($fieldFormat['label'], array('coordinates', 'image count', 'url',	'created date',	'last modification date', 'read access'))){
