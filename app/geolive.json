@@ -3008,7 +3008,10 @@
         "name": "Ajax Method",
         "instance": "AjaxMethod",
         "parameters": {
-            "target": "none"
+            "target": "curatedSync",
+            "customScript": "return true;",
+            "widgetTitle": "Curated Sync",
+            "readAccess": "public"
         }
     }
 }
