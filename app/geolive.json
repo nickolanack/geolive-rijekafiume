@@ -3029,9 +3029,11 @@
         "name": "Template",
         "instance": "Template",
         "parameters": {
-            "contentTemplate": "Message Content",
+            "contentTemplate": "email-syncCuratedSheet-content.contentTemplate.html",
             "widgetTitle": "email.syncCuratedSheet.content",
-            "target": "email.syncCuratedSheet.content"
+            "target": "email.syncCuratedSheet.content",
+            "comments": "",
+            "readAccess": "public"
         }
     }
 }
