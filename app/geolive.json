@@ -2593,7 +2593,7 @@
                                     "maxHeight": 0,
                                     "maxWidth": 300,
                                     "showLabels": true,
-                                    "showEmpty": false,
+                                    "showEmpty": true,
                                     "showTitle": false,
                                     "title": "",
                                     "formatData": "",
