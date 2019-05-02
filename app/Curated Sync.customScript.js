@@ -28,7 +28,14 @@ $vars = array_merge(
 		    $feature->setName($update->title);
 		    $feature->setDescription($update->description);
 		    (new \spatial\FeatureLoader())->save($feature);
-		    
+		    (new \attributes\Record('curatedAttributes'))->setValues((int) $update->id, $update->type, array(
+		       "keywords"=>$update->Keywords,
+		       "priority"=>$update->Priority,
+		       "category"=>$update->Category,
+		       "period"=>$update->Period,
+		       "address"=>$update->Address,
+		       "researcher"=>$update->Researcher
+		    ));
 		    
 		    
 		    
