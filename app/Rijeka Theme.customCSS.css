@@ -385,3 +385,8 @@ ul.step-numbers {
 .infowindow_tab .tab:last-child {
     border-top-right-radius: 5px;
 }
+
+
+.iw-content, .info-window_window_page {
+    max-width: 410px;
+}
