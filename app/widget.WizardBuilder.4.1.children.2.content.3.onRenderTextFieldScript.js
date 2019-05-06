@@ -3,7 +3,7 @@ var element=inputElement;
             try{
 				element.type='date';
 			}catch(e){
-console.log(e);
+console.error(e);
 			}
 			function supportsDate() {
 			    var input = document.createElement('input');
