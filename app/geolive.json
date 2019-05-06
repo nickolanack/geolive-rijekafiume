@@ -297,16 +297,16 @@
                             "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": -69,
-                            "y": 227
+                            "x": -59,
+                            "y": 237
                         },
                         "children": [
                             "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": -109,
-                                    "y": 393
+                                    "x": -99,
+                                    "y": 403
                                 }
                             },
                             {
@@ -316,16 +316,16 @@
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.fields.0.json"
                                 ],
                                 "_diagramState": {
-                                    "x": 387,
-                                    "y": 139
+                                    "x": 397,
+                                    "y": 149
                                 },
                                 "children": [
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "InsertNode",
                                         "_diagramState": {
-                                            "x": 347,
-                                            "y": 352
+                                            "x": 357,
+                                            "y": 362
                                         }
                                     },
                                     {
@@ -335,16 +335,16 @@
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 801,
-                                            "y": 163
+                                            "x": 811,
+                                            "y": 173
                                         },
                                         "children": [
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 761,
-                                                    "y": 329
+                                                    "x": 771,
+                                                    "y": 339
                                                 }
                                             }
                                         ],
@@ -451,7 +451,7 @@
                                                         "multiMessage": "",
                                                         "formatter": "none",
                                                         "iconTint": "rgb(100, 149, 237)",
-                                                        "onRenderTextFieldScript": "",
+                                                        "onRenderTextFieldScript": "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.2.config.onRenderTextFieldScript.js",
                                                         "formatValueScript": ""
                                                     }
                                                 },
@@ -473,7 +473,7 @@
                                                         "multiMessage": "",
                                                         "formatter": "none",
                                                         "iconTint": "rgb(100, 149, 237)",
-                                                        "onRenderTextFieldScript": "",
+                                                        "onRenderTextFieldScript": "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.3.config.onRenderTextFieldScript.js",
                                                         "formatValueScript": ""
                                                     }
                                                 },
