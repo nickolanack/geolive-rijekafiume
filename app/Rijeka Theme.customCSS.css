@@ -3,6 +3,17 @@ textarea.text-input {
   border-color: grey;
 }
 
+.label.top-left {
+    background: none;
+    color: black;
+    text-align: left;
+    text-shadow: none;
+}
+
+.uitext-container {
+    text-align: left;
+}
+
 .wizard-title {
   font-size: 25px;
 }
