@@ -297,16 +297,16 @@
                             "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": -79,
-                            "y": 217
+                            "x": -69,
+                            "y": 227
                         },
                         "children": [
                             "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": -119,
-                                    "y": 383
+                                    "x": -109,
+                                    "y": 393
                                 }
                             },
                             {
@@ -316,16 +316,16 @@
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.fields.0.json"
                                 ],
                                 "_diagramState": {
-                                    "x": 377,
-                                    "y": 129
+                                    "x": 387,
+                                    "y": 139
                                 },
                                 "children": [
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "InsertNode",
                                         "_diagramState": {
-                                            "x": 337,
-                                            "y": 342
+                                            "x": 347,
+                                            "y": 352
                                         }
                                     },
                                     {
@@ -335,16 +335,16 @@
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 791,
-                                            "y": 153
+                                            "x": 801,
+                                            "y": 163
                                         },
                                         "children": [
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 751,
-                                                    "y": 319
+                                                    "x": 761,
+                                                    "y": 329
                                                 }
                                             }
                                         ],
@@ -439,7 +439,7 @@
                                                         "attributeFields": [
                                                             "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
                                                         ],
-                                                        "className": "",
+                                                        "className": "width-50",
                                                         "label": "Start Date",
                                                         "message": "",
                                                         "lines": 1,
@@ -461,7 +461,7 @@
                                                         "attributeFields": [
                                                             "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                         ],
-                                                        "className": "",
+                                                        "className": "width-50",
                                                         "label": "End Date",
                                                         "message": "",
                                                         "lines": 1,
