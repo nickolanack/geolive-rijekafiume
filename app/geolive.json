@@ -297,16 +297,16 @@
                             "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": -99,
-                            "y": 197
+                            "x": -89,
+                            "y": 207
                         },
                         "children": [
                             "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": -139,
-                                    "y": 363
+                                    "x": -129,
+                                    "y": 373
                                 }
                             },
                             {
@@ -316,16 +316,16 @@
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.fields.0.json"
                                 ],
                                 "_diagramState": {
-                                    "x": 274,
-                                    "y": 167
+                                    "x": 367,
+                                    "y": 119
                                 },
                                 "children": [
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "InsertNode",
                                         "_diagramState": {
-                                            "x": 234,
-                                            "y": 380
+                                            "x": 327,
+                                            "y": 332
                                         }
                                     },
                                     {
@@ -335,16 +335,16 @@
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 682,
-                                            "y": 186
+                                            "x": 781,
+                                            "y": 143
                                         },
                                         "children": [
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 642,
-                                                    "y": 352
+                                                    "x": 741,
+                                                    "y": 309
                                                 }
                                             }
                                         ],
@@ -365,14 +365,17 @@
                                                                     "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
-                                                                "label": "{field.label}",
                                                                 "showLabel": false,
                                                                 "showAddWord": false,
+                                                                "label": "{field.label}",
+                                                                "addWordPlaceholder": "add a keyword",
                                                                 "fontColor": "rgb(0, 0, 0)",
                                                                 "hoverColor": "rgb(143, 188, 143)",
                                                                 "selectedColor": "rgb(143, 188, 143)",
                                                                 "shuffleTags": false,
-                                                                "tags": "[\n\t[1,  \"Leisure\"], \n\t[1, \"Association\"],\n\t[1, \"Education\"],\n\t[1, \"Culture\"],\n\t[1, \"Politics\"],\n\t[1, \"Everyday life\"],\n\t[1, \"Family\"],\n\t[1, \"Religion\"],\n\t[1, \"Personal\"],\n\n\t[1, \"Partisan\"],\n\n\t[1, \"Communism\"],\n\t[1, \"Fascism\"],\n\t[1, \"Nazism\"],\n\n\n\t[1, \"D'Annunzio\"],\n\t[1, \"World War I\"],\n\t[1, \"World War II\"],\n\n\t[1, \"Yugoslav\"],\n\n\t[1, \"Italian\"],\n\t[1, \"Croatian\"],\n\t[1, \"Serbian\"],\n\t[1, \"Slovenian\"],\n\t[1, \"Jewish\"],\n\t[1, \"Hungarian\"],\n\t[1, \"Macedonian\"],\n\t[1, \"Austrian\"],\n\t[1, \"German\"],\n\n\t[1, \"Slovak\"],\n\t[1, \"Minority\"],\n\t\n\t[1, \"Socialism\"],\n\t[1, \"Antifascism\"],\n\t[1, \"War of Croatian Independence\"],\n\t[1, \"Sport\"],\n\t[1, \"Art\"],\n\t[1, \"Violence\"]\n]"
+                                                                "tags": "[\n\t[1,  \"Leisure\"], \n\t[1, \"Association\"],\n\t[1, \"Education\"],\n\t[1, \"Culture\"],\n\t[1, \"Politics\"],\n\t[1, \"Everyday life\"],\n\t[1, \"Family\"],\n\t[1, \"Religion\"],\n\t[1, \"Personal\"],\n\n\t[1, \"Partisan\"],\n\n\t[1, \"Communism\"],\n\t[1, \"Fascism\"],\n\t[1, \"Nazism\"],\n\n\n\t[1, \"D'Annunzio\"],\n\t[1, \"World War I\"],\n\t[1, \"World War II\"],\n\n\t[1, \"Yugoslav\"],\n\n\t[1, \"Italian\"],\n\t[1, \"Croatian\"],\n\t[1, \"Serbian\"],\n\t[1, \"Slovenian\"],\n\t[1, \"Jewish\"],\n\t[1, \"Hungarian\"],\n\t[1, \"Macedonian\"],\n\t[1, \"Austrian\"],\n\t[1, \"German\"],\n\n\t[1, \"Slovak\"],\n\t[1, \"Minority\"],\n\t\n\t[1, \"Socialism\"],\n\t[1, \"Antifascism\"],\n\t[1, \"War of Croatian Independence\"],\n\t[1, \"Sport\"],\n\t[1, \"Art\"],\n\t[1, \"Violence\"]\n]",
+                                                                "getItemTagsScript": "return defaultTags;",
+                                                                "formatModule": ""
                                                             }
                                                         }
                                                     ]
@@ -446,7 +449,7 @@
                                                         "autocomplete": true,
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
-                                                        "formatter": "date",
+                                                        "formatter": "none",
                                                         "iconTint": "rgb(100, 149, 237)",
                                                         "onRenderTextFieldScript": "",
                                                         "formatValueScript": ""
@@ -468,7 +471,7 @@
                                                         "autocomplete": true,
                                                         "muliTemplate": "lines",
                                                         "multiMessage": "",
-                                                        "formatter": "date",
+                                                        "formatter": "none",
                                                         "iconTint": "rgb(100, 149, 237)",
                                                         "onRenderTextFieldScript": "",
                                                         "formatValueScript": ""
@@ -477,8 +480,9 @@
                                                 {
                                                     "type": "WizardScriptElement",
                                                     "config": {
+                                                        "name": "My Custom Script",
                                                         "script": "widget.WizardBuilder.4.metadata.children.1.children.2.builderMetadata.positions.content.modules.4.config.script.js",
-                                                        "identifier": "customScriptElement"
+                                                        "description": "Info about my custom script"
                                                     }
                                                 },
                                                 {
