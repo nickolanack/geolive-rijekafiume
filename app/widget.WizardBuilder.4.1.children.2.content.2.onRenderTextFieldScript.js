@@ -8,6 +8,15 @@
                 
                 var layer=MapFactory.BestLayerFromIcon(application, wizard.data.icon);
                 if(layer.getId()!=24){
+                    
+                    input.addEvent('change',function(){
+                        var v=input.value;
+                        v=v.substring(0, 4);
+                        if(v!==input.value){
+                            input.value=v;
+                        }
+                    });
+                    
                     return;
                 }
                 
