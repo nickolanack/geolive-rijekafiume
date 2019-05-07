@@ -388,6 +388,8 @@ ul.step-numbers {
     padding: 0 15px;
     height: 37px;
     font-size: 14px;
+    text-transform: capitalize;
+    color: #4063a2;
 }
 
 .iw-content, .info-window_window_page{
