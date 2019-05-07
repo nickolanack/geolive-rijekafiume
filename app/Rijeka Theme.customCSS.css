@@ -35,6 +35,31 @@ label.custom-bool.uitext-container {
     font-weight: 700;
 }
 
+.media-item {
+    position: relative;
+    display: inline-block;
+}
+
+span.remove-btn {
+    position: absolute;
+    background: red;
+    width: 15px;
+    height: 15px;
+    top: -5px;
+    right: -5px;
+    z-index: 1;
+    border-radius: 100%;
+}
+
+span.remove-btn:after {
+    content: "x";
+    line-height: 15px;
+    font-size: 12px;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+}
+
 .uitext-container.TagCloudModule {
     display: block;
 }
