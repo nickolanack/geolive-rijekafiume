@@ -2,12 +2,7 @@
 var cbx=new Element('input', {type:'checkbox', checked:true});
 var label=new ElementModule('label',{
 "class":"custom-bool",
-html:'This is an ongoing event ',
-styles:{
-  color:"cornflowerblue",
- // 'margin-top': '20px',
-  'text-align': 'right'
-}
+html:'This is an ongoing event '
 });
 label.appendChild(cbx);
 
