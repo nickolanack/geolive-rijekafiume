@@ -871,7 +871,7 @@
         "instance": "TabbedInfoWindowBuilder",
         "parameters": {
             "widgetTitle": "",
-            "target": "",
+            "target": "map.1",
             "templateName": "{target}",
             "requireTarget": true,
             "resolveItemScript": "return item",
@@ -887,9 +887,7 @@
                             ]
                         },
                         "content": {
-                            "modules": [
-                                "widget.TabbedInfoWindowBuilder.12.metadata.1.positions.content.modules.0.json"
-                            ]
+                            "modules": []
                         },
                         "footer": {
                             "modules": []

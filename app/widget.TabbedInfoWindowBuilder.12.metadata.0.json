@@ -76,7 +76,7 @@
                             }
                         ],
                         "className": "",
-                        "imageWidth": 300,
+                        "imageWidth": 400,
                         "imageHeight": 240,
                         "multiImageWidth": 100,
                         "multiImageHeight": 75,
@@ -141,6 +141,7 @@
                         "showEmpty": false,
                         "showTitle": false,
                         "title": "",
+                        "formatData": "",
                         "formatValueElement": "",
                         "formatContainerElement": ""
                     }
@@ -189,6 +190,7 @@
                         "showEmpty": false,
                         "showTitle": false,
                         "title": "",
+                        "formatData": "",
                         "formatValueElement": "",
                         "formatContainerElement": ""
                     }
@@ -237,6 +239,7 @@
                         "showEmpty": false,
                         "showTitle": false,
                         "title": "Date",
+                        "formatData": "",
                         "formatValueElement": "",
                         "formatContainerElement": ""
                     }
@@ -285,6 +288,7 @@
                         "showEmpty": false,
                         "showTitle": false,
                         "title": "",
+                        "formatData": "",
                         "formatValueElement": "",
                         "formatContainerElement": ""
                     }
@@ -293,13 +297,20 @@
                     "type": "ShareLinks",
                     "config": {
                         "className": "",
+                        "label": "",
+                        "googleIcon": [],
                         "fbid": "404085089977844",
+                        "facebookIcon": [],
                         "twitVia": "@rijekafiume.mapping",
                         "hashtag": "#rijekafiumemapping",
+                        "twitterIcon": [],
                         "siteTitle": "Rijeka Fiume",
                         "siteURL": "rijekafiume.geolive.ca",
                         "siteDescription": "A map used to show events occurring in Rijeka from 1945 to 1960",
-                        "formatClass": "s-icon"
+                        "formatClass": "s-icon",
+                        "getTitleScript": "",
+                        "getUrlScript": "",
+                        "setPageMeta": true
                     }
                 }
             ]
@@ -333,10 +344,12 @@
                     }
                 },
                 {
-                    "type": "WizardStepTitle",
+                    "type": "InlineHtml",
                     "config": {
                         "className": "",
-                        "text": "Placemark"
+                        "text": "Placemark",
+                        "template": "",
+                        "templateVariablesScript": ""
                     }
                 }
             ]
