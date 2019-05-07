@@ -33,7 +33,7 @@
                         "showDocuments": true,
                         "showLinks": true,
                         "showExternalContent": true,
-                        "embedPortrait": false,
+                        "embedPortrait": true,
                         "preferLocalContent": true,
                         "portraitClip": true
                     }
