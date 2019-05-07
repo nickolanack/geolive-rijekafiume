@@ -1,7 +1,7 @@
 
 var cbx=new Element('input', {type:'checkbox', checked:true});
 var label=new ElementModule('label',{
-"class":"custom-bool",
+"class":"custom-bool uitext-container",
 html:'This is an ongoing event '
 });
 label.appendChild(cbx);
