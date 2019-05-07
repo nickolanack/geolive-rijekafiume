@@ -4,7 +4,7 @@ var label=new Element('label',{
 html:'This is an ongoing event ',
 styles:{
   color:"cornflowerblue",
-  'margin-top': '20px',
+ // 'margin-top': '20px',
   'text-align': 'right'
 }
 });
