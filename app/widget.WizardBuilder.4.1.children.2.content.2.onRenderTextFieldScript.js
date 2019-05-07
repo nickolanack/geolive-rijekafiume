@@ -17,6 +17,7 @@
                         }
                     };
                     element.addEvent('keyup',fmt);
+                    fmt();
                     
                     return;
                 }

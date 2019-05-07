@@ -12,6 +12,7 @@ var element=inputElement;
                         }
                     };
                     element.addEvent('keyup',fmt);
+                    fmt();
                     
                     return;
                 }
