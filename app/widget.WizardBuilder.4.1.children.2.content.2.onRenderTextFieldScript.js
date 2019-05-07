@@ -7,8 +7,8 @@
             try{
                 
                 var layer=MapFactory.BestLayerFromIcon(application, wizard.data.icon);
-                if(layer==5){
-                    
+                if(layer.getId()!=24){
+                    return;
                 }
                 
 				element.type='date';
