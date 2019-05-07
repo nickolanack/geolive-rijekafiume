@@ -7,6 +7,11 @@
     font-weight: 400;
 }
 
+.field-value-module .field-label {
+    font-weight: 400;
+    color: #333;
+}
+
 .uitext-container .text-input {
     border-radius: 2px;
     border-color: cornflowerblue;
