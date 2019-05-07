@@ -1130,6 +1130,7 @@
             "filterRowScript": "return true;",
             "formatFieldsScript": "return $fields;",
             "formatRowScript": "return $record;",
+            "formatMapTile": "(new UIMapSubTileButton(tile,{\r\n\t\ttoolTip:'View in google sheets'\r\n\t})).addEvent('click',function(){\r\n\t    \r\n\t    \r\n\t});",
             "uploadImage": [],
             "tileIcon": [],
             "readAccess": "special"
@@ -2683,6 +2684,7 @@
             "filterRowScript": "widget.ExportData.74.filterRowScript.js",
             "formatFieldsScript": "return $fields;",
             "formatRowScript": "return $record;",
+            "formatMapTile": "",
             "uploadImage": [],
             "tileIcon": [],
             "readAccess": "public"
