@@ -1116,7 +1116,7 @@
             "position": "RIGHT_BOTTOM",
             "downloadImage": [],
             "controlColor": "rgb(0, 0, 0)",
-            "tileHoverTip": "Download CSV File",
+            "tileHoverTip": "Download data",
             "skipConsitencyCheck": false,
             "exportEncoding": "UTF-8",
             "filename": "Geolive Export DATE[Y-m-d (H.i.s)]",
