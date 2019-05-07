@@ -231,7 +231,11 @@ input.discussion-textbox {
     top: 30px;
 }
 
-
+.module-wizard .no-text .ToolbarBottom {
+    margin: 10px;
+    display: block;
+    height: 32px;
+}
 
 
 .media-description .tabs span.noIcon {
