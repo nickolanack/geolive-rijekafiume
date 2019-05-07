@@ -26,6 +26,15 @@
     margin-top: 30px;
 }
 
+label.custom-bool.uitext-container {
+    color: #4063a2;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 11.84px;
+    margin-left: 9px;
+    font-weight: 700;
+}
+
 .wizard-title {
   font-size: 25px;
 }
