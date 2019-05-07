@@ -16,7 +16,7 @@
                 {
                     "type": "DefaultDescription",
                     "config": {
-                        "className": "",
+                        "className": "item-media",
                         "imageWidth": 400,
                         "imageHeight": 190,
                         "multiImageWidth": 100,
