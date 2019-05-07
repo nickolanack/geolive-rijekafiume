@@ -3,6 +3,16 @@ var element=inputElement;
             try{
                  var layer=MapFactory.BestLayerFromIcon(application, wizard.data.icon);
                 if(layer.getId()!=24){
+                    
+                    var fmt=function(){
+                        var v=element.value;
+                        v=v.substring(0, 4);
+                        if(v!==element.value){
+                            element.value=v;
+                        }
+                    };
+                    element.addEvent('keyup',fmt);
+                    
                     return;
                 }
                 
