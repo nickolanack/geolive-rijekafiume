@@ -331,6 +331,7 @@ span.search-bar-btn.left.search {
     width: 60px;
     font-size: 10px;
     line-height: 15px;
+    margin:5px;
 }
 
 .icn-s-lst li>img {
