@@ -35,6 +35,10 @@ label.custom-bool.uitext-container {
     font-weight: 700;
 }
 
+.uitext-container.TagCloudModule {
+    display: block;
+}
+
 .wizard-title {
   font-size: 25px;
 }
