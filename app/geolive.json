@@ -297,16 +297,16 @@
                             "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 84,
-                            "y": 406
+                            "x": 94,
+                            "y": 416
                         },
                         "children": [
                             "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 44,
-                                    "y": 572
+                                    "x": 54,
+                                    "y": 582
                                 }
                             },
                             {
@@ -316,16 +316,16 @@
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.fields.0.json"
                                 ],
                                 "_diagramState": {
-                                    "x": 410,
-                                    "y": 252
+                                    "x": 420,
+                                    "y": 262
                                 },
                                 "children": [
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "InsertNode",
                                         "_diagramState": {
-                                            "x": 370,
-                                            "y": 465
+                                            "x": 380,
+                                            "y": 475
                                         }
                                     },
                                     {
@@ -335,16 +335,16 @@
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 789,
-                                            "y": 211
+                                            "x": 799,
+                                            "y": 221
                                         },
                                         "children": [
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 749,
-                                                    "y": 377
+                                                    "x": 759,
+                                                    "y": 387
                                                 }
                                             }
                                         ],
@@ -364,7 +364,7 @@
                                                                 "attributeFields": [
                                                                     "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
                                                                 ],
-                                                                "className": "uitext-container",
+                                                                "className": " uitext-container",
                                                                 "showLabel": false,
                                                                 "showAddWord": false,
                                                                 "label": "{field.label}",
