@@ -454,6 +454,15 @@ ul.step-numbers {
     color: #283e67;
 }
 
+.iw-footer .t-btn {
+    padding: 4px 10px;
+    height: 29px;
+    border-color: whitesmoke;
+    font-size: 11px;
+}
+
+.iw-footer .t-btn:hover {border-color: #aaaaaa;}
+
 .iw-content, .info-window_window_page{
    max-width:350px;
 }
