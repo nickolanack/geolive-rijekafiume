@@ -17,8 +17,8 @@
                     "type": "DefaultDescription",
                     "config": {
                         "className": "",
-                        "imageWidth": 300,
-                        "imageHeight": 240,
+                        "imageWidth": 400,
+                        "imageHeight": 190,
                         "multiImageWidth": 100,
                         "multiImageHeight": 75,
                         "portraitImageWidth": 75,
