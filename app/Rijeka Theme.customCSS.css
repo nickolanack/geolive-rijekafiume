@@ -2,6 +2,11 @@
     margin: 10px 0;
 }
 
+.iw-title {
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
 .uitext-container .text-input {
     border-radius: 2px;
     border-color: cornflowerblue;
