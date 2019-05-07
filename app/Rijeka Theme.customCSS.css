@@ -1,3 +1,7 @@
+.content.item-media {
+    margin: 10px 0;
+}
+
 .uitext-container .text-input {
     border-radius: 2px;
     border-color: cornflowerblue;
