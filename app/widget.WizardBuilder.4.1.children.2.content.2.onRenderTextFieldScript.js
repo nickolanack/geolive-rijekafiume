@@ -9,11 +9,11 @@
                 var layer=MapFactory.BestLayerFromIcon(application, wizard.data.icon);
                 if(layer.getId()!=24){
                     
-                    input.addEvent('change',function(){
-                        var v=input.value;
+                    element.addEvent('change',function(){
+                        var v=element.value;
                         v=v.substring(0, 4);
-                        if(v!==input.value){
-                            input.value=v;
+                        if(v!==element.value){
+                            element.value=v;
                         }
                     });
                     
