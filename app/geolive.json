@@ -1112,6 +1112,7 @@
         "instance": "ExportData",
         "parameters": {
             "widgetTitle": "",
+            "readAccess": "public",
             "target": "map.1",
             "position": "RIGHT_BOTTOM",
             "downloadImage": [],
@@ -1132,8 +1133,7 @@
             "formatRowScript": "return $record;",
             "formatMapTile": "(new UIMapSubTileButton(tile,{\r\n\t\ttoolTip:'View in google sheets'\r\n\t})).addEvent('click',function(){\r\n\t    \r\n\t    \r\n\t    window.open(\r\n\t        \"https:\/\/docs.google.com\/spreadsheets\/d\/1yHJEgWjYTYSVq0DI47BVvYNw-KUZomCpver_rFWDK4A\/edit?usp=sharing\",\r\n\t        'Rijeka crowdsourced map data - Google Sheets'\r\n\t        );\r\n\t    \r\n\t});",
             "uploadImage": [],
-            "tileIcon": [],
-            "readAccess": "special"
+            "tileIcon": []
         }
     },
     "widget.53": {
@@ -2666,6 +2666,7 @@
         "instance": "ExportData",
         "parameters": {
             "widgetTitle": "",
+            "readAccess": "public",
             "target": "forTheCuratedMap",
             "position": "RIGHT_CENTER",
             "downloadImage": [],
@@ -2686,8 +2687,7 @@
             "formatRowScript": "return $record;",
             "formatMapTile": "",
             "uploadImage": [],
-            "tileIcon": [],
-            "readAccess": "public"
+            "tileIcon": []
         }
     },
     "widget.75": {
