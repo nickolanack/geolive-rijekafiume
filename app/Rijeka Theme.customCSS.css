@@ -464,3 +464,35 @@ ul.step-numbers {
 .iw-content, .info-window_window_page {
     max-width: 410px;
 }
+
+
+
+
+.tag-cloud span.tag-el.selected {
+    background: white;
+    border: 1px solid cornflowerblue;
+}
+
+.tag-cloud span.tag-el {
+    border-radius: 2px;
+    border: 1px solid transparent;
+    position:relative;
+    background: #f9f9fc;
+}
+
+.tag-cloud span.tag-el:hover {
+    background: #e5edfb;
+}
+
+div.tag-cloud span.tag-el.selected:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    font-size: 12px;
+    left: -4px;
+    text-shadow: 0 0 1px white;
+    width: 8px;
+    height: 8px;
+    background: cornflowerblue;
+    border-radius: 100%;
+}
