@@ -378,8 +378,8 @@ ul.step-numbers {
 }
 
 .form-navigation-btns .btn, .iw-footer .t-btn {
-    background: white;
-    border: 1px solid black;
+    background: whitesmoke;
+    border: 1px solid cornflowerblue;
     border-radius: 2px 2px 2px 2px;
     cursor: pointer;
     float: right;
