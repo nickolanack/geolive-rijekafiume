@@ -1,7 +1,16 @@
             
             var element=inputElement;
             
+            
+          
+            
             try{
+                
+                var layer=MapFactory.BestLayerFromIcon(application, wizard.data.icon);
+                if(layer==5){
+                    
+                }
+                
 				element.type='date';
 			}catch(e){
                 console.error(e);
