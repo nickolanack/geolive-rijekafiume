@@ -16,8 +16,12 @@
                             element.value=v;
                         }
                     };
+                    textField.addOutputFilter(function(text) {
+                        return text+'-01-01';
+                    });
                     element.addEvent('keyup',fmt);
                     fmt();
+                    
                     
                     return;
                 }
