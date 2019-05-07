@@ -1,6 +1,7 @@
 
 var cbx=new Element('input', {type:'checkbox', checked:true});
-var label=new Element('label',{
+var label=new ElementModule('label',{
+"class":"custom-bool",
 html:'This is an ongoing event ',
 styles:{
   color:"cornflowerblue",
