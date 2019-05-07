@@ -19,6 +19,12 @@ textarea.text-input {
     display: inline-block;
 }
 
+.form-navigation-btns {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
 .wizard-title {
   font-size: 25px;
 }
