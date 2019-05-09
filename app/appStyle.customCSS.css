@@ -1,4 +1,6 @@
-.page.form .main-content{
-    
-    background-image:url('https://rijekafiume.geolive.ca/administrator/components/com_geolive/users_files/user_files_680/Uploads/[ImAgE]_[G]_ewP_Th3_6Nj.png');
+.page.form>FlexboxLayout{
+    background-image: url('~/danijel-durkovic-1401598-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
