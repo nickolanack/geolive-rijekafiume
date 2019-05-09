@@ -1846,6 +1846,7 @@
                         "value": "This is a placeholder page"
                     }
                 ],
+                "marker-list": "{list.json}",
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
