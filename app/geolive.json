@@ -1801,6 +1801,14 @@
                         ],
                         "zoom": 13,
                         "zoomToLocation": false
+                    },
+                    {
+                        "type": "button",
+                        "label": "Issues",
+                        "action": "view",
+                        "icon": "{surveyIcon}",
+                        "view": "augmented",
+                        "className": "small-icon"
                     }
                 ],
                 "periods": "{periods}",
