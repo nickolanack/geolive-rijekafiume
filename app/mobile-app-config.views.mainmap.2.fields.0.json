@@ -4,7 +4,7 @@
         {
             "label": "List",
             "action": "view",
-            "icon": "{surveyIcon}",
+            "icon": "{listIcon}",
             "view": "test-list",
             "className": "small-icon"
         },
@@ -12,7 +12,7 @@
             "label": "AR",
             "action": "view",
             "view": "augmented",
-            "icon": "{aboutIcon}",
+            "icon": "{augmentedIcon}",
             "className": "small-icon"
         }
     ]
