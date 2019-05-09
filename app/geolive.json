@@ -3319,7 +3319,7 @@
             "link": false,
             "widgetTitle": "appStyle",
             "target": "app-style",
-            "customCSS": ".test{}",
+            "customCSS": "appStyle.customCSS.css",
             "readAccess": "public"
         }
     }
