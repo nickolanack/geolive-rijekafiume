@@ -5,7 +5,7 @@
             "label": "List",
             "action": "view",
             "icon": "{listIcon}",
-            "view": "test-list",
+            "view": "marker-list",
             "className": "small-icon"
         },
         {
