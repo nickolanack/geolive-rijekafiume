@@ -1623,6 +1623,15 @@
                 },
                 {
                     "type": "images",
+                    "name": "listIcon",
+                    "default": [],
+                    "label": "List",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
                     "name": "categoriesIcon",
                     "default": [],
                     "label": "Categories",
@@ -1841,7 +1850,8 @@
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
             },
-            "app-style": "https:\/\/rijekafiume.geolive.ca\/app-style?format=content"
+            "app-style": "https:\/\/rijekafiume.geolive.ca\/app-style?format=content",
+            "listIcon": []
         }
     },
     "widget.61": {
