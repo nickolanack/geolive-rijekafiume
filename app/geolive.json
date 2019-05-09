@@ -1808,7 +1808,8 @@
                         "action": "view",
                         "icon": "{surveyIcon}",
                         "view": "augmented",
-                        "className": "small-icon"
+                        "className": "small-icon",
+                        "position": "absolute"
                     }
                 ],
                 "periods": "{periods}",
