@@ -3315,11 +3315,12 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "cacheable": false,
-            "link": false,
-            "widgetTitle": "",
-            "target": "none",
-            "customCSS": ""
+            "cacheable": true,
+            "link": true,
+            "widgetTitle": "appStyle",
+            "target": "app-style",
+            "customCSS": "",
+            "readAccess": "public"
         }
     }
 }
