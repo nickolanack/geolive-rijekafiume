@@ -3316,7 +3316,7 @@
         "instance": "CSS",
         "parameters": {
             "cacheable": true,
-            "link": true,
+            "link": false,
             "widgetTitle": "appStyle",
             "target": "app-style",
             "customCSS": ".test{}",
