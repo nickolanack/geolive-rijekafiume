@@ -1803,13 +1803,11 @@
                         "zoomToLocation": false
                     },
                     {
-                        "type": "button",
-                        "label": "Issues",
-                        "action": "view",
-                        "icon": "{surveyIcon}",
-                        "view": "augmented",
-                        "className": "small-icon",
-                        "position": "absolute"
+                        "type": "fieldset",
+                        "position": "absolute",
+                        "fields": [
+                            "mobile-app-config.views.mainmap.2.fields.0.json"
+                        ]
                     }
                 ],
                 "periods": "{periods}",
