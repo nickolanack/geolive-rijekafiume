@@ -3310,5 +3310,16 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.84": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "cacheable": false,
+            "link": false,
+            "widgetTitle": "",
+            "target": "none",
+            "customCSS": ""
+        }
     }
 }
