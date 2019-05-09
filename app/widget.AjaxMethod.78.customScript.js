@@ -8,7 +8,7 @@ $attr=new \attributes\Record('curatedAttributes');
 
 
 return array(
-    "items"=>array_filter((new spatial\Features())->listLayerItems(36)
+    "items"=>array_values(array_filter((new spatial\Features())->listLayerItems(36)
         ->map(function($item)use($attr){
             
            
@@ -37,5 +37,5 @@ return array(
                 
             return true;
             
-        })
+        }))
     );
