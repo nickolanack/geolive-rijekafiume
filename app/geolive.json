@@ -1694,6 +1694,12 @@
                     "label": "mapLabel"
                 },
                 {
+                    "type": "text",
+                    "name": "app-style",
+                    "default": "",
+                    "label": "app style url"
+                },
+                {
                     "type": "json",
                     "name": "views",
                     "default": {
@@ -1827,7 +1833,8 @@
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
-            }
+            },
+            "app-style": ""
         }
     },
     "widget.61": {
