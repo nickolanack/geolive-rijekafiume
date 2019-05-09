@@ -1834,7 +1834,7 @@
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
             },
-            "app-style": ""
+            "app-style": "https:\/\/rijekafiume.geolive.ca\/app-style?format=content"
         }
     },
     "widget.61": {
