@@ -1739,7 +1739,7 @@
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/64q_2vs_[G]_aVO_[ImAgE].png"
             ],
             "augmentedIcon": [
-                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_awz_[G]_ScZ_knh.png"
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[ImAgE]_ykr_[G]_0nn_6A3.png"
             ],
             "formatOutputScript": "mobile-app-config.formatOutputScript.js",
             "mainView": "menu-v1",
@@ -1851,7 +1851,9 @@
                 "augmented": "{augmented.json}"
             },
             "app-style": "https:\/\/rijekafiume.geolive.ca\/app-style?format=content",
-            "listIcon": []
+            "listIcon": [
+                "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_j3n_CN5_[ImAgE]_ZxL.png"
+            ]
         }
     },
     "widget.61": {
