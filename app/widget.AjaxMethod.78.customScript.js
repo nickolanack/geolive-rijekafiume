@@ -13,6 +13,7 @@ return array(
             
            
             $item['attributes']=$attr->getValues($item['id'], $item['type']);
+            $item['icon']="{markerIcon}";
             
             return $item;
             
