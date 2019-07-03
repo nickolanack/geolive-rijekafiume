@@ -3,16 +3,22 @@
     "className": "augmented-menu btn-main",
     "buttons": [
         {
-            "label": "{periodsLabel}",
+            "label": "{nearLabel}",
             "action": "form",
-            "view": "periods",
-            "icon": "{periodsIcon}"
+            "view": "near",
+            "icon": "{nearIcon}"
         },
         {
-            "label": "{categoriesLabel}",
+            "label": "{spotLabel}",
+            "action": "form",
+            "view": "spot",
+            "icon": "{spotIcon}"
+        },
+        {
+            "label": "{searchLabel}",
             "action": "form",
             "view": "types",
-            "icon": "{categoriesIcon}"
+            "icon": "{searchIcon}"
         },
         {
             "label": "{toursLabel}",
