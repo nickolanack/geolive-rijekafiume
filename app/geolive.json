@@ -1716,9 +1716,9 @@
                 },
                 {
                     "type": "text",
-                    "name": "spotlabel",
-                    "default": "spotlabel",
-                    "label": "spotlabel"
+                    "name": "spotslabel",
+                    "default": "spotslabel",
+                    "label": "spotslabel"
                 },
                 {
                     "type": "text",
@@ -1935,7 +1935,8 @@
             ],
             "searchLabel": "searchLabel",
             "spotlabel": "spotlabel",
-            "nearLabel": "nearLabel"
+            "nearLabel": "nearLabel",
+            "spotslabel": "spotslabel"
         }
     },
     "widget.61": {
