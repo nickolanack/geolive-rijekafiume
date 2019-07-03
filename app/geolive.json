@@ -1632,6 +1632,33 @@
                 },
                 {
                     "type": "images",
+                    "name": "searchIcon",
+                    "default": [],
+                    "label": "Search",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "spotsIcon",
+                    "default": [],
+                    "label": "Spots",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
+                    "name": "nearIcon",
+                    "default": [],
+                    "label": "Near",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
                     "name": "categoriesIcon",
                     "default": [],
                     "label": "Categories",
@@ -1878,7 +1905,10 @@
             ],
             "markerIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/[G]_94k_[ImAgE]_bLs_ome.png"
-            ]
+            ],
+            "searchIcon": [],
+            "spotsIcon": [],
+            "nearIcon": []
         }
     },
     "widget.61": {
