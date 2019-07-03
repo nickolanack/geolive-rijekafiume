@@ -1777,7 +1777,9 @@
                 "test-list": [
                     "mobile-app-config.views.test-list.0.json"
                 ],
-                "marker-list": "{list.json}",
+                "marker-list": [
+                    "mobile-app-config.views.marker-list.0.json"
+                ],
                 "menu-v1": [
                     "mobile-app-config.views.menu-v1.0.json",
                     {

@@ -1,0 +1,40 @@
+{
+    "type": "list",
+    "list": [
+        {
+            "label": "Item 1",
+            "htmlContent": "some html"
+        },
+        {
+            "label": "Item 2",
+            "htmlContent": "some html 2"
+        },
+        {
+            "label": "Item 3",
+            "htmlContent": "some html 3"
+        }
+    ],
+    "empty": [
+        {
+            "type": "heading",
+            "value": "nothing here"
+        }
+    ],
+    "before": [],
+    "listItemFields": [
+        {
+            "type": "fieldset",
+            "fields": [
+                {
+                    "type": "label",
+                    "value": "{value.label}"
+                },
+                {
+                    "type": "html",
+                    "value": "{value.htmlContent}"
+                }
+            ]
+        }
+    ],
+    "after": []
+}
