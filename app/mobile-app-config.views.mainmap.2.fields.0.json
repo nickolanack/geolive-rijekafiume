@@ -6,6 +6,9 @@
             "action": "view",
             "icon": "{listIcon}",
             "view": "marker-list",
+            "data": {
+                "layers": "{data.layers}"
+            },
             "className": "small-icon"
         },
         {
