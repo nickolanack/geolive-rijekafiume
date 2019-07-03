@@ -5,19 +5,19 @@
         {
             "label": "{nearLabel}",
             "action": "form",
-            "view": "near",
+            "view": "placeholder",
             "icon": "{nearIcon}"
         },
         {
             "label": "{spotsLabel}",
             "action": "form",
-            "view": "spot",
+            "view": "placeholder",
             "icon": "{spotsIcon}"
         },
         {
             "label": "{searchLabel}",
             "action": "form",
-            "view": "types",
+            "view": "placeholder",
             "icon": "{searchIcon}"
         },
         {
@@ -35,7 +35,7 @@
             "label": "{yourLabel}",
             "action": "form",
             "view": "placeholder",
-            "icon": "{profileIcon}"
+            "icon": "{userIcon}"
         }
     ]
 }
