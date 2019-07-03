@@ -1,7 +1,7 @@
 {
     "type": "list",
-    "list": "mapitems",
-    "listArgs": "{data.layers}",
+    "list": "layer",
+    "listArgs": "{data.layers.0}",
     "empty": [
         {
             "type": "heading",
