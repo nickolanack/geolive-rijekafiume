@@ -1710,6 +1710,24 @@
                 },
                 {
                     "type": "text",
+                    "name": "searchLabel",
+                    "default": "searchLabel",
+                    "label": "searchLabel"
+                },
+                {
+                    "type": "text",
+                    "name": "spotlabel",
+                    "default": "spotlabel",
+                    "label": "spotlabel"
+                },
+                {
+                    "type": "text",
+                    "name": "nearLabel",
+                    "default": "nearLabel",
+                    "label": "nearLabel"
+                },
+                {
+                    "type": "text",
                     "name": "periodsLabel",
                     "default": "periodsLabel",
                     "label": "periodsLabel"
@@ -1914,7 +1932,10 @@
             ],
             "nearIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/3E7_[ImAgE]_[G]_DjV_bdm.png"
-            ]
+            ],
+            "searchLabel": "searchLabel",
+            "spotlabel": "spotlabel",
+            "nearLabel": "nearLabel"
         }
     },
     "widget.61": {
