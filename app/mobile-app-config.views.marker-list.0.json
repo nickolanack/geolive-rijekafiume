@@ -1,7 +1,7 @@
 {
     "type": "list",
     "list": "layer",
-    "listArgs": "{data.layers.0}",
+    "listArgs": "{data.layers}",
     "empty": [
         {
             "type": "heading",
