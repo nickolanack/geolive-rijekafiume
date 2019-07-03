@@ -9,10 +9,10 @@
             "icon": "{nearIcon}"
         },
         {
-            "label": "{spotLabel}",
+            "label": "{spotsLabel}",
             "action": "form",
             "view": "spot",
-            "icon": "{spotIcon}"
+            "icon": "{spotsIcon}"
         },
         {
             "label": "{searchLabel}",
