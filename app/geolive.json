@@ -1777,6 +1777,7 @@
                 "test-list": [
                     "mobile-app-config.views.test-list.0.json"
                 ],
+                "marker-list": "{list.json}",
                 "menu-v1": [
                     "mobile-app-config.views.menu-v1.0.json",
                     {
@@ -1856,7 +1857,6 @@
                         "value": "This is a placeholder page"
                     }
                 ],
-                "marker-list": "{list.json}",
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": "{augmented.json}"
