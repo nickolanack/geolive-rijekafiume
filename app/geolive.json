@@ -1859,7 +1859,16 @@
                 ],
                 "menu": "{menu.json}",
                 "map": "{map.json}",
-                "augmented": "{augmented.json}"
+                "augmented": [
+                    "mobile-app-config.views.augmented.0.json",
+                    {
+                        "type": "fieldset",
+                        "position": "absolute",
+                        "fields": [
+                            "mobile-app-config.views.augmented.1.fields.0.json"
+                        ]
+                    }
+                ]
             },
             "app-style": "https:\/\/rijekafiume.geolive.ca\/app-style?format=content",
             "listIcon": [
