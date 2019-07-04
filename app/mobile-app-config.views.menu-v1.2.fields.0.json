@@ -17,7 +17,7 @@
         {
             "label": "{searchLabel}",
             "action": "form",
-            "view": "placeholder",
+            "view": "menu-search",
             "icon": "{searchIcon}"
         },
         {
