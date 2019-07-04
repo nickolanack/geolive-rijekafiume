@@ -1942,10 +1942,10 @@
             "nearIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/3E7_[ImAgE]_[G]_DjV_bdm.png"
             ],
-            "searchLabel": "searchLabel",
+            "searchLabel": "Search",
             "spotlabel": "spotlabel",
-            "nearLabel": "nearLabel",
-            "spotslabel": "spotslabel"
+            "nearLabel": "NeAR Me",
+            "spotslabel": "Spots"
         }
     },
     "widget.61": {
