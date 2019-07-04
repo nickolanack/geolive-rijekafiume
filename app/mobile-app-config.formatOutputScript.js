@@ -5,14 +5,14 @@ $categories=array_filter($categories, function($c){
 });
 
 
-$buttons=array();
+$catButtons=array();
 
 if(empty($categories)){
     $categories=array("Test Cat");
 }
 foreach($categories as $cat){
     if($cat){
-        $buttons[]=array(
+        $catButtons[]=array(
             
             "label"=>$cat,
             "action"=> "form",
@@ -36,7 +36,7 @@ $parameters['types']=array(
                 array(
                     "type"=>"buttonset",
                     "className"=> "btn-main",
-                    "buttons"=>$buttons
+                    "buttons"=>$catButtons
                 )
             )
         )
@@ -51,18 +51,41 @@ $periods=array_filter($periods, function($p){
 $parameters['periods']=array(
         
     );
+    
+$perButtons=array();
 
 if(empty($periods)){
     $periods=array("Test");
 }
 foreach($periods as $period){
     if($period){
-        $parameters['periods'][]=array(
-            "type"=>"heading",
-            "value"=>$period
+        $perButtons[]=array(
+            
+            "label"=>$period,
+            "action"=> "form",
+            "view"=> "mainmap",
+           
+             "data"=> array(
+                "layers"=>array(array(
+                    "id"=>36,
+                    "filter"=>array("filterPeriod"=>$period)
+                )))
         );
     }
 }
+
+$parameters['periods']=array(
+        array(
+            "type"=>"fieldset",
+            "fields"=>array(
+                array(
+                    "type"=>"buttonset",
+                    "className"=> "btn-main",
+                    "buttons"=>$perButtons
+                )
+            )
+        )
+    );
 
  
  
