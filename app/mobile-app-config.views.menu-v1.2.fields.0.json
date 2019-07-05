@@ -1,0 +1,41 @@
+{
+    "type": "buttonset",
+    "className": "augmented-menu btn-main",
+    "buttons": [
+        {
+            "label": "{nearLabel}",
+            "action": "form",
+            "view": "placeholder",
+            "icon": "{nearIcon}"
+        },
+        {
+            "label": "{spotsLabel}",
+            "action": "form",
+            "view": "placeholder",
+            "icon": "{spotsIcon}"
+        },
+        {
+            "label": "{searchLabel}",
+            "action": "form",
+            "view": "menu-search",
+            "icon": "{searchIcon}"
+        },
+        {
+            "label": "{toursLabel}",
+            "action": "form",
+            "data": {
+                "layers": [
+                    36
+                ]
+            },
+            "view": "mainmap",
+            "icon": "{tourIcon}"
+        },
+        {
+            "label": "{yourLabel}",
+            "action": "form",
+            "view": "placeholder",
+            "icon": "{userIcon}"
+        }
+    ]
+}
