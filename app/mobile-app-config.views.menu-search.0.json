@@ -1,0 +1,10 @@
+{
+    "type": "fieldset",
+    "position": "bottom-center",
+    "fields": [
+        {
+            "type": "heading",
+            "value": "Search"
+        }
+    ]
+}

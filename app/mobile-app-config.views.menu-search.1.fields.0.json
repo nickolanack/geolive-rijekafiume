@@ -1,0 +1,18 @@
+{
+    "type": "buttonset",
+    "className": "augmented-menu btn-main",
+    "buttons": [
+        {
+            "label": "{categoriesLabel}",
+            "action": "form",
+            "view": "types",
+            "icon": "{categoriesIcon}"
+        },
+        {
+            "label": "{periodsLabel}",
+            "action": "form",
+            "view": "periods",
+            "icon": "{periodsIcon}"
+        }
+    ]
+}
