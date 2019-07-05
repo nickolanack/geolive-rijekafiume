@@ -1,0 +1,28 @@
+{
+    "type": "list",
+    "list": "layer",
+    "listArgs": "{data.layers}",
+    "empty": [
+        {
+            "type": "heading",
+            "value": "nothing here"
+        }
+    ],
+    "before": [],
+    "listItemFields": [
+        {
+            "type": "fieldset",
+            "fields": [
+                {
+                    "type": "label",
+                    "value": "{value.name}"
+                },
+                {
+                    "type": "html",
+                    "value": "{value.description}"
+                }
+            ]
+        }
+    ],
+    "after": []
+}
