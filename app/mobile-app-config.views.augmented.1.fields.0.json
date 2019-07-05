@@ -1,0 +1,24 @@
+{
+    "type": "buttonset",
+    "buttons": [
+        {
+            "label": "List",
+            "action": "view",
+            "icon": "{listIcon}",
+            "view": "marker-list",
+            "className": "small-icon"
+        },
+        {
+            "label": "Map",
+            "action": "view",
+            "view": "mainmap",
+            "icon": "{mapIcon}",
+            "className": "small-icon",
+            "data": {
+                "layers": [
+                    36
+                ]
+            }
+        }
+    ]
+}
