@@ -5,13 +5,23 @@
         {
             "label": "{nearLabel}",
             "action": "form",
-            "view": "placeholder",
+            "data": {
+                "layers": [
+                    36
+                ]
+            },
+            "view": "mainmap",
             "icon": "{nearIcon}"
         },
         {
             "label": "{spotsLabel}",
             "action": "form",
-            "view": "placeholder",
+            "data": {
+                "layers": [
+                    36
+                ]
+            },
+            "view": "marker-list",
             "icon": "{spotsIcon}"
         },
         {
