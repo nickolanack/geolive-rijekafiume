@@ -9,3 +9,7 @@
 .page.form .label{
     color:black;
 }
+
+.augmented-view #absolute>StackLayout .small-icon{
+	background-color: white;
+}
