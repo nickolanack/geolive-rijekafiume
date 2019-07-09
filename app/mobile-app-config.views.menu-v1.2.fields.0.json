@@ -6,9 +6,10 @@
             "label": "{nearLabel}",
             "action": "form",
             "data": {
-                "layers": [
-                    36
-                ]
+                "layers": {
+                    "layer": 36,
+                    "filter": "nearby"
+                }
             },
             "view": "mainmap",
             "icon": "{nearIcon}"
