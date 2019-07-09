@@ -13,3 +13,7 @@
 .augmented-view #absolute>StackLayout .small-icon{
 	background-color: #f88379;
 }
+
+.mainmap-view #absolute>StackLayout .small-icon{
+	background-color: #f88379;
+}
