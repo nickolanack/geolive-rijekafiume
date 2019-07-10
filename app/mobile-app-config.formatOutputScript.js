@@ -17,7 +17,7 @@ foreach($categories as $cat){
             "label"=>$cat,
             "action"=> "form",
             "view"=> "mainmap",
-             "icon"=> "{categoriesIcon}",
+            // "icon"=> "{categoriesIcon}",
              "data"=> array(
                 "layers"=>array(array(
                     "id"=>36,
