@@ -1772,6 +1772,14 @@
                         "augmented": "{augmented.json}"
                     },
                     "label": "Views"
+                },
+                {
+                    "type": "input.script",
+                    "name": "terms",
+                    "default": "",
+                    "label": "terms",
+                    "code-header": "<p>",
+                    "code-footer": "<\/p>"
                 }
             ],
             "appLogo": [
@@ -1953,7 +1961,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "terms": ""
         }
     },
     "widget.61": {
