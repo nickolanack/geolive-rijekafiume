@@ -1,4 +1,4 @@
 {
     "type": "html",
-    "value": "{terms.html}"
+    "html": "{terms.html}"
 }
