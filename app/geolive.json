@@ -1841,7 +1841,11 @@
             "spotsLabel": "Spots",
             "views": {
                 "terms": [
-                    "mobile-app-config.views.terms.0.json"
+                    "mobile-app-config.views.terms.0.json",
+                    {
+                        "type": "html",
+                        "value": "{terms}"
+                    }
                 ],
                 "test-list": [
                     "mobile-app-config.views.test-list.0.json"

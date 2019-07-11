@@ -1,4 +1,8 @@
 {
-    "type": "html",
-    "value": "{terms}"
+    "type": "button",
+    "position": "bottom-center",
+    "label": "I Accept",
+    "className": "submit",
+    "action": "event",
+    "event": "accept"
 }
