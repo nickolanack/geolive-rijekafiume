@@ -1840,6 +1840,7 @@
             "spotslabel": "Spots",
             "spotsLabel": "Spots",
             "views": {
+                "terms": "{terms.html}",
                 "test-list": [
                     "mobile-app-config.views.test-list.0.json"
                 ],
