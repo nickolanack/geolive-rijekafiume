@@ -88,5 +88,4 @@ $parameters['periods']=array(
     );
 
  
- $parameters['terms']="Hello world";
 return $parameters;
