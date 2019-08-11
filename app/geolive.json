@@ -1949,6 +1949,9 @@
                         "value": "This is a placeholder page"
                     }
                 ],
+                "marker-card": [
+                    "mobile-app-config.views.marker-card.0.json"
+                ],
                 "menu": "{menu.json}",
                 "map": "{map.json}",
                 "augmented": [

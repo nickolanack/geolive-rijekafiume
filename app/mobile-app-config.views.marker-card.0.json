@@ -1,0 +1,13 @@
+{
+    "type": "fieldset",
+    "fields": [
+        {
+            "type": "label",
+            "value": "{value.label}"
+        },
+        {
+            "type": "html",
+            "value": "{value.htmlContent}"
+        }
+    ]
+}
