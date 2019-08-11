@@ -9,6 +9,9 @@
 .page.form .label{
     color:#0004b6;
 }
+.ar-card.label{
+    color:#000000;
+}
 
 .augmented-view #absolute>StackLayout .small-icon{
 	background-color: #f88379;
