@@ -3,11 +3,11 @@
     "fields": [
         {
             "type": "label",
-            "value": "{value.label}"
+            "value": "{value.name}"
         },
         {
             "type": "html",
-            "value": "{value.htmlContent}"
+            "value": "{value.description}"
         }
     ]
 }
