@@ -1,4 +1,4 @@
 {
     "type": "augmentedreality",
-    "card": "{marker-card}"
+    "card": "{views.marker-card}"
 }
