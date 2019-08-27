@@ -1700,7 +1700,7 @@
                     "label": "Marker Icon",
                     "maxHeight": 64,
                     "maxWidth": 64,
-                    "limit": 1
+                    "limit": 5
                 },
                 {
                     "type": "text",
