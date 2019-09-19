@@ -11,15 +11,20 @@
     "before": [],
     "listItemFields": [
         {
-            "type": "fieldset",
+            "type": "card",
             "fields": [
                 {
-                    "type": "label",
-                    "value": "{value.name}"
-                },
-                {
-                    "type": "html",
-                    "value": "{value.description}"
+                    "type": "card",
+                    "fields": [
+                        {
+                            "type": "label",
+                            "value": "{value.name}"
+                        },
+                        {
+                            "type": "html",
+                            "value": "{value.description}"
+                        }
+                    ]
                 }
             ]
         }
