@@ -1,0 +1,25 @@
+{
+    "type": "buttonset",
+    "buttons": [
+        {
+            "label": "List",
+            "action": "view",
+            "icon": "{listIcon}",
+            "view": "marker-list",
+            "data": {
+                "layers": "{data.layers}"
+            },
+            "className": "small-icon"
+        },
+        {
+            "label": "AR",
+            "action": "view",
+            "view": "augmented",
+            "icon": "{augmentedIcon}",
+            "className": "small-icon",
+            "data": {
+                "layers": "{data.layers}"
+            }
+        }
+    ]
+}

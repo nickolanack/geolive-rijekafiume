@@ -1851,7 +1851,125 @@
             "spotslabel": "Spots",
             "spotsLabel": "Spots",
             "terms": "<h1>Rijeka Fiume App Augmented Reality Warning<\/h1>\r\n<ul>\r\n<li>Children using the augmented reality sections of this app require parental supervision.<\/li>\r\n<li>Always be aware of physical hazards in the real world (e.g., be aware of your surroundings), when using the augmented reality sections of this app<\/li>\r\n<\/ul>\r\n<h1>Rijeka Fiume App And Website Privacy Policy<\/h1>\r\n<a href=\"https:\/\/rijekafiume.geolive.ca\/privacy\">Privacy Policy Page<\/a>\r\n<h1>Rijeka Fiume App Terms of Service<\/h1>\r\n<a href=\"https:\/\/rijekafiume.geolive.ca\/terms-conditions\">Terms of Service Page<\/a>",
-            "views": null
+            "views": {
+                "terms": [
+                    "mobile-app-config.views.terms.0.json",
+                    {
+                        "type": "html",
+                        "value": "{terms}"
+                    }
+                ],
+                "test-list": [
+                    "mobile-app-config.views.test-list.0.json"
+                ],
+                "marker-list": [
+                    "mobile-app-config.views.marker-list.0.json"
+                ],
+                "menu-v1": [
+                    "mobile-app-config.views.menu-v1.0.json",
+                    {
+                        "type": "fieldset",
+                        "position": "bottom-center",
+                        "fields": [
+                            "mobile-app-config.views.menu-v1.1.fields.0.json"
+                        ]
+                    },
+                    {
+                        "type": "fieldset",
+                        "fields": [
+                            "mobile-app-config.views.menu-v1.2.fields.0.json"
+                        ]
+                    },
+                    {
+                        "type": "space"
+                    },
+                    {
+                        "type": "progressbar"
+                    },
+                    {
+                        "type": "fieldset",
+                        "position": "top-center",
+                        "fields": [
+                            "mobile-app-config.views.menu-v1.5.fields.0.json"
+                        ]
+                    }
+                ],
+                "menu-search": [
+                    "mobile-app-config.views.menu-search.0.json",
+                    {
+                        "type": "fieldset",
+                        "fields": [
+                            "mobile-app-config.views.menu-search.1.fields.0.json"
+                        ]
+                    }
+                ],
+                "types": "{types}",
+                "tours": "{tours}",
+                "mainmap": [
+                    "mobile-app-config.views.mainmap.0.json",
+                    {
+                        "type": "map",
+                        "position": "detail-top",
+                        "layers": "{data.layers}",
+                        "center": [
+                            45.320116149473989,
+                            14.44043993835453
+                        ],
+                        "markerIcon": "{}",
+                        "zoom": 13,
+                        "zoomToLocation": false
+                    },
+                    {
+                        "type": "fieldset",
+                        "position": "absolute",
+                        "fields": [
+                            "mobile-app-config.views.mainmap.2.fields.0.json"
+                        ]
+                    }
+                ],
+                "periods": "{periods}",
+                "about": [
+                    "mobile-app-config.views.about.0.json",
+                    {
+                        "type": "heading",
+                        "value": "Rijeka Fiume App"
+                    },
+                    {
+                        "type": "html",
+                        "value": "This is a description of the app who its for and why it was made"
+                    },
+                    {
+                        "type": "html",
+                        "value": "This is a description of the research the team"
+                    },
+                    {
+                        "type": "html",
+                        "value": "This is a shoutout to Geolive mapping server and opensource software"
+                    }
+                ],
+                "placeholder": [
+                    "mobile-app-config.views.placeholder.0.json",
+                    {
+                        "type": "label",
+                        "value": "This is a placeholder page"
+                    }
+                ],
+                "marker-card": [
+                    "mobile-app-config.views.marker-card.0.json"
+                ],
+                "menu": "{menu.json}",
+                "map": "{map.json}",
+                "augmented": [
+                    "mobile-app-config.views.augmented.0.json",
+                    {
+                        "type": "fieldset",
+                        "position": "absolute",
+                        "fields": [
+                            "mobile-app-config.views.augmented.1.fields.0.json"
+                        ]
+                    }
+                ]
+            }
         }
     },
     "widget.61": {

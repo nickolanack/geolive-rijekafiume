@@ -1,0 +1,8 @@
+{
+    "type": "augmentedreality",
+    "card": "{views.marker-card}",
+    "offsetLatLng": {
+        "lat": 45.322000000000003,
+        "lng": 14.452
+    }
+}
