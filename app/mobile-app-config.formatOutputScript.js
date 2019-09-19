@@ -25,7 +25,7 @@ $makeFeildsetButtonset=function($categoryName, $template){
     }
 
 
-    $parameters['types']=array(
+    return array(
         array(
             "type"=>"fieldset",
             "fields"=>array(
