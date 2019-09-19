@@ -41,7 +41,7 @@ $template = array(
     "type" => "card",
     "fields" => array(
         array(
-            "type":"label",
+            "type"=>"label",
             "label" => "{value}",
         )
     ),
