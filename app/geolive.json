@@ -2916,12 +2916,12 @@
             "metadata": {
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
-                    "x": 322,
-                    "y": 275
+                    "x": 337,
+                    "y": 255
                 },
                 "_diagramState": {
-                    "x": 322,
-                    "y": 275
+                    "x": 337,
+                    "y": 255
                 },
                 "appliesTo": [
                     "marker"
@@ -3338,11 +3338,11 @@
                         "label": "Tour",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
-                        "allowMultiple": false,
+                        "allowMultiple": true,
                         "fieldType": "text",
                         "fieldTextOptions": {
                             "textType": "input",
