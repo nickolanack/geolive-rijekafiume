@@ -352,7 +352,7 @@
                             "colorize": false
                         }
                     },
-                    "allowMultiple": true
+                    "allowMultiple": false
                 },
                 {
                     "visibility": "public",
@@ -553,6 +553,38 @@
                     "tableSuffix": "_7331",
                     "title": "addressData",
                     "label": "Address Data",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "3",
+                    "tableName": "curatedAttributes",
+                    "tableSuffix": "_7331",
+                    "title": "tour",
+                    "label": "Tour",
                     "description": "",
                     "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
