@@ -32,14 +32,17 @@ return array(
             }
             
             if(key_exists("filterTour",$filter)){
-               return $filter->filterCategory==$item['attributes']['tour'];
+                if(is_array($item['attributes']['tour'])){
+                   return in_array($filter->filterTour, $item['attributes']['tour']);
+                }
+               return $filter->filterTour==$item['attributes']['tour'];
             }
             
             if(key_exists("filterPeriod",$filter)){
-               if(is_array($item['attributes']['category'])){
-                   return in_array($filter->filterPeriod, $item['attributes']['category']);
+               if(is_array($item['attributes']['period'])){
+                   return in_array($filter->filterPeriod, $item['attributes']['period']);
                }
-               return $filter->filterPeriod==$item['attributes']['category'];
+               return $filter->filterPeriod==$item['attributes']['period'];
             }
                 
             return true;
