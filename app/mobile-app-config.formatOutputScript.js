@@ -21,7 +21,7 @@ $makeFeildsetButtonset=function($categoryName, $template){
     foreach($categories as $cat){
         if($cat){
 
-            $button=str_replace(json_encode("{value}"), json_encode($cat), $json)
+            $button=str_replace(json_encode("{value}"), json_encode($cat), $json);
             $button=str_replace(json_encode("{Value}"), json_encode(ucfirst($cat)), $button);
             $buttons[]=json_decode($button);
         }
