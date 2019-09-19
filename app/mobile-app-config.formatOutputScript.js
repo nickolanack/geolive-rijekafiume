@@ -15,11 +15,30 @@ $makeFeildsetButtonset = function ($categoryName, $template) {
 	}
 
 	$json = json_encode($template);
-	foreach ($categories as $cat) {
+
+    $colors=array(
+    "#fff7f3",
+    "#fde0dd",
+    "#fcc5c0",
+    "#fa9fb5",
+    "#f768a1",
+    "#dd3497",
+    "#ae017e",
+    "#7a0177",
+    "#49006a"
+    );
+
+
+	foreach ($categories as $i=>$cat) {
 		if ($cat) {
+
+            $color=$colors[$i%count($colors)];
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
+
+            $button = str_replace("{style}", "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;", $button);
+
 			$buttons[] = json_decode($button);
 		}
 	}
@@ -40,7 +59,7 @@ $makeFeildsetButtonset = function ($categoryName, $template) {
 $template = array(
     "type" => "card",
     "fields" => array(
-        "style"=>"border-color: #888888; border-width: 0 0 0 3; padding-left: 20px;",
+        "style"=>"{style}",
         "fields"=>array(
             "type"=>"label",
             "value" => "{value}",
