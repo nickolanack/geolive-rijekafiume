@@ -14,7 +14,7 @@ $makeFeildsetButtonset=function($categoryName, $template){
     $buttons=array();
 
     if(empty($categories)){
-        $categories=array("Test Cat");
+        $categories=array("Empty list: ".$categoryName);
     }
 
     $json=json_encode($template);
