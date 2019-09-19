@@ -1,91 +1,65 @@
 GetPlugin('Attributes');
-$categories=(new \attributes\Record('curatedAttributes'))->distinctValues('category');
-$categories=array_filter($categories, function($c){
-    return !!$c;
-});
 
 
-$catButtons=array();
+$makeFeildsetButtonset=function($categoryName, $template){
 
-if(empty($categories)){
-    $categories=array("Test Cat");
-}
-foreach($categories as $cat){
-    if($cat){
-        $catButtons[]=array(
-            
-            "label"=>$cat,
-            "action"=> "form",
-            "view"=> "mainmap",
-            // "icon"=> "{categoriesIcon}",
-             "data"=> array(
-                "layers"=>array(array(
-                    "id"=>36,
-                    "filter"=>array("filterCategory"=>$cat)
-                ))),
-             
-        );
+    $categories=(new \attributes\Record('curatedAttributes'))->distinctValues($categoryName);
+
+
+    $categories=array_filter($categories, function($c){
+        return !!$c;
+    });
+
+
+    $buttons=array();
+
+    if(empty($categories)){
+        $categories=array("Test Cat");
     }
-}
+
+    $json=json_encode($template);
+    foreach($categories as $cat){
+        if($cat){
+            $buttons[]=json_decode(str_replace(json_encode("{value}"), json_encode($cat)));
+        }
+    }
 
 
-$parameters['types']=array(
+    $parameters['types']=array(
         array(
             "type"=>"fieldset",
             "fields"=>array(
                 array(
                     "type"=>"buttonset",
                     "className"=> "btn-main",
-                    "buttons"=>$catButtons
+                    "buttons"=>$buttons
                 )
             )
         )
     );
 
+};
 
-$periods=(new \attributes\Record('curatedAttributes'))->distinctValues('period');
-$periods=array_filter($periods, function($p){
-    return !!$p;
-});
-
-$parameters['periods']=array(
-        
-    );
-    
-$perButtons=array();
-
-if(empty($periods)){
-    $periods=array("Test");
-}
-foreach($periods as $period){
-    if($period){
-        $perButtons[]=array(
-            
-            "label"=>$period,
-            "action"=> "form",
-            "view"=> "mainmap",
-           
-             "data"=> array(
-                "layers"=>array(array(
-                    "id"=>36,
-                    "filter"=>array("filterPeriod"=>$period)
-                )))
-        );
-    }
-}
-
-$parameters['periods']=array(
-        array(
-            "type"=>"fieldset",
-            "fields"=>array(
-                array(
-                    "type"=>"buttonset",
-                    "className"=> "btn-main",
-                    "buttons"=>$perButtons
-                )
-            )
-        )
+$template=array(
+        "label"=>"{value}",
+        "action"=> "form",
+        "view"=> "mainmap",
+        // "icon"=> "{categoriesIcon}",
+         "data"=> array(
+            "layers"=>array(array(
+                "id"=>36,
+                "filter"=>array("filterCategory"=>"{value}")
+            ))),
+         
     );
 
- 
+$parameters['types']=$makeFeildsetButtonset(
+    'category', $template);
+
+$parameters['periods']=$makeFeildsetButtonset(
+    'period', $template);
+
+$parameters['tours']=$makeFeildsetButtonset(
+    'tour', $template);
+
 return $parameters;
