@@ -14,7 +14,8 @@
             "type": "card",
             "fields": [
                 {
-                    "type": "card",
+                    "type": "fieldset",
+                    "style": "border-left:3px solid cornflowerblue;",
                     "fields": [
                         {
                             "type": "label",
