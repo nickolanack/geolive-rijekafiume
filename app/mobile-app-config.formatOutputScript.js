@@ -47,6 +47,7 @@ $template=array(
         "label"=>"{value}",
         "action"=> "form",
         "view"=> "mainmap",
+        "remember"=>false,
         // "icon"=> "{categoriesIcon}",
          "data"=> array(
             "layers"=>array(array(
