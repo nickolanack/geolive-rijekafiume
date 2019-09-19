@@ -42,7 +42,7 @@ $template = array(
     "fields" => array(
         array(
             "type"=>"label",
-            "label" => "{value}",
+            "value" => "{value}",
         )
     ),
 	
