@@ -34,7 +34,8 @@ $vars = array_merge(
 		       "category"=>$update->Category,
 		       "period"=>$update->Period,
 		       "address"=>$update->Address,
-		       "researcher"=>$update->Researcher
+		       "researcher"=>$update->Researcher,
+		       "tour"=>$update->Tour
 		    ));
 		    
 		    
