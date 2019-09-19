@@ -6,7 +6,11 @@
             "action": "view",
             "icon": "{listIcon}",
             "view": "marker-list",
-            "className": "small-icon"
+            "className": "small-icon",
+            "remember": false,
+            "data": {
+                "layers": "{data.layers}"
+            }
         },
         {
             "label": "Map",
@@ -14,6 +18,7 @@
             "view": "mainmap",
             "icon": "{mapIcon}",
             "className": "small-icon",
+            "remember": false,
             "data": {
                 "layers": "{data.layers}"
             }

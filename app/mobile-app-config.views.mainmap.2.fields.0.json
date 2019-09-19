@@ -6,6 +6,7 @@
             "action": "view",
             "icon": "{listIcon}",
             "view": "marker-list",
+            "remember": false,
             "data": {
                 "layers": "{data.layers}"
             },
@@ -17,6 +18,7 @@
             "view": "augmented",
             "icon": "{augmentedIcon}",
             "className": "small-icon",
+            "remember": false,
             "data": {
                 "layers": "{data.layers}"
             }
