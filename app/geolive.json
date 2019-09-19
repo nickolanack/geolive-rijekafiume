@@ -1903,6 +1903,7 @@
                     }
                 ],
                 "types": "{types}",
+                "tours": "{tours}",
                 "mainmap": [
                     "mobile-app-config.views.mainmap.0.json",
                     {
