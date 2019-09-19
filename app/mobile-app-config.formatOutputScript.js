@@ -1,6 +1,16 @@
 GetPlugin('Attributes');
 
-$makeFeildsetButtonset = function ($categoryName, $template) {
+$makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
+    "#fff7f3",
+    "#fde0dd",
+    "#fcc5c0",
+    "#fa9fb5",
+    "#f768a1",
+    "#dd3497",
+    "#ae017e",
+    "#7a0177",
+    "#49006a"
+    )) {
 
 	$categories = (new \attributes\Record('curatedAttributes'))->distinctValues($categoryName);
 
@@ -16,28 +26,21 @@ $makeFeildsetButtonset = function ($categoryName, $template) {
 
 	$json = json_encode($template);
 
-    $colors=array(
-    "#fff7f3",
-    "#fde0dd",
-    "#fcc5c0",
-    "#fa9fb5",
-    "#f768a1",
-    "#dd3497",
-    "#ae017e",
-    "#7a0177",
-    "#49006a"
-    );
 
 
 	foreach ($categories as $i=>$cat) {
 		if ($cat) {
 
-            $color=$colors[$i%count($colors)];
+            $style="";
+            if(!empty($colors)){
+                $color=$colors[$i%count($colors)];
+                $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;";
+            }
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
 
-            $button = str_replace("{style}", "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;", $button);
+            $button = str_replace("{style}", $style, $button);
 
 			$buttons[] = json_decode($button);
 		}
