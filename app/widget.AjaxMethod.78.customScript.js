@@ -8,7 +8,7 @@ $attr=new \attributes\Record('curatedAttributes');
 
 
 return array(
-    'withFilter'=>key_exists("filter",$json)?$json->filter||false,
+    'withFilter'=>key_exists("filter",$json)?$json->filter:false,
     "items"=>array_values(array_filter((new spatial\Features())->listLayerItems(36)
         ->map(function($item)use($attr){
             
