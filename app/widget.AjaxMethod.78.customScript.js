@@ -29,6 +29,11 @@ return array(
             if(key_exists("filterCategory",$filter)){
                return $filter->filterCategory==$item['attributes']['category'];
             }
+            
+            if(key_exists("filterTour",$filter)){
+               return $filter->filterCategory==$item['attributes']['tour'];
+            }
+            
             if(key_exists("filterPeriod",$filter)){
                if(is_array($item['attributes']['category'])){
                    return in_array($filter->filterPeriod, $item['attributes']['category']);
