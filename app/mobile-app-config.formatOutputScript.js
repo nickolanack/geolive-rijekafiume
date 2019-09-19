@@ -30,12 +30,17 @@ $makeFeildsetButtonset=function($categoryName, $template){
 
     return array(
         array(
-            "type"=>"fieldset",
+            "type"=>"card",
             "fields"=>array(
                 array(
-                    "type"=>"buttonset",
-                    "className"=> "btn-main",
-                    "buttons"=>$buttons
+                    "type"=>"fieldset",
+                    "fields"=>array(
+                        array(
+                            "type"=>"buttonset",
+                            "className"=> "btn-main",
+                            "buttons"=>$buttons
+                        )
+                    )
                 )
             )
         )
