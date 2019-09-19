@@ -2917,12 +2917,12 @@
             "metadata": {
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
-                    "x": 328,
-                    "y": 249
+                    "x": 322,
+                    "y": 275
                 },
                 "_diagramState": {
-                    "x": 328,
-                    "y": 249
+                    "x": 322,
+                    "y": 275
                 },
                 "appliesTo": [
                     "marker"
@@ -2991,7 +2991,7 @@
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
-                        "allowMultiple": false,
+                        "allowMultiple": true,
                         "fieldType": "text",
                         "fieldTextOptions": {
                             "textType": "input",

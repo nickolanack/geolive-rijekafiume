@@ -352,7 +352,7 @@
                             "colorize": false
                         }
                     },
-                    "allowMultiple": false
+                    "allowMultiple": true
                 },
                 {
                     "visibility": "public",
