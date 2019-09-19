@@ -1,3 +1,4 @@
+<?php
 GetPlugin('Attributes');
 
 
@@ -20,7 +21,10 @@ $makeFeildsetButtonset=function($categoryName, $template){
     $json=json_encode($template);
     foreach($categories as $cat){
         if($cat){
-            $buttons[]=json_decode(str_replace(json_encode("{value}"), json_encode($cat), $json));
+            $buttons[]=json_decode(
+                str_replace(json_encode("{Value}"), json_encode(ucfirst($cat)),
+                str_replace(json_encode("{value}"), json_encode($cat), $json)
+                ));
         }
     }
 
@@ -48,7 +52,7 @@ $template=array(
          "data"=> array(
             "layers"=>array(array(
                 "id"=>36,
-                "filter"=>array("filterCategory"=>"{value}")
+                "filter"=>array("filter{Value}"=>"{value}")
             ))),
          
     );
