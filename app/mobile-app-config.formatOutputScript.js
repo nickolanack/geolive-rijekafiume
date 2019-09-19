@@ -40,7 +40,8 @@ $makeFeildsetButtonset = function ($categoryName, $template) {
 $template = array(
     "type" => "card",
     "fields" => array(
-        array(
+        "style"=>"border-color: #888888; border-width: 0 0 0 3; padding-left: 20px;",
+        "fields"=>array(
             "type"=>"label",
             "value" => "{value}",
         )
