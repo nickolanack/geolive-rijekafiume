@@ -25,6 +25,9 @@ return array(
             } 
             
             $filter=$json->filter;
+            if(!is_object($filter)){
+                return true;
+            }
                 
             error_log(json_encode($json));
             if(key_exists("filterCategory",$filter)){
