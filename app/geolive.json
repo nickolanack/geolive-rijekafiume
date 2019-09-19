@@ -2917,12 +2917,12 @@
             "metadata": {
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
-                    "x": 337,
-                    "y": 255
+                    "x": 328,
+                    "y": 249
                 },
                 "_diagramState": {
-                    "x": 337,
-                    "y": 255
+                    "x": 328,
+                    "y": 249
                 },
                 "appliesTo": [
                     "marker"
