@@ -62,7 +62,7 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
 $template = array(
     "type" => "card",
     "fields" => array(
-        "style"=>"{style} orientation:horizontal;",
+        "style"=>"{style} orientation:horizontal; vertical-align: middle;",
         "fields"=>
         array(
         	array(
