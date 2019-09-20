@@ -34,7 +34,7 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
             $style="";
             if(!empty($colors)){
                 $color=$colors[$i%count($colors)];
-                $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;";
+                $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px; margin-left";
             }
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
@@ -63,10 +63,15 @@ $template = array(
     "type" => "card",
     "fields" => array(
         "style"=>"{style}",
-        "fields"=>array(
-            "type"=>"label",
-            "value" => "{value}",
-        )
+        "fields"=>
+        array(
+        	
+	        array(
+	        	"icon": "{listIcon}",
+	            "type"=>"label",
+	            "value" => "{value}",
+	        )
+    	)
     ),
 	
 	"action" => "form",
