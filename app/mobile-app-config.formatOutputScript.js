@@ -62,27 +62,28 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
 $template = array(
     "type" => "card",
     "fields" => array(
-        "style"=>"{style}",
+        "style"=>"{style} orientation:horizontal;",
         "fields"=>
         array(
         	array(
+	        	"type"=>"icon",
+	        	"icon"=>"{tourAltIcon}",
+	        ),
+        	array(
         		"type"=>"fieldset",
-        		"style"=>"orientation:horizontal;",
+        		"style"=>"",
 		        "fields"=>array(
-			        	array(
-				        	"type"=>"icon",
-				        	"icon"=>"{tourAltIcon}",
-				        ),
+			        	
 				        array(
 				            "type"=>"label",
 				            "value" => "{value}",
+				        ),
+			        	array(
+				            "type"=>"html",
+				            "value" => "inline description of content",
 				        )
 			    	)
-		    	),
-        	array(
-	            "type"=>"html",
-	            "value" => "inline description of content",
-	        )
+		    	)
     	)
     ),
 	
