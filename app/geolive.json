@@ -1686,6 +1686,15 @@
                 },
                 {
                     "type": "images",
+                    "name": "tourAltIcon",
+                    "default": [],
+                    "label": "Tours (Alt)",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
                     "name": "userIcon",
                     "default": [],
                     "label": "User Items",
@@ -1969,7 +1978,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "tourAltIcon": []
         }
     },
     "widget.61": {
