@@ -34,7 +34,7 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
             $style="";
             if(!empty($colors)){
                 $color=$colors[$i%count($colors)];
-                $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px; margin-left";
+                $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;";
             }
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
