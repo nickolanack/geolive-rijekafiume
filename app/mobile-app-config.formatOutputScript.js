@@ -66,8 +66,8 @@ $template = array(
         "fields"=>
         array(
         	array(
-        		"type"=>"fieldset"
-        		"style"=>"orientation:horizontal;"
+        		"type"=>"fieldset",
+        		"style"=>"orientation:horizontal;",
 		        "fields"=>array(
 			        	array(
 				        	"type"=>"icon",
