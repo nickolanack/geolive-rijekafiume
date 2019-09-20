@@ -67,7 +67,10 @@ $template = array(
         array(
         	
 	        array(
-	        	"icon": "{listIcon}",
+	        	"type"=>"icon",
+	        	"icon"=>"{listIcon}",
+	        ),
+	        array(
 	            "type"=>"label",
 	            "value" => "{value}",
 	        )
