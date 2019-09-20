@@ -81,6 +81,45 @@ $template = array(
 			        	array(
 				            "type"=>"html",
 				            "value" => "inline description of content",
+				        ),
+				        array(
+				            "type"=>"buttonset",
+				            "buttons" =>array(
+				            	"action" => "view",
+								"view" => "mainmap",
+								"remember" => false,
+								"icon"=> "{mapIcon}",
+								"data" => array(
+									"layers" => array(array(
+										"id" => 36,
+										"filter" => array("filter{Name}" => "{value}"),
+									))
+								)
+				            ),
+				            array(
+				            	"action" => "view",
+								"view" => "augmented",
+								"remember" => false,
+								"icon"=> "{augmentedIcon}",
+								"data" => array(
+									"layers" => array(array(
+										"id" => 36,
+										"filter" => array("filter{Name}" => "{value}"),
+									))
+								)
+				            ),
+				            array(
+				            	"action" => "view",
+								"view" => "marker-list",
+								"remember" => false,
+								"icon"=> "{listIcon}",
+								"data" => array(
+									"layers" => array(array(
+										"id" => 36,
+										"filter" => array("filter{Name}" => "{value}"),
+									))
+								)
+				            )
 				        )
 			    	)
 		    	)
@@ -95,7 +134,8 @@ $template = array(
 		"layers" => array(array(
 			"id" => 36,
 			"filter" => array("filter{Name}" => "{value}"),
-		))),
+		))
+	),
 
 );
 
