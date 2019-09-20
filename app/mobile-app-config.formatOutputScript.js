@@ -94,31 +94,31 @@ $template = array(
 										"id" => 36,
 										"filter" => array("filter{Name}" => "{value}"),
 									))
-								)
-				            ),
-				            array(
-				            	"action" => "view",
-								"view" => "augmented",
-								"remember" => false,
-								"icon"=> "{augmentedIcon}",
-								"data" => array(
-									"layers" => array(array(
-										"id" => 36,
-										"filter" => array("filter{Name}" => "{value}"),
-									))
-								)
-				            ),
-				            array(
-				            	"action" => "view",
-								"view" => "marker-list",
-								"remember" => false,
-								"icon"=> "{listIcon}",
-								"data" => array(
-									"layers" => array(array(
-										"id" => 36,
-										"filter" => array("filter{Name}" => "{value}"),
-									))
-								)
+								),
+					            array(
+					            	"action" => "view",
+									"view" => "augmented",
+									"remember" => false,
+									"icon"=> "{augmentedIcon}",
+									"data" => array(
+										"layers" => array(array(
+											"id" => 36,
+											"filter" => array("filter{Name}" => "{value}"),
+										))
+									)
+					            ),
+					            array(
+					            	"action" => "view",
+									"view" => "marker-list",
+									"remember" => false,
+									"icon"=> "{listIcon}",
+									"data" => array(
+										"layers" => array(array(
+											"id" => 36,
+											"filter" => array("filter{Name}" => "{value}"),
+										))
+									)
+					            )
 				            )
 				        )
 			    	)
