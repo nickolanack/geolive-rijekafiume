@@ -65,14 +65,23 @@ $template = array(
         "style"=>"{style}",
         "fields"=>
         array(
-        	
-	        array(
-	        	"type"=>"icon",
-	        	"icon"=>"{listIcon}",
-	        ),
-	        array(
-	            "type"=>"label",
-	            "value" => "{value}",
+        	array(
+        		"type"=>"fieldset"
+        		"style"=>"orientation:horizontal;"
+		        "fields"=>array(
+			        	array(
+				        	"type"=>"icon",
+				        	"icon"=>"{listIcon}",
+				        ),
+				        array(
+				            "type"=>"label",
+				            "value" => "{value}",
+				        )
+			    	)
+		    	),
+        	array(
+	            "type"=>"html",
+	            "value" => "inline description of content",
 	        )
     	)
     ),
