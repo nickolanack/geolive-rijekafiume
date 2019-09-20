@@ -71,7 +71,7 @@ $template = array(
 		        "fields"=>array(
 			        	array(
 				        	"type"=>"icon",
-				        	"icon"=>"{listIcon}",
+				        	"icon"=>"{tourAltIcon}",
 				        ),
 				        array(
 				            "type"=>"label",
