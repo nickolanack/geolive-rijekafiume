@@ -85,15 +85,17 @@ $template = array(
 				        array(
 				            "type"=>"buttonset",
 				            "buttons" =>array(
-				            	"action" => "view",
-								"view" => "mainmap",
-								"remember" => false,
-								"icon"=> "{mapIcon}",
-								"data" => array(
-									"layers" => array(array(
-										"id" => 36,
-										"filter" => array("filter{Name}" => "{value}"),
-									))
+				            	array(
+					            	"action" => "view",
+									"view" => "mainmap",
+									"remember" => false,
+									"icon"=> "{mapIcon}",
+									"data" => array(
+										"layers" => array(array(
+											"id" => 36,
+											"filter" => array("filter{Name}" => "{value}"),
+										))
+									)
 								),
 					            array(
 					            	"action" => "view",
