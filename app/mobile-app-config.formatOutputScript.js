@@ -88,8 +88,8 @@ $template = array(
 				            "className"=>"filter-card-menu",
 				            "buttons" =>array(
 				            	array(
-					            	"action" => "view",
-									"view" => "mainmap",
+					            	"action" => "form",
+									"form" => "mainmap",
 									"remember" => false,
 									"icon"=> "{mapIcon}",
 									"data" => array(
@@ -100,8 +100,8 @@ $template = array(
 									)
 								),
 					            array(
-					            	"action" => "view",
-									"view" => "augmented",
+					            	"action" => "form",
+									"form" => "augmented",
 									"remember" => false,
 									"icon"=> "{augmentedIcon}",
 									"data" => array(
@@ -112,8 +112,8 @@ $template = array(
 									)
 					            ),
 					            array(
-					            	"action" => "view",
-									"view" => "marker-list",
+					            	"action" => "form",
+									"form" => "marker-list",
 									"remember" => false,
 									"icon"=> "{listIcon}",
 									"data" => array(
