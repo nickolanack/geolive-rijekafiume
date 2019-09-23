@@ -31,13 +31,19 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
 	foreach ($categories as $i=>$cat) {
 		if ($cat) {
 
+			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
+
             $style="";
             if(!empty($colors)){
                 $color=$colors[$i%count($colors)];
                 $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;";
+
+                $tint=array_map(function($h){return hexdec($h);},chunk_split(ltrim($color, '#'), 2))
+
+                $button = str_replace("{tint}", '?tint=rgb('.implode(',',$tint).')', $button);
             }
 
-			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
+			
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
 
             $button = str_replace("{style}", $style, $button);
@@ -67,7 +73,7 @@ $template = array(
         array(
         	array(
 	        	"type"=>"icon",
-	        	"icon"=>"{tourAltIcon}",
+	        	"icon"=>"{tourAltIcon}{tint}",
 	        ),
         	array(
         		"type"=>"fieldset",
