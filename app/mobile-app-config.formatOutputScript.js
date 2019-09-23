@@ -84,6 +84,7 @@ $template = array(
 				        ),
 				        array(
 				            "type"=>"buttonset",
+				            "align"=>"right",
 				            "style"=>"horizontal-align:right;",
 				            "className"=>"filter-card-menu",
 				            "buttons" =>array(
