@@ -38,12 +38,13 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
                 $color=$colors[$i%count($colors)];
                 $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;";
 
-                $tint=chunk_split(ltrim($color, '#'), 2);
+                $tint=ltrim($color, '#');
+                $tint=chunk_split($tint, 2);
 	
 
 				//$tint=array_map(function($h){return hexdec($h);},$tint);
 
-                $button = str_replace("{tint}", '?tint=rgb('.ltrim($color, '#').')', $button);
+                $button = str_replace("{tint}", '?tint=rgb('.implode(', ',  $tint).')', $button);
             }
 
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
