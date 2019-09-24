@@ -31,7 +31,7 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
 	foreach ($categories as $i=>$cat) {
 		if ($cat) {
 
-			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
+			$button = str_replace(json_encode("{value}"), ucwords(json_encode($cat)), $json);
 
             $style="";
             if(!empty($colors)){
@@ -86,7 +86,7 @@ $template = array(
 			        	
 				        array(
 				            "type"=>"label",
-				            "value" => "{value|capitalize}",
+				            "value" => "{value}",
 				        ),
 			        	array(
 				            "type"=>"html",
