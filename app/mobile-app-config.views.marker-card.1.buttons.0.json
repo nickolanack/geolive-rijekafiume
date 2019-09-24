@@ -2,5 +2,5 @@
     "action": "form",
     "form": "mainmap",
     "remember": false,
-    "icon": "{mapIcon}"
+    "icon": "{likeIcon.0}"
 }
