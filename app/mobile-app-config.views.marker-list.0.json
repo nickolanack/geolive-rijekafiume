@@ -12,22 +12,7 @@
     "listItemFields": [
         {
             "type": "card",
-            "fields": [
-                {
-                    "type": "fieldset",
-                    "style": "border-left:3px solid cornflowerblue;",
-                    "fields": [
-                        {
-                            "type": "label",
-                            "value": "{value.name}"
-                        },
-                        {
-                            "type": "html",
-                            "value": "{value.description}"
-                        }
-                    ]
-                }
-            ]
+            "fields": "{views.marker-card}"
         }
     ],
     "after": []
