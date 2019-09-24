@@ -12,7 +12,35 @@
     "listItemFields": [
         {
             "type": "card",
-            "fields": "{views.marker-card}"
+            "fields": [
+                {
+                    "type": "fieldset",
+                    "fields": [
+                        {
+                            "type": "label",
+                            "value": "{value.name}"
+                        },
+                        {
+                            "type": "html",
+                            "value": "{value.description}"
+                        }
+                    ]
+                },
+                {
+                    "type": "buttonset",
+                    "align": "right",
+                    "style": "horizontal-align:right;",
+                    "className": "marker-card-menu",
+                    "buttons": [
+                        {
+                            "action": "form",
+                            "form": "mainmap",
+                            "remember": false,
+                            "icon": "{mapIcon}"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "after": []
