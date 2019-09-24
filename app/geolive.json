@@ -1884,19 +1884,7 @@
                     "mobile-app-config.views.test-list.0.json"
                 ],
                 "marker-card": [
-                    "mobile-app-config.views.marker-card.0.json",
-                    {
-                        "type": "buttonset",
-                        "align": "right",
-                        "style": "horizontal-align:right;",
-                        "className": "marker-card-menu",
-                        "buttons": [
-                            "mobile-app-config.views.marker-card.1.buttons.0.json",
-                            {
-                                "icon": "{likeIcon.0}?tint=rgb(100,100,100)"
-                            }
-                        ]
-                    }
+                    "mobile-app-config.views.marker-card.0.json"
                 ],
                 "marker-list": [
                     "mobile-app-config.views.marker-list.0.json"

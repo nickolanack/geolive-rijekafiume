@@ -1,13 +1,32 @@
 {
-    "type": "fieldset",
+    "type": "card",
     "fields": [
         {
-            "type": "label",
-            "value": "{value.name}"
+            "type": "fieldset",
+            "fields": [
+                {
+                    "type": "label",
+                    "value": "{value.name}"
+                },
+                {
+                    "type": "html",
+                    "value": "{value.description}"
+                }
+            ]
         },
         {
-            "type": "html",
-            "value": "{value.description}"
+            "type": "buttonset",
+            "align": "right",
+            "style": "horizontal-align:right;",
+            "className": "marker-card-menu",
+            "buttons": [
+                {
+                    "icon": "{shareIcon.0}?tint=rgb(100,100,100)"
+                },
+                {
+                    "icon": "{likeIcon.0}?tint=rgb(100,100,100)"
+                }
+            ]
         }
     ]
 }
