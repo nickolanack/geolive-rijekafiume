@@ -1891,7 +1891,10 @@
                         "style": "horizontal-align:right;",
                         "className": "marker-card-menu",
                         "buttons": [
-                            "mobile-app-config.views.marker-card.1.buttons.0.json"
+                            "mobile-app-config.views.marker-card.1.buttons.0.json",
+                            {
+                                "icon": "{likeIcon.0}"
+                            }
                         ]
                     }
                 ],

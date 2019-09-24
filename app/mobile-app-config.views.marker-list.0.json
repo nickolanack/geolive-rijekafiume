@@ -33,9 +33,9 @@
                     "className": "marker-card-menu",
                     "buttons": [
                         {
-                            "action": "form",
-                            "form": "mainmap",
-                            "remember": false,
+                            "icon": "{shareIcon.0}"
+                        },
+                        {
                             "icon": "{likeIcon.0}"
                         }
                     ]

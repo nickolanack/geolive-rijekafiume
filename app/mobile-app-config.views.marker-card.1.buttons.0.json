@@ -1,6 +1,3 @@
 {
-    "action": "form",
-    "form": "mainmap",
-    "remember": false,
-    "icon": "{likeIcon.0}"
+    "icon": "{shareIcon.0}"
 }
