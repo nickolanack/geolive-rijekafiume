@@ -1,0 +1,12 @@
+{
+    "type": "data",
+    "data": {
+        "feature": false,
+        "center": [
+            "lat",
+            "lon",
+            "zoom"
+        ],
+        "hasActiveFeature": false
+    }
+}
