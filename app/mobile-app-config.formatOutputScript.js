@@ -77,7 +77,7 @@ $template = array(
         array(
         	array(
 	        	"type"=>"icon",
-	        	"icon"=>"{tourAltIcon}{tint}",
+	        	"icon"=>"{tourAltIcon.0}{tint}",
 	        ),
         	array(
         		"type"=>"fieldset",
