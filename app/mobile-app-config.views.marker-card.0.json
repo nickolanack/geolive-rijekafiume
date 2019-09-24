@@ -17,7 +17,7 @@
         {
             "type": "buttonset",
             "align": "right",
-            "style": "horizontal-align:right;",
+            "style": "horizontal-align:right; orientation:horizontal;",
             "className": "marker-card-menu",
             "buttons": [
                 {
