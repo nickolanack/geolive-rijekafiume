@@ -1587,6 +1587,15 @@
                 },
                 {
                     "type": "images",
+                    "name": "likeIcon",
+                    "default": [],
+                    "label": "Like",
+                    "maxHeight": 64,
+                    "maxWidth": 64,
+                    "limit": 1
+                },
+                {
+                    "type": "images",
                     "name": "surveyIcon",
                     "default": [],
                     "label": "Survey",
@@ -1990,7 +1999,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "likeIcon": []
         }
     },
     "widget.61": {
