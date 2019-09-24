@@ -33,10 +33,10 @@
                     "className": "marker-card-menu",
                     "buttons": [
                         {
-                            "icon": "{shareIcon.0}"
+                            "icon": "{shareIcon.0}?tint=rgb(100,100,100)"
                         },
                         {
-                            "icon": "{likeIcon.0}"
+                            "icon": "{likeIcon.0}?tint=rgb(100,100,100)"
                         }
                     ]
                 }

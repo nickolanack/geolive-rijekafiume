@@ -1893,7 +1893,7 @@
                         "buttons": [
                             "mobile-app-config.views.marker-card.1.buttons.0.json",
                             {
-                                "icon": "{likeIcon.0}"
+                                "icon": "{likeIcon.0}?tint=rgb(100,100,100)"
                             }
                         ]
                     }
