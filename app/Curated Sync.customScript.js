@@ -14,6 +14,8 @@ $vars = array_merge(
 			return array("success" => false, "message" => 'missing secret');
 		}
 		
+		GetPlugin('Maps');
+		GetPlugin('Attributes');
 		
 		if(key_exists('media', $json)){
 		    
@@ -39,8 +41,7 @@ $vars = array_merge(
 		if(!key_exists('updates', $json)){
 		    return true;
 		}
-		GetPlugin('Maps');
-		GetPlugin('Attributes');
+	
 		foreach($json->updates as $update){
 		    if($update->type!="marker"){
 		        return array("success" => false, "message" => 'invalid type: '.$update->type);
