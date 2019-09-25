@@ -14,6 +14,28 @@ $vars = array_merge(
 			return array("success" => false, "message" => 'missing secret');
 		}
 		
+		
+		if(key_exists('media', $json)){
+		    
+		    foreach($json->media as $update){
+    		    if($update->type!="marker"){
+    		        return array("success" => false, "message" => 'invalid type: '.$update->type);
+    		    }
+    		    
+    		    $feature = (new \spatial\FeatureLoader())->fromId((int) $update->id);
+    		    (new \spatial\FeatureLoader())->save($feature);
+    		    (new \attributes\Record('curatedAttributes'))->setValues((int) $update->id, $update->type, array(
+    		       "media"=>$update->Media,
+    
+    		    ));
+
+    		}
+		    
+		    
+		    return true;
+		}
+		
+		
 		if(!key_exists('updates', $json)){
 		    return true;
 		}
