@@ -3558,5 +3558,12 @@
             "widgetTitle": "Tours",
             "readAccess": "public"
         }
+    },
+    "widget.86": {
+        "name": "Measurement Tool",
+        "instance": "MeasurementTool",
+        "parameters": {
+            "target": "map.4"
+        }
     }
 }
