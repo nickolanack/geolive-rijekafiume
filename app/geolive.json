@@ -3527,5 +3527,12 @@
             "customCSS": "appStyle.customCSS.css",
             "readAccess": "public"
         }
+    },
+    "widget.85": {
+        "name": "Attribute Cloud",
+        "instance": "AttributesCloud",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
