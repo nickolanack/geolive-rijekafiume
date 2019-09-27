@@ -3532,7 +3532,31 @@
         "name": "Attribute Cloud",
         "instance": "AttributesCloud",
         "parameters": {
-            "target": "none"
+            "target": "forTheCuratedMap",
+            "tabLabel": "Tours",
+            "className": "",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "tabColor": "#DD4814",
+            "fontColor": "black",
+            "showItemCount": true,
+            "scaleItemsWithCount": true,
+            "scaleItemsMax": 25,
+            "scaleItemsMin": 12,
+            "hideEmptyPredefinedValues": true,
+            "showValuesOutsidePredefined": true,
+            "attributeSelection": [
+                "Tours.attributeSelection.0.json"
+            ],
+            "cloudMetadata": [],
+            "formatCloudScript": "",
+            "formatTagScript": "",
+            "formatTabButtonScript": "",
+            "onSelectionChangedScript": "defaultBehaviorFn();",
+            "sendNotifications": false,
+            "widgetTitle": "Tours",
+            "readAccess": "public"
         }
     }
 }
