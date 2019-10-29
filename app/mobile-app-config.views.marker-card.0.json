@@ -10,11 +10,7 @@
                 },
                 {
                     "type": "html",
-                    "value": "{value.description}"
-                },
-                {
-                    "type": "media",
-                    "value": "{value.attributes.media}"
+                    "value": "{value.description}{value.attributes.media}"
                 }
             ]
         },
