@@ -11,6 +11,10 @@
                 {
                     "type": "html",
                     "value": "{value.description}"
+                },
+                {
+                    "type": "media",
+                    "value": "{value.attributes.media}"
                 }
             ]
         },
