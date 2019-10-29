@@ -16,7 +16,16 @@ return array(
             $item['attributes']=$attr->getValues($item['id'], $item['type']);
             
             $item['attributes']['media']=str_replace(
-                'src="components', 'src="https://rijekafiume.geolive.ca/components', $item['attributes']['media']);            
+                'src="components', 'src="https://rijekafiume.geolive.ca/components', $item['attributes']['media']);    
+                
+            $item['attributes']['media']=str_replace(
+                '[', urlencode('['), $item['attributes']['media']);
+                
+            $item['attributes']['media']=str_replace(
+                ']', urlencode(']'), $item['attributes']['media']);  
+                
+                
+                
             $item['icon']="{markerIcon}";
             
             return $item;
