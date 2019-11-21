@@ -176,7 +176,7 @@ $parameters['periods'] = $makeFieldObject(
 	'period', $template);
 
 $parameters['tours'] = $makeFieldObject(
-	'tours', $template);
+	'tour', $template);
 
 
 $parameters['sections-buttons']=array(
