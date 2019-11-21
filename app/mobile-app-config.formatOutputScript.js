@@ -215,8 +215,8 @@ $parameters['sections-icons']=array(
 );
 $parameters['sections-views']=array(
 	'categories'=>$makeFieldObject('category', $emptyArray, null, "{value-kabob}"),
-	'periods'=>$makeFieldObject('period', $emptyArray, null, "{value-kabob}"
-	'tours'=>$makeFieldObject('tour', $emptyArray, null, "{value-kabob}"
+	'periods'=>$makeFieldObject('period', $emptyArray, null, "{value-kabob}"),
+	'tours'=>$makeFieldObject('tour', $emptyArray, null, "{value-kabob}")
 );
 
 return $parameters;
