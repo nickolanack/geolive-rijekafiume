@@ -1,16 +1,21 @@
 GetPlugin('Attributes');
 
-$makeFieldObject = function ($categoryName, $template, $colors=array(
-    "#fff7f3",
-    "#fde0dd",
-    "#fcc5c0",
-    "#fa9fb5",
-    "#f768a1",
-    "#dd3497",
-    "#ae017e",
-    "#7a0177",
-    "#49006a"
-    )) {
+$makeFieldObject = function ($categoryName, $template, $colors=null, $key=null) {
+
+
+	if(is_null($colors)){
+		$colors=array(
+		    "#fff7f3",
+		    "#fde0dd",
+		    "#fcc5c0",
+		    "#fa9fb5",
+		    "#f768a1",
+		    "#dd3497",
+		    "#ae017e",
+		    "#7a0177",
+		    "#49006a"
+		    )
+	}
 
 	$categories = (new \attributes\Record('curatedAttributes'))->distinctValues($categoryName);
 
@@ -30,6 +35,10 @@ $makeFieldObject = function ($categoryName, $template, $colors=array(
 
 	foreach ($categories as $i=>$cat) {
 		if ($cat) {
+
+			$index=count($buttons);
+
+
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
 
@@ -59,7 +68,15 @@ $makeFieldObject = function ($categoryName, $template, $colors=array(
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
 
             $button = str_replace("{style}", $style, $button);
-			$buttons[] = json_decode($button);
+
+
+            if(is_string($key)){
+				
+				$key = str_replace(("{value-kabob}"), $kabob, $key);
+				$index=$key;
+			}
+
+			$buttons[$index] = json_decode($button);
 		}
 	}
 
@@ -86,6 +103,8 @@ $templateButton = array(
 		))
 	)
 );
+
+$emptyArray=array();
 
 
 
@@ -188,6 +207,16 @@ $parameters['sections-buttons']=array(
 	'categories'=>$makeFieldObject('category', $templateButton),
 	'periods'=>$makeFieldObject('period', $templateButton),
 	'tours'=>$makeFieldObject('tour', $templateButton)
+);
+$parameters['sections-icons']=array(
+	'categories'=>$makeFieldObject('category', $emptyArray null, "{value-kabob}"),
+	'periods'=>$makeFieldObject('period', $emptyArray null, "{value-kabob}"),
+	'tours'=>$makeFieldObject('tour', $emptyArray null, "{value-kabob}")
+);
+$parameters['sections-views']=array(
+	'categories'=>$makeFieldObject('category', $emptyArray, null, "{value-kabob}"),
+	'periods'=>$makeFieldObject('period', $emptyArray, null, "{value-kabob}"
+	'tours'=>$makeFieldObject('tour', $emptyArray) null, "{value-kabob}"
 );
 
 return $parameters;
