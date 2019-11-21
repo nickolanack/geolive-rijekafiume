@@ -69,7 +69,7 @@ $makeFieldObject = function ($categoryName, $template, $colors = null) {
 		}
 	}
 
-	return $buttons
+	return $buttons;
 };
 
 $templateButton = array(
