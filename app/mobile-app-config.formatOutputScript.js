@@ -74,7 +74,7 @@ $makeFieldObject = function ($categoryName, $template, $colors = null) {
 
 $templateButton = array(
 	"action" => "form",
-	"label"=>"{section-names.{Name}.{value-kabob}}"
+	"label"=>"{section-names.{Name}.{value-kabob}}",
 	"form" => "{section-views.{Name}}",
 	"label"=>{}
 	"remember" => false,
