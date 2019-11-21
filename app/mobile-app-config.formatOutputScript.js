@@ -169,6 +169,12 @@ $template = array(
 
 );
 
+
+$kabobCat=function($category, $template="{value}"){
+	return array_combine($makeFieldObject($category,"{value-kabob}"), array_combine($makeFieldObject($category,"{value}")))
+
+};
+
 $parameters['types'] = array(
 	"type" => "fieldset",
 	"fields" => $makeFieldObject(
@@ -190,15 +196,11 @@ $parameters['sections-buttons'] = array(
 	'periods' => $makeFieldObject('period', $templateButton),
 	'tours' => $makeFieldObject('tour', $templateButton),
 );
-$parameters['sections-icons'] = array(
-	'categories' => $makeFieldObject('category',"{value-kabob}"),
-	'periods' => $makeFieldObject('period', "{value-kabob}"),
-	'tours' => $makeFieldObject('tour', "{value-kabob}"),
+$parameters['sections-names'] = array(
+	'categories' => $kabobCat('category'),
+	'periods' => $kabobCat('period'),
+	'tours' => $kabobCat('tour'),
 );
-$parameters['sections-views'] = array(
-	'categories' => $makeFieldObject('category', "{value-kabob}"),
-	'periods' => $makeFieldObject('period',"{value-kabob}"),
-	'tours' => $makeFieldObject('tour', "{value-kabob}"),
-);
+
 
 return $parameters;
