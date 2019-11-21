@@ -1,5 +1,3 @@
-<?php
-
 GetPlugin('Attributes');
 
 $makeFieldObject = function ($categoryName, $template, $colors = null) {
