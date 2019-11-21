@@ -80,7 +80,7 @@ $templateButton = array(
 			"filter" => array("filter{Name}" => "{value}"),
 		))
 	)
-)
+);
 
 
 
