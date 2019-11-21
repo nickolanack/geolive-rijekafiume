@@ -1,6 +1,6 @@
 GetPlugin('Attributes');
 
-$makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
+$makeFieldObject = function ($categoryName, $template, $colors=array(
     "#fff7f3",
     "#fde0dd",
     "#fcc5c0",
@@ -32,6 +32,7 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
 		if ($cat) {
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
+			$button = str_replace("{value-kabob}", join('-',strtolower($categoryName)), $button);
 
             $style="";
             if(!empty($colors)){
@@ -51,6 +52,7 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
             }
 
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
+
             $button = str_replace("{style}", $style, $button);
 			$buttons[] = json_decode($button);
 		}
@@ -66,6 +68,19 @@ $makeFeildsetButtonset = function ($categoryName, $template, $colors=array(
 
 };
 
+
+$templateButton = array(
+	"action" => "form",
+	"form" => "{section-views.{Name}}",,
+	"remember" => false,
+	"icon"=> "{section-icons.{Name}.{value-kabob}}",
+	"data" => array(
+		"layers" => array(array(
+			"id" => 36,
+			"filter" => array("filter{Name}" => "{value}"),
+		))
+	)
+)
 
 
 
@@ -154,13 +169,20 @@ $template = array(
 
 );
 
-$parameters['types'] = $makeFeildsetButtonset(
+$parameters['types'] = $makeFieldObject(
 	'category', $template);
 
-$parameters['periods'] = $makeFeildsetButtonset(
+$parameters['periods'] = $makeFieldObject(
 	'period', $template);
 
-$parameters['tours'] = $makeFeildsetButtonset(
-	'tour', $template);
+$parameters['tours'] = $makeFieldObject(
+	'', $template);
+
+
+$parameters['sections-buttons']=array(
+	'categories'=>$makeFieldObject('category', $templateButton),
+	'periods'=>$makeFieldObject('period', $templateButton),
+	'tours'=>$makeFieldObject('tour', $templateButton),
+);
 
 return $parameters;
