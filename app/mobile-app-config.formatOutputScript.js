@@ -32,7 +32,7 @@ $makeFieldObject = function ($categoryName, $template, $colors=array(
 		if ($cat) {
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
-			$button = str_replace("{value-kabob}", join('-',strtolower($categoryName)), $button);
+			$button = str_replace("{value-kabob}", join('-', strtolower(json_encode($cat)), $button);
 
             $style="";
             if(!empty($colors)){
@@ -176,7 +176,7 @@ $parameters['periods'] = $makeFieldObject(
 	'period', $template);
 
 $parameters['tours'] = $makeFieldObject(
-	'', $template);
+	'tours', $template);
 
 
 $parameters['sections-buttons']=array(
