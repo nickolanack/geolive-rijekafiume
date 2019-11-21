@@ -170,7 +170,7 @@ $template = array(
 );
 
 
-$kabobCat=function($category, $template="{value}"){
+$kabobCat=function($category, $template="{value}")use($makeFieldObject){
 	return array_combine($makeFieldObject($category,"{value-kabob}"), array_combine($makeFieldObject($category,"{value}")));
 
 };
