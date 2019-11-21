@@ -76,7 +76,6 @@ $templateButton = array(
 	"action" => "form",
 	"label"=>"{section-names.{Name}.{value-kabob}}",
 	"form" => "{section-views.{Name}}",
-	"label"=>{}
 	"remember" => false,
 	"icon" => "{section-icons.{Name}.{value-kabob}}",
 	"data" => array(
