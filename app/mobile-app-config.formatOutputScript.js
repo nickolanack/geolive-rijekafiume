@@ -191,12 +191,12 @@ $parameters['tours'] = array(
 	"fields" => $makeFieldObject(
 		'tour', $template));
 
-$parameters['sections-buttons'] = array(
-	'categories' => $makeFieldObject('category', $templateButton),
-	'periods' => $makeFieldObject('period', $templateButton),
-	'tours' => $makeFieldObject('tour', $templateButton),
+$parameters['section-buttons'] = array(
+	'categories' => $kabobCat('category', $templateButton),
+	'periods' => $kabobCat('period', $templateButton),
+	'tours' => $kabobCat('tour', $templateButton),
 );
-$parameters['sections-names'] = array(
+$parameters['section-names'] = array(
 	'categories' => $kabobCat('category'),
 	'periods' => $kabobCat('period'),
 	'tours' => $kabobCat('tour'),
