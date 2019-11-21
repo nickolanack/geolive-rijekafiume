@@ -61,6 +61,7 @@ $makeFieldObject = function ($categoryName, $template, $colors = null) {
 			}
 
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
+			$button = str_replace("{name}", ($categoryName), $button);
 
 			$button = str_replace("{style}", $style, $button);
 
@@ -74,10 +75,10 @@ $makeFieldObject = function ($categoryName, $template, $colors = null) {
 
 $templateButton = array(
 	"action" => "form",
-	"label"=>"{section-names.{Name}.{value-kabob}}",
-	"form" => "{section-views.{Name}}",
+	"label"=>"{section-names.{name}.{value-kabob}}",
+	"form" => "{section-views.{name}}",
 	"remember" => false,
-	"icon" => "{section-icons.{Name}.{value-kabob}}",
+	"icon" => "{section-icons.{name}.{value-kabob}}",
 	"data" => array(
 		"layers" => array(array(
 			"id" => 36,
@@ -193,24 +194,24 @@ $parameters['tours'] = array(
 		'tour', $template));
 
 $parameters['section-buttons'] = array(
-	'categories' => $kabobCat('category', $templateButton),
-	'periods' => $kabobCat('period', $templateButton),
-	'tours' => $kabobCat('tour', $templateButton),
+	'category' => $kabobCat('category', $templateButton),
+	'period' => $kabobCat('period', $templateButton),
+	'tour' => $kabobCat('tour', $templateButton),
 );
 $parameters['section-names'] = array(
-	'categories' => $kabobCat('category'),
-	'periods' => $kabobCat('period'),
-	'tours' => $kabobCat('tour'),
+	'category' => $kabobCat('category'),
+	'period' => $kabobCat('period'),
+	'tour' => $kabobCat('tour'),
 );
 $parameters['section-icons'] = array(
-	'categories' => $kabobCat('category', "~/section-icons/categories/{value-kabob}.png"),
-	'periods' => $kabobCat('period', "~/section-icons/periods/{value-kabob}.png"),
-	'tours' => $kabobCat('tour', "~/section-icons/tours/{value-kabob}.png"),
+	'category' => $kabobCat('category', "~/section-icons/category/{value-kabob}.png"),
+	'period' => $kabobCat('period', "~/section-icons/period/{value-kabob}.png"),
+	'tour' => $kabobCat('tour', "~/section-icons/tour/{value-kabob}.png"),
 );
 $parameters['section-views'] = array(
-	'categories' =>"",
-	'periods' =>"",
-	'tours' =>"",
+	'category' =>"",
+	'period' =>"",
+	'tour' =>"",
 );
 
 return $parameters;
