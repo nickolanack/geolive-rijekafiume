@@ -33,6 +33,7 @@ $makeFieldObject = function ($categoryName, $template, $colors=array(
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
 			$button = str_replace(json_encode("{value-kabob}"), json_encode(implode('-', explode(' ',strtolower($cat)))), $button);
+			$button = str_replace(("{value-kabob}"), (implode('-', explode(' ',strtolower($cat)))), $button);
 
             $style="";
             if(!empty($colors)){
