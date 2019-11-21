@@ -14,7 +14,7 @@ $makeFieldObject = function ($categoryName, $template, $colors=null, $key=null) 
 		    "#ae017e",
 		    "#7a0177",
 		    "#49006a"
-		    )
+		    );
 	}
 
 	$categories = (new \attributes\Record('curatedAttributes'))->distinctValues($categoryName);
