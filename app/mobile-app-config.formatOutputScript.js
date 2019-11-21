@@ -211,7 +211,7 @@ $parameters['section-icons'] = array(
 $parameters['section-views'] = array(
 	'categories' =>"",
 	'periods' =>"",
-	'tours' =>" $kabobCat('tour')",
+	'tours' =>"",
 );
 
 return $parameters;
