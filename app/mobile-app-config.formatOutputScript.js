@@ -32,8 +32,12 @@ $makeFieldObject = function ($categoryName, $template, $colors=array(
 		if ($cat) {
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
-			$button = str_replace(json_encode("{value-kabob}"), json_encode(implode('-', explode(' ',strtolower($cat)))), $button);
-			$button = str_replace(("{value-kabob}"), (implode('-', explode(' ',strtolower($cat)))), $button);
+
+			$preg="/[^A-Za-z0-9 ]/";
+			$kabob=(implode('-', explode(' ',preg_replace($preg,'',strtolower($cat)))));
+
+			$button = str_replace(json_encode("{value-kabob}"), json_encode($kabob) , $button);
+			$button = str_replace(("{value-kabob}"), $kabob, $button);
 
             $style="";
             if(!empty($colors)){
