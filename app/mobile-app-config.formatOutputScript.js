@@ -1,20 +1,21 @@
+<?php
+
 GetPlugin('Attributes');
 
-$makeFieldObject = function ($categoryName, $template, $colors=null, $key=null) {
+$makeFieldObject = function ($categoryName, $template, $colors = null) {
 
-
-	if(is_null($colors)){
-		$colors=array(
-		    "#fff7f3",
-		    "#fde0dd",
-		    "#fcc5c0",
-		    "#fa9fb5",
-		    "#f768a1",
-		    "#dd3497",
-		    "#ae017e",
-		    "#7a0177",
-		    "#49006a"
-		    );
+	if (is_null($colors)) {
+		$colors = array(
+			"#fff7f3",
+			"#fde0dd",
+			"#fcc5c0",
+			"#fa9fb5",
+			"#f768a1",
+			"#dd3497",
+			"#ae017e",
+			"#7a0177",
+			"#49006a",
+		);
 	}
 
 	$categories = (new \attributes\Record('curatedAttributes'))->distinctValues($categoryName);
@@ -31,155 +32,132 @@ $makeFieldObject = function ($categoryName, $template, $colors=null, $key=null) 
 
 	$json = json_encode($template);
 
-
-
-	foreach ($categories as $i=>$cat) {
+	foreach ($categories as $i => $cat) {
 		if ($cat) {
 
-			$index=count($buttons);
-
-
+			
 
 			$button = str_replace(json_encode("{value}"), json_encode($cat), $json);
 
-			$preg="/[^A-Za-z0-9 ]/";
-			$kabob=(implode('-', explode(' ',preg_replace($preg,'',strtolower($cat)))));
+			$preg = "/[^A-Za-z0-9 ]/";
+			$kabob = (implode('-', explode(' ', preg_replace($preg, '', strtolower($cat)))));
 
-			$button = str_replace(json_encode("{value-kabob}"), json_encode($kabob) , $button);
+			$button = str_replace(json_encode("{value-kabob}"), json_encode($kabob), $button);
 			$button = str_replace(("{value-kabob}"), $kabob, $button);
 
-            $style="";
-            if(!empty($colors)){
-                $color=$colors[$i%count($colors)];
-                $style = "border-color: ".$color."; border-width: 0 0 0 3; padding-left: 20px;";
+			$style = "";
+			if (!empty($colors)) {
+				$color = $colors[$i % count($colors)];
+				$style = "border-color: " . $color . "; border-width: 0 0 0 3; padding-left: 20px;";
 
-                $tint=ltrim($color, '#');
-                $tint=str_split($tint, 2);
-				
-				$tint=array_map(function($h){return hexdec($h);},$tint);
-				$tint=implode(', ',  $tint);
-				$tint='?tint=('.$tint.')';
+				$tint = ltrim($color, '#');
+				$tint = str_split($tint, 2);
+
+				$tint = array_map(function ($h) {return hexdec($h);}, $tint);
+				$tint = implode(', ', $tint);
+				$tint = '?tint=(' . $tint . ')';
 
 				//$tint=array_map(function($h){return hexdec($h);},$tint);
 
-                $button = str_replace("{tint}", $tint, $button);
-            }
+				$button = str_replace("{tint}", $tint, $button);
+			}
 
 			$button = str_replace("{Name}", ucfirst($categoryName), $button);
 
-            $button = str_replace("{style}", $style, $button);
+			$button = str_replace("{style}", $style, $button);
 
-
-            if(is_string($key)){
-				
-				$key = str_replace("{value-kabob}", $kabob, $key);
-				$index=$key;
-			}
-
-			$buttons[$index] = json_decode($button);
+		
+			$buttons[] = json_decode($button);
 		}
 	}
 
-	
-
-	return array(
-
-		"type" => "fieldset",
-		"fields" => $buttons
-	);
-
+	return $buttons
 };
-
 
 $templateButton = array(
 	"action" => "form",
 	"form" => "{section-views.{Name}}",
 	"remember" => false,
-	"icon"=> "{section-icons.{Name}.{value-kabob}}",
+	"icon" => "{section-icons.{Name}.{value-kabob}}",
 	"data" => array(
 		"layers" => array(array(
 			"id" => 36,
 			"filter" => array("filter{Name}" => "{value}"),
-		))
-	)
+		)),
+	),
 );
 
-$emptyArray=array();
-
-
-
 $template = array(
-    "type" => "card",
-    "fields" => array(
-        "style"=>"{style} orientation:horizontal; vertical-align: middle;",
-        "fields"=>
-        array(
-        	array(
-	        	"type"=>"icon",
-	        	"icon"=>"{tourAltIcon.0}{tint}",
-	        ),
-        	array(
-        		"type"=>"fieldset",
-        		"style"=>"",
-		        "fields"=>array(
-			        	
-				        array(
-				            "type"=>"label",
-				            "value" => "{value}",
-				        ),
-			        	array(
-				            "type"=>"html",
-				            "value" => "inline description of content",
-				        ),
-				        array(
-				            "type"=>"buttonset",
-				            "align"=>"right",
-				            "style"=>"horizontal-align:right;",
-				            "className"=>"filter-card-menu",
-				            "buttons" =>array(
-				            	array(
-					            	"action" => "form",
-									"form" => "mainmap",
-									"remember" => false,
-									"icon"=> "{mapIcon}",
-									"data" => array(
-										"layers" => array(array(
-											"id" => 36,
-											"filter" => array("filter{Name}" => "{value}"),
-										))
-									)
+	"type" => "card",
+	"fields" => array(
+		"style" => "{style} orientation:horizontal; vertical-align: middle;",
+		"fields" => array(
+			array(
+				"type" => "icon",
+				"icon" => "{tourAltIcon.0}{tint}",
+			),
+			array(
+				"type" => "fieldset",
+				"style" => "",
+				"fields" => array(
+
+					array(
+						"type" => "label",
+						"value" => "{value}",
+					),
+					array(
+						"type" => "html",
+						"value" => "inline description of content",
+					),
+					array(
+						"type" => "buttonset",
+						"align" => "right",
+						"style" => "horizontal-align:right;",
+						"className" => "filter-card-menu",
+						"buttons" => array(
+							array(
+								"action" => "form",
+								"form" => "mainmap",
+								"remember" => false,
+								"icon" => "{mapIcon}",
+								"data" => array(
+									"layers" => array(array(
+										"id" => 36,
+										"filter" => array("filter{Name}" => "{value}"),
+									)),
 								),
-					            array(
-					            	"action" => "form",
-									"form" => "augmented",
-									"remember" => false,
-									"icon"=> "{augmentedIcon}",
-									"data" => array(
-										"layers" => array(array(
-											"id" => 36,
-											"filter" => array("filter{Name}" => "{value}"),
-										))
-									)
-					            ),
-					            array(
-					            	"action" => "form",
-									"form" => "marker-list",
-									"remember" => false,
-									"icon"=> "{listIcon}",
-									"data" => array(
-										"layers" => array(array(
-											"id" => 36,
-											"filter" => array("filter{Name}" => "{value}"),
-										))
-									)
-					            )
-				            )
-				        )
-			    	)
-		    	)
-    	)
-    ),
-	
+							),
+							array(
+								"action" => "form",
+								"form" => "augmented",
+								"remember" => false,
+								"icon" => "{augmentedIcon}",
+								"data" => array(
+									"layers" => array(array(
+										"id" => 36,
+										"filter" => array("filter{Name}" => "{value}"),
+									)),
+								),
+							),
+							array(
+								"action" => "form",
+								"form" => "marker-list",
+								"remember" => false,
+								"icon" => "{listIcon}",
+								"data" => array(
+									"layers" => array(array(
+										"id" => 36,
+										"filter" => array("filter{Name}" => "{value}"),
+									)),
+								),
+							),
+						),
+					),
+				),
+			),
+		),
+	),
+
 	"action" => "form",
 	"view" => "mainmap",
 	"remember" => false,
@@ -188,35 +166,41 @@ $template = array(
 		"layers" => array(array(
 			"id" => 36,
 			"filter" => array("filter{Name}" => "{value}"),
-		))
+		)),
 	),
 
 );
 
-$parameters['types'] = $makeFieldObject(
-	'category', $template);
-
-$parameters['periods'] = $makeFieldObject(
-	'period', $template);
-
-$parameters['tours'] = $makeFieldObject(
-	'tour', $template);
-
-
-$parameters['sections-buttons']=array(
-	'categories'=>$makeFieldObject('category', $templateButton),
-	'periods'=>$makeFieldObject('period', $templateButton),
-	'tours'=>$makeFieldObject('tour', $templateButton)
+$parameters['types'] = array(
+	"type" => "fieldset",
+	"fields" => $makeFieldObject(
+		'category', $template),
 );
-$parameters['sections-icons']=array(
-	'categories'=>$makeFieldObject('category', $emptyArray, null, "{value-kabob}"),
-	'periods'=>$makeFieldObject('period', $emptyArray, null, "{value-kabob}"),
-	'tours'=>$makeFieldObject('tour', $emptyArray, null, "{value-kabob}")
+
+$parameters['periods'] = array(
+	"type" => "fieldset",
+	"fields" => $makeFieldObject(
+		'period', $template));
+
+$parameters['tours'] = array(
+	"type" => "fieldset",
+	"fields" => $makeFieldObject(
+		'tour', $template));
+
+$parameters['sections-buttons'] = array(
+	'categories' => $makeFieldObject('category', $templateButton),
+	'periods' => $makeFieldObject('period', $templateButton),
+	'tours' => $makeFieldObject('tour', $templateButton),
 );
-$parameters['sections-views']=array(
-	'categories'=>$makeFieldObject('category', $emptyArray, null, "{value-kabob}"),
-	'periods'=>$makeFieldObject('period', $emptyArray, null, "{value-kabob}"),
-	'tours'=>$makeFieldObject('tour', $emptyArray, null, "{value-kabob}")
+$parameters['sections-icons'] = array(
+	'categories' => $makeFieldObject('category',"{value-kabob}"),
+	'periods' => $makeFieldObject('period', "{value-kabob}"),
+	'tours' => $makeFieldObject('tour', "{value-kabob}"),
+);
+$parameters['sections-views'] = array(
+	'categories' => $makeFieldObject('category', "{value-kabob}"),
+	'periods' => $makeFieldObject('period',"{value-kabob}"),
+	'tours' => $makeFieldObject('tour', "{value-kabob}"),
 );
 
 return $parameters;
