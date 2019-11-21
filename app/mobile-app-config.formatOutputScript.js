@@ -74,7 +74,9 @@ $makeFieldObject = function ($categoryName, $template, $colors = null) {
 
 $templateButton = array(
 	"action" => "form",
+	"label"=>"{section-names.{Name}.{value-kabob}}"
 	"form" => "{section-views.{Name}}",
+	"label"=>{}
 	"remember" => false,
 	"icon" => "{section-icons.{Name}.{value-kabob}}",
 	"data" => array(
@@ -201,6 +203,15 @@ $parameters['section-names'] = array(
 	'periods' => $kabobCat('period'),
 	'tours' => $kabobCat('tour'),
 );
-
+$parameters['section-icons'] = array(
+	'categories' => $kabobCat('category', "~/section-icons/categories/{value-kabob}.png"),
+	'periods' => $kabobCat('period', "~/section-icons/periods/{value-kabob}.png"),
+	'tours' => $kabobCat('tour', "~/section-icons/tours/{value-kabob}.png"),
+);
+$parameters['section-views'] = array(
+	'categories' =>"",
+	'periods' =>"",
+	'tours' =>" $kabobCat('tour')",
+);
 
 return $parameters;
