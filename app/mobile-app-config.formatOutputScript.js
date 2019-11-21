@@ -72,7 +72,7 @@ $makeFieldObject = function ($categoryName, $template, $colors=null, $key=null) 
 
             if(is_string($key)){
 				
-				$key = str_replace(("{value-kabob}"), $kabob, $key);
+				$key = str_replace("{value-kabob}", $kabob, $key);
 				$index=$key;
 			}
 
@@ -209,14 +209,14 @@ $parameters['sections-buttons']=array(
 	'tours'=>$makeFieldObject('tour', $templateButton)
 );
 $parameters['sections-icons']=array(
-	'categories'=>$makeFieldObject('category', $emptyArray null, "{value-kabob}"),
-	'periods'=>$makeFieldObject('period', $emptyArray null, "{value-kabob}"),
-	'tours'=>$makeFieldObject('tour', $emptyArray null, "{value-kabob}")
+	'categories'=>$makeFieldObject('category', $emptyArray, null, "{value-kabob}"),
+	'periods'=>$makeFieldObject('period', $emptyArray, null, "{value-kabob}"),
+	'tours'=>$makeFieldObject('tour', $emptyArray, null, "{value-kabob}")
 );
 $parameters['sections-views']=array(
 	'categories'=>$makeFieldObject('category', $emptyArray, null, "{value-kabob}"),
 	'periods'=>$makeFieldObject('period', $emptyArray, null, "{value-kabob}"
-	'tours'=>$makeFieldObject('tour', $emptyArray) null, "{value-kabob}"
+	'tours'=>$makeFieldObject('tour', $emptyArray, null, "{value-kabob}"
 );
 
 return $parameters;
