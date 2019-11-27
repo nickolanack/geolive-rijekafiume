@@ -1,9 +1,6 @@
 {
-    "type": "images",
-    "name": "appLogo",
-    "default": [],
-    "label": "Logo",
-    "maxHeight": 256,
-    "maxWidth": 256,
-    "limit": 1
+    "type": "text",
+    "name": "mainView",
+    "default": "menu",
+    "label": "Main View"
 }
