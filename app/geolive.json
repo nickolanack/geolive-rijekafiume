@@ -1801,9 +1801,9 @@
                 },
                 {
                     "type": "json",
-                    "name": "section-titles",
+                    "name": "app-labels",
                     "default": [],
-                    "label": "section-titles"
+                    "label": "app-labels"
                 },
                 {
                     "type": "json",
@@ -2055,7 +2055,8 @@
                 }
             },
             "section-titles": [],
-            "section-descriptions": []
+            "section-descriptions": [],
+            "app-labels": []
         }
     },
     "widget.61": {
