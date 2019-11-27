@@ -1794,6 +1794,12 @@
                     "label": "Views"
                 },
                 {
+                    "type": "json",
+                    "name": "section-names",
+                    "default": [],
+                    "label": "section-names"
+                },
+                {
                     "type": "input.script",
                     "name": "terms",
                     "default": "",
