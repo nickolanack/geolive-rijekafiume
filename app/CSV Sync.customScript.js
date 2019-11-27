@@ -40,6 +40,23 @@
 
 			return true;
 		}
+		
+		
+		
+		if(strpos($json->type, 'label')===0){
+			
+			if(!(key_exists('name', $json))){
+				return array("success" => false, "message" => 'missing name');	
+			}
+			if(!(key_exists('value', $json))){
+				return array("success" => false, "message" => 'missing value');	
+			}
+			GetWidget('mobile-app-config')
+				->setParameter($json->name, $json->value)
+				->storeParameters();
+
+			return array('parameter'=>$json->name, 'value'=>$json->value);
+		}
 
 
 		if ($json->type !== "marker") {
