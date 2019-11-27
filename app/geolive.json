@@ -1571,14 +1571,39 @@
                 "mobile-app-config.parameters.0.json",
                 {
                     "type": "json",
-                    "name": "views",
-                    "default": {
-                        "menu-v1": "{menu.json}",
-                        "menu": "{menu.json}",
-                        "map": "{map.json}",
-                        "augmented": "{augmented.json}"
-                    },
-                    "label": "Views"
+                    "name": "--views",
+                    "default": [],
+                    "label": "views disabled"
+                },
+                {
+                    "type": "json",
+                    "name": "--section-buttons",
+                    "default": [],
+                    "label": "section-button disableds"
+                },
+                {
+                    "type": "json",
+                    "name": "--section-views",
+                    "default": [],
+                    "label": "section-view disableds"
+                },
+                {
+                    "type": "json",
+                    "name": "--section-icons",
+                    "default": [],
+                    "label": "section-icons disabled"
+                },
+                {
+                    "type": "json",
+                    "name": "--app-icons",
+                    "default": [],
+                    "label": "app-icons disabled"
+                },
+                {
+                    "type": "json",
+                    "name": "--menu-icons",
+                    "default": [],
+                    "label": "menu-icons disabled"
                 },
                 {
                     "type": "json",
@@ -1894,7 +1919,13 @@
                     "paragraph2": "",
                     "paragraph3": ""
                 }
-            }
+            },
+            "--views": [],
+            "--section-buttons": [],
+            "--section-views": [],
+            "--section-icons": [],
+            "--app-icons": [],
+            "--menu-icons": []
         }
     },
     "widget.61": {
