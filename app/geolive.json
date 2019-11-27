@@ -2055,8 +2055,59 @@
                 }
             },
             "section-titles": [],
-            "section-descriptions": [],
-            "app-labels": []
+            "section-descriptions": {
+                "category": {
+                    "industry": "",
+                    "infrastructure--militarygovernment": "",
+                    "public-spaces--monuments": "",
+                    "culture--education": "",
+                    "residential": ""
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "",
+                    "habsburg-empire-until-1914": "",
+                    "socialist-yugoslavia-19451991": "",
+                    "republic-of-croatia-1991-today": "",
+                    "world-war-ii-19411945": "",
+                    "world-war-i-19141918": "",
+                    "italian-regency-of-carnaro-19191920": "",
+                    "free-state-of-fiume-19201924": ""
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "Concrete Jungle Tour is a selection made of (land)markers that where made mostly in concrete, that due to their materialization represent some elements of Rijeka's unique silhouette",
+                    "curated-tour-02-hidden-rijeka": "",
+                    "curated-tour-06-people-on-the-move": "",
+                    "curated-tour-04-divided-city": "",
+                    "curated-tour-01-top-10-to-20": "",
+                    "curated-tour-05-ghosts-of-rijeka": ""
+                }
+            },
+            "app-labels": {
+                "app-title": "Rijeka in flux",
+                "buttons": {
+                    "save": "Save",
+                    "submit": "Submit",
+                    "cancel": "Cancel",
+                    "back": "Back",
+                    "close": "Close",
+                    "i-accept": "I Accept",
+                    "list": "List",
+                    "ar": "AR",
+                    "ar-panorama": "AR on spot",
+                    "map": "Map",
+                    "walk": "Walk",
+                    "walk-tour": "Lets Walk",
+                    "save-location": "Save Marker",
+                    "share": "Share"
+                },
+                "about": {
+                    "heading": "Rijeka in flux",
+                    "paragraph0": "",
+                    "paragraph1": "",
+                    "paragraph2": "",
+                    "paragraph3": ""
+                }
+            }
         }
     },
     "widget.61": {
