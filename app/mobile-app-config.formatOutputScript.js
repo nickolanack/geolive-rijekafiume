@@ -1,3 +1,5 @@
+return $parameters;
+
 GetPlugin('Attributes');
 
 $makeFieldObject = function ($categoryName, $template, $colors = null) {
