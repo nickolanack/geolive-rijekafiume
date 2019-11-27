@@ -1995,7 +1995,47 @@
             },
             "likeIcon": [
                 "components\/com_geolive\/users_files\/user_files_680\/Uploads\/e24_[ImAgE]_[G]_LgE_YXq.png"
-            ]
+            ],
+            "section-names": {
+                "main": {
+                    "category": "Typology\/Category",
+                    "period": "Periods",
+                    "tour": "AR RI Walks",
+                    "vista": "AR RI Vistas",
+                    "search": "R Search",
+                    "saved-locations": "My Markers",
+                    "nearby-locations": "Near Me"
+                },
+                "category": {
+                    "industry": "Industry",
+                    "infrastructure--militarygovernment": "Infrastructure & Military\/Government",
+                    "public-spaces--monuments": "Public Spaces & Monuments",
+                    "culture--education": "Culture & Education",
+                    "residential": "Residential"
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "Divided city Italy-Yugoslavia (1924-1941)",
+                    "habsburg-empire-until-1914": "Habsburg Empire (until 1914)",
+                    "socialist-yugoslavia-19451991": "Socialist Yugoslavia (1945-1991)",
+                    "republic-of-croatia-1991-today": "Republic of Croatia (1991- Today)",
+                    "world-war-ii-19411945": "World War II (1941-1945)",
+                    "world-war-i-19141918": "World War I (1914-1918)",
+                    "italian-regency-of-carnaro-19191920": "Italian Regency of Carnaro (1919-1920)",
+                    "free-state-of-fiume-19201924": "Free State of Fiume (1920-1924)"
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "curated tour 03: Concrete Jungle",
+                    "curated-tour-02-hidden-rijeka": "curated tour 02: Hidden Rijeka",
+                    "curated-tour-06-people-on-the-move": "curated tour 06: People on the Move",
+                    "curated-tour-04-divided-city": "curated tour 04: Divided City",
+                    "curated-tour-01-top-10-to-20": "curated tour 01: TOP 10 (to 20)",
+                    "curated-tour-05-ghosts-of-rijeka": "curated tour 05: Ghosts of Rijeka"
+                },
+                "vista": {
+                    "panorama-from-lukobran": "Panorama From Lukobran",
+                    "panorama-from-trsat": "Panorama From Trsat"
+                }
+            }
         }
     },
     "widget.61": {
