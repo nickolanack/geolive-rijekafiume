@@ -1800,6 +1800,18 @@
                     "label": "section-names"
                 },
                 {
+                    "type": "json",
+                    "name": "section-titles",
+                    "default": [],
+                    "label": "section-titles"
+                },
+                {
+                    "type": "json",
+                    "name": "section-descriptions",
+                    "default": [],
+                    "label": "section-descriptions"
+                },
+                {
                     "type": "input.script",
                     "name": "terms",
                     "default": "",
@@ -2041,7 +2053,9 @@
                     "panorama-from-lukobran": "Panorama From Lukobran",
                     "panorama-from-trsat": "Panorama From Trsat"
                 }
-            }
+            },
+            "section-titles": [],
+            "section-descriptions": []
         }
     },
     "widget.61": {
