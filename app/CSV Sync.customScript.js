@@ -18,12 +18,26 @@
 			return array("success" => false, "message" => 'missing secret');
 		}
 
-		if (!key_exists('id', $json)) {
-			return array("success" => false, "message" => 'missing id');
-		}
+	
 
 		if (!key_exists('type', $json)) {
 			return array("success" => false, "message" => 'missing type');
+		}
+
+
+        if(strpos($json->type, 'label')===0){
+			
+			if(!(key_exists('name', $json))){
+				return array("success" => false, "message" => 'missing name');	
+			}
+			if(!(key_exists('value', $json))){
+				return array("success" => false, "message" => 'missing value');	
+			}
+			GetWidget('mobile-app-config')
+				->setParameter($json->name, $json->value)
+				->storeParameters();
+
+			return array('parameter'=>$json->name, 'value'=>$json->value);
 		}
 
 
@@ -42,21 +56,10 @@
 		}
 		
 		
-		
-		if(strpos($json->type, 'label')===0){
-			
-			if(!(key_exists('name', $json))){
-				return array("success" => false, "message" => 'missing name');	
-			}
-			if(!(key_exists('value', $json))){
-				return array("success" => false, "message" => 'missing value');	
-			}
-			GetWidget('mobile-app-config')
-				->setParameter($json->name, $json->value)
-				->storeParameters();
-
-			return array('parameter'=>$json->name, 'value'=>$json->value);
+		if (!key_exists('id', $json)) {
+			return array("success" => false, "message" => 'missing id');
 		}
+		
 
 
 		if ($json->type !== "marker") {
