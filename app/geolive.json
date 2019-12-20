@@ -1980,12 +1980,167 @@
             "--section-icons": [],
             "--app-icons": [],
             "--menu-icons": [],
-            "fr-section-names": [],
+            "fr-section-names": {
+                "main": {
+                    "category": "Typologie \/ cat\u00e9gorie",
+                    "period": "P\u00e9riodes",
+                    "tour": "AR RI Walks",
+                    "vista": "AR RI Vistas",
+                    "search": "Recherche RI",
+                    "saved-locations": "Mes marqueurs",
+                    "nearby-locations": "Proche de moi"
+                },
+                "category": {
+                    "industry": "Industrie",
+                    "infrastructure--militarygovernment": "Infrastructure et militaire \/ gouvernement",
+                    "public-spaces--monuments": "Espaces publics et monuments",
+                    "culture--education": "Culture et \u00e9ducation",
+                    "residential": "R\u00e9sidentiel"
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "Ville divis\u00e9e Italie-Yougoslavie (1924-1941)",
+                    "habsburg-empire-until-1914": "Empire des Habsbourg (jusqu'en 1914)",
+                    "socialist-yugoslavia-19451991": "Yougoslavie socialiste (1945-1991)",
+                    "republic-of-croatia-1991-today": "R\u00e9publique de Croatie (1991-Aujourd'hui)",
+                    "world-war-ii-19411945": "Seconde guerre mondiale (1941-1945)",
+                    "world-war-i-19141918": "Premi\u00e8re guerre mondiale (1914-1918)",
+                    "italian-regency-of-carnaro-19191920": "R\u00e9gence italienne de Carnaro (1919-1920)",
+                    "free-state-of-fiume-19201924": "\u00c9tat libre de Fiume (1920-1924)"
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "visite organis\u00e9e 03: Concrete Jungle",
+                    "curated-tour-02-hidden-rijeka": "visite organis\u00e9e 02: Hidden Rijeka",
+                    "curated-tour-06-people-on-the-move": "visite organis\u00e9e 06: People on the Move",
+                    "curated-tour-04-divided-city": "visite organis\u00e9e 04: Divided City",
+                    "curated-tour-01-top-10-to-20": "visite organis\u00e9e 01: TOP 10 (jusqu'\u00e0 20)",
+                    "curated-tour-05-ghosts-of-rijeka": "visite organis\u00e9e 05: Ghosts of Rijeka"
+                },
+                "vista": {
+                    "panorama-from-lukobran": "Panorama depuis Lukobran",
+                    "panorama-from-trsat": "Panorama depuis Trsat"
+                }
+            },
             "fr-app-labels": [],
-            "fr-section-descriptions": [],
-            "it-section-names": [],
-            "it-app-labels": [],
-            "it-section-descriptions": [],
+            "fr-section-descriptions": {
+                "category": {
+                    "industry": "Ces marqueurs sont quelques-uns des repr\u00e9sentants du riche patrimoine industriel de la ville de Rijeka, ceux qui ont influenc\u00e9 par leur activit\u00e9 et \/ ou positionner le d\u00e9veloppement global de la ville (comme certaines usines ou chantiers navals).",
+                    "infrastructure--militarygovernment": "Cette cat\u00e9gorie comprend diff\u00e9rentes installations qui soutenaient le r\u00e9seau d'infrastructures (diff\u00e9rents flux de d\u00e9veloppement), les activit\u00e9s militaires ou les r\u00e9gimes gouvernants.",
+                    "public-spaces--monuments": "Diff\u00e9rentes structures ou espaces ouverts qui repr\u00e9sentent des monuments comm\u00e9moratifs d'\u00e9v\u00e9nements particuliers ou d'individus importants pour la ville de Rijeka.",
+                    "culture--education": "Espaces importants pour l'aspect social du d\u00e9veloppement d'une ville - tels que l'\u00e9ducation, la culture ou les activit\u00e9s communautaires.",
+                    "residential": "Certaines p\u00e9riodes de d\u00e9veloppement sont \u00e9galement caract\u00e9ris\u00e9es par une construction r\u00e9sidentielle intensive. Ces marqueurs en t\u00e9moignent."
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "Marqueurs d'importance pour la vie auparavant parall\u00e8le de deux villes s\u00e9par\u00e9es par la rivi\u00e8re Rijeka: Fiume en Italie et Rijeka dans le Royaume de Yougoslavie, qui forment d\u00e9sormais le territoire de la ville de Rijeka.",
+                    "habsburg-empire-until-1914": "Ce fut une p\u00e9riode de grande ascension et de d\u00e9veloppement de la ville (infrastructurelle, culturelle, etc.), dont t\u00e9moignent les marqueurs de ce groupe.",
+                    "socialist-yugoslavia-19451991": "Apr\u00e8s la Seconde Guerre mondiale, la ville de Fiume (Italie) et Rijeka (Royaume de Yougoslavie) ont \u00e9t\u00e9 r\u00e9unies en un territoire de la ville de Rijeka, qui jusqu'en 1991 a \u00e9t\u00e9 d\u00e9velopp\u00e9 sur les bases d'un socialisme autonome au sein de la R\u00e9publique f\u00e9d\u00e9rale de Yougoslavie en tant que ville \u00e0 pr\u00e9dominance portuaire et industrielle, ce qui pour le r\u00e9sultat a \u00e9galement eu une population accrue, et par cons\u00e9quent un d\u00e9veloppement urbain intensif.",
+                    "republic-of-croatia-1991-today": "Dans le contexte politique et \u00e9conomique modifi\u00e9, la direction du d\u00e9veloppement de Rijeka a chang\u00e9, le secteur industriel a \u00e9t\u00e9 affaibli et le d\u00e9veloppement de la ville s'est orient\u00e9 vers un centre universitaire et culturel.",
+                    "world-war-ii-19411945": "La Seconde Guerre mondiale \u00e0 Rijeka a \u00e9t\u00e9 marqu\u00e9e par le soi-disant bombardement alli\u00e9 de Rijeka par les bastions allemands et italiens \u00e0 Kvarner, qui s'est d\u00e9roul\u00e9 sur une p\u00e9riode de 20 mois entre 1943 et 1945, au cours de laquelle la ville a \u00e9t\u00e9 en grande partie d\u00e9truite.",
+                    "world-war-i-19141918": "La p\u00e9riode de la Premi\u00e8re Guerre mondiale pour la ville de Rijeka est plus importante dans ses cons\u00e9quences que dans son cours, car apr\u00e8s elle se sont produites certaines des situations les plus dramatiques du d\u00e9veloppement historique de la ville.",
+                    "italian-regency-of-carnaro-19191920": "Ce fut une p\u00e9riode d'\u00e9tat autoproclam\u00e9 dans la ville de Fiume dirig\u00e9e par Gabriele d'Annunzio et dans ce groupe sont des marqueurs qui \u00e9taient d'une importance particuli\u00e8re pour son fonctionnement.",
+                    "free-state-of-fiume-19201924": "L'\u00c9tat libre de Fiume \u00e9tait un \u00c9tat libre ind\u00e9pendant qui a exist\u00e9 entre 1920 et 1924, qui a \u00e9t\u00e9 form\u00e9 apr\u00e8s la Premi\u00e8re Guerre mondiale en tant que zone tampon entre le Royaume des Serbes, Croates et Slov\u00e8nes (appel\u00e9 plus tard Royaume de Yougoslavie) et le Royaume d'Italie ."
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "A remplir par ...? - Concrete Jungle Tour est une s\u00e9lection faite de marqueurs (terrestres) qui \u00e9taient fabriqu\u00e9s principalement en b\u00e9ton, donc en raison de leur mat\u00e9rialisation repr\u00e9sentent certains \u00e9l\u00e9ments de la silhouette unique de Rijeka.",
+                    "curated-tour-02-hidden-rijeka": "A remplir par ...?",
+                    "curated-tour-06-people-on-the-move": "A remplir par ...?",
+                    "curated-tour-04-divided-city": "A remplir par ...?",
+                    "curated-tour-01-top-10-to-20": "A remplir par ...?",
+                    "curated-tour-05-ghosts-of-rijeka": "A remplir par ...?"
+                }
+            },
+            "it-section-names": {
+                "main": {
+                    "category": "Tipologia \/ Categoria",
+                    "period": "periodi",
+                    "tour": "AR RI Walks",
+                    "vista": "AR RI Vistas",
+                    "search": "Ricerca RI",
+                    "saved-locations": "I miei marcatori",
+                    "nearby-locations": "Vicino a me"
+                },
+                "category": {
+                    "industry": "Industria",
+                    "infrastructure--militarygovernment": "Infrastruttura e Militari \/ Governo",
+                    "public-spaces--monuments": "Spazi pubblici e monumenti",
+                    "culture--education": "Cultura ed educazione",
+                    "residential": "Residenziale"
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "Citt\u00e0 divisa Italia-Jugoslavia (1924-1941)",
+                    "habsburg-empire-until-1914": "Impero asburgico (fino al 1914)",
+                    "socialist-yugoslavia-19451991": "Jugoslavia socialista (1945-1991)",
+                    "republic-of-croatia-1991-today": "Repubblica di Croazia (1991-oggi)",
+                    "world-war-ii-19411945": "Seconda guerra mondiale (1941-1945)",
+                    "world-war-i-19141918": "La prima guerra mondiale (1914-1918)",
+                    "italian-regency-of-carnaro-19191920": "Reggenza italiana di Carnaro (1919-1920)",
+                    "free-state-of-fiume-19201924": "Free State of Fiume (1920-1924)"
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "tour guidato 03: Concrete Jungle",
+                    "curated-tour-02-hidden-rijeka": "tour guidato 02: Hidden Rijeka",
+                    "curated-tour-06-people-on-the-move": "tour guidato 06: People on the Move",
+                    "curated-tour-04-divided-city": "tour guidato 04: Divided City",
+                    "curated-tour-01-top-10-to-20": "tour guidato 01: TOP 10 (fino a 20)",
+                    "curated-tour-05-ghosts-of-rijeka": "tour guidato 05: Ghosts of Rijeka"
+                },
+                "vista": {
+                    "panorama-from-lukobran": "Panorama da Lukobran",
+                    "panorama-from-trsat": "Panorama da Trsat"
+                }
+            },
+            "it-app-labels": {
+                "app-title": "Fiume in flusso",
+                "buttons": {
+                    "save": "Salvare",
+                    "submit": "Sottoscrivi",
+                    "cancel": "Annulla",
+                    "back": "Indietro",
+                    "close": "Vicino",
+                    "i-accept": "Accetto",
+                    "list": "Elenco",
+                    "ar": "AR",
+                    "ar-panorama": "AR in loco",
+                    "map": "Carta geografica",
+                    "walk": "Camminare",
+                    "walk-tour": "Camminiamo",
+                    "save-location": "Salva indicatore",
+                    "share": "Condividere"
+                },
+                "about": {
+                    "heading": "Fiume in flusso",
+                    "paragraph0": "",
+                    "paragraph1": "",
+                    "paragraph2": "",
+                    "paragraph3": ""
+                }
+            },
+            "it-section-descriptions": {
+                "category": {
+                    "industry": "Questi indicatori sono alcuni dei rappresentanti del ricco patrimonio industriale della citt\u00e0 di Fiume, quelli che hanno influenzato la loro attivit\u00e0 e \/ o posizionano lo sviluppo generale della citt\u00e0 (come alcune fabbriche o cantieri navali).",
+                    "infrastructure--militarygovernment": "Questa categoria comprende diverse strutture a supporto della rete infrastrutturale (diversi flussi di sviluppo), attivit\u00e0 militari o regimi governativi.",
+                    "public-spaces--monuments": "Diverse strutture o spazi aperti che rappresentano monumenti commemorativi di particolari eventi o individui importanti per la citt\u00e0 di Fiume.",
+                    "culture--education": "Spazi importanti per l'aspetto sociale dello sviluppo di una citt\u00e0 - come l'educazione, la cultura o le attivit\u00e0 della comunit\u00e0.",
+                    "residential": "Alcuni periodi di sviluppo sono anche caratterizzati da un'intensa costruzione residenziale. Questi marcatori lo testimoniano."
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "Indicatori di importanza per le vite precedentemente parallele di due citt\u00e0 separate dal fiume Rijeka: Fiume in Italia e Fiume nel Regno di Jugoslavija, che ora formano il territorio della citt\u00e0 di Rijeka.",
+                    "habsburg-empire-until-1914": "Questo \u00e8 stato un periodo di grande ascesa e sviluppo della citt\u00e0 (infrastrutturale, culturale, ecc.), Su ci\u00f2 che testimoniano gli indicatori di questo gruppo.",
+                    "socialist-yugoslavia-19451991": "Dopo la seconda guerra mondiale, la citt\u00e0 di Fiume (Italia) e Rijeka (Regno di Jugoslavia) furono unite in un territorio di oggi della citt\u00e0 di Rijeka, che fino al 1991 si svilupp\u00f2 sulle basi del socialismo autonomo all'interno della Repubblica Federale di Jugoslavia come citt\u00e0 portuale e industriale prevalentemente, ci\u00f2 che per il risultato ebbe anche un aumento della popolazione e di conseguenza uno sviluppo urbano intensivo.",
+                    "republic-of-croatia-1991-today": "All'interno delle mutate circostanze politiche ed economiche, la direzione dello sviluppo di Fiume \u00e8 stata modificata, il settore industriale \u00e8 stato indebolito e lo sviluppo della citt\u00e0 \u00e8 stato diretto verso un centro universitario e culturale.",
+                    "world-war-ii-19411945": "La seconda guerra mondiale a Fiume fu segnata dal cosiddetto bombardamento alleato di Fiume da parte di roccaforti tedesche e italiane nel Quarnero, che ebbe luogo per un periodo di 20 mesi tra il 1943 e il 1945, durante il quale la citt\u00e0 fu in gran parte distrutta.",
+                    "world-war-i-19141918": "Il periodo della prima guerra mondiale per la citt\u00e0 di Fiume \u00e8 pi\u00f9 significativo nelle sue conseguenze che nel suo corso, poich\u00e9 dopo di essa si sono verificate alcune delle situazioni pi\u00f9 drammatiche nello sviluppo storico della citt\u00e0.",
+                    "italian-regency-of-carnaro-19191920": "Questo era un periodo di autoproclamato stato nella citt\u00e0 di Fiume guidato da Gabriele d'Annunzio e in questo gruppo sono presenti marcatori di particolare importanza per il suo funzionamento.",
+                    "free-state-of-fiume-19201924": "Lo stato libero di Fiume era uno stato libero indipendente che esisteva tra il 1920 e il 1924, che si form\u00f2 dopo la prima guerra mondiale come zona cuscinetto tra il regno di serbi, croati e sloveni (in seguito chiamato Regno di Jugoslavia) e il Regno d'Italia ."
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "Da compilare entro ...? - Concrete Jungle Tour \u00e8 una selezione fatta di marcatori (terrestri) che sono stati realizzati principalmente in cemento, quindi a causa della loro materializzazione rappresentano alcuni elementi della silhouette unica di Rijeka.",
+                    "curated-tour-02-hidden-rijeka": "Da compilare entro ...?",
+                    "curated-tour-06-people-on-the-move": "Da compilare entro ...?",
+                    "curated-tour-04-divided-city": "Da compilare entro ...?",
+                    "curated-tour-01-top-10-to-20": "Da compilare entro ...?",
+                    "curated-tour-05-ghosts-of-rijeka": "Da compilare entro ...?"
+                }
+            },
             "hr-section-names": [],
             "hr-app-labels": [],
             "hr-section-descriptions": []
