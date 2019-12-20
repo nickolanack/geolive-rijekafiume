@@ -3207,11 +3207,11 @@
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
                     "x": 317,
-                    "y": 267
+                    "y": 285
                 },
                 "_diagramState": {
                     "x": 317,
-                    "y": 267
+                    "y": 285
                 },
                 "appliesTo": [
                     "marker"
@@ -3668,7 +3668,7 @@
                     },
                     {
                         "was": "",
-                        "title": "title-it",
+                        "title": "titleit",
                         "label": "title it",
                         "description": "",
                         "icon": [],
@@ -3712,7 +3712,7 @@
                     },
                     {
                         "was": "",
-                        "title": "title-fr",
+                        "title": "titlefr",
                         "label": "title fr",
                         "description": "",
                         "icon": [],
@@ -3756,7 +3756,7 @@
                     },
                     {
                         "was": "",
-                        "title": "title-hr",
+                        "title": "titlehr",
                         "label": "title hr",
                         "description": "",
                         "icon": [],
@@ -3800,11 +3800,11 @@
                     },
                     {
                         "was": "",
-                        "title": "description-it",
+                        "title": "descriptionit",
                         "label": "description it",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
@@ -3844,11 +3844,11 @@
                     },
                     {
                         "was": "",
-                        "title": "description-fr",
+                        "title": "descriptionfr",
                         "label": "description fr",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
@@ -3888,11 +3888,11 @@
                     },
                     {
                         "was": "",
-                        "title": "description-hr",
+                        "title": "descriptionhr",
                         "label": "description hr",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
