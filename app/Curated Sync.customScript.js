@@ -58,7 +58,18 @@ $vars = array_merge(
 		       "period"=>$update->Period,
 		       "address"=>$update->Address,
 		       "researcher"=>$update->Researcher,
-		       "tour"=>$update->Tour
+		       "tour"=>$update->Tour,
+		       
+		       
+		        "titleit"=>$update->{'title it'},
+		        "titlehr"=>$update->{'title hr'},
+		        "titlefr"=>$update->{'title fr'},
+		        
+		        "descriptionit"=>$update->{'description it'},
+		        "descriptionhr"=>$update->{'description hr'},
+		        "descriptionfr"=>$update->{'description fr'}
+		        
+		       
 		    ));
 		    
 		    
