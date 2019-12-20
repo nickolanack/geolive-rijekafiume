@@ -2020,7 +2020,32 @@
                     "panorama-from-trsat": "Panorama depuis Trsat"
                 }
             },
-            "fr-app-labels": [],
+            "fr-app-labels": {
+                "app-title": "Rijeka en pleine mutation",
+                "buttons": {
+                    "save": "sauver",
+                    "submit": "Soumettre",
+                    "cancel": "Annuler",
+                    "back": "Retour",
+                    "close": "proche",
+                    "i-accept": "J'accepte",
+                    "list": "liste",
+                    "ar": "AR",
+                    "ar-panorama": "AR sur place",
+                    "map": "Carte",
+                    "walk": "Marcher",
+                    "walk-tour": "Marchons",
+                    "save-location": "Enregistrer le marqueur",
+                    "share": "Partager"
+                },
+                "about": {
+                    "heading": "Rijeka en pleine mutation",
+                    "paragraph0": "",
+                    "paragraph1": "",
+                    "paragraph2": "",
+                    "paragraph3": ""
+                }
+            },
             "fr-section-descriptions": {
                 "category": {
                     "industry": "Ces marqueurs sont quelques-uns des repr\u00e9sentants du riche patrimoine industriel de la ville de Rijeka, ceux qui ont influenc\u00e9 par leur activit\u00e9 et \/ ou positionner le d\u00e9veloppement global de la ville (comme certaines usines ou chantiers navals).",
@@ -2141,9 +2166,99 @@
                     "curated-tour-05-ghosts-of-rijeka": "Da compilare entro ...?"
                 }
             },
-            "hr-section-names": [],
-            "hr-app-labels": [],
-            "hr-section-descriptions": []
+            "hr-section-names": {
+                "main": {
+                    "category": "Tipologija \/ Kategorija",
+                    "period": "razdoblja",
+                    "tour": "AR RI \u0160etnje",
+                    "vista": "AR RI Vistas",
+                    "search": "RI pretra\u017eivanje",
+                    "saved-locations": "Moji markeri",
+                    "nearby-locations": "Blizu mene"
+                },
+                "category": {
+                    "industry": "Industrija",
+                    "infrastructure--militarygovernment": "Infrastruktura i vojska \/ Vlada",
+                    "public-spaces--monuments": "Javni prostori i spomenici",
+                    "culture--education": "Kultura i obrazovanje",
+                    "residential": "stambeni"
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "Podijeljeni grad Italija-Jugoslavija (1924.-1941.)",
+                    "habsburg-empire-until-1914": "Carstvo Habsburg (do 1914.)",
+                    "socialist-yugoslavia-19451991": "Socijalisti\u010dka Jugoslavija (1945.-1991.)",
+                    "republic-of-croatia-1991-today": "Republika Hrvatska (1991.-danas)",
+                    "world-war-ii-19411945": "Svjetskog rata (1941-1945)",
+                    "world-war-i-19141918": "Svjetskog rata (1914.-1918.)",
+                    "italian-regency-of-carnaro-19191920": "Talijanska provincija Carnaro (1919.-1920.)",
+                    "free-state-of-fiume-19201924": "Slobodna dr\u017eava Fiume (1920-1924)"
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "kurirano putovanje 03: betonska d\u017eungla",
+                    "curated-tour-02-hidden-rijeka": "kurirano putovanje 02: Skrivena Rijeka",
+                    "curated-tour-06-people-on-the-move": "kurirano putovanje 06: Ljudi u pokretu",
+                    "curated-tour-04-divided-city": "kurirano putovanje 04: Podijeljeni grad",
+                    "curated-tour-01-top-10-to-20": "kurirano putovanje 01: TOP 10 (do 20)",
+                    "curated-tour-05-ghosts-of-rijeka": "kurirano putovanje 05: Duhovi Rijeke"
+                },
+                "vista": {
+                    "panorama-from-lukobran": "Panorama s Lukobrana",
+                    "panorama-from-trsat": "Panorama s Trsata"
+                }
+            },
+            "hr-app-labels": {
+                "app-title": "Rijeka u fluksu",
+                "buttons": {
+                    "save": "U\u0161tedjeti",
+                    "submit": "podnijeti",
+                    "cancel": "Otkazati",
+                    "back": "le\u0111a",
+                    "close": "Zatvoriti",
+                    "i-accept": "Prihva\u0107am",
+                    "list": "Popis",
+                    "ar": "AR",
+                    "ar-panorama": "AR na licu mjesta",
+                    "map": "Karta",
+                    "walk": "Hodati",
+                    "walk-tour": "Pustimo \u0161etnju",
+                    "save-location": "Spremi ozna\u010diva\u010d",
+                    "share": "Udio"
+                },
+                "about": {
+                    "heading": "Rijeka u fluksu",
+                    "paragraph0": "",
+                    "paragraph1": "",
+                    "paragraph2": "",
+                    "paragraph3": ""
+                }
+            },
+            "hr-section-descriptions": {
+                "category": {
+                    "industry": "Ti su markeri neki od predstavnika bogate industrijske ba\u0161tine grada Rijeke, onih koji su svojom aktivno\u0161\u0107u i \/ ili pozicionirali cjelokupni razvoj grada (poput nekih tvornica ili brodogradili\u0161ta).",
+                    "infrastructure--militarygovernment": "Ova kategorija uklju\u010duje razli\u010dite objekte koji su podr\u017eavali infrastrukturnu mre\u017eu (razli\u010diti tijekovi razvoja), vojne aktivnosti ili upravlja\u010dke re\u017eime.",
+                    "public-spaces--monuments": "Razli\u010dite strukture ili otvoreni prostori koji predstavljaju spomen-obilje\u017eja odre\u0111enim doga\u0111ajima ili pojedincima va\u017enim za grad Rijeku.",
+                    "culture--education": "Prostori va\u017eni za socijalni aspekt razvoja grada - poput obrazovanja, kulture ili aktivnosti u zajednici.",
+                    "residential": "Neka razdoblja razvoja karakteriziraju i intenzivna stambena gradnja. Ovi markeri svjedo\u010de o tome."
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "Oznake va\u017ene za prethodno paralelni \u017eivot dva grada odvojena rijekom Rijekom: Fiume u Italiji i Rijeke u Kraljevini Jugoslaviji, koji sada \u010dine teritorij Rijeke.",
+                    "habsburg-empire-until-1914": "Bilo je to razdoblje velikog uspona i razvoja grada (infrastrukturnog, kulturnog itd.), O \u010demu svjedo\u010de markeri iz ove skupine.",
+                    "socialist-yugoslavia-19451991": "Nakon Drugog svjetskog rata grad Fiume (Italija) i Rijeka (Kraljevina Jugoslavija) ujedinili su se u dana\u0161nji teritorij grada Rijeke, koji se sve do 1991. razvijao na temeljima samoupravnog socijalizma unutar Savezne Republike Jugoslavije kao prete\u017eno lu\u010dki i industrijski grad, \u0161to je za rezultat imalo i pove\u0107ano stanovni\u0161tvo, a time i intenzivan urbani razvoj.",
+                    "republic-of-croatia-1991-today": "U promijenjenim politi\u010dkim i gospodarskim okolnostima, smjer razvoja Rijeke se promijenio, industrijski sektor je oslabljen, a razvoj grada usmjeren prema sveu\u010dili\u0161nom i kulturnom sredi\u0161tu.",
+                    "world-war-ii-19411945": "Drugi svjetski rat u Rijeci obilje\u017een je takozvanim savezni\u010dkim bombardiranjem Rijeke njema\u010dkim i talijanskim upori\u0161tima na Kvarneru, koje se doga\u0111alo u razdoblju od 20 mjeseci izme\u0111u 1943. i 1945., tijekom kojih je grad ve\u0107im dijelom uni\u0161ten.",
+                    "world-war-i-19141918": "Razdoblje Prvog svjetskog rata za grad Rijeku zna\u010dajnije je po posljedicama nego tijek, jer su se nakon njega dogodile neke od najdramati\u010dnijih situacija u povijesnom razvoju grada.",
+                    "italian-regency-of-carnaro-19191920": "Bilo je to razdoblje samoprogla\u0161ene dr\u017eave u gradu Fiume koju je vodio Gabriele d'Annunzio i u ovoj su skupini markeri koji su bili od posebnog zna\u010daja za njegovo funkcioniranje.",
+                    "free-state-of-fiume-19201924": "Slobodna dr\u017eava Fiume bila je neovisna slobodna dr\u017eava koja je postojala izme\u0111u 1920. i 1924. godine, a nastala je nakon Prvog svjetskog rata kao tampon zona izme\u0111u Kraljevine Srba, Hrvata i Slovenaca (kasnije nazvane Kraljevina Jugoslavija) i Kraljevine Italije ,"
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "Da ga popuni ...? - Concrete Jungle Tour izbor je od (kopnenih) markera koji su izra\u0111eni uglavnom od betona, pa zbog njihove materijalizacije predstavljaju neke elemente jedinstvene rije\u010dke siluete.",
+                    "curated-tour-02-hidden-rijeka": "Da ga popuni ...?",
+                    "curated-tour-06-people-on-the-move": "Da ga popuni ...?",
+                    "curated-tour-04-divided-city": "Da ga popuni ...?",
+                    "curated-tour-01-top-10-to-20": "Da ga popuni ...?",
+                    "curated-tour-05-ghosts-of-rijeka": "Da ga popuni ...?"
+                }
+            }
         }
     },
     "widget.61": {
