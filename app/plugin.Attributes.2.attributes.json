@@ -680,10 +680,10 @@
                     "tableName": "curatedAttributes",
                     "tableSuffix": "_7331",
                     "title": "title-hr",
-                    "label": "title fr",
+                    "label": "title hr",
                     "description": "",
                     "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {

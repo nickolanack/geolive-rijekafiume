@@ -3206,12 +3206,12 @@
             "metadata": {
                 "title": "curatedAttributes",
                 "_tableDiagramState": {
-                    "x": 307,
-                    "y": 266
+                    "x": 317,
+                    "y": 267
                 },
                 "_diagramState": {
-                    "x": 307,
-                    "y": 266
+                    "x": 317,
+                    "y": 267
                 },
                 "appliesTo": [
                     "marker"
@@ -3757,10 +3757,10 @@
                     {
                         "was": "",
                         "title": "title-hr",
-                        "label": "title fr",
+                        "label": "title hr",
                         "description": "",
                         "icon": [],
-                        "color": "rgb(undefined, undefined, undefined)",
+                        "color": "rgb(NaN, NaN, NaN)",
                         "visibility": "public",
                         "editability": "registered",
                         "searchability": "public",
