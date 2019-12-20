@@ -1828,42 +1828,42 @@
             ],
             "section-names": {
                 "main": {
-                    "category": "Typologie \/ cat\u00e9gorie",
-                    "period": "P\u00e9riodes",
+                    "category": "Tipologia \/ Categoria",
+                    "period": "periodi",
                     "tour": "AR RI Walks",
                     "vista": "AR RI Vistas",
-                    "search": "Recherche RI",
-                    "saved-locations": "Mes marqueurs",
-                    "nearby-locations": "Proche de moi"
+                    "search": "Ricerca RI",
+                    "saved-locations": "I miei marcatori",
+                    "nearby-locations": "Vicino a me"
                 },
                 "category": {
-                    "industry": "Industrie",
-                    "infrastructure--militarygovernment": "Infrastructure et militaire \/ gouvernement",
-                    "public-spaces--monuments": "Espaces publics et monuments",
-                    "culture--education": "Culture et \u00e9ducation",
-                    "residential": "R\u00e9sidentiel"
+                    "industry": "Industria",
+                    "infrastructure--militarygovernment": "Infrastruttura e Militari \/ Governo",
+                    "public-spaces--monuments": "Spazi pubblici e monumenti",
+                    "culture--education": "Cultura ed educazione",
+                    "residential": "Residenziale"
                 },
                 "period": {
-                    "divided-city-italyyugoslavia-19241941": "Ville divis\u00e9e Italie-Yougoslavie (1924-1941)",
-                    "habsburg-empire-until-1914": "Empire des Habsbourg (jusqu'en 1914)",
-                    "socialist-yugoslavia-19451991": "Yougoslavie socialiste (1945-1991)",
-                    "republic-of-croatia-1991-today": "R\u00e9publique de Croatie (1991-Aujourd'hui)",
-                    "world-war-ii-19411945": "Seconde guerre mondiale (1941-1945)",
-                    "world-war-i-19141918": "Premi\u00e8re guerre mondiale (1914-1918)",
-                    "italian-regency-of-carnaro-19191920": "R\u00e9gence italienne de Carnaro (1919-1920)",
-                    "free-state-of-fiume-19201924": "\u00c9tat libre de Fiume (1920-1924)"
+                    "divided-city-italyyugoslavia-19241941": "Citt\u00e0 divisa Italia-Jugoslavia (1924-1941)",
+                    "habsburg-empire-until-1914": "Impero asburgico (fino al 1914)",
+                    "socialist-yugoslavia-19451991": "Jugoslavia socialista (1945-1991)",
+                    "republic-of-croatia-1991-today": "Repubblica di Croazia (1991-oggi)",
+                    "world-war-ii-19411945": "Seconda guerra mondiale (1941-1945)",
+                    "world-war-i-19141918": "La prima guerra mondiale (1914-1918)",
+                    "italian-regency-of-carnaro-19191920": "Reggenza italiana di Carnaro (1919-1920)",
+                    "free-state-of-fiume-19201924": "Free State of Fiume (1920-1924)"
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "visite organis\u00e9e 03: Concrete Jungle",
-                    "curated-tour-02-hidden-rijeka": "visite organis\u00e9e 02: Hidden Rijeka",
-                    "curated-tour-06-people-on-the-move": "visite organis\u00e9e 06: People on the Move",
-                    "curated-tour-04-divided-city": "visite organis\u00e9e 04: Divided City",
-                    "curated-tour-01-top-10-to-20": "visite organis\u00e9e 01: TOP 10 (jusqu'\u00e0 20)",
-                    "curated-tour-05-ghosts-of-rijeka": "visite organis\u00e9e 05: Ghosts of Rijeka"
+                    "curated-tour-03-concrete-jungle": "tour guidato 03: Concrete Jungle",
+                    "curated-tour-02-hidden-rijeka": "tour guidato 02: Hidden Rijeka",
+                    "curated-tour-06-people-on-the-move": "tour guidato 06: People on the Move",
+                    "curated-tour-04-divided-city": "tour guidato 04: Divided City",
+                    "curated-tour-01-top-10-to-20": "tour guidato 01: TOP 10 (fino a 20)",
+                    "curated-tour-05-ghosts-of-rijeka": "tour guidato 05: Ghosts of Rijeka"
                 },
                 "vista": {
-                    "panorama-from-lukobran": "Panorama depuis Lukobran",
-                    "panorama-from-trsat": "Panorama depuis Trsat"
+                    "panorama-from-lukobran": "Panorama da Lukobran",
+                    "panorama-from-trsat": "Panorama da Trsat"
                 }
             },
             "section-titles": [],
@@ -1895,25 +1895,25 @@
                 }
             },
             "app-labels": {
-                "app-title": "Fiume in flusso",
+                "app-title": "Rijeka en pleine mutation",
                 "buttons": {
-                    "save": "Salvare",
-                    "submit": "Sottoscrivi",
-                    "cancel": "Annulla",
-                    "back": "Indietro",
-                    "close": "Vicino",
-                    "i-accept": "Accetto",
-                    "list": "Elenco",
+                    "save": "sauver",
+                    "submit": "Soumettre",
+                    "cancel": "Annuler",
+                    "back": "Retour",
+                    "close": "proche",
+                    "i-accept": "J'accepte",
+                    "list": "liste",
                     "ar": "AR",
-                    "ar-panorama": "AR in loco",
-                    "map": "Carta geografica",
-                    "walk": "Camminare",
-                    "walk-tour": "Camminiamo",
-                    "save-location": "Salva indicatore",
-                    "share": "Condividere"
+                    "ar-panorama": "AR sur place",
+                    "map": "Carte",
+                    "walk": "Marcher",
+                    "walk-tour": "Marchons",
+                    "save-location": "Enregistrer le marqueur",
+                    "share": "Partager"
                 },
                 "about": {
-                    "heading": "Fiume in flusso",
+                    "heading": "Rijeka en pleine mutation",
                     "paragraph0": "",
                     "paragraph1": "",
                     "paragraph2": "",
