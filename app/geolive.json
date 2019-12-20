@@ -1624,6 +1624,60 @@
                     "label": "section-descriptions"
                 },
                 {
+                    "type": "json",
+                    "name": "fr-section-names",
+                    "default": [],
+                    "label": "fr-section-names"
+                },
+                {
+                    "type": "json",
+                    "name": "fr-app-labels",
+                    "default": [],
+                    "label": "fr-app-labels"
+                },
+                {
+                    "type": "json",
+                    "name": "fr-section-descriptions",
+                    "default": [],
+                    "label": "fr-section-descriptions"
+                },
+                {
+                    "type": "json",
+                    "name": "it-section-names",
+                    "default": [],
+                    "label": "it-section-names"
+                },
+                {
+                    "type": "json",
+                    "name": "it-app-labels",
+                    "default": [],
+                    "label": "it-app-labels"
+                },
+                {
+                    "type": "json",
+                    "name": "it-section-descriptions",
+                    "default": [],
+                    "label": "it-section-descriptions"
+                },
+                {
+                    "type": "json",
+                    "name": "hr-section-names",
+                    "default": [],
+                    "label": "hr-section-names"
+                },
+                {
+                    "type": "json",
+                    "name": "hr-app-labels",
+                    "default": [],
+                    "label": "hr-app-labels"
+                },
+                {
+                    "type": "json",
+                    "name": "hr-section-descriptions",
+                    "default": [],
+                    "label": "hr-section-descriptions"
+                },
+                {
                     "type": "input.script",
                     "name": "terms",
                     "default": "",
@@ -1895,25 +1949,25 @@
                 }
             },
             "app-labels": {
-                "app-title": "Rijeka en pleine mutation",
+                "app-title": "Fiume in flusso",
                 "buttons": {
-                    "save": "sauver",
-                    "submit": "Soumettre",
-                    "cancel": "Annuler",
-                    "back": "Retour",
-                    "close": "proche",
-                    "i-accept": "J'accepte",
-                    "list": "liste",
+                    "save": "Salvare",
+                    "submit": "Sottoscrivi",
+                    "cancel": "Annulla",
+                    "back": "Indietro",
+                    "close": "Vicino",
+                    "i-accept": "Accetto",
+                    "list": "Elenco",
                     "ar": "AR",
-                    "ar-panorama": "AR sur place",
-                    "map": "Carte",
-                    "walk": "Marcher",
-                    "walk-tour": "Marchons",
-                    "save-location": "Enregistrer le marqueur",
-                    "share": "Partager"
+                    "ar-panorama": "AR in loco",
+                    "map": "Carta geografica",
+                    "walk": "Camminare",
+                    "walk-tour": "Camminiamo",
+                    "save-location": "Salva indicatore",
+                    "share": "Condividere"
                 },
                 "about": {
-                    "heading": "Rijeka en pleine mutation",
+                    "heading": "Fiume in flusso",
                     "paragraph0": "",
                     "paragraph1": "",
                     "paragraph2": "",
@@ -1925,7 +1979,16 @@
             "--section-views": [],
             "--section-icons": [],
             "--app-icons": [],
-            "--menu-icons": []
+            "--menu-icons": [],
+            "fr-section-names": [],
+            "fr-app-labels": [],
+            "fr-section-descriptions": [],
+            "it-section-names": [],
+            "it-app-labels": [],
+            "it-section-descriptions": [],
+            "hr-section-names": [],
+            "hr-app-labels": [],
+            "hr-section-descriptions": []
         }
     },
     "widget.61": {
