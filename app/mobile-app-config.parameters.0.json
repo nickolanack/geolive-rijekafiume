@@ -1,6 +1,6 @@
 {
     "type": "text",
-    "name": "mainView",
-    "default": "menu",
+    "name": "--mainView",
+    "default": "menu-v1",
     "label": "Main View"
 }

@@ -2258,7 +2258,8 @@
                     "curated-tour-01-top-10-to-20": "Da ga popuni ...?",
                     "curated-tour-05-ghosts-of-rijeka": "Da ga popuni ...?"
                 }
-            }
+            },
+            "--mainView": "menu-v1"
         }
     },
     "widget.61": {
