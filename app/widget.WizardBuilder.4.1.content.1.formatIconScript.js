@@ -1,1 +1,3 @@
-new UIPopover(image, {title:application.getLayerManager().getLayer(layer).getTitle(),anchor:UIPopover.AnchorTo(['bottom'])});
+new UIPopover(image, {
+    title:Localize(application.getLayerManager().getLayer(layer).getTitle(),"layer_"+layer+"_title"),
+    anchor:UIPopover.AnchorTo(['bottom'])});

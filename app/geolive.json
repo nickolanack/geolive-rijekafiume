@@ -299,16 +299,16 @@
                             "widget.WizardBuilder.4.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 161,
-                            "y": 440
+                            "x": 171,
+                            "y": 450
                         },
                         "children": [
                             "widget.WizardBuilder.4.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 121,
-                                    "y": 606
+                                    "x": 131,
+                                    "y": 616
                                 }
                             },
                             {
@@ -318,16 +318,16 @@
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.fields.0.json"
                                 ],
                                 "_diagramState": {
-                                    "x": 622,
-                                    "y": 228
+                                    "x": 632,
+                                    "y": 238
                                 },
                                 "children": [
                                     "widget.WizardBuilder.4.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "InsertNode",
                                         "_diagramState": {
-                                            "x": 582,
-                                            "y": 441
+                                            "x": 592,
+                                            "y": 451
                                         }
                                     },
                                     {
@@ -337,16 +337,16 @@
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 996,
-                                            "y": 329
+                                            "x": 1006,
+                                            "y": 339
                                         },
                                         "children": [
                                             "widget.WizardBuilder.4.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 956,
-                                                    "y": 495
+                                                    "x": 966,
+                                                    "y": 505
                                                 }
                                             }
                                         ],
