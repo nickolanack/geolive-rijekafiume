@@ -2,7 +2,7 @@
 var cbx=new Element('input', {type:'checkbox', checked:true});
 var label=new ElementModule('label',{
 "class":"custom-bool uitext-container",
-html:'This is an ongoing event '
+html:Localize('This is an ongoing event', 'form_ongoing')+' '
 });
 label.appendChild(cbx);
 
