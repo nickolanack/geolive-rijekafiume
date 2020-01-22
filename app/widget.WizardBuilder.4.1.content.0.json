@@ -5,6 +5,6 @@
         "text": "<h3>Select a type<\/h3>",
         "template": "",
         "templateVariablesScript": "",
-        "formatTextScript": "return text;"
+        "formatTextScript": "return text.replace('form_type_select', Localize('Select a type', 'form_type_select'));"
     }
 }
