@@ -67,6 +67,7 @@
         "form_description_placeholder": "aggiungi una descrizione",
         "form_startdate": "data d'inizio",
         "form_enddate": "data di fine",
+        "form_ongoing": "Questo \u00e8 un evento in corso",
         "form_institutionalaffiliation": "Affiliazione istituzionale",
         "form_addmedia": "Aggiungi un contenuto multimediale (trascina il file)",
         "form_keywords": "Parole chiave",
