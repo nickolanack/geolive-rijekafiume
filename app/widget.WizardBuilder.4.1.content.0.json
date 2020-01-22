@@ -4,6 +4,7 @@
         "className": "",
         "text": "<h3>Select a type<\/h3>",
         "template": "",
-        "templateVariablesScript": ""
+        "templateVariablesScript": "",
+        "formatTextScript": "return text;"
     }
 }
