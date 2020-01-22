@@ -57,6 +57,8 @@
     },
     "it": {
         "form_type_select": "Seleziona una categoria",
+        "form_titlefield": "Titolo",
+        "form_titlefield_placeholder": "aggiungi un titolo",
         "layer_22_title": "Commercio e industria",
         "layer_19_title": "Amministrazione e siti militari",
         "layer_20_title": "Istruzione - Cultura",
