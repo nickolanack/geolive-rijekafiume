@@ -1,3 +1,25 @@
+.droppable {
+    min-height: 40px;
+    position:relative;
+    border:1px dashed lightgray;
+}
+
+ .droppable:after {
+    content:"Drag and drop files here";
+    position:absolute;
+    left:50px;
+    top:10px;
+    color: lightgray;
+}
+
+ body.dragover .droppable:after {
+    color: #4063a2;
+    content:"Drop here";
+}
+
+.no-text {margin-bottom: 25px;}
+
+
 .content.item-media {
     margin: 10px 0;
 }
