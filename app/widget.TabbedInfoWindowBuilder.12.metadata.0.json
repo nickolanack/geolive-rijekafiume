@@ -308,8 +308,8 @@
                         "siteURL": "rijekafiume.geolive.ca",
                         "siteDescription": "A map used to show events occurring in Rijeka from 1945 to 1960",
                         "formatClass": "s-icon",
-                        "getTitleScript": "",
-                        "getUrlScript": "",
+                        "getTitleScript": "return item.getName();",
+                        "getUrlScript": "return \"https:\/\/rijekafiume.geolive.ca\/?mapitem=\"+item.getId();",
                         "setPageMeta": true
                     }
                 }
@@ -349,7 +349,8 @@
                         "className": "",
                         "text": "Placemark",
                         "template": "",
-                        "templateVariablesScript": ""
+                        "templateVariablesScript": "",
+                        "formatTextScript": ""
                     }
                 }
             ]
