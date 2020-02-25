@@ -801,6 +801,28 @@
                         }
                     },
                     "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "3",
+                    "tableName": "curatedAttributes",
+                    "tableSuffix": "_7331",
+                    "title": "published",
+                    "label": "Published",
+                    "description": "",
+                    "fieldType": "boolean",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldBooleanOptions": {
+                        "hideFalse": true,
+                        "trueLabel": "",
+                        "falseLabel": "",
+                        "useFieldIcon": false,
+                        "trueIcon": false,
+                        "falseIcon": false
+                    },
+                    "allowMultiple": false
                 }
             ]
         }
