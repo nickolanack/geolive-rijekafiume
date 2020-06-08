@@ -1982,17 +1982,17 @@
             "--menu-icons": [],
             "fr-section-names": {
                 "main": {
-                    "category": "Typologie \/ cat\u00e9gorie",
+                    "category": "Les cat\u00e9gories",
                     "period": "P\u00e9riodes",
-                    "tour": "AR RI Walks",
-                    "vista": "AR RI Vistas",
-                    "search": "Recherche RI",
+                    "tour": "Circuits",
+                    "vista": "Panoramas",
+                    "search": "Chercher",
                     "saved-locations": "Mes marqueurs",
                     "nearby-locations": "Proche de moi"
                 },
                 "category": {
                     "industry": "Industrie",
-                    "infrastructure--militarygovernment": "Infrastructure et militaire \/ gouvernement",
+                    "infrastructure--militarygovernment": "Infrastructure, militaire, gouvernement",
                     "public-spaces--monuments": "Espaces publics et monuments",
                     "culture--education": "Culture et \u00e9ducation",
                     "residential": "R\u00e9sidentiel"
@@ -2008,16 +2008,16 @@
                     "free-state-of-fiume-19201924": "\u00c9tat libre de Fiume (1920-1924)"
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "visite organis\u00e9e 03: Concrete Jungle",
-                    "curated-tour-02-hidden-rijeka": "visite organis\u00e9e 02: Hidden Rijeka",
-                    "curated-tour-06-people-on-the-move": "visite organis\u00e9e 06: People on the Move",
-                    "curated-tour-04-divided-city": "visite organis\u00e9e 04: Divided City",
-                    "curated-tour-01-top-10-to-20": "visite organis\u00e9e 01: TOP 10 (jusqu'\u00e0 20)",
-                    "curated-tour-05-ghosts-of-rijeka": "visite organis\u00e9e 05: Ghosts of Rijeka"
+                    "curated-tour-03-concrete-jungle": "Jungle de b\u00e9ton",
+                    "curated-tour-02-hidden-rijeka": "Rijeka cach\u00e9",
+                    "curated-tour-06-people-on-the-move": "Des gens en mouvement",
+                    "curated-tour-04-divided-city": "Ville divis\u00e9e",
+                    "curated-tour-01-top-10-to-20": "Les essentiels",
+                    "curated-tour-05-ghosts-of-rijeka": "Fant\u00f4mes de Rijeka"
                 },
                 "vista": {
-                    "panorama-from-lukobran": "Panorama depuis Lukobran",
-                    "panorama-from-trsat": "Panorama depuis Trsat"
+                    "panorama-from-lukobran": "Du brise-lames",
+                    "panorama-from-trsat": "Depuis la colline de Trsat"
                 }
             },
             "fr-app-labels": {
@@ -2031,11 +2031,11 @@
                     "i-accept": "J'accepte",
                     "list": "liste",
                     "ar": "AR",
-                    "ar-panorama": "AR sur place",
+                    "ar-panorama": "AR",
                     "map": "Carte",
-                    "walk": "Marcher",
-                    "walk-tour": "Marchons",
-                    "save-location": "Enregistrer le marqueur",
+                    "walk": "",
+                    "walk-tour": "",
+                    "save-location": "sauvegarder",
                     "share": "Partager"
                 },
                 "about": {
@@ -2065,12 +2065,12 @@
                     "free-state-of-fiume-19201924": "L'\u00c9tat libre de Fiume \u00e9tait un \u00c9tat libre ind\u00e9pendant qui a exist\u00e9 entre 1920 et 1924, qui a \u00e9t\u00e9 form\u00e9 apr\u00e8s la Premi\u00e8re Guerre mondiale en tant que zone tampon entre le Royaume des Serbes, Croates et Slov\u00e8nes (appel\u00e9 plus tard Royaume de Yougoslavie) et le Royaume d'Italie ."
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "A remplir par ...? - Concrete Jungle Tour est une s\u00e9lection faite de marqueurs (terrestres) qui \u00e9taient fabriqu\u00e9s principalement en b\u00e9ton, donc en raison de leur mat\u00e9rialisation repr\u00e9sentent certains \u00e9l\u00e9ments de la silhouette unique de Rijeka.",
-                    "curated-tour-02-hidden-rijeka": "A remplir par ...?",
-                    "curated-tour-06-people-on-the-move": "A remplir par ...?",
-                    "curated-tour-04-divided-city": "A remplir par ...?",
-                    "curated-tour-01-top-10-to-20": "A remplir par ...?",
-                    "curated-tour-05-ghosts-of-rijeka": "A remplir par ...?"
+                    "curated-tour-03-concrete-jungle": "Jungle concr\u00e8te: cela ressemble \u00e0 un jeu vid\u00e9o, un film, un roman ou une chanson. Les marqueurs que vous pouvez voir dans cette visite peuvent vous aider \u00e0 naviguer dans la ville, \u00e0 d\u00e9couvrir ses vues panoramiques et \u00e0 lire des histoires sur des objets qui ont donn\u00e9 un rythme et un caract\u00e8re \u00e0 la silhouette unique de la ville moderne. Cette visite vous emm\u00e8nera hors des sentiers battus pour d\u00e9couvrir le paysage de b\u00e9ton de Rijeka, y compris les b\u00e2timents industriels, les mus\u00e9es, les monuments et les gratte-ciel qui ont germ\u00e9 dans la topographie montagneuse de la ville, comme des arbres dans une jungle. C\u2019est la preuve concr\u00e8te du d\u00e9veloppement industriel, technologique, social et culturel de Rijeka",
+                    "curated-tour-02-hidden-rijeka": "L'architecture, les monuments et les espaces publics de Rijeka pr\u00e9sentent un r\u00e9cit des turbulences du XXe si\u00e8cle. Au-del\u00e0 de ces marqueurs facilement visibles se trouve une Rijeka cach\u00e9e qui, dans de nombreux cas, n'existe que comme un paysage de m\u00e9moire - en d'autres termes, seuls des fragments du pass\u00e9 existent sous forme physique pour ceux qui souhaitent les chercher un peu plus. Certains symboles des anciens r\u00e9gimes contr\u00f4lant Rijeka ont \u00e9t\u00e9 effac\u00e9s ou remplac\u00e9s par de nouveaux, mais cette visite permet aux visiteurs d'explorer les palimpsestes de la ville afin de comprendre pleinement sa complexit\u00e9 et ses couches historiques. Des monuments manquants, des sites de m\u00e9moire oubli\u00e9s, des chemins moins fr\u00e9quent\u00e9s et des histoires in\u00e9dites prennent vie lors de ce voyage dans le pass\u00e9.",
+                    "curated-tour-06-people-on-the-move": "Le nom \u00abRijeka\u00bb - rivi\u00e8re - \u00e9voque l'id\u00e9e de mouvement ou d'\u00e9coulement. Depuis la fin du XIXe si\u00e8cle, il se trouve \u00e0 l'intersection des infrastructures ferroviaires et portuaires, ce qui permet l'immigration en ville mais aussi l'\u00e9migration vers des destinations outre-mer. Au 20e si\u00e8cle, des changements de fronti\u00e8res ainsi que des \u00e9v\u00e9nements politiques ont d\u00e9clench\u00e9 des mouvements de population volontaires et involontaires, le d\u00e9part d'une partie de la population locale et l'arriv\u00e9e de migrants atteignant la ville pour l'emploi, remodelant la composition de la ville sur le plan national, politique et social. Cette visite vous permettra de suivre les traces de ceux qui sont partis ainsi que de ceux qui ont choisi la ville comme nouvelle ville natale, ceux en transit et ceux qui franchissent les fronti\u00e8res \u00e0 la recherche d'une vie meilleure, de projets politiques, de s\u00e9curit\u00e9 ou de loisirs.",
+                    "curated-tour-04-divided-city": "\u00c0 la fin de la Premi\u00e8re Guerre mondiale, le Royaume d'Italie et le Royaume des Serbes, Croates et Slov\u00e8nes nouvellement fond\u00e9 ont revendiqu\u00e9 le territoire de Rijeka comme leur appartenant. Pr\u00e9emptant les voies diplomatiques officielles, le flamboyant po\u00e8te nationaliste italien Gabriele d'Annunzio a occup\u00e9 la ville pendant un peu plus d'un an, entre septembre 1919 et d\u00e9cembre 2020, en la renommant \u00abR\u00e9gence italienne de Carnaro\u00bb. Les deux royaumes rivaux ont sign\u00e9 le trait\u00e9 de Rapallo le 12 novembre 1920, r\u00e9solvant le diff\u00e9rend territorial et pla\u00e7ant Rijeka sous souverainet\u00e9 italienne. La fronti\u00e8re traversait directement le tissu urbain, longeant la rivi\u00e8re Rje\u010dina et le canal Fiumara. Il en sera ainsi jusqu'\u00e0 la Seconde Guerre mondiale. Cette visite met en lumi\u00e8re les sites qui ont marqu\u00e9 cette p\u00e9riode de division.",
+                    "curated-tour-01-top-10-to-20": "Vous n'avez que quelques heures \u00e0 passer \u00e0 Rijeka? Voici les sites que nos historiens pensent que vous ne devriez pas manquer!",
+                    "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, le c\u00e9l\u00e8bre po\u00e8te et \u00e9crivain italien qui a pris Rijeka avec ses l\u00e9gionnaires apr\u00e8s la Premi\u00e8re Guerre mondiale et a \u00e9tabli sa propre r\u00e9gence; Tito, le leader communiste de renomm\u00e9e mondiale qui a dirig\u00e9 la lutte partisane et la nouvelle Yougoslavie socialiste \u00e0 laquelle Rijeka a \u00e9t\u00e9 annex\u00e9e apr\u00e8s la Seconde Guerre mondiale. Ils ont \u00e9t\u00e9 les protagonistes des deux transitions les plus controvers\u00e9es de la ville au XXe si\u00e8cle, caract\u00e9ris\u00e9es par des changements de souverainet\u00e9 et par l'imposition de nouveaux syst\u00e8mes politiques. Ces personnalit\u00e9s plus grandes que nature ont fortement influenc\u00e9 l'histoire de la ville et hantent toujours, non seulement les souvenirs de la population locale, mais aussi de nombreux endroits particuliers \u00e0 Rijeka."
                 }
             },
             "it-section-names": {
@@ -2168,17 +2168,17 @@
             },
             "hr-section-names": {
                 "main": {
-                    "category": "Tipologija \/ Kategorija",
+                    "category": "Kategorije",
                     "period": "razdoblja",
-                    "tour": "AR RI \u0160etnje",
-                    "vista": "AR RI Vistas",
-                    "search": "RI pretra\u017eivanje",
+                    "tour": "Tours",
+                    "vista": "Panorame",
+                    "search": "tra\u017ei",
                     "saved-locations": "Moji markeri",
                     "nearby-locations": "Blizu mene"
                 },
                 "category": {
                     "industry": "Industrija",
-                    "infrastructure--militarygovernment": "Infrastruktura i vojska \/ Vlada",
+                    "infrastructure--militarygovernment": "Infrastruktura, vojska, vlada",
                     "public-spaces--monuments": "Javni prostori i spomenici",
                     "culture--education": "Kultura i obrazovanje",
                     "residential": "stambeni"
@@ -2194,16 +2194,16 @@
                     "free-state-of-fiume-19201924": "Slobodna dr\u017eava Fiume (1920-1924)"
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "kurirano putovanje 03: betonska d\u017eungla",
-                    "curated-tour-02-hidden-rijeka": "kurirano putovanje 02: Skrivena Rijeka",
-                    "curated-tour-06-people-on-the-move": "kurirano putovanje 06: Ljudi u pokretu",
-                    "curated-tour-04-divided-city": "kurirano putovanje 04: Podijeljeni grad",
-                    "curated-tour-01-top-10-to-20": "kurirano putovanje 01: TOP 10 (do 20)",
-                    "curated-tour-05-ghosts-of-rijeka": "kurirano putovanje 05: Duhovi Rijeke"
+                    "curated-tour-03-concrete-jungle": "Betonska d\u017eungla",
+                    "curated-tour-02-hidden-rijeka": "Skrivena Rijeka",
+                    "curated-tour-06-people-on-the-move": "Ljudi u pokretu",
+                    "curated-tour-04-divided-city": "Podijeljeni grad",
+                    "curated-tour-01-top-10-to-20": "Osnove",
+                    "curated-tour-05-ghosts-of-rijeka": "Rije\u010dani duhovi"
                 },
                 "vista": {
-                    "panorama-from-lukobran": "Panorama s Lukobrana",
-                    "panorama-from-trsat": "Panorama s Trsata"
+                    "panorama-from-lukobran": "Iz lukobrana",
+                    "panorama-from-trsat": "S brda Trsat"
                 }
             },
             "hr-app-labels": {
@@ -2217,11 +2217,11 @@
                     "i-accept": "Prihva\u0107am",
                     "list": "Popis",
                     "ar": "AR",
-                    "ar-panorama": "AR na licu mjesta",
+                    "ar-panorama": "AR",
                     "map": "Karta",
-                    "walk": "Hodati",
-                    "walk-tour": "Pustimo \u0161etnju",
-                    "save-location": "Spremi ozna\u010diva\u010d",
+                    "walk": "",
+                    "walk-tour": "",
+                    "save-location": "U\u0161tedjeti",
                     "share": "Udio"
                 },
                 "about": {
@@ -2251,12 +2251,12 @@
                     "free-state-of-fiume-19201924": "Slobodna dr\u017eava Fiume bila je neovisna slobodna dr\u017eava koja je postojala izme\u0111u 1920. i 1924. godine, a nastala je nakon Prvog svjetskog rata kao tampon zona izme\u0111u Kraljevine Srba, Hrvata i Slovenaca (kasnije nazvane Kraljevina Jugoslavija) i Kraljevine Italije ,"
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "Da ga popuni ...? - Concrete Jungle Tour izbor je od (kopnenih) markera koji su izra\u0111eni uglavnom od betona, pa zbog njihove materijalizacije predstavljaju neke elemente jedinstvene rije\u010dke siluete.",
-                    "curated-tour-02-hidden-rijeka": "Da ga popuni ...?",
-                    "curated-tour-06-people-on-the-move": "Da ga popuni ...?",
-                    "curated-tour-04-divided-city": "Da ga popuni ...?",
-                    "curated-tour-01-top-10-to-20": "Da ga popuni ...?",
-                    "curated-tour-05-ghosts-of-rijeka": "Da ga popuni ...?"
+                    "curated-tour-03-concrete-jungle": "Betonska d\u017eungla: zvu\u010di kao video igra, film, roman ili pjesma. Oznake koje mo\u017eete vidjeti u ovom obilasku mogu vam pomo\u0107i u kretanju kroz grad, otkrivanju njegovih slikovitih pogleda i \u010ditanju pri\u010da o objektima koji su dali ritam i karakter jedinstvenoj silueti modernog grada. Ova \u0107e vas obilaziti skretana staza otkriti rije\u010dki betonski krajolik, uklju\u010duju\u0107i industrijske zgrade, muzeje, spomenike i nebodere koji su iznikli u planinskoj topografiji grada, poput drve\u0107a u d\u017eungli. Ovo je konkretan dokaz rije\u010dkog industrijskog, tehnolo\u0161kog, dru\u0161tvenog i kulturnog razvoja",
+                    "curated-tour-02-hidden-rijeka": "Rije\u010dka arhitektura, spomenici i javni prostori predstavljaju jednu pripovijest o burnom 20. stolje\u0107u grada. Iza ovih lako vidljivih markera stoji skrivena Rijeka koja u mnogim slu\u010dajevima postoji samo kao Memoryscape - drugim rije\u010dima, samo fragmenti pro\u0161losti postoje u fizi\u010dkom obliku za one koji su za njima spremni malo te\u017ee pretra\u017eiti. Odre\u0111eni simboli biv\u0161ih re\u017eima koji kontroliraju Rijeku izbrisani su ili zamijenjeni novima, no ovaj obilazak omogu\u0107uje posjetiteljima da istra\u017euju gradske palimpseste kako bi u potpunosti razumjeli njegove slo\u017eenosti i povijesne slojeve. Na ovom putovanju u pro\u0161lost o\u017eivljavaju spomenici, zaboravljena mjesta sje\u0107anja, manje prohodne staze i neispri\u010dane pri\u010de.",
+                    "curated-tour-06-people-on-the-move": "Naziv Rijeka - rijeka - evocira ideju kretanja ili toka. Od kraja 19. stolje\u0107a bio je na raskri\u017eju \u017eeljezni\u010dke i lu\u010dke infrastrukture \u0161to je omogu\u0107ilo useljavanje u grad, ali i iseljavanje na prekomorska odredi\u0161ta. U 20. stolje\u0107u promjene granica, kao i politi\u010dki doga\u0111aji pokrenuli su dobrovoljna i nehoti\u010dna kretanja stanovni\u0161tva, odlazak dijela lokalnog stanovni\u0161tva i dolazak migranata koji dolaze u grad zbog zapo\u0161ljavanja, preina\u010duju\u0107i gradski sastav u nacionalnom, politi\u010dkom i dru\u0161tvenom pogledu. Ovaj \u0107e vam obilazak omogu\u0107iti da pratite tragove onih koji su oti\u0161li, kao i onih koji su izabrali grad kao svoj novi rodni grad, onih u tranzitu i onih koji prelaze granice u potrazi za boljim \u017eivotom, politi\u010dkim projektima, sigurno\u0161\u0107u ili slobodnim vremenom.",
+                    "curated-tour-04-divided-city": "Na kraju Prvog svjetskog rata, i Kraljevina Italija i novoosnovana Kraljevina Srba, Hrvata i Slovenaca zahtijevali su podru\u010dje Rijeke kao svoje. Prevladavaju\u0107i formalnim diplomatskim kanalima, plameni nacionalisti\u010dki talijanski pjesnik Gabriele d'Annunzio zauzeo je grad ne\u0161to vi\u0161e od godinu dana, izme\u0111u rujna 1919. i prosinca 2020., preimenovaju\u0107i ga u \"italijansku kraljevinu Carnaro\". Dva rivalska kraljevstva potpisala su Ugovor o Rapallo 12. studenoga 1920., rje\u0161avaju\u0107i teritorijalni spor i stavljaju\u0107i Rijeku pod talijanski suverenitet. Granica je tekla ravno kroz gradsku tkaninu, tekla je uz rijeku Rje\u010dinu i kanal Fiumara. Tako bi ostalo i do Drugog svjetskog rata. Ova turneja isti\u010de mjesta koja su obilje\u017eila ovo razdoblje podjele.",
+                    "curated-tour-01-top-10-to-20": "Imate li samo nekoliko sati vremena za provod u Rijeci? Evo znamenitosti za koje na\u0161i povjesni\u010dari misle da ne biste smjeli propustiti!",
+                    "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, poznati talijanski pjesnik i pisac koji je nakon Drugog svjetskog rata poveo Rijeku sa svojim legionarima i osnovao vlastiti regiment; Tito, svjetski poznati komunisti\u010dki vo\u0111a koji je vodio partizansku borbu i novu socijalisti\u010dku Jugoslaviju kojoj je Rijeka pripojena nakon Drugog svjetskog rata. Bili su protagonisti dvaju najkontroverznijih prijelaza grada u XX. Stolje\u0107u, karakteriziranih promjenama suverenosti i nametanjem novih politi\u010dkih sustava. Te li\u010dnosti ve\u0107e od \u017eivota sna\u017eno su utjecale na povijest grada i jo\u0161 uvijek budi ne samo sje\u0107anja lokalnog stanovni\u0161tva, ve\u0107 i mnoga neobi\u010dna mjesta u Rijeci."
                 }
             },
             "--mainView": "menu-v1"
