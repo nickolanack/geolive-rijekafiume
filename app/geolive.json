@@ -1959,11 +1959,11 @@
                     "i-accept": "I Accept",
                     "list": "List",
                     "ar": "AR",
-                    "ar-panorama": "AR on spot",
+                    "ar-panorama": "AR",
                     "map": "Map",
-                    "walk": "Walk",
-                    "walk-tour": "Lets Walk",
-                    "save-location": "Save Marker",
+                    "walk": "",
+                    "walk-tour": "",
+                    "save-location": "Save",
                     "share": "Share"
                 },
                 "about": {
@@ -2075,17 +2075,17 @@
             },
             "it-section-names": {
                 "main": {
-                    "category": "Tipologia \/ Categoria",
+                    "category": "categorie",
                     "period": "periodi",
-                    "tour": "AR RI Walks",
-                    "vista": "AR RI Vistas",
-                    "search": "Ricerca RI",
+                    "tour": "Tours",
+                    "vista": "panorami",
+                    "search": "Ricerca",
                     "saved-locations": "I miei marcatori",
                     "nearby-locations": "Vicino a me"
                 },
                 "category": {
                     "industry": "Industria",
-                    "infrastructure--militarygovernment": "Infrastruttura e Militari \/ Governo",
+                    "infrastructure--militarygovernment": "Infrastruttura, Militare, Governo",
                     "public-spaces--monuments": "Spazi pubblici e monumenti",
                     "culture--education": "Cultura ed educazione",
                     "residential": "Residenziale"
@@ -2101,16 +2101,16 @@
                     "free-state-of-fiume-19201924": "Free State of Fiume (1920-1924)"
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "tour guidato 03: Concrete Jungle",
-                    "curated-tour-02-hidden-rijeka": "tour guidato 02: Hidden Rijeka",
-                    "curated-tour-06-people-on-the-move": "tour guidato 06: People on the Move",
-                    "curated-tour-04-divided-city": "tour guidato 04: Divided City",
-                    "curated-tour-01-top-10-to-20": "tour guidato 01: TOP 10 (fino a 20)",
-                    "curated-tour-05-ghosts-of-rijeka": "tour guidato 05: Ghosts of Rijeka"
+                    "curated-tour-03-concrete-jungle": "Giungla di cemento",
+                    "curated-tour-02-hidden-rijeka": "Fiume nascosto",
+                    "curated-tour-06-people-on-the-move": "Persone in movimento",
+                    "curated-tour-04-divided-city": "Citt\u00e0 divisa",
+                    "curated-tour-01-top-10-to-20": "L'essenziale",
+                    "curated-tour-05-ghosts-of-rijeka": "Fantasmi di Fiume"
                 },
                 "vista": {
-                    "panorama-from-lukobran": "Panorama da Lukobran",
-                    "panorama-from-trsat": "Panorama da Trsat"
+                    "panorama-from-lukobran": "Dal frangiflutti",
+                    "panorama-from-trsat": "Dalla collina di Trsat"
                 }
             },
             "it-app-labels": {
@@ -2124,11 +2124,11 @@
                     "i-accept": "Accetto",
                     "list": "Elenco",
                     "ar": "AR",
-                    "ar-panorama": "AR in loco",
+                    "ar-panorama": "AR",
                     "map": "Carta geografica",
-                    "walk": "Camminare",
-                    "walk-tour": "Camminiamo",
-                    "save-location": "Salva indicatore",
+                    "walk": "",
+                    "walk-tour": "",
+                    "save-location": "Salva",
                     "share": "Condividere"
                 },
                 "about": {
@@ -2158,12 +2158,12 @@
                     "free-state-of-fiume-19201924": "Lo stato libero di Fiume era uno stato libero indipendente che esisteva tra il 1920 e il 1924, che si form\u00f2 dopo la prima guerra mondiale come zona cuscinetto tra il regno di serbi, croati e sloveni (in seguito chiamato Regno di Jugoslavia) e il Regno d'Italia ."
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "Da compilare entro ...? - Concrete Jungle Tour \u00e8 una selezione fatta di marcatori (terrestri) che sono stati realizzati principalmente in cemento, quindi a causa della loro materializzazione rappresentano alcuni elementi della silhouette unica di Rijeka.",
-                    "curated-tour-02-hidden-rijeka": "Da compilare entro ...?",
-                    "curated-tour-06-people-on-the-move": "Da compilare entro ...?",
-                    "curated-tour-04-divided-city": "Da compilare entro ...?",
-                    "curated-tour-01-top-10-to-20": "Da compilare entro ...?",
-                    "curated-tour-05-ghosts-of-rijeka": "Da compilare entro ...?"
+                    "curated-tour-03-concrete-jungle": "Giungla di cemento: sembra un videogioco, un film, un romanzo o una canzone. Gli indicatori che puoi vedere in questo tour possono aiutarti a navigare attraverso la citt\u00e0, scoprire i suoi panorami e leggere storie su oggetti che hanno dato un ritmo e un carattere alla silhouette unica della citt\u00e0 moderna. Questo tour ti porter\u00e0 fuori dai sentieri battuti per scoprire il paesaggio concreto di Fiume, inclusi edifici industriali, musei, monumenti e grattacieli che sono spuntati nella topografia montuosa della citt\u00e0, come alberi in una giungla. Questa \u00e8 la prova concreta dello sviluppo industriale, tecnologico, sociale e culturale di Rijeka",
+                    "curated-tour-02-hidden-rijeka": "L'architettura, i monumenti e gli spazi pubblici di Fiume presentano una narrazione del turbolento 20 \u00b0 secolo della citt\u00e0. Oltre a questi indicatori facilmente visibili si trova un Fiume nascosto che in molti casi esiste solo come Memoryscape - in altre parole, esistono solo frammenti del passato in forma fisica per coloro che sono disposti a cercarli un po 'pi\u00f9 duramente. Alcuni simboli degli ex regimi che controllano Rijeka sono stati cancellati o sostituiti con nuovi, ma questo tour consente ai visitatori di esplorare i palinsesti della citt\u00e0 al fine di comprenderne appieno la complessit\u00e0 e gli strati storici. Monumenti mancanti, siti dimenticati della memoria, percorsi meno percorsi e storie non raccontate prendono vita in questo viaggio nel passato.",
+                    "curated-tour-06-people-on-the-move": "Il nome \"Rijeka\" - fiume - evoca l'idea di movimento o flusso. Dalla fine del 19 \u00b0 secolo \u00e8 stato all'intersezione delle infrastrutture ferroviarie e portuali che ha permesso l'immigrazione in citt\u00e0 ma anche l'emigrazione verso destinazioni all'estero. Nel XX secolo i cambiamenti alle frontiere e gli eventi politici hanno innescato movimenti di popolazione volontari e involontari, la partenza di parte della popolazione locale e l'arrivo di migranti che hanno raggiunto la citt\u00e0 per lavoro, rimodellando la composizione della citt\u00e0 in termini nazionali, politici e sociali. Questo tour ti permetter\u00e0 di seguire le tracce di coloro che sono partiti e di quelli che hanno scelto la citt\u00e0 come nuova citt\u00e0 natale, quelli in transito e quelli che attraversano i confini alla ricerca di una vita migliore, progetti politici, sicurezza o svago.",
+                    "curated-tour-04-divided-city": "Alla fine della prima guerra mondiale, sia il Regno d'Italia che il nuovo regno di serbi, croati e sloveni rivendicarono il territorio di Fiume come proprio. Anticipando i canali diplomatici formali, lo sfarzoso poeta nazionalista italiano Gabriele d'Annunzio occup\u00f2 la citt\u00e0 per poco pi\u00f9 di un anno, tra settembre 1919 e dicembre 2020, ribattezzandola \"Reggenza italiana di Carnaro\". I due regni rivali firmarono il Trattato di Rapallo il 12 novembre 1920, risolvendo la disputa territoriale e ponendo Rijeka sotto la sovranit\u00e0 italiana. Il confine correva dritto attraverso il tessuto urbano, correndo lungo il fiume Rje\u010dina e il canale di Fiumara. Rimarrebbe cos\u00ec fino alla seconda guerra mondiale. Questo tour evidenzia i siti che hanno segnato questo periodo di divisione.",
+                    "curated-tour-01-top-10-to-20": "Hai solo poche ore da trascorrere a Fiume? Ecco i luoghi che i nostri storici pensano che non dovresti perdere!",
+                    "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, il famoso poeta e scrittore italiano che prese Rijeka con i suoi legionari dopo la prima guerra mondiale e stabil\u00ec la propria reggenza; Tito, il leader comunista di fama mondiale che guid\u00f2 la lotta partigiana e la nuova Jugoslavia socialista a cui Rijeka fu annessa dopo la seconda guerra mondiale. Furono i protagonisti delle due transizioni pi\u00f9 controverse della citt\u00e0 nel XX secolo, caratterizzate da cambiamenti di sovranit\u00e0 e dall'imposizione di nuovi sistemi politici. Queste personalit\u00e0 pi\u00f9 grandi della vita hanno avuto un forte impatto sulla storia della citt\u00e0 e sono ancora inquietanti, non solo i ricordi della popolazione locale, ma anche molti punti peculiari di Fiume."
                 }
             },
             "hr-section-names": {
