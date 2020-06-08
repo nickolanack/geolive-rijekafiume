@@ -1882,17 +1882,17 @@
             ],
             "section-names": {
                 "main": {
-                    "category": "Typology\/Category",
+                    "category": "Categories",
                     "period": "Periods",
-                    "tour": "AR RI Walks",
-                    "vista": "AR RI Vistas",
-                    "search": "RI Search",
+                    "tour": "Tours",
+                    "vista": "Panoramas",
+                    "search": "Search",
                     "saved-locations": "My Markers",
                     "nearby-locations": "Near Me"
                 },
                 "category": {
                     "industry": "Industry",
-                    "infrastructure--militarygovernment": "Infrastructure & Military\/Government",
+                    "infrastructure--militarygovernment": "Infrastructure, Military, Government",
                     "public-spaces--monuments": "Public Spaces & Monuments",
                     "culture--education": "Culture & Education",
                     "residential": "Residential"
@@ -1908,16 +1908,16 @@
                     "free-state-of-fiume-19201924": "Free State of Fiume (1920-1924)"
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "curated tour 03: Concrete Jungle",
-                    "curated-tour-02-hidden-rijeka": "curated tour 02: Hidden Rijeka",
-                    "curated-tour-06-people-on-the-move": "curated tour 06: People on the Move",
-                    "curated-tour-04-divided-city": "curated tour 04: Divided City",
-                    "curated-tour-01-top-10-to-20": "curated tour 01: TOP 10 (to 20)",
-                    "curated-tour-05-ghosts-of-rijeka": "curated tour 05: Ghosts of Rijeka"
+                    "curated-tour-03-concrete-jungle": "Concrete Jungle",
+                    "curated-tour-02-hidden-rijeka": "Hidden Rijeka",
+                    "curated-tour-06-people-on-the-move": "People on the Move",
+                    "curated-tour-04-divided-city": "Blended city, divided city",
+                    "curated-tour-01-top-10-to-20": "The Essentials",
+                    "curated-tour-05-ghosts-of-rijeka": "Ghosts of Rijeka"
                 },
                 "vista": {
-                    "panorama-from-lukobran": "Panorama From Lukobran",
-                    "panorama-from-trsat": "Panorama From Trsat"
+                    "panorama-from-lukobran": "From the Breakwater",
+                    "panorama-from-trsat": "From Trsat Hill"
                 }
             },
             "section-titles": [],
@@ -1940,12 +1940,12 @@
                     "free-state-of-fiume-19201924": "The Free State of Fiume was an independent free state that existed between 1920 and 1924, that was formed after the World War I as a buffer zone between the Kingdom of Serbs, Croats and Slovenes (later called Kingdom of Yugoslavia) and the Kingdom of Italy."
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "To be filled in by ... ?   -- Concrete Jungle Tour is a selection made of (land)markers that where made mostly in concrete, so due to their materialization represent some elements of Rijeka's unique silhouette.",
-                    "curated-tour-02-hidden-rijeka": "To be filled in by ... ?",
-                    "curated-tour-06-people-on-the-move": "To be filled in by ... ?",
-                    "curated-tour-04-divided-city": "To be filled in by ... ?",
-                    "curated-tour-01-top-10-to-20": "To be filled in by ... ?",
-                    "curated-tour-05-ghosts-of-rijeka": "To be filled in by ... ?"
+                    "curated-tour-03-concrete-jungle": "Concrete jungle: it sounds like a video game, a movie, a novel or a song. The markers that you can see in this tour can help you to navigate through the city, discover its scenic views, and read stories about objects that gave a rhythm and character to the unique silhouette of the modern city. This tour will take you off the beaten path to discover Rijeka\u2019s concrete landscape, including industrial buildings, museums, monuments, and skyscrapers that have sprouted in the mountainous topography of the city, like trees in a jungle. This is the concrete evidence of Rijeka\u2019s industrial, technological, social and cultural development",
+                    "curated-tour-02-hidden-rijeka": "Rijeka's architecture, monuments, and public spaces present one narrative of the city's turbulent 20th century. Beyond these easily visible markers lies a hidden Rijeka that in many cases exists only as a Memoryscape \u2013 in other words, only fragments of the past exist in physical form for those willing to search a bit harder for them. Certain symbols of former regimes controlling Rijeka have been erased or replaced with new ones, but this tour allows visitors to explore the city\u2019s palimpsests in order to fully understanding its complexities and historical layers. Missing monuments, forgotten sites of memory, less traveled paths, and untold stories come alive on this journey into the past.    ",
+                    "curated-tour-06-people-on-the-move": "The name \u201eRijeka\u201c \u2013 river \u2013 evokes the idea of movement or flow. Since the late 19th century it has been at the intersection of both railway and port infrastructure which allowed immigration to the city but also emigration to overseas destinations. In the 20th century border changes as well as political events triggered voluntary and involuntary population movements, the departure of part of  the local population and the arrival of migrants reaching the city for employment, reshaping the city's composition in national, political, and social terms. This tour will allow you to follow the traces of those who left as well as those who chose the city as their new hometown, those in transit and those crossing boundaries in search of a better life, political projects, safety or leisure. ",
+                    "curated-tour-04-divided-city": "At the end of the First World War, both the Kingdom of Italy and the newly founded Kingdom of Serbs, Croats and Slovenes claimed the territory of Rijeka as their own. Pre-empting formal diplomatic channels, the flamboyant nationalist Italian poet Gabriele d\u2019Annunzio occupied the city for just over a year, between September 1919 and December 2020, renaming it \u201cthe Italian Regency of Carnaro.\u201d The two rival kingdoms signed the Treaty of Rapallo on November 12, 1920, resolving the territorial dispute by creating the \u201cFree State of Rijeka\u201d under joint Italian and Yugoslav oversight.  This solution did not prove stable, and in 1924 Italy and Yugoslavia agreed to divide and annex the territory. The new international border ran straight through the urban fabric, running along the Rje\u010dina river and the Fiumara canal. It would remain this way until the Second World War. This tour highlights the sites that marked this period of division.",
+                    "curated-tour-01-top-10-to-20": "Do you only have a few hours to spend in Rijeka?  Here are the sights that our historians think you shouldn't miss! ",
+                    "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, the famous Italian poet and writer who took Rijeka with his legionaries after WWI and established its own regency; Tito, the world-reknowned Communist leader who led the partisan struggle and the new socialist Yugoslavia to which Rijeka was annexed after WWII. They were the protagonists of the two most controversial transitions of the city in the XX century, characterized by changes of sovereignty and by the imposition of new political systems. These larger-than-life personalities strongly impacted the history of the city and are still haunting, not just the memories of the local population, but also many peculiar spots in Rijeka."
                 }
             },
             "app-labels": {
