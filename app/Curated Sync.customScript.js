@@ -81,7 +81,7 @@ $vars = array_merge(
 		
 		if(key_exists('new_marker', $json)){
 		    
-		        $geom=$json['new_marker'];
+		        $geom=$json->new_marker;
 		    
 		        error_log(json_encode($geom));
 		        $marker=(new Marker())
