@@ -85,7 +85,7 @@ $vars = array_merge(
     		        ->setName($json->name)
     		        ->setDescription($json->description)
     		        ->setIcon("DEFAULT")
-    		        ->setCoordinates($json->coordinates)
+    		        ->setCoordinates($json->coordinates[0], $json->coordinates[1])
     		        ->setLayerId(36);
 	        
     		   return array("marker"=> $marker->getMetadata());
