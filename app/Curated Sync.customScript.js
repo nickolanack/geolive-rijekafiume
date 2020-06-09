@@ -38,42 +38,58 @@ $vars = array_merge(
 		}
 		
 		
-		if(!key_exists('updates', $json)){
-		    return true;
-		}
+		if(key_exists('updates', $json)){
+		    
 	
-		foreach($json->updates as $update){
-		    if($update->type!="marker"){
-		        return array("success" => false, "message" => 'invalid type: '.$update->type);
-		    }
+    		foreach($json->updates as $update){
+    		    if($update->type!="marker"){
+    		        return array("success" => false, "message" => 'invalid type: '.$update->type);
+    		    }
+    		    
+    		    $feature = (new \spatial\FeatureLoader())->fromId((int) $update->id);
+    		    $feature->setName($update->title);
+    		    $feature->setDescription($update->description);
+    		    (new \spatial\FeatureLoader())->save($feature);
+    		    (new \attributes\Record('curatedAttributes'))->setValues((int) $update->id, $update->type, array(
+    		       "keywords"=>$update->Keywords,
+    		       "priority"=>$update->Priority,
+    		       "category"=>$update->Category,
+    		       "period"=>$update->Period,
+    		       "address"=>$update->Address,
+    		       "researcher"=>$update->Researcher,
+    		       "tour"=>$update->Tour,
+    		       
+    		       
+    		        "titleit"=>$update->{'title it'},
+    		        "titlehr"=>$update->{'title hr'},
+    		        "titlefr"=>$update->{'title fr'},
+    		        
+    		        "descriptionit"=>$update->{'description it'},
+    		        "descriptionhr"=>$update->{'description hr'},
+    		        "descriptionfr"=>$update->{'description fr'}
+    		        
+    		       
+    		    ));
+    		    
+    		    
+    		    
+    		}
+    		
+    		return true;
+		}
+		
+		
+		if(key_exists('new_marker', $json)){
 		    
-		    $feature = (new \spatial\FeatureLoader())->fromId((int) $update->id);
-		    $feature->setName($update->title);
-		    $feature->setDescription($update->description);
-		    (new \spatial\FeatureLoader())->save($feature);
-		    (new \attributes\Record('curatedAttributes'))->setValues((int) $update->id, $update->type, array(
-		       "keywords"=>$update->Keywords,
-		       "priority"=>$update->Priority,
-		       "category"=>$update->Category,
-		       "period"=>$update->Period,
-		       "address"=>$update->Address,
-		       "researcher"=>$update->Researcher,
-		       "tour"=>$update->Tour,
-		       
-		       
-		        "titleit"=>$update->{'title it'},
-		        "titlehr"=>$update->{'title hr'},
-		        "titlefr"=>$update->{'title fr'},
-		        
-		        "descriptionit"=>$update->{'description it'},
-		        "descriptionhr"=>$update->{'description hr'},
-		        "descriptionfr"=>$update->{'description fr'}
-		        
-		       
-		    ));
-		    
-		    
-		    
+		        $marker=(new Marker())
+    		        ->setName($json->name)
+    		        ->setDescription($json->description)
+    		        ->setIcon("DEFAULT")
+    		        ->setCoordinates($json->coordinates)
+    		        ->setLayerId(7);
+	        
+    		   return array("marker"=> $marker->getMetadata());
+    	
 		}
 		
 		
