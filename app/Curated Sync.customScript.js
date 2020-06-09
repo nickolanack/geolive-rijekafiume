@@ -80,7 +80,7 @@ $vars = array_merge(
 		
 		
 		if(key_exists('new_marker', $json)){
-		    
+		        error_log(json_encode($json));
 		        $marker=(new Marker())
     		        ->setName($json->name)
     		        ->setDescription($json->description)
