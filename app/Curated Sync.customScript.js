@@ -91,6 +91,8 @@ $vars = array_merge(
     		        ->setCoordinates($geom->coordinates[0], $geom->coordinates[1])
     		        ->setLayerId(36);
 	        
+	            (new \spatial\FeatureLoader())->save($marker);
+	        
     		   return array("marker"=> $marker->getMetadata());
     	
 		}
