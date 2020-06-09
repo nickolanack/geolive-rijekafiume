@@ -80,12 +80,15 @@ $vars = array_merge(
 		
 		
 		if(key_exists('new_marker', $json)){
-		        error_log(json_encode($json));
+		    
+		        $geom=$json['new_marker'];
+		    
+		        error_log(json_encode($geom));
 		        $marker=(new Marker())
-    		        ->setName($json->name)
-    		        ->setDescription($json->description)
+    		        ->setName($geom->name)
+    		        ->setDescription($geom->description)
     		        ->setIcon("DEFAULT")
-    		        ->setCoordinates($json->coordinates[0], $json->coordinates[1])
+    		        ->setCoordinates($geom->coordinates[0], $geom->coordinates[1])
     		        ->setLayerId(36);
 	        
     		   return array("marker"=> $marker->getMetadata());
