@@ -89,7 +89,7 @@ $vars = array_merge(
     		    $feature = (new \spatial\FeatureLoader())->fromId((int) $update->id);
     		    
     		    (new \attributes\Record('curatedAttributes'))->setValues((int) $update->id, $update->type, array(
-    		       "imageCaptionData"=>$update->caption
+    		       "imageCaptionData"=>$update->captions
     		    ));
     		    
     		    
