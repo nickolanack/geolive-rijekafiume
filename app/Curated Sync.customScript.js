@@ -78,6 +78,27 @@ $vars = array_merge(
     		return true;
 		}
 		
+		if(key_exists('captions', $json)){
+		    
+	
+    		foreach($json->captions as $update){
+    		    if($update->type!="marker"){
+    		        return array("success" => false, "message" => 'invalid type: '.$update->type);
+    		    }
+    		    
+    		    $feature = (new \spatial\FeatureLoader())->fromId((int) $update->id);
+    		    
+    		    (new \attributes\Record('curatedAttributes'))->setValues((int) $update->id, $update->type, array(
+    		       "imageCaptionData"=>$update->caption
+    		    ));
+    		    
+    		    
+    		    
+    		}
+    		
+    		return true;
+		}
+		
 		
 		if(key_exists('new_marker', $json)){
 		    
@@ -98,4 +119,4 @@ $vars = array_merge(
 		}
 		
 		
-		return true;
+		return array("missingActionError"=>"Expected some sync item data");
