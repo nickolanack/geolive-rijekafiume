@@ -1996,7 +1996,8 @@
                     "infrastructure--militarygovernment": "Infrastructure, militaire, gouvernement",
                     "public-spaces--monuments": "Espaces publics et monuments",
                     "culture--education": "Culture et \u00e9ducation",
-                    "residential": "R\u00e9sidentiel"
+                    "residential": "R\u00e9sidentiel",
+                    "leisure-time-spaces": "Loisir"
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Ville divis\u00e9e Italie-Yougoslavie (1924-1941)",
@@ -2171,29 +2172,30 @@
             "hr-section-names": {
                 "main": {
                     "category": "Kategorije",
-                    "period": "razdoblja",
-                    "tour": "Tours",
+                    "period": "Razdoblja",
+                    "tour": "Obilasci",
                     "vista": "Panorame",
-                    "search": "tra\u017ei",
-                    "saved-locations": "Moji markeri",
-                    "nearby-locations": "Blizu mene"
+                    "search": "Pretra\u017eivanje",
+                    "saved-locations": "Moje oznake",
+                    "nearby-locations": "U blizini"
                 },
                 "category": {
                     "industry": "Industrija",
                     "infrastructure--militarygovernment": "Infrastruktura, vojska, vlada",
                     "public-spaces--monuments": "Javni prostori i spomenici",
                     "culture--education": "Kultura i obrazovanje",
-                    "residential": "stambeni"
+                    "residential": "Stambeni prostori",
+                    "leisure-time-spaces": "Slobodno vrijeme"
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Podijeljeni grad Italija-Jugoslavija (1924.-1941.)",
-                    "habsburg-empire-until-1914": "Carstvo Habsburg (do 1914.)",
+                    "habsburg-empire-until-1914": "Habsbur\u0161ko Carstvo (do 1914.)",
                     "socialist-yugoslavia-19451991": "Socijalisti\u010dka Jugoslavija (1945.-1991.)",
                     "republic-of-croatia-1991-today": "Republika Hrvatska (1991.-danas)",
-                    "world-war-ii-19411945": "Svjetskog rata (1941-1945)",
-                    "world-war-i-19141918": "Svjetskog rata (1914.-1918.)",
-                    "italian-regency-of-carnaro-19191920": "Talijanska provincija Carnaro (1919.-1920.)",
-                    "free-state-of-fiume-19201924": "Slobodna dr\u017eava Fiume (1920-1924)"
+                    "world-war-ii-19411945": "Drugi svjetski rat (1941-1945)",
+                    "world-war-i-19141918": "Prvi svjetski rat (1914.-1918.)",
+                    "italian-regency-of-carnaro-19191920": "Talijanska uprava za Kvarner (1919.-1920.)",
+                    "free-state-of-fiume-19201924": "Slobodna Dr\u017eava Rijeka (1920.-1924.)"
                 },
                 "tour": {
                     "curated-tour-03-concrete-jungle": "Betonska d\u017eungla",
@@ -2201,21 +2203,21 @@
                     "curated-tour-06-people-on-the-move": "Ljudi u pokretu",
                     "curated-tour-04-divided-city": "Podijeljeni grad",
                     "curated-tour-01-top-10-to-20": "Osnove",
-                    "curated-tour-05-ghosts-of-rijeka": "Rije\u010dani duhovi"
+                    "curated-tour-05-ghosts-of-rijeka": "Duhovi Rijeke"
                 },
                 "vista": {
-                    "panorama-from-lukobran": "Iz lukobrana",
-                    "panorama-from-trsat": "S brda Trsat"
+                    "panorama-from-lukobran": "S lukobrana",
+                    "panorama-from-trsat": "S Trsata"
                 }
             },
             "hr-app-labels": {
-                "app-title": "Rijeka u fluksu",
+                "app-title": "Rijeka u toku",
                 "buttons": {
-                    "save": "U\u0161tedjeti",
-                    "submit": "podnijeti",
-                    "cancel": "Otkazati",
-                    "back": "le\u0111a",
-                    "close": "Zatvoriti",
+                    "save": "Spremi",
+                    "submit": "Podnesi",
+                    "cancel": "Otka\u017ei",
+                    "back": "Natrag",
+                    "close": "Zatvori",
                     "i-accept": "Prihva\u0107am",
                     "list": "Popis",
                     "ar": "AR",
@@ -2236,29 +2238,29 @@
             },
             "hr-section-descriptions": {
                 "category": {
-                    "industry": "Ti su markeri neki od predstavnika bogate industrijske ba\u0161tine grada Rijeke, onih koji su svojom aktivno\u0161\u0107u i \/ ili pozicionirali cjelokupni razvoj grada (poput nekih tvornica ili brodogradili\u0161ta).",
-                    "infrastructure--militarygovernment": "Ova kategorija uklju\u010duje razli\u010dite objekte koji su podr\u017eavali infrastrukturnu mre\u017eu (razli\u010diti tijekovi razvoja), vojne aktivnosti ili upravlja\u010dke re\u017eime.",
+                    "industry": "Ti su markeri neki od predstavnika bogate industrijske ba\u0161tine grada Rijeke - one koja je svojom aktivno\u0161\u0107u ili pozicijom utjecala na ukupni razvoj grada (poput nekih tvornica ili brodogradili\u0161ta).",
+                    "infrastructure--militarygovernment": "Ova kategorija uklju\u010duje razli\u010dite objekte koji su podr\u017eavali infrastrukturnu mre\u017eu (kroz razli\u010dite faze razvoja), vojne aktivnosti ili upravne re\u017eime.",
                     "public-spaces--monuments": "Razli\u010dite strukture ili otvoreni prostori koji predstavljaju spomen-obilje\u017eja odre\u0111enim doga\u0111ajima ili pojedincima va\u017enim za grad Rijeku.",
-                    "culture--education": "Prostori va\u017eni za socijalni aspekt razvoja grada - poput obrazovanja, kulture ili aktivnosti u zajednici.",
-                    "residential": "Neka razdoblja razvoja karakteriziraju i intenzivna stambena gradnja. Ovi markeri svjedo\u010de o tome."
+                    "culture--education": "Prostori va\u017eni za socijalni aspekt razvoja grada - poput obrazovanja, kulture ili djelatnosti zajednica.",
+                    "residential": "Odre\u0111ena razdoblja karakterizira intenzivna stambena gradnja. Ovi markeri tome svjedo\u010de."
                 },
                 "period": {
-                    "divided-city-italyyugoslavia-19241941": "Oznake va\u017ene za prethodno paralelni \u017eivot dva grada odvojena rijekom Rijekom: Fiume u Italiji i Rijeke u Kraljevini Jugoslaviji, koji sada \u010dine teritorij Rijeke.",
-                    "habsburg-empire-until-1914": "Bilo je to razdoblje velikog uspona i razvoja grada (infrastrukturnog, kulturnog itd.), O \u010demu svjedo\u010de markeri iz ove skupine.",
-                    "socialist-yugoslavia-19451991": "Nakon Drugog svjetskog rata grad Fiume (Italija) i Rijeka (Kraljevina Jugoslavija) ujedinili su se u dana\u0161nji teritorij grada Rijeke, koji se sve do 1991. razvijao na temeljima samoupravnog socijalizma unutar Savezne Republike Jugoslavije kao prete\u017eno lu\u010dki i industrijski grad, \u0161to je za rezultat imalo i pove\u0107ano stanovni\u0161tvo, a time i intenzivan urbani razvoj.",
+                    "divided-city-italyyugoslavia-19241941": "Oznake va\u017ene za prethodno usporedan \u017eivot dva grada odvojena rijekom Rje\u010dinom: Fiume u Italiji i Rijeke u Kraljevini Jugoslaviji, koji danas \u010dine teritorij Rijeke.",
+                    "habsburg-empire-until-1914": "Bilo je to razdoblje velikog uspona i razvoja grada (infrastrukturnog, kulturnog itd.), o \u010demu svjedo\u010de oznake iz ove skupine.",
+                    "socialist-yugoslavia-19451991": "Nakon Drugog svjetskog rata grad Fiume (Italija) i Rijeka (Kraljevina Jugoslavija) ujedinili su se u dana\u0161nji teritorij grada Rijeke, koji se sve do 1991. razvijao na temeljima samoupravnog socijalizma unutar Socijalisti\u010dke Federativne Republike Jugoslavije kao prete\u017eno lu\u010dki i industrijski grad, \u0161to je za rezultat imalo i pove\u0107ano broj stanovnika, a time i intenzivan urbani razvoj.",
                     "republic-of-croatia-1991-today": "U promijenjenim politi\u010dkim i gospodarskim okolnostima, smjer razvoja Rijeke se promijenio, industrijski sektor je oslabljen, a razvoj grada usmjeren prema sveu\u010dili\u0161nom i kulturnom sredi\u0161tu.",
-                    "world-war-ii-19411945": "Drugi svjetski rat u Rijeci obilje\u017een je takozvanim savezni\u010dkim bombardiranjem Rijeke njema\u010dkim i talijanskim upori\u0161tima na Kvarneru, koje se doga\u0111alo u razdoblju od 20 mjeseci izme\u0111u 1943. i 1945., tijekom kojih je grad ve\u0107im dijelom uni\u0161ten.",
-                    "world-war-i-19141918": "Razdoblje Prvog svjetskog rata za grad Rijeku zna\u010dajnije je po posljedicama nego tijek, jer su se nakon njega dogodile neke od najdramati\u010dnijih situacija u povijesnom razvoju grada.",
-                    "italian-regency-of-carnaro-19191920": "Bilo je to razdoblje samoprogla\u0161ene dr\u017eave u gradu Fiume koju je vodio Gabriele d'Annunzio i u ovoj su skupini markeri koji su bili od posebnog zna\u010daja za njegovo funkcioniranje.",
-                    "free-state-of-fiume-19201924": "Slobodna dr\u017eava Fiume bila je neovisna slobodna dr\u017eava koja je postojala izme\u0111u 1920. i 1924. godine, a nastala je nakon Prvog svjetskog rata kao tampon zona izme\u0111u Kraljevine Srba, Hrvata i Slovenaca (kasnije nazvane Kraljevina Jugoslavija) i Kraljevine Italije ,"
+                    "world-war-ii-19411945": "Drugi svjetski rat u Rijeci obilje\u017een je takozvanim savezni\u010dkim bombardiranjem Rijeke od strane njema\u010dkih i talijanskih upori\u0161ta na Kvarneru, koje se doga\u0111alo u razdoblju od 20 mjeseci izme\u0111u 1943. i 1945., tijekom kojih je grad ve\u0107im dijelom uni\u0161ten.",
+                    "world-war-i-19141918": "Razdoblje Prvog svjetskog rata za grad Rijeku zna\u010dajnije je po posljedicama nego tijeku, jer su se nakon njega dogodile neke od najdramati\u010dnijih situacija u povijesnom razvoju grada.",
+                    "italian-regency-of-carnaro-19191920": "Bilo je to razdoblje samoprogla\u0161ene dr\u017eave u Rijeci (Fiume) koju je vodio Gabriele d'Annunzio; u ovoj su skupini oznake od posebnog zna\u010daja za njeno funkcioniranje",
+                    "free-state-of-fiume-19201924": "Slobodna Dr\u017eava Rijeka bila je neovisna slobodna dr\u017eava koja je postojala izme\u0111u 1920. i 1924. godine, a nastala je nakon Prvog svjetskog rata kao tampon zona izme\u0111u Kraljevine Srba, Hrvata i Slovenaca (kasnije nazvane Kraljevina Jugoslavija) i Kraljevine Italije."
                 },
                 "tour": {
-                    "curated-tour-03-concrete-jungle": "Betonska d\u017eungla: zvu\u010di kao video igra, film, roman ili pjesma. Oznake koje mo\u017eete vidjeti u ovom obilasku mogu vam pomo\u0107i u kretanju kroz grad, otkrivanju njegovih slikovitih pogleda i \u010ditanju pri\u010da o objektima koji su dali ritam i karakter jedinstvenoj silueti modernog grada. Ova \u0107e vas obilaziti skretana staza otkriti rije\u010dki betonski krajolik, uklju\u010duju\u0107i industrijske zgrade, muzeje, spomenike i nebodere koji su iznikli u planinskoj topografiji grada, poput drve\u0107a u d\u017eungli. Ovo je konkretan dokaz rije\u010dkog industrijskog, tehnolo\u0161kog, dru\u0161tvenog i kulturnog razvoja",
-                    "curated-tour-02-hidden-rijeka": "Rije\u010dka arhitektura, spomenici i javni prostori predstavljaju jednu pripovijest o burnom 20. stolje\u0107u grada. Iza ovih lako vidljivih markera stoji skrivena Rijeka koja u mnogim slu\u010dajevima postoji samo kao Memoryscape - drugim rije\u010dima, samo fragmenti pro\u0161losti postoje u fizi\u010dkom obliku za one koji su za njima spremni malo te\u017ee pretra\u017eiti. Odre\u0111eni simboli biv\u0161ih re\u017eima koji kontroliraju Rijeku izbrisani su ili zamijenjeni novima, no ovaj obilazak omogu\u0107uje posjetiteljima da istra\u017euju gradske palimpseste kako bi u potpunosti razumjeli njegove slo\u017eenosti i povijesne slojeve. Na ovom putovanju u pro\u0161lost o\u017eivljavaju spomenici, zaboravljena mjesta sje\u0107anja, manje prohodne staze i neispri\u010dane pri\u010de.",
-                    "curated-tour-06-people-on-the-move": "Naziv Rijeka - rijeka - evocira ideju kretanja ili toka. Od kraja 19. stolje\u0107a bio je na raskri\u017eju \u017eeljezni\u010dke i lu\u010dke infrastrukture \u0161to je omogu\u0107ilo useljavanje u grad, ali i iseljavanje na prekomorska odredi\u0161ta. U 20. stolje\u0107u promjene granica, kao i politi\u010dki doga\u0111aji pokrenuli su dobrovoljna i nehoti\u010dna kretanja stanovni\u0161tva, odlazak dijela lokalnog stanovni\u0161tva i dolazak migranata koji dolaze u grad zbog zapo\u0161ljavanja, preina\u010duju\u0107i gradski sastav u nacionalnom, politi\u010dkom i dru\u0161tvenom pogledu. Ovaj \u0107e vam obilazak omogu\u0107iti da pratite tragove onih koji su oti\u0161li, kao i onih koji su izabrali grad kao svoj novi rodni grad, onih u tranzitu i onih koji prelaze granice u potrazi za boljim \u017eivotom, politi\u010dkim projektima, sigurno\u0161\u0107u ili slobodnim vremenom.",
-                    "curated-tour-04-divided-city": "Na kraju Prvog svjetskog rata, i Kraljevina Italija i novoosnovana Kraljevina Srba, Hrvata i Slovenaca zahtijevali su podru\u010dje Rijeke kao svoje. Prevladavaju\u0107i formalnim diplomatskim kanalima, plameni nacionalisti\u010dki talijanski pjesnik Gabriele d'Annunzio zauzeo je grad ne\u0161to vi\u0161e od godinu dana, izme\u0111u rujna 1919. i prosinca 2020., preimenovaju\u0107i ga u \"italijansku kraljevinu Carnaro\". Dva rivalska kraljevstva potpisala su Ugovor o Rapallo 12. studenoga 1920., rje\u0161avaju\u0107i teritorijalni spor i stavljaju\u0107i Rijeku pod talijanski suverenitet. Granica je tekla ravno kroz gradsku tkaninu, tekla je uz rijeku Rje\u010dinu i kanal Fiumara. Tako bi ostalo i do Drugog svjetskog rata. Ova turneja isti\u010de mjesta koja su obilje\u017eila ovo razdoblje podjele.",
-                    "curated-tour-01-top-10-to-20": "Imate li samo nekoliko sati vremena za provod u Rijeci? Evo znamenitosti za koje na\u0161i povjesni\u010dari misle da ne biste smjeli propustiti!",
-                    "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, poznati talijanski pjesnik i pisac koji je nakon Drugog svjetskog rata poveo Rijeku sa svojim legionarima i osnovao vlastiti regiment; Tito, svjetski poznati komunisti\u010dki vo\u0111a koji je vodio partizansku borbu i novu socijalisti\u010dku Jugoslaviju kojoj je Rijeka pripojena nakon Drugog svjetskog rata. Bili su protagonisti dvaju najkontroverznijih prijelaza grada u XX. Stolje\u0107u, karakteriziranih promjenama suverenosti i nametanjem novih politi\u010dkih sustava. Te li\u010dnosti ve\u0107e od \u017eivota sna\u017eno su utjecale na povijest grada i jo\u0161 uvijek budi ne samo sje\u0107anja lokalnog stanovni\u0161tva, ve\u0107 i mnoga neobi\u010dna mjesta u Rijeci."
+                    "curated-tour-03-concrete-jungle": "Betonska d\u017eungla: zvu\u010di poput video igre, filma, romana ili pjesme. Oznake unutar ovog obilaska pomo\u0107i \u0107e vam u kretanju kroz grad, otkrivanju njegovih slikovitih pogleda i \u010ditanju pri\u010da o objektima koji su ovom gradu dali ritam i karakter, te jedinstvenu, modernu siluetu. Ovaj obilazak odvest \u0107e vas sa utabanih puteva i otkrit \u0107e vam rije\u010dki betonski krajolik, uklju\u010duju\u0107i industrijske zgrade, muzeje, spomenike i nebodere koji su iznikli u brdovitoj topografiji grada, poput drve\u0107a u d\u017eungli. Ovo je \"betnoski\" dokaz rije\u010dkog industrijskog, tehnolo\u0161kog, dru\u0161tvenog i kulturnog razvoja.",
+                    "curated-tour-02-hidden-rijeka": "Rije\u010dka arhitektura, spomenici i javni prostori predstavljaju pripovijest o burnom 20. stolje\u0107u ovog grada. Ove lako vidljive oznake skrivaju Rijeku koja u ve\u0107ini slu\u010dajeva postoji samo kao krajobraz sje\u0107anja  - drugim rije\u010dima, u fizi\u010dkom obliku postoje samo fragmenti pro\u0161losti za one koji su ih spremni potra\u017eiti. Odre\u0111eni simboli biv\u0161ih re\u017eima pod \u010dijom je kontrolom Rijeka bila, izbrisani su ili zamijenjeni novima. Ipak, ovim obilaskom posjetitelji mogu istra\u017etii gradske palimpseste kako bi u potpunosti razumjeli njegovu slo\u017eenost i povijesne slojeve. Spomenici, zaboravljena mjesta sje\u0107anja, manje prohodne staze i neispri\u010dane pri\u010de o\u017eivljavaju na ovom putovanju u pro\u0161lost.",
+                    "curated-tour-06-people-on-the-move": "Naziv Rijeka doziva kretanja ili toka. Od kraja 19. stolje\u0107a bila je na raskri\u017eju \u017eeljezni\u010dke i lu\u010dke infrastrukture \u0161to je omogu\u0107ilo useljavanje u grad, ali i iseljavanje na prekomorska odredi\u0161ta. U 20. stolje\u0107u promjene granica, kao i politi\u010dki doga\u0111aji pokrenuli su dobrovoljna i prisilna kretanja stanovni\u0161tva, odlazak dijela lokalnog stanovni\u0161tva i dolazak migranata koji dolaze u grad zbog zapo\u0161ljavanja, mijenjaju\u0107i  sastav stanovni\u0161tva grada u nacionalnom, politi\u010dkom i dru\u0161tvenom pogledu. Ovaj \u0107e vam obilazak omogu\u0107iti da pratite tragove onih koji su oti\u0161li, kao i onih koji su ovaj grad izabrali kao svoj novi rodni grad, onih u tranzitu i onih koji prelaze granice u potrazi za boljim \u017eivotom, politi\u010dkim projektima, sigurno\u0161\u0107u ili slobodnim vremenom.",
+                    "curated-tour-04-divided-city": "Na kraju Prvog svjetskog rata, i Kraljevina Italija i novoosnovana Kraljevina Srba, Hrvata i Slovenaca zahtijevali su podru\u010dje Rijeke kao svoje. Preti\u010du\u0107i formalne diplomatske puteve, gorljivi nacionalisti\u010dki talijanski pjesnik Gabriele D'Annunzio zauzeo je grad na ne\u0161to vi\u0161e od godinu dana, izme\u0111u rujna 1919. i prosinca 2020., preimenuju\u0107i ga u Talijansku upravu za Kvarner. Dva rivalska kraljevstva potpisala su Rapalski ugovor 12. studenoga 1920.,  \u010dime je stvorena Slobodna Dr\u017eava Rijeka, koju su zajedni\u010dki nadgledale Italija i Jugoslavija. Ovo se rje\u0161enje ipak pokazalo nesigurnim, pa je 1924. teritorij podijeljen. Granica je tekla ravno kroz grad, uz rijeku Rje\u010dinu i kanal Fiumara, a takva se situacija zadr\u017eala do Drugog svjetskog rata. Ovaj obilazak isti\u010de mjesta koja su obilje\u017eila ovo razdoblje podjele.",
+                    "curated-tour-01-top-10-to-20": "Imate samo nekoliko sati vremena za provo\u0111enje Rijeci? Evo znamenitosti za koje na\u0161i povjesni\u010darismatraju da ne biste smjeli propustiti!",
+                    "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, poznati talijanski pjesnik i pisac koji je nakon Drugog svjetskog rata zauzeo Rijeku sa svojim legionarima i proglasio vlastito regentstvo; Tito, svjetski poznati komunisti\u010dki vo\u0111a koji je vodio partizansku borbu i novu socijalisti\u010dku Jugoslaviju kojoj je Rijeka pripojena nakon Drugog svjetskog rata. Bili su protagonisti dvaju najkontroverznijih politi\u010dkih prijelaza grada u XX. stolje\u0107u, karakteriziranih promjenama suverenosti i nametanjem novih politi\u010dkih sustava. Te izvanredne li\u010dnosti sna\u017eno su utjecale na povijest grada i jo\u0161 uvijek \"progone\" sje\u0107anja ne samo lokalnog stanovni\u0161tva, ve\u0107 i mnogih neobi\u010dnih mjesta u Rijeci."
                 }
             },
             "--mainView": "menu-v1"
