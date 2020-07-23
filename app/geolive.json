@@ -1948,6 +1948,10 @@
                     "curated-tour-04-divided-city": "At the end of the First World War, both the Kingdom of Italy and the newly founded Kingdom of Serbs, Croats and Slovenes claimed the territory of Rijeka as their own. Pre-empting formal diplomatic channels, the flamboyant nationalist Italian poet Gabriele d\u2019Annunzio occupied the city for just over a year, between September 1919 and December 2020, renaming it \u201cthe Italian Regency of Carnaro.\u201d The two rival kingdoms signed the Treaty of Rapallo on November 12, 1920, resolving the territorial dispute by creating the \u201cFree State of Rijeka\u201d under joint Italian and Yugoslav oversight.  This solution did not prove stable, and in 1924 Italy and Yugoslavia agreed to divide and annex the territory. The new international border ran straight through the urban fabric, running along the Rje\u010dina river and the Fiumara canal. It would remain this way until the Second World War. This tour highlights the sites that marked this period of division.",
                     "curated-tour-01-top-10-to-20": "Do you only have a few hours to spend in Rijeka?  Here are the sights that our historians think you shouldn't miss! ",
                     "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, the famous Italian poet and writer who took Rijeka with his legionaries after WWI and established its own regency; Tito, the world-reknowned Communist leader who led the partisan struggle and the new socialist Yugoslavia to which Rijeka was annexed after WWII. They were the protagonists of the two most controversial transitions of the city in the XX century, characterized by changes of sovereignty and by the imposition of new political systems. These larger-than-life personalities strongly impacted the history of the city and are still haunting, not just the memories of the local population, but also many peculiar spots in Rijeka."
+                },
+                "vista": {
+                    "panorama-from-lukobran": "Please enter a description at: Rijeka App Labels",
+                    "panorama-from-trsat": "Please enter a description at: Rijeka App Labels"
                 }
             },
             "app-labels": {
@@ -2245,7 +2249,8 @@
                     "infrastructure--militarygovernment": "Ova kategorija uklju\u010duje razli\u010dite objekte koji su podr\u017eavali infrastrukturnu mre\u017eu (kroz razli\u010dite faze razvoja), vojne aktivnosti ili upravne re\u017eime.",
                     "public-spaces--monuments": "Razli\u010dite strukture ili otvoreni prostori koji predstavljaju spomen-obilje\u017eja odre\u0111enim doga\u0111ajima ili pojedincima va\u017enim za grad Rijeku.",
                     "culture--education": "Prostori va\u017eni za socijalni aspekt razvoja grada - poput obrazovanja, kulture ili djelatnosti zajednica.",
-                    "residential": "Odre\u0111ena razdoblja karakterizira intenzivna stambena gradnja. Ovi markeri tome svjedo\u010de."
+                    "residential": "Odre\u0111ena razdoblja karakterizira intenzivna stambena gradnja. Ovi markeri tome svjedo\u010de.",
+                    "leisure-time-spaces": ""
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Oznake va\u017ene za prethodno usporedan \u017eivot dva grada odvojena rijekom Rje\u010dinom: Fiume u Italiji i Rijeke u Kraljevini Jugoslaviji, koji danas \u010dine teritorij Rijeke.",
