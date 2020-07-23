@@ -1895,7 +1895,8 @@
                     "infrastructure--militarygovernment": "Infrastructure, Military, Government",
                     "public-spaces--monuments": "Public Spaces & Monuments",
                     "culture--education": "Culture & Education",
-                    "residential": "Residential"
+                    "residential": "Residential",
+                    "leisure-time-spaces": "Leisure"
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Divided city Italy-Yugoslavia (1924-1941)",
