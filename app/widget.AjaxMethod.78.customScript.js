@@ -59,6 +59,13 @@ return array(
                }
                return $filter->filterPeriod==$item['attributes']['period'];
             }
+            
+            if(key_exists("filterResearcher",$filter)){
+               if(is_array($item['attributes']['researcher'])){
+                   return in_array($filter->filterResearcher, $item['attributes']['researcher']);
+               }
+               return $filter->filterResearcher==$item['attributes']['researcher'];
+            }
                 
             return true;
             
