@@ -2198,7 +2198,7 @@
                     "industry": "Industrija",
                     "infrastructure--militarygovernment": "Infrastruktura, vojska, vlada",
                     "public-spaces--monuments": "Javni prostori i spomenici",
-                    "culture--education": "Kultura i obrazovanje",
+                    "culture--education": "Politika, kultura i obrazovanje",
                     "residential": "Stambeni prostori",
                     "leisure-time-spaces": "Slobodno vrijeme"
                 },
@@ -2253,12 +2253,12 @@
             },
             "hr-section-descriptions": {
                 "category": {
-                    "industry": "",
-                    "infrastructure--militarygovernment": "",
-                    "public-spaces--monuments": "",
-                    "culture--education": "",
-                    "residential": "",
-                    "leisure-time-spaces": ""
+                    "industry": "Industrijska ba\u0161tina grada, uklju\u010duju\u0107i brodogradili\u0161ta, rafineriju nafte, tvornicu torpeda, tvornicu papira i kompleks Ben\u010di\u0107.",
+                    "infrastructure--militarygovernment": "Ova se kategorija bavi infrastrukturom i elektri\u010dnom energijom. Infrastruktura poma\u017ee da se stvari kre\u0107u i odlaze iz grada: ljudi, roba i informacije. Tako\u0111er su predstavljena mjesta vladinih i vojnih postrojenja.",
+                    "public-spaces--monuments": "U ovoj kategoriji istaknuti su spomenici, simboli i javni trgovi: prostori dizajnirani da pripovijedaju o identitetu grada.",
+                    "culture--education": "Istra\u017eite \u0161kole, kazali\u0161ta, bogomolje, politi\u010dke i kulturne udruge i druga kulturna mjesta na kojima se oblikovala jedinstvena rije\u010dka kultura.",
+                    "residential": "Stanovanje se mo\u017ee \u010diniti svakodnevnim, ali ta stambena podru\u010dja pri\u010daju va\u017ene pri\u010de o razvoju grada.",
+                    "leisure-time-spaces": "Gdje su se mje\u0161tani i posjetitelji dobro zabavili? Istra\u017eite gradske hotele, morska odmarali\u0161ta, maloprodajne prostore i mjesta za dru\u017eenja."
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Oznake va\u017ene za prethodno usporedan \u017eivot dva grada odvojena rijekom Rje\u010dinom: Fiume u Italiji i Rijeke u Kraljevini Jugoslaviji, koji danas \u010dine teritorij Rijeke.",
@@ -2279,8 +2279,8 @@
                     "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, poznati talijanski pjesnik i pisac koji je nakon Drugog svjetskog rata zauzeo Rijeku sa svojim legionarima i proglasio vlastito regentstvo; Tito, svjetski poznati komunisti\u010dki vo\u0111a koji je vodio partizansku borbu i novu socijalisti\u010dku Jugoslaviju kojoj je Rijeka pripojena nakon Drugog svjetskog rata. Bili su protagonisti dvaju najkontroverznijih politi\u010dkih prijelaza grada u XX. stolje\u0107u, karakteriziranih promjenama suverenosti i nametanjem novih politi\u010dkih sustava. Te izvanredne li\u010dnosti sna\u017eno su utjecale na povijest grada i jo\u0161 uvijek \"progone\" sje\u0107anja ne samo lokalnog stanovni\u0161tva, ve\u0107 i mnogih neobi\u010dnih mjesta u Rijeci."
                 },
                 "vista": {
-                    "panorama-from-lukobran": "",
-                    "panorama-from-trsat": ""
+                    "panorama-from-lukobran": "Spustite se lukobranom kako biste dobili panoramski pogled na luku i centar grada",
+                    "panorama-from-trsat": "Vozite se autobusom do tvr\u0111ave Trsat kako biste dobili panoramski pogled na luku i sredi\u0161te grada"
                 }
             },
             "--mainView": "menu-v1"
