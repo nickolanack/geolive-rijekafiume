@@ -2000,7 +2000,7 @@
                     "industry": "Industrie",
                     "infrastructure--militarygovernment": "Infrastructure, militaire, gouvernement",
                     "public-spaces--monuments": "Espaces publics et monuments",
-                    "culture--education": "Culture et \u00e9ducation",
+                    "culture--education": "Politique, culture et \u00e9ducation",
                     "residential": "R\u00e9sidentiel",
                     "leisure-time-spaces": "Loisir"
                 },
@@ -2055,12 +2055,12 @@
             },
             "fr-section-descriptions": {
                 "category": {
-                    "industry": "",
-                    "infrastructure--militarygovernment": "",
-                    "public-spaces--monuments": "",
-                    "culture--education": "",
-                    "residential": "",
-                    "leisure-time-spaces": ""
+                    "industry": "Le patrimoine industriel de la ville, y compris les chantiers navals, la raffinerie de p\u00e9trole, l'usine de torpilles, l'usine de papier et le complexe Ben\u010di\u0107.",
+                    "infrastructure--militarygovernment": "Cette cat\u00e9gorie concerne les infrastructures et l'\u00e9lectricit\u00e9. Les infrastructures aident les choses \u00e0 entrer et \u00e0 sortir d'une ville: personnes, biens et informations. Les lieux des installations gouvernementales et militaires sont \u00e9galement pr\u00e9sent\u00e9s.",
+                    "public-spaces--monuments": "Les monuments, symboles et places publiques sont mis en \u00e9vidence dans cette cat\u00e9gorie: des espaces con\u00e7us pour raconter des histoires sur l'identit\u00e9 de la ville.",
+                    "culture--education": "Explorez les \u00e9coles, les th\u00e9\u00e2tres, les lieux de culte, les associations politiques et culturelles et d'autres sites culturels o\u00f9 la culture unique de Rijeka a pris forme.",
+                    "residential": "Le logement peut sembler banal, mais ces zones r\u00e9sidentielles racontent des histoires importantes sur le d\u00e9veloppement de la ville.",
+                    "leisure-time-spaces": "O\u00f9 sont all\u00e9s les habitants et les visiteurs pour passer un bon moment? Explorez les h\u00f4tels, les stations baln\u00e9aires, les espaces commerciaux et les lieux de rencontre de la ville."
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Marqueurs d'importance pour la vie auparavant parall\u00e8le de deux villes s\u00e9par\u00e9es par la rivi\u00e8re Rijeka: Fiume en Italie et Rijeka dans le Royaume de Yougoslavie, qui forment d\u00e9sormais le territoire de la ville de Rijeka.",
@@ -2081,8 +2081,8 @@
                     "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, le c\u00e9l\u00e8bre po\u00e8te et \u00e9crivain italien qui a pris Rijeka avec ses l\u00e9gionnaires apr\u00e8s la Premi\u00e8re Guerre mondiale et a \u00e9tabli sa propre r\u00e9gence; Tito, le leader communiste de renomm\u00e9e mondiale qui a dirig\u00e9 la lutte partisane et la nouvelle Yougoslavie socialiste \u00e0 laquelle Rijeka a \u00e9t\u00e9 annex\u00e9e apr\u00e8s la Seconde Guerre mondiale. Ils ont \u00e9t\u00e9 les protagonistes des deux transitions les plus controvers\u00e9es de la ville au XXe si\u00e8cle, caract\u00e9ris\u00e9es par des changements de souverainet\u00e9 et par l'imposition de nouveaux syst\u00e8mes politiques. Ces personnalit\u00e9s plus grandes que nature ont fortement influenc\u00e9 l'histoire de la ville et hantent toujours, non seulement les souvenirs de la population locale, mais aussi de nombreux endroits particuliers \u00e0 Rijeka."
                 },
                 "vista": {
-                    "panorama-from-lukobran": "",
-                    "panorama-from-trsat": ""
+                    "panorama-from-lukobran": "Descendez le brise-lames pour avoir une vue panoramique sur le port et le centre-ville",
+                    "panorama-from-trsat": "Prenez le bus jusqu'\u00e0 la forteresse de Trsat pour avoir une vue panoramique sur le port et le centre-ville"
                 }
             },
             "it-section-names": {
@@ -2154,12 +2154,12 @@
             },
             "it-section-descriptions": {
                 "category": {
-                    "industry": "",
-                    "infrastructure--militarygovernment": "",
-                    "public-spaces--monuments": "",
-                    "culture--education": "",
-                    "residential": "",
-                    "leisure-time-spaces": ""
+                    "industry": "Il patrimonio industriale della citt\u00e0, inclusi i cantieri navali, la raffineria di petrolio, la fabbrica di siluri, la cartiera e il complesso Ben\u010di\u0107.",
+                    "infrastructure--militarygovernment": "Questa categoria si occupa di infrastrutture e potenza. Le infrastrutture aiutano le cose a muoversi dentro e fuori una citt\u00e0: persone, merci e informazioni. Sono presenti anche luoghi di governo e installazioni militari.",
+                    "public-spaces--monuments": "Monumenti, simboli e piazze pubbliche sono evidenziati in questa categoria: spazi progettati per raccontare storie sull'identit\u00e0 della citt\u00e0.",
+                    "culture--education": "Esplora le scuole, i teatri, i luoghi di culto, le associazioni politiche e culturali e altri siti culturali in cui ha preso forma la cultura unica di Rijeka.",
+                    "residential": "Gli alloggi potrebbero sembrare banali, ma queste aree residenziali raccontano storie importanti sullo sviluppo della citt\u00e0.",
+                    "leisure-time-spaces": "Dove vanno a divertirsi gente del posto e visitatori? Esplora gli hotel, le localit\u00e0 balneari, gli spazi commerciali e i luoghi di incontro sociale della citt\u00e0."
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Indicatori di importanza per le vite precedentemente parallele di due citt\u00e0 separate dal fiume Rijeka: Fiume in Italia e Fiume nel Regno di Jugoslavija, che ora formano il territorio della citt\u00e0 di Rijeka.",
@@ -2180,8 +2180,8 @@
                     "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, il famoso poeta e scrittore italiano che prese Fiume con i suoi legionari dopo la prima guerra mondiale e stabil\u00ec la propria reggenza; Tito, il leader comunista di fama mondiale che guid\u00f2 la lotta partigiana e la nuova Jugoslavia socialista, a cui Rijeka fu annessa dopo la seconda guerra mondiale. Furono i protagonisti delle due transizioni pi\u00f9 controverse della citt\u00e0 nel XX secolo, caratterizzate da cambiamenti di sovranit\u00e0 e dall'imposizione di nuovi sistemi politici. Queste personalit\u00e0 fuori dall'ordinario hanno avuto un forte impatto sulla storia della citt\u00e0 e perseguitano ancora non solo i ricordi della popolazione locale ma anche molti posti peculiari di Fiume."
                 },
                 "vista": {
-                    "panorama-from-lukobran": "",
-                    "panorama-from-trsat": ""
+                    "panorama-from-lukobran": "Cammina lungo il frangiflutti per avere una vista panoramica del porto e del centro citt\u00e0",
+                    "panorama-from-trsat": "Prendi l'autobus fino alla fortezza di Trsat per avere una vista panoramica del porto e del centro citt\u00e0"
                 }
             },
             "hr-section-names": {
