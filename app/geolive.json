@@ -1924,12 +1924,12 @@
             "section-titles": [],
             "section-descriptions": {
                 "category": {
-                    "industry": "These markers are some of the representatives of the rich industrial heritage of the city of Rijeka, those that have influenced through their activity and\/or position the overall development of the city (such are some factories or shipyards).",
-                    "infrastructure--militarygovernment": "This category includes different facilities that were supporting infrastructural network (different flows of development), military activities or governing regimes.",
-                    "public-spaces--monuments": "Different structures or open spaces that represent memorials to particular events or individuals that are important for the city of Rijeka.",
-                    "culture--education": "Spaces important for the social aspect of a city's development - such as education, culture or community activities.",
-                    "residential": "Some periods of development are also characterized by intensive residential construction. These markers testifies about that.",
-                    "leisure-time-spaces": "Please enter a description at: Rijeka App Labels"
+                    "industry": "The city's industrial heritage, including the shipyards, oil refinery, torpedo factory, paper factory, and the Ben\u010di\u0107 complex.",
+                    "infrastructure--militarygovernment": "This category deals with infrastructure and power. Infrastructure helps things move in and out of a city: people, goods and information. Places of government and military installations are also featured.",
+                    "public-spaces--monuments": "Monuments, symbols, and public squares are highlighted in this category: spaces that were designed to tell stories about the city's identity.",
+                    "culture--education": "Explore the schools, theaters, places of worship, political and cultural associations, and other cultural sites where Rijeka's unique culture took shape.",
+                    "residential": "Housing might seem mundane, but these residential areas tell important stories about the city's development.",
+                    "leisure-time-spaces": "Where did locals and visitors go for a good time? Explore the city's hotels, seaside resorts, retail spaces, and social meeting places."
                 },
                 "period": {
                     "divided-city-italyyugoslavia-19241941": "Markers of importance for the previously parallel lives of two cities separated by Rijeka river: Fiume in Italy and Rijeka in the Kingdom of Yugoslavija, that now form the territory of the Rijeka City.",
@@ -1950,8 +1950,8 @@
                     "curated-tour-05-ghosts-of-rijeka": "Gabriele d'Annunzio, the famous Italian poet and writer who took Rijeka with his legionaries after WWI and established its own regency; Tito, the world-reknowned Communist leader who led the partisan struggle and the new socialist Yugoslavia to which Rijeka was annexed after WWII. They were the protagonists of the two most controversial transitions of the city in the XX century, characterized by changes of sovereignty and by the imposition of new political systems. These larger-than-life personalities strongly impacted the history of the city and are still haunting, not just the memories of the local population, but also many peculiar spots in Rijeka."
                 },
                 "vista": {
-                    "panorama-from-lukobran": "Please enter a description at: Rijeka App Labels",
-                    "panorama-from-trsat": "Please enter a description at: Rijeka App Labels"
+                    "panorama-from-lukobran": "Walk down the breakwater to get a panoramic view of the port and city centre",
+                    "panorama-from-trsat": "Take the bus up to Trsat fortress to get a panoramic view of the port and city centre"
                 }
             },
             "app-labels": {
