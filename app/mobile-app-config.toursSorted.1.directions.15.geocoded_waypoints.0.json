@@ -1,0 +1,9 @@
+{
+    "types": [
+        "cemetery",
+        "establishment",
+        "point_of_interest"
+    ],
+    "geocoder_status": "OK",
+    "place_id": "ChIJZQK3iCKhZEcRWZSRxnvugaA"
+}

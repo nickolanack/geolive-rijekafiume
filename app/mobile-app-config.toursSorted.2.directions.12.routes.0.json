@@ -1,0 +1,21 @@
+{
+    "summary": "Ul. Jo\u017ee Vlahovi\u0107a and Liburnijska ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.378389200000001,
+            "lat": 45.334602799999999
+        },
+        "northeast": {
+            "lng": 14.4133928,
+            "lat": 45.341882200000001
+        }
+    },
+    "overview_polyline": {
+        "points": "glusGub~vAeA`Eg@dCg@jOMrEItFCtLChEa@?mCBMFKJKTCPCfCC~HCl@ERILc@ZiAXk@^}@^GH[tAYt@qC`M]~AYhCSpCEJIJEDEp@Ij@QhFe@dNc@bMM`EAfBDzAHdAh@xE\\|BDRQNKXGtBa@dBu@fCk@hBUbAa@fCGrAAf@MbA[t@Yn@_@hBi@g@[Si@M[dE"
+    },
+    "waypoint_order": []
+}

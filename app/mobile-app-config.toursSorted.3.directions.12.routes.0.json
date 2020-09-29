@@ -1,0 +1,21 @@
+{
+    "summary": "Pulska ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.388378100000001,
+            "lat": 45.337092800000001
+        },
+        "northeast": {
+            "lng": 14.396811599999999,
+            "lat": 45.3461213
+        }
+    },
+    "overview_polyline": {
+        "points": "u}usGmkzvA_@lGBtAtAlK@ZKzDk@fBa@bAMCq@Cc@Kw@GGFc@x@IDG?i@Us@i@g@Sy@Yu@YBw@PwEd@aNSDo@Xc@TIHo@zAGDE@[I_@WEAe@Ha@Xk@f@c@dAOPQF]?W@c@Nq@Xa@LO_@k@O{@O[q@]s@Ia@?G[Fi@PEGIOm@w@GW@{@Fo@mA_@CAAC?EBoAMZBU?EAGKQnAkDpA_De@_@KN]HQ?kACAYO?A@C@ABe@CWQH]_@Wa@WNs@?AAASNQVy@hBSS@kBAG]y@?C@Ef@a@LA"
+    },
+    "waypoint_order": []
+}

@@ -1,0 +1,21 @@
+{
+    "summary": "",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4479606,
+            "lat": 45.326514400000001
+        },
+        "northeast": {
+            "lng": 14.4481948,
+            "lat": 45.327178000000004
+        }
+    },
+    "overview_polyline": {
+        "points": "uyssGwzdwAe@[_BQ"
+    },
+    "waypoint_order": []
+}

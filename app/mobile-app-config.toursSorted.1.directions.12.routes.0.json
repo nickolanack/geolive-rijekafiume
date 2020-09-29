@@ -1,0 +1,21 @@
+{
+    "summary": "Ciottina ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4371378,
+            "lat": 45.327787500000007
+        },
+        "northeast": {
+            "lng": 14.4386376,
+            "lat": 45.329262
+        }
+    },
+    "overview_polyline": {
+        "points": "uatsGm_cwAg@a@mClEe@j@UR]NUL?U"
+    },
+    "waypoint_order": []
+}

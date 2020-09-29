@@ -1,0 +1,21 @@
+{
+    "summary": "Kre\u0161imirova ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.416218499999999,
+            "lat": 45.324608900000001
+        },
+        "northeast": {
+            "lng": 14.4440159,
+            "lat": 45.334133000000008
+        }
+    },
+    "overview_polyline": {
+        "points": "ymssGcbdwAEHCAEFA?C?EB?@GCWj@E@A?CCAHAHKGGG[fAqAnEy@lDgArDy@bDy@xCe@~A{@zCq@rCI\\EJMPSDS?S?KLIAGAKBOL}@bCu@hBuAvCI@EHq@|Ag@bASdAq@vD_@tCYxDYlDc@hEg@rGMt@i@zByAlFUl@i@z@mFtHaBjCTj@DRBZAl@_@|Fo@nPUpHhALF}B@U"
+    },
+    "waypoint_order": []
+}

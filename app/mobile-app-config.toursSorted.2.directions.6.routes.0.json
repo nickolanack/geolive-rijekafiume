@@ -1,0 +1,21 @@
+{
+    "summary": "Ul. \u017drtava fa\u0161izma",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4426059,
+            "lat": 45.327017699999999
+        },
+        "northeast": {
+            "lng": 14.448161199999999,
+            "lat": 45.329466400000001
+        }
+    },
+    "overview_polyline": {
+        "points": "{}ssG_|dwAEXOl@t@x@]z@c@zA[nAi@nBm@tBu@fBILKKi@jAMXSn@Q`AMEILKDFPB`@UvAGRK@GRSSWUSO"
+    },
+    "waypoint_order": []
+}

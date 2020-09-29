@@ -1,0 +1,21 @@
+{
+    "summary": "Korzo and Jadranski trg",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4384719,
+            "lat": 45.327343800000001
+        },
+        "northeast": {
+            "lng": 14.440625799999999,
+            "lat": 45.327992899999998
+        }
+    },
+    "overview_polyline": {
+        "points": "{~ssG}lcwAe@xBq@pDi@`Bf@`@"
+    },
+    "waypoint_order": []
+}

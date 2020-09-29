@@ -1,0 +1,21 @@
+{
+    "summary": "Ba\u0161tijanova ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4371378,
+            "lat": 45.329061799999998
+        },
+        "northeast": {
+            "lng": 14.443933700000001,
+            "lat": 45.333829100000003
+        }
+    },
+    "overview_polyline": {
+        "points": "sitsG{wbwAYNMF@MCKOKkAG}AECiDa@JyBpAS?g@Sw@g@sBgAICCI@UVmDWc@YQOGSYUYEGDa@Be@WcEAeB@oCAi@GSDe@BOEAOEQQFSAMSYKUC[OTX|@?Hy@bBcB`B"
+    },
+    "waypoint_order": []
+}
