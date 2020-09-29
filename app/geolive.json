@@ -1690,6 +1690,12 @@
                     "name": "toursSorted",
                     "default": [],
                     "label": "toursSorted"
+                },
+                {
+                    "type": "json",
+                    "name": "elevation",
+                    "default": [],
+                    "label": "elevation"
                 }
             ],
             "appLogo": [
@@ -3572,7 +3578,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "elevation": []
         }
     },
     "widget.61": {
