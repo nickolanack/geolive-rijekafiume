@@ -1684,6 +1684,12 @@
                     "label": "terms",
                     "code-header": "<p>",
                     "code-footer": "<\/p>"
+                },
+                {
+                    "type": "json",
+                    "name": "toursSorted",
+                    "default": [],
+                    "label": "toursSorted"
                 }
             ],
             "appLogo": [
@@ -2283,7 +2289,8 @@
                     "panorama-from-trsat": "Vozite se autobusom do tvr\u0111ave Trsat kako biste dobili panoramski pogled na luku i sredi\u0161te grada"
                 }
             },
-            "--mainView": "menu-v1"
+            "--mainView": "menu-v1",
+            "toursSorted": []
         }
     },
     "widget.61": {
