@@ -1687,6 +1687,16 @@
                 },
                 {
                     "type": "json",
+                    "name": "supportedLanguages",
+                    "default": [
+                        "fr",
+                        "hr",
+                        "it"
+                    ],
+                    "label": "supportedLanguages"
+                },
+                {
+                    "type": "json",
                     "name": "toursSorted",
                     "default": [],
                     "label": "toursSorted"
@@ -5254,6 +5264,11 @@
                     },
                     "name": "Test Hostel"
                 }
+            ],
+            "supportedLanguages": [
+                "fr",
+                "hr",
+                "it"
             ]
         }
     },
