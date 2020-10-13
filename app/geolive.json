@@ -2002,7 +2002,18 @@
                     "paragraph3": "",
                     "headingcredits": "Credits",
                     "paragraphcredits": "Concept: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nGraphic Design: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgramming: Nick Blackwell\nPresentation: Brigitte Le Normand, Francesca Rolandi\nEditing: Brigitte Le Normand,  Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua\nTesting: Francesca Rolandi, Vanni D'Alessio",
-                    "headingpartners": "Partners"
+                    "headingpartners": "Partners",
+                    "logo-1": "http:\/\/cas.uniri.hr\/",
+                    "logo-2": "http:\/\/cib.uniri.hr\/home\/",
+                    "logo-3": "https:\/\/www.riarhiv.hr\/",
+                    "logo-4": "https:\/\/ppmhp.hr\/",
+                    "logo-5": "https:\/\/www.muzej-rijeka.hr\/",
+                    "logo-6": "http:\/\/www.fiume-rijeka.it\/",
+                    "logo-7": "https:\/\/www.balcanicaucaso.org\/",
+                    "logo-8": "https:\/\/www.cci.tn.it\/",
+                    "logo-9": "https:\/\/www.sshrc-crsh.gc.ca\/",
+                    "logo-10": "https:\/\/www.ubc.ca\/",
+                    "footer": "This app is part of an ongoing investigation led by Brigitte Le Normand and Jon Corbett into how participatory mapping can change the way that we understand the past of a contested story.  See the first phase of the project at https:\/\/rijekafiume.geolive.ca\/"
                 }
             },
             "--views": [],
