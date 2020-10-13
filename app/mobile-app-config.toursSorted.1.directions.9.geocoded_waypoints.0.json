@@ -1,0 +1,10 @@
+{
+    "types": [
+        "establishment",
+        "point_of_interest",
+        "shoe_store",
+        "store"
+    ],
+    "geocoder_status": "OK",
+    "place_id": "ChIJC10kGuKgZEcRVLWPejtE8jo"
+}

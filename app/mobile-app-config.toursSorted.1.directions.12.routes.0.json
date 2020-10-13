@@ -1,0 +1,21 @@
+{
+    "summary": "Ul. Rudolfa Strohala",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4400175,
+            "lat": 45.327343800000001
+        },
+        "northeast": {
+            "lng": 14.442899300000001,
+            "lat": 45.329466400000001
+        }
+    },
+    "overview_polyline": {
+        "points": "{~ssG}lcwAe@xB}@WLs@?QMG[QOGmBoA|@iCuAcAY[a@YMX_@z@QRGGAG?E?Mp@wB{@w@CA"
+    },
+    "waypoint_order": []
+}

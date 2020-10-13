@@ -1,0 +1,21 @@
+{
+    "summary": "Korzo",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4428201,
+            "lat": 45.3256218
+        },
+        "northeast": {
+            "lng": 14.4468101,
+            "lat": 45.326518399999998
+        }
+    },
+    "overview_polyline": {
+        "points": "iyssGqsdwAXZJTfAnAPb@J^DRH~AHxAKfCKGQv@}BzDKT"
+    },
+    "waypoint_order": []
+}

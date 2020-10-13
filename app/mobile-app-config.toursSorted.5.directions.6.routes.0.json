@@ -1,0 +1,21 @@
+{
+    "summary": "Fiumara ul. and U\u017earska ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4454397,
+            "lat": 45.325904299999998
+        },
+        "northeast": {
+            "lng": 14.4464975,
+            "lat": 45.326427299999999
+        }
+    },
+    "overview_polyline": {
+        "points": "ywssGsqdwA|@bAa@j@HN[Zu@v@"
+    },
+    "waypoint_order": []
+}

@@ -1,0 +1,21 @@
+{
+    "summary": "Put Vinka Valkovi\u0107a Poleta",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.453587499999999,
+            "lat": 45.326086099999998
+        },
+        "northeast": {
+            "lng": 14.459369799999999,
+            "lat": 45.3283475
+        }
+    },
+    "overview_polyline": {
+        "points": "matsGk_gwAJIDMAQC]?ESAQFC@EOONYNOFABECKAE@\\zATjA@D?JAJIVGNYn@?b@Aj@@|AFz@O^Vd@j@nAL^HMXb@lAhBBGDF?@EJ?Fh@^DABGF@BAFKVRK\\[`AIVFDDJFDLF@?DKB?DGFFPTJRd@r@`@s@X^NY"
+    },
+    "waypoint_order": []
+}

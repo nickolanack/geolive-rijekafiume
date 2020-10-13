@@ -1,0 +1,21 @@
+{
+    "summary": "\u0160etali\u0161te Andrije Ka\u010di\u0107a Mio\u0161i\u0107a",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.448494500000001,
+            "lat": 45.323056899999997
+        },
+        "northeast": {
+            "lng": 14.450050900000001,
+            "lat": 45.327464399999997
+        }
+    },
+    "overview_polyline": {
+        "points": "cdssGygewA_B|@yDxBmAx@]Dc@@U?}DBk@DUCyAEm@EAGKSYR@|@?L"
+    },
+    "waypoint_order": []
+}

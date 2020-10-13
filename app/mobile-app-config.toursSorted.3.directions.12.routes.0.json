@@ -1,0 +1,21 @@
+{
+    "summary": "Ul. Marijana Step\u010di\u0107a",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.390131999999999,
+            "lat": 45.339555900000001
+        },
+        "northeast": {
+            "lng": 14.396814600000001,
+            "lat": 45.346121400000001
+        }
+    },
+    "overview_polyline": {
+        "points": "qlvsGiqyvAZsILgESDoAl@IDGJg@pAGFIBc@OWQEAe@Ha@Xk@f@c@dAOPQFe@?[DiAd@a@LKWIIiAYWCIWe@w@Oi@CUeAXu@gAOW?u@H}@oAa@CEBsAMZ@O@I?CMWzAeEdAeCc@_@C?IPc@FwACAYO?A@A?CDi@ESOH]aAo@Nu@AA]ZaAtBSS@eB?I[q@CK?GBGf@]B?"
+    },
+    "waypoint_order": []
+}

@@ -1,0 +1,10 @@
+{
+    "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest"
+    ],
+    "geocoder_status": "OK",
+    "place_id": "ChIJ78j1k-KgZEcRt6xaLyGbbVU"
+}

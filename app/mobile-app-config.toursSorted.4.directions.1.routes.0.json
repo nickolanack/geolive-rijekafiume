@@ -1,0 +1,21 @@
+{
+    "summary": "Marohni\u0107eva ul. and Ul. Nike Katunara",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.458941599999999,
+            "lat": 45.324490599999997
+        },
+        "northeast": {
+            "lng": 14.465829299999999,
+            "lat": 45.327745399999998
+        }
+    },
+    "overview_polyline": {
+        "points": "a{ssG_jhwAd@?PEHGd@z@pBjCdAjAfApAvAjB}BvD_BjCu@fASh@IXWtB{AzC]ZGHWFc@PsAdAo@f@"
+    },
+    "waypoint_order": []
+}

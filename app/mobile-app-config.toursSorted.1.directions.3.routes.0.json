@@ -1,0 +1,21 @@
+{
+    "summary": "Ul. Strossmayerova",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4510606,
+            "lat": 45.324547199999998
+        },
+        "northeast": {
+            "lng": 14.4553308,
+            "lat": 45.326086099999998
+        }
+    },
+    "overview_polyline": {
+        "points": "qsssGcnewAXe@HCRi@Lc@Jc@x@}EV_B\\uA@IEEAEAIBYGEDy@GMKYIO_@w@m@{@eAhByBbE"
+    },
+    "waypoint_order": []
+}

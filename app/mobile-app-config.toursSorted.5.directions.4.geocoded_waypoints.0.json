@@ -1,0 +1,11 @@
+{
+    "types": [
+        "establishment",
+        "food",
+        "grocery_or_supermarket",
+        "point_of_interest",
+        "store"
+    ],
+    "geocoder_status": "OK",
+    "place_id": "ChIJs0TWbvGhZEcRjtD0AO287pw"
+}

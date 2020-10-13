@@ -1,0 +1,21 @@
+{
+    "summary": "Ba\u0161tijanova ul. and Ul. Ivana Rendi\u0107a",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.436249399999999,
+            "lat": 45.330139899999999
+        },
+        "northeast": {
+            "lng": 14.4439537,
+            "lat": 45.332789800000008
+        }
+    },
+    "overview_polyline": {
+        "points": "y~tsGuadwAk@xAMp@G`@ARFR?nC?n@?j@HrBJfB@j@Gv@HJ^h@XNNHLNLT@FYtDBRbAf@~@f@NL|@d@TFHCxBqA`@K@bALpFAxA"
+    },
+    "waypoint_order": []
+}

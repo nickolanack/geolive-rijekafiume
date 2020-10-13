@@ -1,0 +1,867 @@
+{
+    "name": "concrete jungle",
+    "order": [
+        {
+            "order": 1,
+            "id": 666
+        },
+        {
+            "order": 2,
+            "id": 730
+        },
+        {
+            "order": 3,
+            "id": 729
+        },
+        {
+            "order": 4,
+            "id": 649
+        },
+        {
+            "order": 5,
+            "id": 650
+        },
+        {
+            "order": 6,
+            "id": 712
+        },
+        {
+            "order": 7,
+            "id": 743
+        },
+        {
+            "order": 8,
+            "id": 665
+        },
+        {
+            "order": 9,
+            "id": 741
+        },
+        {
+            "order": 10,
+            "id": 690
+        },
+        {
+            "order": 11,
+            "id": 695
+        },
+        {
+            "order": 12,
+            "id": 657
+        },
+        {
+            "order": 13,
+            "id": 696
+        },
+        {
+            "order": 14,
+            "id": 697
+        },
+        {
+            "order": 15,
+            "id": 739
+        },
+        {
+            "order": 16,
+            "id": 731
+        },
+        {
+            "order": 17,
+            "id": 651
+        },
+        {
+            "order": 18,
+            "id": 655
+        },
+        {
+            "order": 19,
+            "id": 738
+        }
+    ],
+    "directions": [
+        {
+            "status": "TOUR_START"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Bulevar oslobo\u0111enja and Kri\u017eani\u0107eva ul.",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.448785000000001,
+                            "lat": 45.325528299999988
+                        },
+                        "northeast": {
+                            "lng": 14.4510606,
+                            "lat": 45.327398600000002
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "qsssGcnewAaBrBeAlAeBbBaBvAEDL\\LZxAH"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJFzxuvf2gZEcRWGpmbmrhNcU"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ16VlWf2gZEcRvXyB-Xjql7E"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "\u0160etali\u0161te Andrije Ka\u010di\u0107a Mio\u0161i\u0107a",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.447699999999999,
+                            "lat": 45.325420000000001
+                        },
+                        "northeast": {
+                            "lng": 14.448798099999999,
+                            "lat": 45.327033999999998
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "q{ssG{_ewAk@C?H?J?hB`AJRJFC|AB?\\@d@bC?"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ16VlWf2gZEcRvXyB-Xjql7E"
+                },
+                {
+                    "types": [
+                        "route"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJFXUHJv2gZEcRdDNqarl4klI"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Delta",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.445199199999999,
+                            "lat": 45.323486899999999
+                        },
+                        "northeast": {
+                            "lng": 14.447819300000001,
+                            "lat": 45.325420000000001
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "{rssGcydwA^CXSDTJ\\Vv@`BhBfAh@f@TPLk@zAGX@PLR|AjA"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "route"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJFXUHJv2gZEcRdDNqarl4klI"
+                },
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJRXilzPygZEcRTaj73kbsTKs"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.445199199999999,
+                            "lat": 45.323167499999997
+                        },
+                        "northeast": {
+                            "lng": 14.4479142,
+                            "lat": 45.324044800000003
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "yfssGoidwA}AkAMSAQr@uBxBuH"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJRXilzPygZEcRTaj73kbsTKs"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJE83Bv_ygZEcR7BpQn8wHBFs"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Ivana Zajca",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.442930499999999,
+                            "lat": 45.323167499999997
+                        },
+                        "northeast": {
+                            "lng": 14.4479142,
+                            "lat": 45.3269357
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "ydssGmzdwAyBtHQMg@Uq@hC_@rA?V_@vAg@fBq@`C{AcAe@UQv@_AdB}@tA_@e@s@cAKR"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJE83Bv_ygZEcR7BpQn8wHBFs"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ648tauKgZEcRR5FTrhtNhIU"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Korzo",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.438547700000001,
+                            "lat": 45.326461799999997
+                        },
+                        "northeast": {
+                            "lng": 14.4434627,
+                            "lat": 45.327992899999998
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "k|ssG_~cwAJSDFlA`Bi@pAa@tAg@lBoAvFq@pDWhAGT[x@FFJH"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ648tauKgZEcRR5FTrhtNhIU"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJN_XNLeCgZEcRiTBphlvA5_A"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Erazma Bar\u010di\u0107a and Dolac",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.438547700000001,
+                            "lat": 45.327887199999999
+                        },
+                        "northeast": {
+                            "lng": 14.439285399999999,
+                            "lat": 45.328925400000003
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "ibtsG}_cwASQeAkAOOy@e@KP_@PLp@"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJN_XNLeCgZEcRiTBphlvA5_A"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ1_Tz0R-hZEcRs4cer6my1BI"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Dolac and Ul. Ivana Pavla II",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.4370402,
+                            "lat": 45.328859899999998
+                        },
+                        "northeast": {
+                            "lng": 14.439155599999999,
+                            "lat": 45.329373500000003
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "khtsG{acwAMq@UHWHEAGYEAAB?VSD@T^zDLhAL|@QHULKR"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ1_Tz0R-hZEcRs4cer6my1BI"
+                },
+                {
+                    "types": [
+                        "book_store",
+                        "establishment",
+                        "point_of_interest",
+                        "store"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJR_mZ7x-hZEcRCBtWUTb2VeI"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Ivana Pavla II",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.4370402,
+                            "lat": 45.329061799999998
+                        },
+                        "northeast": {
+                            "lng": 14.442103599999999,
+                            "lat": 45.329816600000001
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "gktsGovbwAJSTMPIM}@MiAm@{GOiBAu@J{@DQy@k@OKh@kCJUWOBIDQk@_@DO"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "book_store",
+                        "establishment",
+                        "point_of_interest",
+                        "store"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJR_mZ7x-hZEcRCBtWUTb2VeI"
+                },
+                {
+                    "types": [
+                        "establishment",
+                        "museum",
+                        "point_of_interest",
+                        "tourist_attraction"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJKbyE3x2hZEcRA5Fp6p6D5eQ"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Ante Kova\u010di\u0107a",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.441722199999999,
+                            "lat": 45.329596500000001
+                        },
+                        "northeast": {
+                            "lng": 14.447821100000001,
+                            "lat": 45.332872700000003
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "entsGcvcwAELBBPLTNEPCHa@YSMeB_Ao@]Fe@oCt@y@`@U]UOBIe@iDc@oCMw@Pu@Dk@AYAYCWWgAQc@k@}@B_@G[Wq@Ma@CSAKBs@FSTk@Zu@DS"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "establishment",
+                        "museum",
+                        "point_of_interest",
+                        "tourist_attraction"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJKbyE3x2hZEcRA5Fp6p6D5eQ"
+                },
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJW4Y3dhuhZEcRiTO_ZkqfAUQ"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ba\u0161tijanova ul.",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.4413684,
+                            "lat": 45.332166800000003
+                        },
+                        "northeast": {
+                            "lng": 14.447821100000001,
+                            "lat": 45.334604200000001
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "i_usG{ydwAOl@_@p@K\\In@B^DRL`@Vr@D\\CVT\\^l@`@bB@V@XAj@Kv@k@pAo@lBG\\MCMIKKGLeB`ECLMJKHu@b@w@FQDA@?B@LGBw@pA?@"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJW4Y3dhuhZEcRiTO_ZkqfAUQ"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJU8Eo7hihZEcRVcggXfeGkbk"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Petra Kobeka",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.433802699999999,
+                            "lat": 45.334604200000001
+                        },
+                        "northeast": {
+                            "lng": 14.4413684,
+                            "lat": 45.337910899999997
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "glusGqqcwAwA`CeAhBa@nAI\\SfAI`AG^Ut@q@xAmA~BmA~CYfA_AxEk@tCUj@e@pA"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJU8Eo7hihZEcRVcggXfeGkbk"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJXfqwpSShZEcRg94zNW7iHLA"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Franje \u010candeka",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.4021255,
+                            "lat": 45.336555799999999
+                        },
+                        "northeast": {
+                            "lng": 14.433802699999999,
+                            "lat": 45.340151200000001
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "}`vsGgbbwAe@vA[jAcAhFg@hBiAjCaAfC_AjCH\\BRhAf@LHJWHSv@zBTn@h@pATEp@LdBj@LHPTjAx@XZTb@`ArBFR}@hEa@nBMv@QhA{BlKOZ[bCG`C?jAEj@OdDSjCe@pCgAlEo@zBu@nC?Nm@pBaAfEWnAEfA@j@Hf@FZJdBMjBc@~ENT@JRfHAhC[nCCj@A~@@LPr@^vA?TXd@F^Rj@V`ALbAN\\@DBDBB@@B?QhAMl@?LBd@SxAe@dB"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJXfqwpSShZEcRg94zNW7iHLA"
+                },
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJuf6de9qmZEcRlA_iCUCBCkY"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Giuseppea Smolikara and Ul. Milutina Bara\u010da",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.401432700000001,
+                            "lat": 45.334052499999999
+                        },
+                        "northeast": {
+                            "lng": 14.417340100000001,
+                            "lat": 45.339843999999999
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "alvsGi|{vAIVSf@HHfAj@^Tt@kELe@DENCLFFN@JDwAz@V~Ax@LHB?RUb@aA^G`@e@r@o@Po@Ny@JULQZQr@SZOXYTSZAj@A@_CD}LJcFj@}PBk@Hk@lAaFbA_ELk@Do@b@kMFgB"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJuf6de9qmZEcRlA_iCUCBCkY"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ8VYpqSuhZEcREKoHoV78AOc"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Ul. Milutina Bara\u010da",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.417340100000001,
+                            "lat": 45.333609899999999
+                        },
+                        "northeast": {
+                            "lng": 14.4228322,
+                            "lat": 45.334271600000001
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "yhusGk{~vAn@uQRgDRoDAUOy@a@s@KIs@KOA"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ8VYpqSuhZEcREKoHoV78AOc"
+                },
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJq27G3iihZEcRWR9yUV3HXbg"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "Kre\u0161imirova ul.",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.422582800000001,
+                            "lat": 45.330327500000003
+                        },
+                        "northeast": {
+                            "lng": 14.4319471,
+                            "lat": 45.334271600000001
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "ejusGu}_wAr@HRFZ^`BkClFuHh@{@Tm@xAmFh@{BLu@f@sGb@iEXmDXyDL_A"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJq27G3iihZEcRWR9yUV3HXbg"
+                },
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJCz-HvyChZEcRrQyM-Z6i3pE"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "E65",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.4319471,
+                            "lat": 45.248090599999998
+                        },
+                        "northeast": {
+                            "lng": 14.5831205,
+                            "lat": 45.330327500000003
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "qqtsGuvawAv@iFh@yBtA{C`B}CdBsEVa@ZCPK^?RAX]xAaGvGcVjFmR^oBRq@|@kDgAi@aBiBc@uAIy@?aDAkBJqDLmAv@gEf@{C^}BCk@WkAEk@Lk@p@iDLiAn@_DNmCfBeF^wBXsCxAkH^}CBkCB{IC_DMuBYyB_BmCcA}@iAkA_CqFyBgHiAuEMuAD}DMcCi@{Di@uBOKQOqAo@oAoAEOSaBg@{@MMAWPe@FKKKKWIo@JmA~@yDLyACqAYwA]aBBuBZyFH_IS{Bh@yELgAd@wAbA{C`AiFdAsDz@cGR_FPsAZsAp@{Cn@yCx@oAp@e@jAo@jAkA~AeD~AyA`B_D~@qCVyANgCb@uCRo@f@i@NWDq@@wA^gA`@yAT{AbAmF`@}A~@_BTmA?q@P_B\\gERqA`@aA~@}AjCcJjAuBTyABgBHaC`@uBTmAHiADeBRgBFaBAcBRuCHeBD_@`@mAd@_BXsEN}Bd@wB|@eC`BgCdDwEbAkBv@c@NWMEg@@o@Q[Wk@a@k@Ma@GwAAeAYu@s@i@yAq@yCkAqFJw@~BZ`BBdBi@|CmAf@U^?lEcBj@En@?j@LdAl@~@`Ad@z@Rj@`AvCx@zA^\\vA^^@bB_@`DeAdBe@jJeBfDsA~Ag@tAIXQD}@Ek@w@h@s@^}CnAaCj@k@HcAGaIoAqA]m@Ym@i@g@_Ac@mCSuHWcG?wBJ{Bl@uFBuAIoAq@cDGaCNgAr@kCp@oBRcADiBE}A@mCRsCb@eFZsCn@iC`AwBhAmBbZ{a@zCcEtC{EdA}BxFcPt@aCj@sAj@oA^wCn@yEfB}D`EgJjA}AjKgL~GkH|CyD`@_AP_ABiBo@{FJaCd@qAxAcCdAmA~@_AtA{@zAy@tI}FxBoBjIsHZe@t@aB~AaHt@gDn@eBt@gAx@s@lBm@~Be@lAm@nDuDv@w@j@_@b@_@\\YzAa@d@W|A}@`@g@Ze@`@y@To@jA^hDp@pA\\x@T`Af@^`Ah@jBCf@Qr@iAdEWtCQvEa@lEYnFGxC@`F^dAnBjBxAr@tBd@lAFd@eBFm@Qs@Cy@\\e@PGVL`@?~@Eb@EfA]VCXU`DgFpBaCzAwAfEkDlEeEnA{A~AhCvBdEPdABrAAb@aA~ECxAXdBl@x@x@d@dA^d@?z@QdB}@jFqCfBu@zA]rD[vCUnFc@dCm@fAg@fBgAxA{Az@_A~BwClBeBtAu@hCs@nCKfDOb@]l@eBz@p@~An@|@LzABtDKvAXp@Zl@l@l@z@pC`Hh@~Ap@vAlAhDrBpDdH~Kx@rA"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "street_address"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJCz-HvyChZEcRrQyM-Z6i3pE"
+                },
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest",
+                        "premise"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ09L7polhY0cRWOn7ujjazFg"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "routes": [
+                {
+                    "summary": "D102",
+                    "copyrights": "Map data \u00a92020",
+                    "warnings": [
+                        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+                    ],
+                    "bounds": {
+                        "southwest": {
+                            "lng": 14.5262799,
+                            "lat": 45.130586399999999
+                        },
+                        "northeast": {
+                            "lng": 14.571813300000001,
+                            "lat": 45.248090599999998
+                        }
+                    },
+                    "overview_polyline": {
+                        "points": "qodsGy`}wAbBtCbBlCp@hAfEfHf@n@Zf@n@fAt@fBf@x@T`@l@jAzA~CrAbD~AlDVp@b@dATl@|@dCdArCh@bAZf@t@x@\\\\VP^Xb@VjBv@p@Ll@FlBBhAE`AQ|Ac@|Ai@~Ac@fBe@|AUb@Gn@A`@DbAH~AX~KrC`FnAzJ`CdM|C~@Tr@Fx@ATE~@]d@_@bA_AvBkBbIkHtKsJtIwH~BoBj@}@@SBMFKHGHAF?D@x@ULKbAs@rAq@z@[fAa@hA]bBYxAQzBKfDEzEIjCAlTY`IG`CLXFp@FhAVt@Rx@XvB`ArBrAlE|CfBfAhAl@`CbAtAd@bAVrEx@P?JAzCV`APf@NbA`@NTd@T`At@fAjAdApAjEbGdBvBh@j@jA`AbAl@~Ar@r@Rt@NbAJ|@BhAErA@xFJ|AB`BRpAZ|Cl@xDp@v@NtFjAzCd@~BZnAThD~@lEx@lBHd@CfBQ~B]|@Cn@H`HdB~I~ArBZzBZ@b@NrAJx@h@rBVn@fA|Cd@`AXl@ZnAn@bDXrATf@Zp@\\n@hAvBLPJNTLPDVHnBXzAJb@F`@RzBnAr@`@^Tb@Rn@Ll@N^RtFpEf@b@VFn@QVCp@DVH^Np@l@l@dAd@p@RNPHp@Jh@Cb@On@I\\DJD^AZGb@Mt@a@j@_@`@SLnBV|DVfCVnAVz@rBhG\\bAj@nAN^dApA~@rAx@|@Vd@h@z@h@dAn@bAx@~@b@^j@ZvBdAlBp@zAZ\\Dp@?dBDb@?jEEtDFTCZOLMTw@DYv@?TCbA@v@?r@@^Ff@L\\Lr@h@R^N^Hd@\\AVFb@PVPbB~@NLXh@FVAf@_@bBC`@DVf@rA\\pAL~@X~C`@zCThA`@xAt@`BFXBPARGVSn@_@zBKp@UfCOjAB`@?`@Aj@Ed@?\\Ff@BRLVJVTXPHJBLEZWrC{AjAg@\\_@\\q@|@gBv@qAJMZSfAu@f@k@NUx@kAz@m@PCJ@f@HdBZhB^NHR?n@AR@NHPb@Pb@RXf@^JFj@RVF^@f@MdAo@z@{@RMx@s@\\i@PSL?DFJn@Rb@^PlARt@At@I^Qd@s@HIHAJD`@ZNHd@?zA?fAF`@@b@EdAWxASr@FlCd@vA\\dBXjCh@b@DP?zAIb@?x@m@^Qn@[VA\\Ep@Cv@@bAHd@DFb@FHXNjAXtA`@HFDLBVgBU"
+                    },
+                    "waypoint_order": []
+                }
+            ],
+            "geocoded_waypoints": [
+                {
+                    "types": [
+                        "establishment",
+                        "point_of_interest",
+                        "premise"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ09L7polhY0cRWOn7ujjazFg"
+                },
+                {
+                    "types": [
+                        "route"
+                    ],
+                    "geocoder_status": "OK",
+                    "place_id": "ChIJ-yGVwvBlY0cRBkWYoz000BE"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "summary": "\u0160etali\u0161te Andrije Ka\u010di\u0107a Mio\u0161i\u0107a and Ul. Podhumskih \u017ertava",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4487463,
+            "lat": 45.325675699999998
+        },
+        "northeast": {
+            "lng": 14.449762,
+            "lat": 45.326811799999987
+        }
+    },
+    "overview_polyline": {
+        "points": "q{ssG{_ewAl@@TBj@EpBC?gC?w@"
+    },
+    "waypoint_order": []
+}

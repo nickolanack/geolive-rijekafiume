@@ -4042,6 +4042,1405 @@
                 "en",
                 "hr",
                 "it"
+            ],
+            "toursSorted": [
+                "mobile-app-config.toursSorted.0.json",
+                {
+                    "name": "divided city",
+                    "order": [
+                        "mobile-app-config.toursSorted.1.order.0.json",
+                        {
+                            "order": 2,
+                            "id": 753
+                        },
+                        {
+                            "order": 3,
+                            "id": 666
+                        },
+                        {
+                            "order": 4,
+                            "id": 754
+                        },
+                        {
+                            "order": 5,
+                            "id": 675
+                        },
+                        {
+                            "order": 6,
+                            "id": 660
+                        },
+                        {
+                            "order": 7,
+                            "id": 654
+                        },
+                        {
+                            "order": 8,
+                            "id": 664
+                        },
+                        {
+                            "order": 9,
+                            "id": 713
+                        },
+                        {
+                            "order": 10,
+                            "id": 748
+                        },
+                        {
+                            "order": 11,
+                            "id": 718
+                        },
+                        {
+                            "order": 12,
+                            "id": 671
+                        },
+                        {
+                            "order": 13,
+                            "id": 704
+                        },
+                        {
+                            "order": 14,
+                            "id": 759
+                        },
+                        {
+                            "order": 15,
+                            "id": 743
+                        },
+                        {
+                            "order": 16,
+                            "id": 741
+                        },
+                        {
+                            "order": 17,
+                            "id": 706
+                        },
+                        {
+                            "order": 18,
+                            "id": 726
+                        }
+                    ],
+                    "directions": [
+                        "mobile-app-config.toursSorted.1.directions.0.json",
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.1.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.1.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ8wS6cv2gZEcRjvC6jhlGtoE"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.2.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.2.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJFzxuvf2gZEcRWGpmbmrhNcU"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.3.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.3.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJo4DN__2gZEcRXMNDoLToZCU"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.4.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.4.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJY63zGP6gZEcRXD_HfEPyAYU"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.5.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.5.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJMydQbvygZEcRLUpv7TrrKMY"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.6.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.6.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJZygAsgKhZEcRc21vNb4XvKY"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.7.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.7.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJv3_quOKgZEcRkAFhVDTDCuE"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.8.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.8.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest",
+                                        "shoe_store",
+                                        "store"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJC10kGuKgZEcRVLWPejtE8jo"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.9.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.9.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "cafe",
+                                        "establishment",
+                                        "food",
+                                        "night_club",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJUTytKuKgZEcRr-D3wLuoAuI"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.10.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.10.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJNTOQ9eGgZEcRZ-_UcEh9fQw"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.11.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.11.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJGSnm6OGgZEcRova2gBPBo9w"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.12.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.12.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "museum",
+                                        "point_of_interest",
+                                        "tourist_attraction"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJKbyE3x2hZEcRusxjjhxgXE8"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.13.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.13.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJW7W3LR6hZEcROBng0-z0C2o"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.14.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.14.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJN_XNLeCgZEcRiTBphlvA5_A"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.15.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.15.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "book_store",
+                                        "establishment",
+                                        "point_of_interest",
+                                        "store"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJR_mZ7x-hZEcRCBtWUTb2VeI"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.16.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.16.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJFZ6Dqx6hZEcRGix39-z_ULw"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.1.directions.17.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.1.directions.17.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJRY8YpuOmZEcRBx9h5KOjHkE"
+                                }
+                            ],
+                            "status": "OK"
+                        }
+                    ]
+                },
+                {
+                    "name": "ghosts of rijeka",
+                    "order": [
+                        "mobile-app-config.toursSorted.2.order.0.json",
+                        {
+                            "order": 2,
+                            "id": 668
+                        },
+                        {
+                            "order": 3,
+                            "id": 691
+                        },
+                        {
+                            "order": 4,
+                            "id": 654
+                        },
+                        {
+                            "order": 5,
+                            "id": 717
+                        },
+                        {
+                            "order": 6,
+                            "id": 714
+                        },
+                        {
+                            "order": 7,
+                            "id": 704
+                        },
+                        {
+                            "order": 8,
+                            "id": 706
+                        },
+                        {
+                            "order": 9,
+                            "id": 752
+                        },
+                        {
+                            "order": 10,
+                            "id": 758
+                        },
+                        {
+                            "order": 11,
+                            "id": 665
+                        },
+                        {
+                            "order": 12,
+                            "id": 743
+                        },
+                        {
+                            "order": 13,
+                            "id": 767
+                        },
+                        {
+                            "order": 14,
+                            "id": 655
+                        }
+                    ],
+                    "directions": [
+                        "mobile-app-config.toursSorted.2.directions.0.json",
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.1.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.1.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ8V2RFuOgZEcRZ4rv0M3hg-Y"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.2.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.2.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "route"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJjYYxZN6gZEcRZko6sD-TYS8"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.3.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.3.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJZygAsgKhZEcRc21vNb4XvKY"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.4.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.4.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "cafe",
+                                        "establishment",
+                                        "food",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJBZfFqgKhZEcRnwnkELwfO7M"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.5.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.5.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJK1EvrOKgZEcRdKWA061GVqw"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.6.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.6.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "museum",
+                                        "point_of_interest",
+                                        "tourist_attraction"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJKbyE3x2hZEcRusxjjhxgXE8"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.7.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.7.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJFZ6Dqx6hZEcRGix39-z_ULw"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.8.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.8.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJJf54ISChZEcR53WfvyiCcyM"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.9.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.9.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJqXWWjh-hZEcRxpP7qYcbFCE"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.10.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.10.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ1_Tz0R-hZEcRs4cer6my1BI"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.11.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.11.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJN_XNLeCgZEcRiTBphlvA5_A"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.12.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.12.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJCdA_8iihZEcR8VKQumaJL2U"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.2.directions.13.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.2.directions.13.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest",
+                                        "premise"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ09L7polhY0cRWOn7ujjazFg"
+                                }
+                            ],
+                            "status": "OK"
+                        }
+                    ]
+                },
+                {
+                    "name": "people on the move",
+                    "order": [
+                        "mobile-app-config.toursSorted.3.order.0.json",
+                        {
+                            "order": 2,
+                            "id": 691
+                        },
+                        {
+                            "order": 3,
+                            "id": 827
+                        },
+                        {
+                            "order": 4,
+                            "id": 848
+                        },
+                        {
+                            "order": 5,
+                            "id": 678
+                        },
+                        {
+                            "order": 6,
+                            "id": 659
+                        },
+                        {
+                            "order": 7,
+                            "id": 770
+                        },
+                        {
+                            "order": 8,
+                            "id": 677
+                        },
+                        {
+                            "order": 9,
+                            "id": 669
+                        },
+                        {
+                            "order": 10,
+                            "id": 739
+                        },
+                        {
+                            "order": 11,
+                            "id": 757
+                        },
+                        {
+                            "order": 12,
+                            "id": 646
+                        },
+                        {
+                            "order": 13,
+                            "id": 751
+                        }
+                    ],
+                    "directions": [
+                        "mobile-app-config.toursSorted.3.directions.0.json",
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.1.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.1.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "route"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJjYYxZN6gZEcRZko6sD-TYS8"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.2.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.2.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJXVO0d-OgZEcRp8Rp5diu5W8"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.3.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.3.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "health",
+                                        "pharmacy",
+                                        "point_of_interest",
+                                        "store"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJERNiU-KgZEcRbHQRY0Mg4lc"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.4.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.4.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJqbq8XeKgZEcROehuxILD3ic"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.5.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.5.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "cafe",
+                                        "establishment",
+                                        "food",
+                                        "night_club",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJUTytKuKgZEcRr-D3wLuoAuI"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.6.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.6.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "finance",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJI3CeSyehZEcRcm6QoJ94Ygs"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.7.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.7.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "bar",
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJP-JOACahZEcRgmKUA63Z7gU"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.8.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.8.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJe9eGhCyhZEcRa6cJB4TiD2c"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.9.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.9.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ8VYpqSuhZEcREKoHoV78AOc"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.10.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.10.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJT27H69SmZEcRDdXxtbjYW_o"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.11.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.11.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJzSGq8N2mZEcRryQKMIN30Kc"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.3.directions.12.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.3.directions.12.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "mosque",
+                                        "place_of_worship",
+                                        "point_of_interest",
+                                        "tourist_attraction"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJC-9opsOmZEcR52QHsW1Mh1k"
+                                }
+                            ],
+                            "status": "OK"
+                        }
+                    ]
+                },
+                {
+                    "name": "hidden rijeka",
+                    "order": [
+                        "mobile-app-config.toursSorted.4.order.0.json",
+                        {
+                            "order": 2,
+                            "id": 716
+                        },
+                        {
+                            "order": 3,
+                            "id": 754
+                        },
+                        {
+                            "order": 4,
+                            "id": 753
+                        },
+                        {
+                            "order": 5,
+                            "id": 654
+                        },
+                        {
+                            "order": 6,
+                            "id": 694
+                        },
+                        {
+                            "order": 7,
+                            "id": 713
+                        },
+                        {
+                            "order": 8,
+                            "id": 748
+                        },
+                        {
+                            "order": 9,
+                            "id": 673
+                        },
+                        {
+                            "order": 10,
+                            "id": 710
+                        },
+                        {
+                            "order": 11,
+                            "id": 758
+                        },
+                        {
+                            "order": 12,
+                            "id": 752
+                        }
+                    ],
+                    "directions": [
+                        "mobile-app-config.toursSorted.4.directions.0.json",
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.1.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.1.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "route"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJL2ioWwChZEcReA208nbtGlQ"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.2.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.2.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJo4DN__2gZEcRXMNDoLToZCU"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.3.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.3.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ8wS6cv2gZEcRjvC6jhlGtoE"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.4.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.4.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJZygAsgKhZEcRc21vNb4XvKY"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.5.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.5.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJKRpjuuKgZEcRH-7rutFjZYg"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.6.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.6.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest",
+                                        "shoe_store",
+                                        "store"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJC10kGuKgZEcRVLWPejtE8jo"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.7.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.7.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "cafe",
+                                        "establishment",
+                                        "food",
+                                        "night_club",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJUTytKuKgZEcRr-D3wLuoAuI"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.8.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.8.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJs8Ox2eGgZEcRHzuuGYM6ymo"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.9.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.9.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ1XPod-KgZEcR00l2zJU7s7A"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.10.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.10.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJqXWWjh-hZEcRxpP7qYcbFCE"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.4.directions.11.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.4.directions.11.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJJf54ISChZEcR53WfvyiCcyM"
+                                }
+                            ],
+                            "status": "OK"
+                        }
+                    ]
+                },
+                {
+                    "name": "top 10",
+                    "order": [
+                        "mobile-app-config.toursSorted.5.order.0.json",
+                        {
+                            "order": 2,
+                            "id": 668
+                        },
+                        {
+                            "order": 3,
+                            "id": 691
+                        },
+                        {
+                            "order": 4,
+                            "id": 709
+                        },
+                        {
+                            "order": 5,
+                            "id": 659
+                        },
+                        {
+                            "order": 6,
+                            "id": 664
+                        },
+                        {
+                            "order": 7,
+                            "id": 708
+                        },
+                        {
+                            "order": 8,
+                            "id": 672
+                        },
+                        {
+                            "order": 9,
+                            "id": 704
+                        },
+                        {
+                            "order": 10,
+                            "id": 740
+                        },
+                        {
+                            "order": 11,
+                            "id": 718
+                        },
+                        {
+                            "order": 12,
+                            "id": 743
+                        }
+                    ],
+                    "directions": [
+                        "mobile-app-config.toursSorted.5.directions.0.json",
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.1.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.1.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ8V2RFuOgZEcRZ4rv0M3hg-Y"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.2.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.2.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "route"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJjYYxZN6gZEcRZko6sD-TYS8"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.3.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.3.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "food",
+                                        "grocery_or_supermarket",
+                                        "point_of_interest",
+                                        "store"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJs0TWbvGhZEcRjtD0AO287pw"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.4.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.4.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "cafe",
+                                        "establishment",
+                                        "food",
+                                        "night_club",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJUTytKuKgZEcRr-D3wLuoAuI"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.5.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.5.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJv3_quOKgZEcRkAFhVDTDCuE"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.6.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.6.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "church",
+                                        "establishment",
+                                        "place_of_worship",
+                                        "point_of_interest"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJ78j1k-KgZEcRt6xaLyGbbVU"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.7.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.7.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJI6Bvhx2hZEcRfmLhbv4-_I0"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.8.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.8.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "museum",
+                                        "point_of_interest",
+                                        "tourist_attraction"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJKbyE3x2hZEcRusxjjhxgXE8"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.9.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.9.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "establishment",
+                                        "point_of_interest",
+                                        "tourist_attraction"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJk4pMotuhZEcRXxRgg7PSUqk"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.10.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.10.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJNTOQ9eGgZEcRZ-_UcEh9fQw"
+                                }
+                            ],
+                            "status": "OK"
+                        },
+                        {
+                            "routes": [
+                                "mobile-app-config.toursSorted.5.directions.11.routes.0.json"
+                            ],
+                            "geocoded_waypoints": [
+                                "mobile-app-config.toursSorted.5.directions.11.geocoded_waypoints.0.json",
+                                {
+                                    "types": [
+                                        "street_address"
+                                    ],
+                                    "geocoder_status": "OK",
+                                    "place_id": "ChIJN_XNLeCgZEcRiTBphlvA5_A"
+                                }
+                            ],
+                            "status": "OK"
+                        }
+                    ]
+                }
             ]
         }
     },

@@ -1,0 +1,21 @@
+{
+    "summary": "Zagreba\u010dka ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4317916,
+            "lat": 45.323791399999998
+        },
+        "northeast": {
+            "lng": 14.4433899,
+            "lat": 45.324725699999988
+        }
+    },
+    "overview_polyline": {
+        "points": "kmssGuuawAJ}APuFf@cOf@uOHsD@_CCs@Ii@IUUm@SW}AoAfAiD`@aBb@wAl@`@"
+    },
+    "waypoint_order": []
+}

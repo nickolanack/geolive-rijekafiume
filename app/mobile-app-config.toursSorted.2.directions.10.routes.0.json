@@ -1,0 +1,21 @@
+{
+    "summary": "Pomerio, pro. Marije K. Kozuli\u0107 and Dolac",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4371641,
+            "lat": 45.328859899999998
+        },
+        "northeast": {
+            "lng": 14.439160899999999,
+            "lat": 45.330265999999988
+        }
+    },
+    "overview_polyline": {
+        "points": "sptsGgwbwAEuCAcAEk@COTK`@OlBu@`@K?M@KBAFTBFZITILp@"
+    },
+    "waypoint_order": []
+}

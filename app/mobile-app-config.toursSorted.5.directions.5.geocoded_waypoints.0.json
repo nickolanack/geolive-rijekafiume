@@ -1,0 +1,11 @@
+{
+    "types": [
+        "cafe",
+        "establishment",
+        "food",
+        "night_club",
+        "point_of_interest"
+    ],
+    "geocoder_status": "OK",
+    "place_id": "ChIJUTytKuKgZEcRr-D3wLuoAuI"
+}

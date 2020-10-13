@@ -1,0 +1,11 @@
+{
+    "types": [
+        "establishment",
+        "health",
+        "pharmacy",
+        "point_of_interest",
+        "store"
+    ],
+    "geocoder_status": "OK",
+    "place_id": "ChIJERNiU-KgZEcRbHQRY0Mg4lc"
+}

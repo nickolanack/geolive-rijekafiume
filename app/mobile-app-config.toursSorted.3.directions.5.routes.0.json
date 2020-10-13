@@ -1,0 +1,21 @@
+{
+    "summary": "Trg Svete Barbare",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.440680499999999,
+            "lat": 45.325506099999998
+        },
+        "northeast": {
+            "lng": 14.4438496,
+            "lat": 45.326620499999997
+        }
+    },
+    "overview_polyline": {
+        "points": "uxssGaadwA?f@EPo@vA^d@hAp@lBxADDIn@{@hDXPTPBF?h@"
+    },
+    "waypoint_order": []
+}

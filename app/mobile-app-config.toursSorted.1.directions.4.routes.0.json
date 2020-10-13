@@ -1,0 +1,21 @@
+{
+    "summary": "Ul. Ljudevita Gaja",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.453823399999999,
+            "lat": 45.325476199999997
+        },
+        "northeast": {
+            "lng": 14.455298600000001,
+            "lat": 45.326086099999998
+        }
+    },
+    "overview_polyline": {
+        "points": "awssGk_fwAxBcEk@y@BI@QAM"
+    },
+    "waypoint_order": []
+}

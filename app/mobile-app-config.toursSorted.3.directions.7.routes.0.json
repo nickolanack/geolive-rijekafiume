@@ -1,0 +1,21 @@
+{
+    "summary": "Kre\u0161imirova ul. and Podpinjol",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4242609,
+            "lat": 45.330416499999998
+        },
+        "northeast": {
+            "lng": 14.430514499999999,
+            "lat": 45.334562699999999
+        }
+    },
+    "overview_polyline": {
+        "points": "crtsGumawAGr@QzBCH[JE\\SlBg@rGMt@i@zByAlFUl@i@z@wApBm@eAiAyAMYm@mAc@_@mAq@cBiAKG"
+    },
+    "waypoint_order": []
+}

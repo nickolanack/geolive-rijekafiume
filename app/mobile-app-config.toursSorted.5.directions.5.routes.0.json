@@ -1,0 +1,21 @@
+{
+    "summary": "Adami\u0107eva ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.440680499999999,
+            "lat": 45.325506099999998
+        },
+        "northeast": {
+            "lng": 14.4464975,
+            "lat": 45.326206599999999
+        }
+    },
+    "overview_polyline": {
+        "points": "_tssGgmcwA?i@YYYQz@iDHo@EEmByAf@_Bf@sBDoBD{@?s@OwCOcAUg@}@cA"
+    },
+    "waypoint_order": []
+}

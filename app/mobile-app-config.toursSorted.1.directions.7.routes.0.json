@@ -1,0 +1,21 @@
+{
+    "summary": "Titov trg and Fiumara ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4464975,
+            "lat": 45.326206599999999
+        },
+        "northeast": {
+            "lng": 14.448494500000001,
+            "lat": 45.327451500000002
+        }
+    },
+    "overview_polyline": {
+        "points": "q_tsGa~dwA?fB^`@t@x@jCfDJTHJ"
+    },
+    "waypoint_order": []
+}

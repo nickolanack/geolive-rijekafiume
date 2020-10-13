@@ -1,0 +1,21 @@
+{
+    "summary": "Zvonimirova ul. and Ul. Milutina Bara\u010da",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.4166103,
+            "lat": 45.333609899999999
+        },
+        "northeast": {
+            "lng": 14.4222012,
+            "lat": 45.336103700000002
+        }
+    },
+    "overview_polyline": {
+        "points": "suusGyv~vAjC_KZqArDsNp@yBNYN@VE\\HLD?LSnDG~@QvDi@dO"
+    },
+    "waypoint_order": []
+}

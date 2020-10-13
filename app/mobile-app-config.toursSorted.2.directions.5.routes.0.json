@@ -1,0 +1,21 @@
+{
+    "summary": "Titov trg",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.447798000000001,
+            "lat": 45.326514400000001
+        },
+        "northeast": {
+            "lng": 14.448199000000001,
+            "lat": 45.327450200000001
+        }
+    },
+    "overview_polyline": {
+        "points": "q_tsGg|dwA?l@LLPRJ[Fa@@O\\D`AJRJPN"
+    },
+    "waypoint_order": []
+}

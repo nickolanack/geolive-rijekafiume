@@ -1,0 +1,21 @@
+{
+    "summary": "Ul. Milutina Bara\u010da and Ul. Jo\u017ee Vlahovi\u0107a",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.390131999999999,
+            "lat": 45.335132899999998
+        },
+        "northeast": {
+            "lng": 14.411819400000001,
+            "lat": 45.339774800000001
+        }
+    },
+    "overview_polyline": {
+        "points": "qousG{x}vAGx@I|Ca@~KKbFKfWaB?sAFMHKNGPCXAhHGtDIb@i@`@oAZe@\\e@T[LEJYnAUj@GP_CjKYlAg@fDYxDSVEx@Ib@IjBOfFMfE[rI"
+    },
+    "waypoint_order": []
+}

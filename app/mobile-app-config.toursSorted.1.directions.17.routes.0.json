@@ -1,0 +1,21 @@
+{
+    "summary": "Liburnijska ul.",
+    "copyrights": "Map data \u00a92020",
+    "warnings": [
+        "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+    ],
+    "bounds": {
+        "southwest": {
+            "lng": 14.380592099999999,
+            "lat": 45.332453899999997
+        },
+        "northeast": {
+            "lng": 14.4439537,
+            "lat": 45.339968800000001
+        }
+    },
+    "overview_polyline": {
+        "points": "y~tsGuadwAk@xAMp@Iv@CN?bB@lBDtAPlEMlA@FGT_@vAIVoApECV_@n@c@r@a@~@g@lBa@nBg@xBu@`B{BdDu@bA{AlAMHUHSFU@]A]S]WKEOCK@QPEJEJ?VHjAFb@ILZt@^z@Lf@RbAN`@DBEFNb@DRE`BD\\Qp@Mn@S~BOlBDpABr@e@XSV}@bBKPd@^RLb@\\PThAdCDJDLGTsApGIb@WfBqBpJOn@G^OnACf@NFLFPXjBpFTx@Fd@\\bDd@|F\\fED|@KX]t@i@`As@`A{@jAi@lAWbAO~@It@IfFQlIKvGIbJCfBGlBObC_AbK@j@EvAGxBAjB@tE@vD@j@GX?NEpAIt@gA`FQ`AM|BMhFAp@@j@IjBOfFMfE[rIQtEUnIFjCR`Cj@jEp@jF@`AKfALHJ@TEbA{An@_AJEl@XDH@HMt@Q|ACn@LfA@bAEh@Ah@Jd@DH@`@?^Y`AOFKEI@KN"
+    },
+    "waypoint_order": []
+}
