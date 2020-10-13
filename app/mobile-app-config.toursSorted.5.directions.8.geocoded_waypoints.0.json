@@ -1,9 +1,0 @@
-{
-    "types": [
-        "establishment",
-        "point_of_interest",
-        "tourist_attraction"
-    ],
-    "geocoder_status": "OK",
-    "place_id": "ChIJk4pMotuhZEcRXxRgg7PSUqk"
-}
