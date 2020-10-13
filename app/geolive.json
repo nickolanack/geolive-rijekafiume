@@ -7260,5 +7260,12 @@
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
+    },
+    "widget.88": {
+        "name": "Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
