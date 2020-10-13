@@ -7266,7 +7266,7 @@
         "instance": "CustomContent",
         "parameters": {
             "target": "mobile",
-            "customScript": "",
+            "customScript": "hello world",
             "widgetTitle": "mobile-url-handler",
             "language": "html\/text",
             "returnsValue": false,
