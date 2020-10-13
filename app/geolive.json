@@ -2315,7 +2315,18 @@
                     "paragraph3": "",
                     "headingcredits": "Zasluge",
                     "paragraphcredits": "Koncept: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nGrafi\u010dki dizajn: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgramiranje: Nick Blackwell\nPrezentacija: Brigitte Le Normand, Francesca Rolandi\nUre\u0111ivanje: Brigitte Le Normand, Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua\nTestiranje: Francesca Rolandi, Vanni D'Alessio",
-                    "headingpartners": "Partneri"
+                    "headingpartners": "Partneri",
+                    "logo-1": "http:\/\/cas.uniri.hr\/",
+                    "logo-2": "http:\/\/cib.uniri.hr\/home\/",
+                    "logo-3": "https:\/\/www.riarhiv.hr\/",
+                    "logo-4": "https:\/\/ppmhp.hr\/",
+                    "logo-5": "https:\/\/www.muzej-rijeka.hr\/",
+                    "logo-6": "http:\/\/www.fiume-rijeka.it\/",
+                    "logo-7": "https:\/\/www.balcanicaucaso.org\/",
+                    "logo-8": "https:\/\/www.cci.tn.it\/",
+                    "logo-9": "https:\/\/www.sshrc-crsh.gc.ca\/",
+                    "logo-10": "https:\/\/www.ubc.ca\/",
+                    "footer": "Ova je aplikacija dio teku\u0107e istrage koju su vodili Brigitte Le Normand i Jon Corbett o tome kako participativno mapiranje mo\u017ee promijeniti na\u010din na koji razumijemo pro\u0161lost osporene pri\u010de. Pogledajte prvu fazu projekta na https:\/\/rijekafiume.geolive.ca\/"
                 }
             },
             "hr-section-descriptions": {
@@ -5311,7 +5322,7 @@
                 }
             ],
             "supportedLanguages": [
-                "fr",
+                "en",
                 "hr",
                 "it"
             ]
