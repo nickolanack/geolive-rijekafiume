@@ -7265,7 +7265,12 @@
         "name": "Content",
         "instance": "CustomContent",
         "parameters": {
-            "target": "none"
+            "target": "mobile",
+            "customScript": "",
+            "widgetTitle": "mobile-url-handler",
+            "language": "html\/text",
+            "returnsValue": false,
+            "readAccess": "public"
         }
     }
 }
