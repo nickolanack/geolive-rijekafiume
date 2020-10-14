@@ -1,9 +1,9 @@
-.augmented-view .bottom-bar{
+.augmented-view .bottom-bar *{
 	 background-color:pink;
 	 
 }
 
-.augmented-view .top-bar{
+.augmented-view .top-bar *{
 	 background-color:pink;
 	 
 }
