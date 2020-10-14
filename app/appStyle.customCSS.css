@@ -3,22 +3,5 @@
 }
 
 .augmented-view #detail-top  {
-  
-}
-
-.augmented-view #main-content {
-  visibility:collapse; 
-}
-
-#absolute DockLayout{
-	 visibility:collapse;
-	 
-}
-#absolute>StackLayout{
-	 visibility:collapse;
-	 
-}
-#absolute>GridLayout{
-	 visibility:collapse;
-	 
+   visibility:collapse;
 }
