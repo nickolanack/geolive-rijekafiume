@@ -10,6 +10,6 @@
 
 
 #absolute *{
-	 border:1px solid red;
+	 background-color: rgba(0,0,0,0.5);
 	 
 }
