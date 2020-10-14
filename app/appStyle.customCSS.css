@@ -8,8 +8,12 @@
 	 
 }
 
+.augmented-view #detail-top *{
+  background-color:rgba(0,0,0,0.1);   
+}
+
 
 #absolute *{
-	 background-color: rgba(0,0,0,0.5);
+	 
 	 
 }
