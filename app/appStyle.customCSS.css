@@ -14,3 +14,11 @@
 	 visibility:collapse;
 	 
 }
+#absolute>StackLayout{
+	 visibility:collapse;
+	 
+}
+#absolute>GridLayout{
+	 visibility:collapse;
+	 
+}
