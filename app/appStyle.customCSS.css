@@ -1,5 +1,11 @@
-.augmented-view *{
+.augmented-view{
 	 background-color:pink;
+	 
+}
+
+.augmented-view AR{
+	 background-color:yellow;
+	 
 }
 
 DockLayout{
