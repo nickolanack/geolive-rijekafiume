@@ -2,7 +2,7 @@
 	 background-color:pink;
 	 
 }
-.augmented-view #detail-top{
+.augmented-view #detail-top *{
 	 background-color:magenta;
 	 
 }
