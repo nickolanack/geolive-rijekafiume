@@ -1,3 +1,8 @@
 Page>*{
     background-color:magenta;
 }
+
+
+Page>*>*{
+    background-color:blue;
+}
