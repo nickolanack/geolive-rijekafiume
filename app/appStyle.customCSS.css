@@ -1,20 +1,11 @@
-.augmented-view .bottom-bar *{
-	 background-color:pink;
-	 
-}
-
-.augmented-view .top-bar *{
-	 background-color:pink;
-	 
-}
-
-.augmented-view #detail-top *{
-  background-color:rgba(0,0,0,0.1);   
-}
-.augmented-view #detail-top *{
+.augmented-view #detail-top {
   background-color:rgba(0,0,0,0.1);   
 }
 
+
+.augmented-view #main-content {
+  visibility:collapse; 
+}
 
 #absolute>DockLayout{
 	 visibility:collapse;
