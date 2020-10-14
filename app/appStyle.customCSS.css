@@ -1,20 +1,4 @@
-.augmented-view #main-area *{
+.augmented-view .bottom-bar{
 	 background-color:pink;
 	 
 }
-.augmented-view #detail-top *{
-	 background-color:blue;
-	 
-}
-
-.augmented-view AR{
-	 background-color:yellow;
-	 
-}
-
-DockLayout{
-    background-color:transparent;
-}
-StackLayout{
-            orientation: vertical;
-        }
