@@ -1,7 +1,8 @@
-.augmented-view #detail-top {
-  background-color:rgba(0,0,0,0.1);   
+.augmented-view #absolute>DockLayout, .augmented-view #absolute>StackLayout, .augmented-view #absolute>GridLayout{
+   visibility: collapse;
 }
 
-.augmented-view #absolute>DockLayout, .augmented-view #absolute>StackLayout, .augmented-view #absolute>GridLayout{
+
+.augmented-view #detail-top
    visibility: collapse;
 }
