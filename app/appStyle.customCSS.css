@@ -1,8 +1,3 @@
-.augmented-view #absolute>DockLayout, .augmented-view #absolute>StackLayout, .augmented-view #absolute>GridLayout{
-   visibility: collapse;
-}
-
-
-.augmented-view #detail-top
-   visibility: collapse;
+Page{
+    background-color:magenta;
 }
