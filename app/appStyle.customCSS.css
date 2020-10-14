@@ -1,5 +1,5 @@
-.map-view *{
-	border:1px solid red;
+.augmented-view *{
+	 background-color:pink;
 }
 
 DockLayout{
