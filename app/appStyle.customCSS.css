@@ -7,3 +7,9 @@
 	 background-color:pink;
 	 
 }
+
+
+#absolute *{
+	 border:1px solid red;
+	 
+}
