@@ -16,7 +16,7 @@
 }
 
 
-#absolute{
+#absolute>DockLayout{
 	 visibility:collapse;
 	 
 }
