@@ -7322,7 +7322,7 @@
             "link": false,
             "widgetTitle": "appStyle",
             "target": "app-style",
-            "customCSS": "",
+            "customCSS": ".hello{}",
             "readAccess": "public"
         }
     },
