@@ -2,15 +2,15 @@
   background-color:rgba(0,0,0,0.1);   
 }
 
-.augmented-view #detail-top {
-  visibility:collapse; 
+.augmented-view #detail-top  {
+  
 }
 
 .augmented-view #main-content {
   visibility:collapse; 
 }
 
-#absolute>DockLayout{
+#absolute DockLayout{
 	 visibility:collapse;
 	 
 }
