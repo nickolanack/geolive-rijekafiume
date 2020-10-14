@@ -4,3 +4,7 @@
 	min-width:300;
 	padding:100;
 }
+
+DockLayout{
+    background-color:pink;
+}
