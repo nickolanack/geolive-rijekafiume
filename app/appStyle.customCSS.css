@@ -1,8 +1,0 @@
-.main-area {
-   flex-direction:row;
-}
-
-MapView{
-    margin:100;
-    flexShrink:0;
-}
