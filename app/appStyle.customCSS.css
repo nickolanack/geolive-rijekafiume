@@ -1,3 +1,7 @@
 #detail-top{
     background-color:white;
 }
+
+#detail-top>AR{
+    width:1000;
+}
