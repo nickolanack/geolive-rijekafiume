@@ -2,7 +2,7 @@
     background-color:white;
 }
 
-#detail-top>AR{
+#detail-top>*{
     width:1000;
     flex-grow:100;
     flex-shrink:0;
