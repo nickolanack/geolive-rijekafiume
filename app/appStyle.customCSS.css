@@ -4,7 +4,6 @@
 
 #detail-top>*{
     width:100%;
-    flex-grow:100;
-    flex-shrink:0;
+    
 
 }
