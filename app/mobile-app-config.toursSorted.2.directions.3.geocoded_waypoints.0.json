@@ -1,7 +1,8 @@
 {
     "types": [
-        "route"
+        "establishment",
+        "point_of_interest"
     ],
     "geocoder_status": "OK",
-    "place_id": "ChIJjYYxZN6gZEcRZko6sD-TYS8"
+    "place_id": "ChIJ8V2RFuOgZEcRZ4rv0M3hg-Y"
 }

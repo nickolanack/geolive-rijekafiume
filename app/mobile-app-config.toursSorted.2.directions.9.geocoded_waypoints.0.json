@@ -1,7 +1,8 @@
 {
     "types": [
-        "street_address"
+        "establishment",
+        "point_of_interest"
     ],
     "geocoder_status": "OK",
-    "place_id": "ChIJJf54ISChZEcR53WfvyiCcyM"
+    "place_id": "ChIJqXWWjh-hZEcRxpP7qYcbFCE"
 }

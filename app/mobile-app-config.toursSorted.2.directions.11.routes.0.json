@@ -1,5 +1,5 @@
 {
-    "summary": "Dolac and Ul. Erazma Bar\u010di\u0107a",
+    "summary": "E65",
     "copyrights": "Map data \u00a92020",
     "warnings": [
         "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
@@ -7,15 +7,15 @@
     "bounds": {
         "southwest": {
             "lng": 14.438547700000001,
-            "lat": 45.327887199999999
+            "lat": 45.248090599999998
         },
         "northeast": {
-            "lng": 14.439285399999999,
-            "lat": 45.328925400000003
+            "lng": 14.5831205,
+            "lat": 45.327992899999998
         }
     },
     "overview_polyline": {
-        "points": "khtsG{acwAMq@^QJQl@\\VRXZbAdA"
+        "points": "ibtsG}_cwASQ\\_A|@sExA{GpAwEfBgD~@eBPw@JFBe@D{@CsACk@~@uCQSy@g@^gAv@iCl@s@OeAA}BFuH\\mCdAaGj@mEWqAGcAv@sD\\qCl@uCBmA^_BbAmC`@iBp@uF~@cE^kCLmDE_FF_GOwCQqBi@mAk@}@kAoAoAiAeBsDuBaHcBgGUaBAuG[iDw@yDMOgAg@sBkBU_B_@w@c@k@Ni@NYOSOo@@_A|@uDTeB?_B[aBYiAEiATcERkIB{AK}@I_ABw@n@cF^yA\\u@d@sAr@qDl@{Cd@sAj@{Cd@cFDkBN{A|@oDd@yCTaA|@yAf@c@lAi@dAcAn@}@x@mBd@m@p@k@l@_Av@yATe@`AqDr@{GVmAz@iAHg@@mAFk@Ne@b@oAv@sE`A}Ex@wA`@oAB_B^qCZ}DdA}B^k@`@oAdBoGpA_CVmCBwA\\qD\\{AR}DZiDCyBFoATyDP_Ax@}Bf@uHZ{Bx@kCzAmClCqDjBcDt@i@PM@S]Ao@G]My@s@yBWsAG}@i@o@gAU_AiBcIKeABODWTBtAPbBJ|@UbDcA~@e@t@MhFiBt@Ch@HrAn@`@^r@v@b@lAf@zAfAjCn@p@dAZ`@D`AMdEqArA_@bJeBfCy@tCkAnAIh@KLs@A]C_@]Ta@Va@TmCfAgA^_AViAJeIgA_Ce@UUw@]w@kAa@mBOoCS}HQwFHyBj@sFHuAEqA}@oFFaCrAyEd@_BLeBGyEd@uGj@gGj@wC`A}BtKuOlTmZnCoExA{C|D{KlBaGf@uAp@mAjAgJZkA`DuG`B}DxAwBdOgPzHuIz@yBFiBe@mEIcAFoB^uAx@wA~AyBnAqAhDqB`EeCfG}ExIaI`AeBt@iCbB}Hl@mBt@qAp@s@bBu@~Co@r@]n@a@lAqAlBuB~AgAV]xAe@pCyAnAiBd@mAfEdAdB`@lAZbAb@Xl@p@|B@d@y@rCo@~CW|EY`Fa@|ES`KBdAXjAxAzAtA`AzBj@xAJNBPk@Nm@Jo@WkBPi@^Od@LhAG`@@fA_@n@E|CeF`AwAnBoBdCsBvGaGhAsAj@o@Xb@p@hA`CfEVhAFxAKhBy@tDAz@PbBj@dAl@^rBt@z@SlIkEdDsAtD]~Is@xDk@pAk@fB_AdBaBdAiAvAkBvB}BpBkAjBm@r@KjBGzCGt@YVa@`@oAPNpAv@fBf@l@?jD?~ACd@Lp@Tz@j@\\f@f@z@xBrFj@bBTb@~AjEjAdC~BtDvGjK@@"
     },
     "waypoint_order": []
 }

@@ -6,8 +6,8 @@
     ],
     "bounds": {
         "southwest": {
-            "lng": 14.436249399999999,
-            "lat": 45.330139899999999
+            "lng": 14.4371641,
+            "lat": 45.330177499999998
         },
         "northeast": {
             "lng": 14.4439537,
@@ -15,7 +15,7 @@
         }
     },
     "overview_polyline": {
-        "points": "y~tsGuadwAk@xAMp@G`@ARFR?nC?n@?j@HrBJfB@j@Gv@HJ^h@XNNHLNLT@FYtDBRbAf@~@f@NL|@d@TFHCxBqA`@K@bALpFAxA"
+        "points": "y~tsGuadwAk@xAMp@G`@ARFR?nC?n@?j@HrBJfB@j@Gv@HJ^h@XNNHLNLT@FYtDBRbAf@~@f@NL|@d@TFHCxBqA`@K@bADtC"
     },
     "waypoint_order": []
 }

@@ -1,13 +1,13 @@
 {
-    "summary": "Ul. Riva Boduli",
+    "summary": "Fiumara ul.",
     "copyrights": "Map data \u00a92020",
     "warnings": [
         "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
     ],
     "bounds": {
         "southwest": {
-            "lng": 14.4317916,
-            "lat": 45.323930300000008
+            "lng": 14.4446561,
+            "lat": 45.323971899999997
         },
         "northeast": {
             "lng": 14.448494500000001,
@@ -15,7 +15,7 @@
         }
     },
     "overview_polyline": {
-        "points": "kmssGuuawAJ}APuFf@cOf@uOHsD@_CCs@Ii@IUUm@SW}AoAsCoB{BeB`A_DLs@@a@HiC?s@C_@MeCCUI_@Ug@oA{AW]wBsCYWm@u@MM?{@?k@"
+        "points": "ojssGcfdwAT}@cAm@a@UyAgAsA_AQS_@Uu@g@s@a@[SI?kCgDu@y@_@a@?gB"
     },
     "waypoint_order": []
 }

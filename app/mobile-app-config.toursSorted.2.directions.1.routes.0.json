@@ -1,21 +1,21 @@
 {
-    "summary": "Verdijeva ul.",
+    "summary": "",
     "copyrights": "Map data \u00a92020",
     "warnings": [
         "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
     ],
     "bounds": {
         "southwest": {
-            "lng": 14.437386800000001,
-            "lat": 45.323934000000001
+            "lng": 14.4317916,
+            "lat": 45.324099500000003
         },
         "northeast": {
-            "lng": 14.4446561,
-            "lat": 45.325164699999988
+            "lng": 14.437386800000001,
+            "lat": 45.324544199999998
         }
     },
     "overview_polyline": {
-        "points": "sjssGuxbwANqDF}CH}DAgACq@Ke@Si@OUUWsAeAaAq@SM^kAt@aC\\gAbBkG"
+        "points": "sjssGuxbwAm@pQ]nLK|A"
     },
     "waypoint_order": []
 }
