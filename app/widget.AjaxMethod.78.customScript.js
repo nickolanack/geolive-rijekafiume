@@ -64,7 +64,8 @@ return array(
                if(is_array($item['attributes']['researcher'])){
                    return in_array($filter->filterResearcher, $item['attributes']['researcher']);
                }
-               return $filter->filterResearcher==$item['attributes']['researcher'];
+               return in_array($filter->filterResearcher, explode(' and ', $item['attributes']['researcher']));
+               //return $filter->filterResearcher==$item['attributes']['researcher'];
             }
                 
             return true;
