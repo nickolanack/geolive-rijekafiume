@@ -2217,7 +2217,6 @@
                     "paragraphcredits": "Ideazione: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nProgetto grafico: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgrammazione: Nick Blackwell\nPresentazione: Brigitte Le Normand, Francesca Rolandi\nMontaggio: Brigitte Le Normand, Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua\nCollaudo: Francesca Rolandi, Vanni D'Alessio",
                     "headingpartners": "Partner",
                     "logo-1": "http:\/\/cas.uniri.hr\/",
-                    "logo-image-1": "",
                     "logo-2": "http:\/\/cib.uniri.hr\/home\/",
                     "logo-3": "https:\/\/www.riarhiv.hr\/",
                     "logo-4": "https:\/\/ppmhp.hr\/",
@@ -2231,7 +2230,13 @@
                     "logo-12": "https:\/\/uniri.hr\/en\/home\/",
                     "logo-13": "http:\/\/spice.geolive.ca\/",
                     "footer": "Questa app fa parte di un'indagine in corso condotta da Brigitte Le Normand e Jon Corbett su come la mappatura partecipativa possa cambiare il modo in cui comprendiamo il passato di una storia contestata. Vedi la prima fase del progetto su https:\/\/rijekafiume.geolive.ca\/"
-                }
+                },
+                "menu-terms": "Termini",
+                "menu-lang": "linguaggio",
+                "menu-partners": "Partner",
+                "menu-credits": "Titoli di coda",
+                "menu-report": "Problemi di rapporto",
+                "menu-mail": "Iscriviti a Mail"
             },
             "it-section-descriptions": {
                 "category": {
