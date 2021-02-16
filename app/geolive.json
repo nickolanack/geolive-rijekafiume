@@ -2004,7 +2004,6 @@
                     "paragraphcredits": "Concept: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nGraphic Design: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgramming: Nick Blackwell\nPresentation: Brigitte Le Normand, Francesca Rolandi\nEditing: Brigitte Le Normand,  Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua\nTesting: Francesca Rolandi, Vanni D'Alessio",
                     "headingpartners": "Partners",
                     "logo-1": "http:\/\/cas.uniri.hr\/",
-                    "logo-image-1": "http:\/\/cas.uniri.hr\/wp-content\/uploads\/2014\/10\/logo.png",
                     "logo-2": "http:\/\/cib.uniri.hr\/home\/",
                     "logo-3": "https:\/\/www.riarhiv.hr\/",
                     "logo-4": "https:\/\/ppmhp.hr\/",
@@ -2018,7 +2017,13 @@
                     "logo-12": "https:\/\/uniri.hr\/en\/home\/",
                     "logo-13": "http:\/\/spice.geolive.ca\/",
                     "footer": "This app is part of an ongoing investigation led by Brigitte Le Normand and Jon Corbett into how participatory mapping can change the way that we understand the past of a contested story.  See the first phase of the project at https:\/\/rijekafiume.geolive.ca\/"
-                }
+                },
+                "menu-terms": "Terms",
+                "menu-lang": "Language",
+                "menu-partners": "Partners",
+                "menu-credits": "Credits",
+                "menu-report": "Report Issues",
+                "menu-mail": "Join Mail"
             },
             "--views": [],
             "--section-buttons": [],
