@@ -66,8 +66,9 @@ $vars = array_merge(
     		        
     		        "descriptionit"=>$update->{'description it'},
     		        "descriptionhr"=>$update->{'description hr'},
-    		        "descriptionfr"=>$update->{'description fr'}
+    		        "descriptionfr"=>$update->{'description fr'},
     		        
+    		        "citations"=>$update->References
     		       
     		    ));
     		    
