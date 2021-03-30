@@ -7382,7 +7382,7 @@
         "instance": "CustomContent",
         "parameters": {
             "target": "mobile",
-            "customScript": "print_r($_GET);",
+            "customScript": "mobile-url-handler.customScript.js",
             "widgetTitle": "mobile-url-handler",
             "language": "php",
             "returnsValue": false,
