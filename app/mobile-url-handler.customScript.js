@@ -7,7 +7,7 @@ $marker=explode('#', $marker);
 $marker=array_shift($marker);
 $marker=intval($marker);
 
-echo $marker;
+//echo $marker;
 
 header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile/".$marker);
 die();
