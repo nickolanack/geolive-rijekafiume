@@ -28,4 +28,4 @@ if(key_exists('HTTP_USER_AGENT', $_SERVER)){
 
 
 
-header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile/".$marker);
+header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile/".$marker."/asdfasdf");
