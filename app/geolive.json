@@ -2023,7 +2023,11 @@
                 "menu-partners": "Partners",
                 "menu-credits": "Credits",
                 "menu-report": "Report Issues",
-                "menu-mail": "Join Mail"
+                "menu-mail": "Join Mail",
+                "menu-references": "References",
+                "menu-videos": "Videos",
+                "menu-read-more": "Read more",
+                "menu-researcher": "Researcher"
             },
             "--views": [],
             "--section-buttons": [],
