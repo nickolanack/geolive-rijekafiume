@@ -11,4 +11,11 @@ $marker=intval($marker);
 
 error_log(print_r($_SERVER, true));
 
+if(key_exists('HTTP_REFERER', $_SERVER)){
+    if(strpos($_SERVER['HTTP_REFERER'], 'android-app')===0){
+        header("Location: https://play.google.com/store/apps/details?id=org.rijekafiume.ca");
+        return;
+    }
+}
+
 header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile/".$marker);
