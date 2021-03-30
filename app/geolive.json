@@ -7382,9 +7382,9 @@
         "instance": "CustomContent",
         "parameters": {
             "target": "mobile",
-            "customScript": "hello world",
+            "customScript": "print_r($_GET);",
             "widgetTitle": "mobile-url-handler",
-            "language": "html\/text",
+            "language": "php",
             "returnsValue": false,
             "readAccess": "public"
         }
