@@ -2123,7 +2123,11 @@
                 "menu-partners": "Les partenaires",
                 "menu-credits": "Cr\u00e9dits",
                 "menu-report": "Signaler des probl\u00e8mes",
-                "menu-mail": "Rejoindre Mail"
+                "menu-mail": "Rejoindre Mail",
+                "menu-references": "",
+                "menu-videos": "",
+                "menu-read-more": "",
+                "menu-researcher": ""
             },
             "fr-section-descriptions": {
                 "category": {
