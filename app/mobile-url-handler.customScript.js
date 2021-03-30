@@ -9,4 +9,6 @@ $marker=intval($marker);
 
 //echo $marker;
 
+error_log(print_r($_SERVER));
+
 header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile/".$marker);
