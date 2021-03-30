@@ -2245,7 +2245,11 @@
                 "menu-partners": "Partner",
                 "menu-credits": "Titoli di coda",
                 "menu-report": "Problemi di rapporto",
-                "menu-mail": "Iscriviti a Mail"
+                "menu-mail": "Iscriviti a Mail",
+                "menu-references": "",
+                "menu-videos": "",
+                "menu-read-more": "",
+                "menu-researcher": ""
             },
             "it-section-descriptions": {
                 "category": {
