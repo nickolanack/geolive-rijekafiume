@@ -10,4 +10,4 @@ $marker=intval($marker);
 echo $marker;
 
 header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile/".$marker);
-exit();
+die();
