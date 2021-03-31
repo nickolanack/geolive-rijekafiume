@@ -2368,14 +2368,18 @@
                     "logo-11": "https:\/\/www.ffri.uniri.hr\/en\/departments\/cultural.html",
                     "logo-12": "https:\/\/uniri.hr\/en\/home\/",
                     "logo-13": "http:\/\/spice.geolive.ca\/",
-                    "footer": "Ova je aplikacija dio teku\u0107e istrage koju su vodili Brigitte Le Normand i Jon Corbett o tome kako participativno mapiranje mo\u017ee promijeniti na\u010din na koji razumijemo pro\u0161lost osporene pri\u010de. Pogledajte prvu fazu projekta na https:\/\/rijekafiume.geolive.ca\/"
+                    "footer": "Ova je aplikacija dio teku\u0107e istrage koju vode Brigitte Le Normand i Jon Corbett o tome kako participativno mapiranje mo\u017ee promijeniti na\u010din na koji razumijemo pro\u0161lost osporene pri\u010de. Pogledajte prvu fazu projekta na https:\/\/rijekafiume.geolive.ca\/"
                 },
                 "menu-terms": "Pojmovi",
                 "menu-lang": "Jezik",
                 "menu-partners": "Partneri",
                 "menu-credits": "Zasluge",
-                "menu-report": "Prijavi pitanja",
-                "menu-mail": "Pridru\u017eite se po\u0161ti"
+                "menu-report": "Prijavi problem",
+                "menu-mail": "Pretplati se ",
+                "menu-references": "Reference",
+                "menu-videos": "Videi",
+                "menu-read-more": "Pro\u010ditaj vi\u0161e",
+                "menu-researcher": "Istra\u017eiva\u010d"
             },
             "hr-section-descriptions": {
                 "category": {
