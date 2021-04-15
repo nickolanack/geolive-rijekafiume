@@ -1,0 +1,1 @@
+Aucun chercheur n'est attribué à ces lieux

@@ -2130,7 +2130,8 @@
                 "menu-videos": "Vid\u00e9os",
                 "menu-read-more": "Lire la suite",
                 "menu-researcher": "Chercheur",
-                "menu-researcher-description": "mobile-app-config.fr-app-labels.menu-researcher-description.js"
+                "menu-researcher-items-description": "mobile-app-config.fr-app-labels.menu-researcher-items-description.js",
+                "menu-no-researcher-items-description": "mobile-app-config.fr-app-labels.menu-no-researcher-items-description.js"
             },
             "fr-section-descriptions": {
                 "category": {
