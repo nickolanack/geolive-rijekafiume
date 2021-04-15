@@ -2028,7 +2028,8 @@
                 "menu-videos": "Videos",
                 "menu-read-more": "Read more",
                 "menu-researcher": "Researcher",
-                "menu-researcher-description": "mobile-app-config.app-labels.menu-researcher-description.js"
+                "menu-researcher-items-description": "mobile-app-config.app-labels.menu-researcher-items-description.js",
+                "menu-no-researcher-items-description": "mobile-app-config.app-labels.menu-no-researcher-items-description.js"
             },
             "--views": [],
             "--section-buttons": [],

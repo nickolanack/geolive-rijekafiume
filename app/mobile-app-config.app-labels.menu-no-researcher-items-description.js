@@ -1,0 +1,1 @@
+No researcher is attributed to these places
