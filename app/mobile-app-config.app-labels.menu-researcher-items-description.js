@@ -1,1 +1,1 @@
-Items researched and curated by: <name>
+Items researched and curated by: 
