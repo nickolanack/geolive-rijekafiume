@@ -1,1 +1,1 @@
-Elementi ricercati e curati da: <name>
+Elementi ricercati e curati da:
