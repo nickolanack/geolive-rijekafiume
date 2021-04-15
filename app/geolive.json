@@ -2251,10 +2251,11 @@
                 "menu-credits": "Titoli di coda",
                 "menu-report": "Problemi di rapporto",
                 "menu-mail": "Iscriviti a Mail",
-                "menu-references": "",
-                "menu-videos": "",
-                "menu-read-more": "",
-                "menu-researcher": ""
+                "menu-references": "Riferimenti",
+                "menu-videos": "Video",
+                "menu-read-more": "Leggi di pi\u00f9",
+                "menu-researcher": "Ricercatore",
+                "menu-researcher-description": "mobile-app-config.it-app-labels.menu-researcher-description.js"
             },
             "it-section-descriptions": {
                 "category": {
