@@ -1,1 +1,1 @@
-Articles recherchés et conservés par: <nom>
+Articles recherchés et conservés par:
