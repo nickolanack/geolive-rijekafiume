@@ -5467,7 +5467,7 @@
             "target": "mobile-2",
             "customScript": "Url redirect 2.customScript.js",
             "widgetTitle": "Url redirect 2",
-            "language": "html\/text",
+            "language": "php",
             "returnsValue": false,
             "readAccess": "public"
         }
