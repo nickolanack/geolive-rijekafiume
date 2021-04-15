@@ -30,7 +30,7 @@ if(key_exists('HTTP_USER_AGENT', $_SERVER)){
         
         
         error_log('redirect-ios');
-        header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile-2/".$marker);
+        header("Location: https://rijekafiume.geolive.ca/mobile-2/".$marker);
         return;
         
        // header("Location: https://apps.apple.com/app/rijeka-fiume-in-flux/id1471481859");
