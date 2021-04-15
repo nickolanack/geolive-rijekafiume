@@ -18,8 +18,8 @@ if(key_exists('HTTP_REFERER', $_SERVER)){
         
         
         
-        //header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile-2/".$marker);
-        //return;
+        header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile-2/".$marker);
+        return;
         
     }
 }
@@ -34,4 +34,4 @@ if(key_exists('HTTP_USER_AGENT', $_SERVER)){
 
 
 error_log('redirect-loop');
-header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile-2/".$marker);
+header("Location: https://rijekafiume.geolive.ca/mobile-2/".$marker);
