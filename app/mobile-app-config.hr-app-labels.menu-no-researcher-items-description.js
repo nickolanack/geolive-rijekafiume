@@ -1,0 +1,1 @@
+Niti jedan istraživač nije pripisan tim mjestima

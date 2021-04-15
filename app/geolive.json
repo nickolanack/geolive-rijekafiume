@@ -2386,7 +2386,8 @@
                 "menu-videos": "Videi",
                 "menu-read-more": "Pro\u010ditaj vi\u0161e",
                 "menu-researcher": "Istra\u017eiva\u010d",
-                "menu-researcher-description": "mobile-app-config.hr-app-labels.menu-researcher-description.js"
+                "menu-researcher-items-description": "mobile-app-config.hr-app-labels.menu-researcher-items-description.js",
+                "menu-no-researcher-items-description": "mobile-app-config.hr-app-labels.menu-no-researcher-items-description.js"
             },
             "hr-section-descriptions": {
                 "category": {
