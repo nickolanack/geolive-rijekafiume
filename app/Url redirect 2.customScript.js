@@ -8,5 +8,5 @@ $marker=array_shift($marker);
 $marker=intval($marker);
 
 //echo $marker;
-
+error_log('mobile-2');
 error_log(print_r($_SERVER, true));
