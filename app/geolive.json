@@ -2257,7 +2257,8 @@
                 "menu-videos": "Video",
                 "menu-read-more": "Leggi di pi\u00f9",
                 "menu-researcher": "Ricercatore",
-                "menu-researcher-description": "mobile-app-config.it-app-labels.menu-researcher-description.js"
+                "menu-researcher-items-description": "mobile-app-config.it-app-labels.menu-researcher-items-description.js",
+                "menu-no-researcher-items-description": "mobile-app-config.it-app-labels.menu-no-researcher-items-description.js"
             },
             "it-section-descriptions": {
                 "category": {

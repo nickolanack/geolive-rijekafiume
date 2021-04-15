@@ -1,0 +1,1 @@
+Nessun ricercatore è attribuito a questi luoghi
