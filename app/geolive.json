@@ -2382,7 +2382,8 @@
                 "menu-references": "Reference",
                 "menu-videos": "Videi",
                 "menu-read-more": "Pro\u010ditaj vi\u0161e",
-                "menu-researcher": "Istra\u017eiva\u010d"
+                "menu-researcher": "Istra\u017eiva\u010d",
+                "menu-researcher-description": "mobile-app-config.hr-app-labels.menu-researcher-description.js"
             },
             "hr-section-descriptions": {
                 "category": {
