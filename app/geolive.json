@@ -2125,10 +2125,11 @@
                 "menu-credits": "Cr\u00e9dits",
                 "menu-report": "Signaler des probl\u00e8mes",
                 "menu-mail": "Rejoindre Mail",
-                "menu-references": "",
-                "menu-videos": "",
-                "menu-read-more": "",
-                "menu-researcher": ""
+                "menu-references": "Les r\u00e9f\u00e9rences",
+                "menu-videos": "Vid\u00e9os",
+                "menu-read-more": "Lire la suite",
+                "menu-researcher": "Chercheur",
+                "menu-researcher-description": "mobile-app-config.fr-app-labels.menu-researcher-description.js"
             },
             "fr-section-descriptions": {
                 "category": {
