@@ -1,1 +1,1 @@
-Predmeti koje je istraživao i kurirao: <name>
+Predmeti koje je istraživao i kurirao:
