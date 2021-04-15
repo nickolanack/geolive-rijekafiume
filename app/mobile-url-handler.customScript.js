@@ -8,7 +8,7 @@ $marker=array_shift($marker);
 $marker=intval($marker);
 
 //echo $marker;
-
+error_log('mobile');
 error_log(print_r($_SERVER, true));
 
 if(key_exists('HTTP_REFERER', $_SERVER)){
