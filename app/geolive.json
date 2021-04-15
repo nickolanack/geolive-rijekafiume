@@ -5465,7 +5465,7 @@
         "instance": "CustomContent",
         "parameters": {
             "target": "mobile-2",
-            "customScript": "",
+            "customScript": "Url redirect 2.customScript.js",
             "widgetTitle": "Url redirect 2",
             "language": "html\/text",
             "returnsValue": false,
