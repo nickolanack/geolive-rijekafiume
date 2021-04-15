@@ -5464,7 +5464,12 @@
         "name": "Content",
         "instance": "CustomContent",
         "parameters": {
-            "target": "none"
+            "target": "mobile-2",
+            "customScript": "",
+            "widgetTitle": "Url redirect 2",
+            "language": "html\/text",
+            "returnsValue": false,
+            "readAccess": "public"
         }
     },
     "widget.61": {
