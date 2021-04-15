@@ -5460,6 +5460,13 @@
             ]
         }
     },
+    "widget.89": {
+        "name": "Content",
+        "instance": "CustomContent",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.61": {
         "name": "Template",
         "instance": "Template",
