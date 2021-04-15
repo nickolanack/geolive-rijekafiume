@@ -33,5 +33,5 @@ if(key_exists('HTTP_USER_AGENT', $_SERVER)){
 }
 
 
-
-header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile/asdfasdf/".$marker);
+error_log('redirect-loop');
+header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile-2/".$marker);
