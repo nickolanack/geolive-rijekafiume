@@ -22,3 +22,17 @@ if(key_exists('HTTP_REFERER', $_SERVER)){
         
     }
 }
+
+
+if(key_exists('HTTP_USER_AGENT', $_SERVER)){
+    if(stripos($_SERVER['HTTP_USER_AGENT'], 'iphone')!==false){
+        
+        
+       // error_log('redirect-ios');
+        //header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile-2/".$marker);
+        //return;
+        
+        header("Location: https://apps.apple.com/app/rijeka-fiume-in-flux/id1471481859");
+        return;
+    }
+}
