@@ -17,7 +17,7 @@ if(key_exists('HTTP_REFERER', $_SERVER)){
         //return;
         
         
-        error_log('redirect-loop');
+        error_log('redirect-android');
         header("Location: rijekafiumeapp://rijekafiume.geolive.ca/mobile-2/".$marker);
         return;
         
@@ -33,5 +33,5 @@ if(key_exists('HTTP_USER_AGENT', $_SERVER)){
 }
 
 
-error_log('redirect-loop');
+error_log('redirect-alt');
 header("Location: https://rijekafiume.geolive.ca/mobile-2/".$marker);
