@@ -64,6 +64,15 @@ return array(
                if(is_array($item['attributes']['researcher'])){
                    return in_array($filter->filterResearcher, $item['attributes']['researcher']);
                }
+               
+               if(stripos($item['attributes']['researcher'], ' and ')!==false){
+                   $parts=explode(' and ', strtolower($item['attributes']['researcher']));
+                   if(in_array(strtolower($filter->filterResearcher), $parts)){
+                       return true;
+                   }
+                   
+               }
+               
                return $filter->filterResearcher==$item['attributes']['researcher'];
             }
                 
