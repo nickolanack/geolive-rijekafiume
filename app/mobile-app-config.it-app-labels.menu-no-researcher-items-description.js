@@ -1,1 +1,1 @@
-Nessun ricercatore è attribuito a questi luoghi
+A questi luoghi non è attribuito alcun ricercatore
