@@ -36,7 +36,7 @@ return array(
                 return false;
             }
             
-            if($item['attributes']['published']===false){
+            if($item['attributes']['published']===false||$item['attributes']['published']==="false"){
                 return false;
             }
             
