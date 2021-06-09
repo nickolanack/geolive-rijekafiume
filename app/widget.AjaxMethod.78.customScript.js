@@ -32,6 +32,10 @@ return array(
             
         }), function($item)use($json){
             
+            if(stripos($item['name'],'Test')!==false){
+                return false;
+            }
+            
             if(!key_exists("filter",$json)){
                 return true;
             } 
