@@ -36,6 +36,10 @@ return array(
                 return false;
             }
             
+            if($item['attributes']['published']===false){
+                return false;
+            }
+            
             if(!key_exists("filter",$json)){
                 return true;
             } 
