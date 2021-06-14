@@ -40,12 +40,12 @@ error_log('listLayerItems:end');
 $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublished){
             
             if(stripos($item['name'],'Test')!==false){
-                $testItems[]=$item;
+                $testItems[]=array('id'=>$item[id], 'name'=>$item['name']);
                 return false;
             }
             
             if($item['attributes']['published']===false||$item['attributes']['published']==="false"){
-                $unpublished[]=$item['id'];
+                $unpublished[]=array('id'=>$item[id], 'name'=>$item['name']);
                 return false;
             }
             
