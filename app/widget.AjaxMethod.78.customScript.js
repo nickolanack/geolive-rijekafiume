@@ -32,7 +32,7 @@ $results=(new spatial\Features())->listLayerItems(36)
             
         });
 
-$items=array_values(array_filter($results, function($item)use($json, &$testItems, &$unpublished){
+$items=(array_filter($results, function($item)use($json, &$testItems, &$unpublished){
             
             if(stripos($item['name'],'Test')!==false){
                 $testItems[]=$item;
