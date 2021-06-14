@@ -9,6 +9,8 @@ $attr=new \attributes\Record('curatedAttributes');
 $testItems=array();
 $unpublished=array();
 
+error_log('listLayerItems:start');
+
 $results=(new spatial\Features())->listLayerItems(36)
         ->map(function($item)use($attr){
             
@@ -31,6 +33,9 @@ $results=(new spatial\Features())->listLayerItems(36)
             return $item;
             
         });
+
+error_log('listLayerItems:end');
+
 
 $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublished){
             
