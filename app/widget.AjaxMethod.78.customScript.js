@@ -9,7 +9,7 @@ $attr=new \attributes\Record('curatedAttributes');
 $testItems=array();
 $unpublished=array();
 
-$items=>array_values(array_filter((new spatial\Features())->listLayerItems(36)
+$items=array_values(array_filter((new spatial\Features())->listLayerItems(36)
         ->map(function($item)use($attr){
             
            
