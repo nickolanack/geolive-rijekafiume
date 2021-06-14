@@ -57,6 +57,7 @@ $vars = array_merge(
     		       "period"=>$update->Period,
     		       "address"=>$update->Address,
     		       "researcher"=>$update->Researcher,
+    		       "published"=>$update->Published===true||$update->Published==='true',
     		       "tour"=>$update->Tour,
     		       
     		       
