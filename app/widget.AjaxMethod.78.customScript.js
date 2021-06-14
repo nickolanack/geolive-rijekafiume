@@ -6,10 +6,10 @@ $attr=new \attributes\Record('curatedAttributes');
 //$layer=(int)$json->layer;
 
 
+$testItems=array();
+$unpublished=array();
 
-return array(
-    'withFilter'=>key_exists("filter",$json)?$json->filter:false,
-    "items"=>array_values(array_filter((new spatial\Features())->listLayerItems(36)
+$items=>array_values(array_filter((new spatial\Features())->listLayerItems(36)
         ->map(function($item)use($attr){
             
            
@@ -30,13 +30,15 @@ return array(
             
             return $item;
             
-        }), function($item)use($json){
+        }), function($item)use($json, &$testItems, &$unpublished){
             
             if(stripos($item['name'],'Test')!==false){
+                $testItems[]=$item;
                 return false;
             }
             
             if($item['attributes']['published']===false||$item['attributes']['published']==="false"){
+                $unpublished[]=$item['id'];
                 return false;
             }
             
@@ -86,5 +88,10 @@ return array(
                 
             return true;
             
-        }))
+        }));
+return array(
+    'withFilter'=>key_exists("filter",$json)?$json->filter:false,
+    "items"=>$items,
+    "test"=>$testItems,
+    "unpublished"=>$unpublished
     );
