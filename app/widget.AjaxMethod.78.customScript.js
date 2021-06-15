@@ -99,7 +99,7 @@ $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublis
 return array(
     'withFilter'=>key_exists("filter",$json)?$json->filter:false,
     'unfiltered'=>count($results),
-    "items"=>$items,
+    "items"=>array_values($items),
     "test"=>$testItems,
     "unpublished"=>$unpublished
     );
