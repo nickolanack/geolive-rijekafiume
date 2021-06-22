@@ -39,7 +39,10 @@ error_log('listLayerItems:end');
 
 $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublished){
             
-            if(stripos($item['name'],'Test')!==false){
+            
+            
+            
+            if((!isset($json->showTest))&&stripos($item['name'],'Test')!==false){
                 $testItems[]=array('id'=>$item[id], 'name'=>$item['name']);
                 return false;
             }
@@ -62,6 +65,8 @@ $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublis
             if(key_exists("filterCategory",$filter)){
                return $filter->filterCategory==$item['attributes']['category'];
             }
+            
+            
             
             if(key_exists("filterTour",$filter)){
                 if(is_array($item['attributes']['tour'])){
