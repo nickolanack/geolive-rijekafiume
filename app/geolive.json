@@ -6274,7 +6274,50 @@
                     "mobile-app-config.section-button-templates.researcher.0.json"
                 ]
             },
-            "section-icons": []
+            "section-icons": {
+                "main": {
+                    "category": "~\/section-icons\/categoryOptional.png",
+                    "period": "~\/section-icons\/periodOptional.png",
+                    "tour": "~\/section-icons\/tour.png",
+                    "vista": "~\/section-icons\/vista.png",
+                    "search": "~\/section-icons\/search.png",
+                    "saved-locations": "~\/section-icons\/saved-locations.png",
+                    "nearby-locations": "~\/section-icons\/nearby-locations.png",
+                    "about-the-project": "~\/section-icons\/about-the-project.png",
+                    "keywords": "XXXX-XXXX",
+                    "researcher": "~\/section-icons\/researcherOptional.png"
+                },
+                "category": {
+                    "industry": "~\/section-icons\/category\/industry.png",
+                    "infrastructure--militarygovernment": "~\/section-icons\/category\/infrastructure--militarygovernment.png",
+                    "public-spaces--monuments": "~\/section-icons\/category\/public-spaces--monuments.png",
+                    "culture--education": "~\/section-icons\/category\/culture--education.png",
+                    "residential": "~\/section-icons\/category\/residential.png",
+                    "leisure-time-spaces": "~\/section-icons\/category\/leisure-time-spaces.png"
+                },
+                "period": {
+                    "divided-city-italyyugoslavia-19241941": "~\/section-icons\/period\/divided-city-italyyugoslavia-19241941.png",
+                    "habsburg-empire-until-1914": "~\/section-icons\/period\/habsburg-empire-until-1914.png",
+                    "socialist-yugoslavia-19451991": "~\/section-icons\/period\/socialist-yugoslavia-19451991.png",
+                    "republic-of-croatia-1991-today": "~\/section-icons\/period\/republic-of-croatia-1991-today.png",
+                    "world-war-ii-19411945": "~\/section-icons\/period\/world-war-ii-19411945.png",
+                    "world-war-i-19141918": "~\/section-icons\/period\/world-war-i-19141918.png",
+                    "italian-regency-of-carnaro-19191920": "~\/section-icons\/period\/italian-regency-of-carnaro-19191920.png",
+                    "free-state-of-fiume-19201924": "~\/section-icons\/period\/free-state-of-fiume-19201924.png"
+                },
+                "tour": {
+                    "curated-tour-03-concrete-jungle": "~\/section-icons\/tour\/curated-tour-03-concrete-jungle.png",
+                    "curated-tour-02-hidden-rijeka": "~\/section-icons\/tour\/curated-tour-02-hidden-rijeka.png",
+                    "curated-tour-06-people-on-the-move": "~\/section-icons\/tour\/curated-tour-06-people-on-the-move.png",
+                    "curated-tour-04-divided-city": "~\/section-icons\/tour\/curated-tour-04-divided-city.png",
+                    "curated-tour-01-top-10-to-20": "~\/section-icons\/tour\/curated-tour-01-top-10-to-20.png",
+                    "curated-tour-05-ghosts-of-rijeka": "~\/section-icons\/tour\/curated-tour-05-ghosts-of-rijeka.png"
+                },
+                "vista": {
+                    "panorama-from-lukobran": "~\/section-icons\/vista\/panorama-from-lukobran.png",
+                    "panorama-from-trsat": "~\/section-icons\/vista\/panorama-from-trsat.png"
+                }
+            }
         }
     },
     "widget.89": {
