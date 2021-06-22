@@ -6269,7 +6269,11 @@
                     }
                 }
             },
-            "section-button-templates": []
+            "section-button-templates": {
+                "researcher": [
+                    "mobile-app-config.section-button-templates.researcher.0.json"
+                ]
+            }
         }
     },
     "widget.89": {

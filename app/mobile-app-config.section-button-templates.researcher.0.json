@@ -1,0 +1,30 @@
+{
+    "type": "card",
+    "className": "bs-card",
+    "fields": [
+        {
+            "type": "icon",
+            "action": "form",
+            "label": "{value.name}",
+            "className": "theme-researcher",
+            "form": "{section-views.researcher}",
+            "remember": false,
+            "fieldFormatter": "researcherIconFormatter",
+            "icon": "{section-icons.main.researcher}",
+            "data": {
+                "layers": [
+                    {
+                        "id": 36,
+                        "filter": {
+                            "filterResearcher": "{value.name}"
+                        }
+                    }
+                ],
+                "title": "{value.name}",
+                "description": "{value.description}",
+                "theme": "theme-researcher",
+                "theme-label": "{value.name}"
+            }
+        }
+    ]
+}
