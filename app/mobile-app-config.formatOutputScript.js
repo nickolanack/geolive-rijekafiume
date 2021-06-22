@@ -185,6 +185,11 @@ $parameters['types'] = array(
 		'category', $template),
 );
 
+$parameters['elevation']=array_map(function($ob){
+    
+   return $ob; 
+},$parameters['elevation']);
+
 $parameters['periods'] = array(
 	"type" => "fieldset",
 	"fields" => $makeFieldObject(
