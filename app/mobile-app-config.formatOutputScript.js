@@ -1,3 +1,9 @@
+$parameters['elevation']=array_map(function($ob){
+    $ob->alt->elevation=$ob->alt->elevation+40;
+   return $ob; 
+},$parameters['elevation']);
+
+
 return $parameters;
 
 GetPlugin('Attributes');
