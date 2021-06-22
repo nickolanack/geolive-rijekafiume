@@ -1583,6 +1583,12 @@
                 },
                 {
                     "type": "json",
+                    "name": "section-button-templates",
+                    "default": [],
+                    "label": "section-button-templates"
+                },
+                {
+                    "type": "json",
                     "name": "--section-views",
                     "default": [],
                     "label": "section-view disableds"
@@ -6262,7 +6268,8 @@
                         }
                     }
                 }
-            }
+            },
+            "section-button-templates": []
         }
     },
     "widget.89": {
