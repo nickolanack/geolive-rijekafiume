@@ -5823,7 +5823,446 @@
                     }
                 ]
             },
-            "section-buttons": []
+            "section-buttons": {
+                "category": {
+                    "industry": {
+                        "action": "form",
+                        "label": "{section-names.category.industry|split(:)|pop|trim}",
+                        "form": "{section-views.category}",
+                        "className": "theme-categories",
+                        "remember": false,
+                        "icon": "{section-icons.category.industry}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.category.industry.data.layers.0.json"
+                            ],
+                            "title": "{section-names.category.industry|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.category.industry.data.description.js",
+                            "theme": "{section-names.category.industry|split(:)|pop|trim}",
+                            "theme-label": "{section-names.category.industry|split(:)|pop|trim}"
+                        }
+                    },
+                    "infrastructure--militarygovernment": {
+                        "action": "form",
+                        "label": "{section-names.category.infrastructure--militarygovernment|split(:)|pop|trim}",
+                        "form": "{section-views.category}",
+                        "className": "theme-categories",
+                        "remember": false,
+                        "icon": "{section-icons.category.infrastructure--militarygovernment}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.category.infrastructure--militarygovernment.data.layers.0.json"
+                            ],
+                            "title": "{section-names.category.infrastructure--militarygovernment|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.category.infrastructure--militarygovernment.data.description.js",
+                            "theme": "{section-names.category.infrastructure--militarygovernment|split(:)|pop|trim}",
+                            "theme-label": "{section-names.category.infrastructure--militarygovernment|split(:)|pop|trim}"
+                        }
+                    },
+                    "public-spaces--monuments": {
+                        "action": "form",
+                        "label": "{section-names.category.public-spaces--monuments|split(:)|pop|trim}",
+                        "form": "{section-views.category}",
+                        "className": "theme-categories",
+                        "remember": false,
+                        "icon": "{section-icons.category.public-spaces--monuments}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.category.public-spaces--monuments.data.layers.0.json"
+                            ],
+                            "title": "{section-names.category.public-spaces--monuments|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.category.public-spaces--monuments.data.description.js",
+                            "theme": "{section-names.category.public-spaces--monuments|split(:)|pop|trim}",
+                            "theme-label": "{section-names.category.public-spaces--monuments|split(:)|pop|trim}"
+                        }
+                    },
+                    "culture--education": {
+                        "action": "form",
+                        "label": "{section-names.category.culture--education|split(:)|pop|trim}",
+                        "form": "{section-views.category}",
+                        "className": "theme-categories",
+                        "remember": false,
+                        "icon": "{section-icons.category.culture--education}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.category.culture--education.data.layers.0.json"
+                            ],
+                            "title": "{section-names.category.culture--education|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.category.culture--education.data.description.js",
+                            "theme": "{section-names.category.culture--education|split(:)|pop|trim}",
+                            "theme-label": "{section-names.category.culture--education|split(:)|pop|trim}"
+                        }
+                    },
+                    "residential": {
+                        "action": "form",
+                        "label": "{section-names.category.residential|split(:)|pop|trim}",
+                        "form": "{section-views.category}",
+                        "className": "theme-categories",
+                        "remember": false,
+                        "icon": "{section-icons.category.residential}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.category.residential.data.layers.0.json"
+                            ],
+                            "title": "{section-names.category.residential|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.category.residential.data.description.js",
+                            "theme": "{section-names.category.residential|split(:)|pop|trim}",
+                            "theme-label": "{section-names.category.residential|split(:)|pop|trim}"
+                        }
+                    },
+                    "leisure-time-spaces": {
+                        "action": "form",
+                        "label": "{section-names.category.leisure-time-spaces|split(:)|pop|trim}",
+                        "form": "{section-views.category}",
+                        "className": "theme-categories",
+                        "remember": false,
+                        "icon": "{section-icons.category.leisure-time-spaces}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.category.leisure-time-spaces.data.layers.0.json"
+                            ],
+                            "title": "{section-names.category.leisure-time-spaces|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.category.leisure-time-spaces.data.description.js",
+                            "theme": "{section-names.category.leisure-time-spaces|split(:)|pop|trim}",
+                            "theme-label": "{section-names.category.leisure-time-spaces|split(:)|pop|trim}"
+                        }
+                    }
+                },
+                "period": {
+                    "habsburg-empire-until-1914": {
+                        "action": "form",
+                        "label": "{section-names.period.habsburg-empire-until-1914|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.habsburg-empire-until-1914}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.habsburg-empire-until-1914.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.habsburg-empire-until-1914|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.habsburg-empire-until-1914.data.description.js",
+                            "theme": "{section-names.period.habsburg-empire-until-1914|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.habsburg-empire-until-1914|split(:)|pop|trim}",
+                            "representativeMarker": 740
+                        }
+                    },
+                    "world-war-i-19141918": {
+                        "action": "form",
+                        "label": "{section-names.period.world-war-i-19141918|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.world-war-i-19141918}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.world-war-i-19141918.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.world-war-i-19141918|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.world-war-i-19141918.data.description.js",
+                            "theme": "{section-names.period.world-war-i-19141918|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.world-war-i-19141918|split(:)|pop|trim}",
+                            "representativeMarker": 748
+                        }
+                    },
+                    "italian-regency-of-carnaro-19191920": {
+                        "action": "form",
+                        "label": "{section-names.period.italian-regency-of-carnaro-19191920|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.italian-regency-of-carnaro-19191920}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.italian-regency-of-carnaro-19191920.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.italian-regency-of-carnaro-19191920|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.italian-regency-of-carnaro-19191920.data.description.js",
+                            "theme": "{section-names.period.italian-regency-of-carnaro-19191920|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.italian-regency-of-carnaro-19191920|split(:)|pop|trim}",
+                            "representativeMarker": 704
+                        }
+                    },
+                    "free-state-of-fiume-19201924": {
+                        "action": "form",
+                        "label": "{section-names.period.free-state-of-fiume-19201924|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.free-state-of-fiume-19201924}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.free-state-of-fiume-19201924.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.free-state-of-fiume-19201924|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.free-state-of-fiume-19201924.data.description.js",
+                            "theme": "{section-names.period.free-state-of-fiume-19201924|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.free-state-of-fiume-19201924|split(:)|pop|trim}",
+                            "representativeMarker": 665
+                        }
+                    },
+                    "divided-city-italyyugoslavia-19241941": {
+                        "action": "form",
+                        "label": "{section-names.period.divided-city-italyyugoslavia-19241941|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.divided-city-italyyugoslavia-19241941}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.divided-city-italyyugoslavia-19241941.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.divided-city-italyyugoslavia-19241941|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.divided-city-italyyugoslavia-19241941.data.description.js",
+                            "theme": "{section-names.period.divided-city-italyyugoslavia-19241941|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.divided-city-italyyugoslavia-19241941|split(:)|pop|trim}",
+                            "representativeMarker": 654
+                        }
+                    },
+                    "world-war-ii-19411945": {
+                        "action": "form",
+                        "label": "{section-names.period.world-war-ii-19411945|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.world-war-ii-19411945}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.world-war-ii-19411945.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.world-war-ii-19411945|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.world-war-ii-19411945.data.description.js",
+                            "theme": "{section-names.period.world-war-ii-19411945|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.world-war-ii-19411945|split(:)|pop|trim}",
+                            "representativeMarker": 659
+                        }
+                    },
+                    "socialist-yugoslavia-19451991": {
+                        "action": "form",
+                        "label": "{section-names.period.socialist-yugoslavia-19451991|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.socialist-yugoslavia-19451991}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.socialist-yugoslavia-19451991.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.socialist-yugoslavia-19451991|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.socialist-yugoslavia-19451991.data.description.js",
+                            "theme": "{section-names.period.socialist-yugoslavia-19451991|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.socialist-yugoslavia-19451991|split(:)|pop|trim}",
+                            "representativeMarker": 714
+                        }
+                    },
+                    "republic-of-croatia-1991-today": {
+                        "action": "form",
+                        "label": "{section-names.period.republic-of-croatia-1991-today|split(:)|pop|trim}",
+                        "form": "{section-views.period}",
+                        "className": "theme-periods",
+                        "remember": false,
+                        "icon": "{section-icons.period.republic-of-croatia-1991-today}",
+                        "data": {
+                            "layers": [
+                                "mobile-app-config.section-buttons.period.republic-of-croatia-1991-today.data.layers.0.json"
+                            ],
+                            "title": "{section-names.period.republic-of-croatia-1991-today|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.period.republic-of-croatia-1991-today.data.description.js",
+                            "theme": "{section-names.period.republic-of-croatia-1991-today|split(:)|pop|trim}",
+                            "theme-label": "{section-names.period.republic-of-croatia-1991-today|split(:)|pop|trim}",
+                            "representativeMarker": 723
+                        }
+                    }
+                },
+                "tour": {
+                    "curated-tour-01-top-10-to-20": {
+                        "className": "theme-curated curated-0",
+                        "action": "form",
+                        "label": "{section-names.tour.curated-tour-01-top-10-to-20|split(:)|pop|trim}",
+                        "form": "{section-views.tour}",
+                        "remember": false,
+                        "icon": "{section-icons.tour.curated-tour-01-top-10-to-20}",
+                        "data": {
+                            "theme": "{section-names.tour.curated-tour-01-top-10-to-20|split(:)|pop|trim}",
+                            "theme-label": "{section-names.tour.curated-tour-01-top-10-to-20|split(:)|pop|trim}",
+                            "layers": [
+                                "mobile-app-config.section-buttons.tour.curated-tour-01-top-10-to-20.data.layers.0.json"
+                            ],
+                            "title": "{section-names.tour.curated-tour-01-top-10-to-20|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.tour.curated-tour-01-top-10-to-20.data.description.js",
+                            "showStartTour": true,
+                            "representativeMarker": 740
+                        }
+                    },
+                    "curated-tour-03-concrete-jungle": {
+                        "className": "theme-curated curated-1",
+                        "action": "form",
+                        "label": "{section-names.tour.curated-tour-03-concrete-jungle|split(:)|pop|trim}",
+                        "form": "{section-views.tour}",
+                        "remember": false,
+                        "icon": "{section-icons.tour.curated-tour-03-concrete-jungle}",
+                        "data": {
+                            "theme": "{section-names.tour.curated-tour-03-concrete-jungle|split(:)|pop|trim}",
+                            "theme-label": "{section-names.tour.curated-tour-03-concrete-jungle|split(:)|pop|trim}",
+                            "title": "{section-names.tour.curated-tour-03-concrete-jungle|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.tour.curated-tour-03-concrete-jungle.data.description.js",
+                            "layers": [
+                                "mobile-app-config.section-buttons.tour.curated-tour-03-concrete-jungle.data.layers.0.json"
+                            ],
+                            "showStartTour": true,
+                            "representativeMarker": 695
+                        }
+                    },
+                    "curated-tour-02-hidden-rijeka": {
+                        "className": "theme-curated curated-2",
+                        "action": "form",
+                        "label": "{section-names.tour.curated-tour-02-hidden-rijeka|split(:)|pop|trim}",
+                        "form": "{section-views.tour}",
+                        "remember": false,
+                        "icon": "{section-icons.tour.curated-tour-02-hidden-rijeka}",
+                        "data": {
+                            "theme": "{section-names.tour.curated-tour-02-hidden-rijeka|split(:)|pop|trim}",
+                            "theme-label": "{section-names.tour.curated-tour-02-hidden-rijeka|split(:)|pop|trim}",
+                            "layers": [
+                                "mobile-app-config.section-buttons.tour.curated-tour-02-hidden-rijeka.data.layers.0.json"
+                            ],
+                            "title": "{section-names.tour.curated-tour-02-hidden-rijeka|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.tour.curated-tour-02-hidden-rijeka.data.description.js",
+                            "showStartTour": true,
+                            "representativeMarker": 753
+                        }
+                    },
+                    "curated-tour-04-divided-city": {
+                        "className": "theme-curated curated-3",
+                        "action": "form",
+                        "label": "{section-names.tour.curated-tour-04-divided-city|split(:)|pop|trim}",
+                        "form": "{section-views.tour}",
+                        "remember": false,
+                        "icon": "{section-icons.tour.curated-tour-04-divided-city}",
+                        "data": {
+                            "theme": "{section-names.tour.curated-tour-04-divided-city|split(:)|pop|trim}",
+                            "theme-label": "{section-names.tour.curated-tour-04-divided-city|split(:)|pop|trim}",
+                            "layers": [
+                                "mobile-app-config.section-buttons.tour.curated-tour-04-divided-city.data.layers.0.json"
+                            ],
+                            "title": "{section-names.tour.curated-tour-04-divided-city|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.tour.curated-tour-04-divided-city.data.description.js",
+                            "showStartTour": true,
+                            "representativeMarker": 654
+                        }
+                    },
+                    "curated-tour-05-ghosts-of-rijeka": {
+                        "className": "theme-curated curated-4",
+                        "action": "form",
+                        "label": "{section-names.tour.curated-tour-05-ghosts-of-rijeka|split(:)|pop|trim}",
+                        "form": "{section-views.tour}",
+                        "remember": false,
+                        "icon": "{section-icons.tour.curated-tour-05-ghosts-of-rijeka}",
+                        "data": {
+                            "theme": "{section-names.tour.curated-tour-05-ghosts-of-rijeka|split(:)|pop|trim}",
+                            "theme-label": "{section-names.tour.curated-tour-05-ghosts-of-rijeka|split(:)|pop|trim}",
+                            "layers": [
+                                "mobile-app-config.section-buttons.tour.curated-tour-05-ghosts-of-rijeka.data.layers.0.json"
+                            ],
+                            "title": "{section-names.tour.curated-tour-05-ghosts-of-rijeka|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.tour.curated-tour-05-ghosts-of-rijeka.data.description.js",
+                            "showStartTour": true,
+                            "representativeMarker": 743
+                        }
+                    },
+                    "curated-tour-06-people-on-the-move": {
+                        "className": "theme-curated curated-5",
+                        "action": "form",
+                        "label": "{section-names.tour.curated-tour-06-people-on-the-move|split(:)|pop|trim}",
+                        "form": "{section-views.tour}",
+                        "remember": false,
+                        "icon": "{section-icons.tour.curated-tour-06-people-on-the-move}",
+                        "data": {
+                            "theme": "{section-names.tour.curated-tour-06-people-on-the-move|split(:)|pop|trim}",
+                            "theme-label": "{section-names.tour.curated-tour-06-people-on-the-move|split(:)|pop|trim}",
+                            "layers": [
+                                "mobile-app-config.section-buttons.tour.curated-tour-06-people-on-the-move.data.layers.0.json"
+                            ],
+                            "title": "{section-names.tour.curated-tour-06-people-on-the-move|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.tour.curated-tour-06-people-on-the-move.data.description.js",
+                            "showStartTour": true,
+                            "representativeMarker": 739
+                        }
+                    }
+                },
+                "vista": {
+                    "panorama-from-lukobran": {
+                        "className": "theme-pano pano-0",
+                        "action": "form",
+                        "label": "{section-names.vista.panorama-from-lukobran|split(:)|pop|trim}",
+                        "form": "{section-views.vista}",
+                        "remember": false,
+                        "icon": "{section-icons.vista.panorama-from-lukobran}",
+                        "data": {
+                            "theme": "{section-names.vista.panorama-from-lukobran|split(:)|pop|trim}",
+                            "theme-label": "{section-names.vista.panorama-from-lukobran|split(:)|pop|trim}",
+                            "layers": [
+                                "mobile-app-config.section-buttons.vista.panorama-from-lukobran.data.layers.0.json"
+                            ],
+                            "title": "{section-names.vista.panorama-from-lukobran|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.vista.panorama-from-lukobran.data.description.js",
+                            "pano": {
+                                "center": [
+                                    45.3242064,
+                                    14.4369604
+                                ]
+                            },
+                            "showStreetView": true,
+                            "hideAugmentedView": true,
+                            "hideMapView": true,
+                            "hideListView": true,
+                            "representativeMarker": 661,
+                            "representativeImage": "https:\/\/rijekafiume.geolive.ca\/components\/com_geolive\/users_files\/user_files_0\/Uploads\/[G]_FmJ_[ImAgE]_2yp_iNB.jpg"
+                        }
+                    },
+                    "panorama-from-trsat": {
+                        "className": "theme-pano pano-1",
+                        "action": "form",
+                        "label": "{section-names.vista.panorama-from-trsat|split(:)|pop|trim}",
+                        "form": "{section-views.vista}",
+                        "remember": false,
+                        "icon": "{section-icons.vista.panorama-from-trsat}",
+                        "data": {
+                            "theme": "{section-names.vista.panorama-from-trsat|split(:)|pop|trim}",
+                            "theme-label": "{section-names.vista.panorama-from-trsat|split(:)|pop|trim}",
+                            "layers": [
+                                "mobile-app-config.section-buttons.vista.panorama-from-trsat.data.layers.0.json"
+                            ],
+                            "title": "{section-names.vista.panorama-from-trsat|split(:)|pop|trim}",
+                            "description": "mobile-app-config.section-buttons.vista.panorama-from-trsat.data.description.js",
+                            "pano": {
+                                "center": [
+                                    45.332395,
+                                    14.4551108
+                                ],
+                                "-center": [
+                                    45.3325441,
+                                    14.4554175
+                                ],
+                                "--center": [
+                                    45.3323676,
+                                    14.4551285
+                                ],
+                                "heading": 130,
+                                "-id": "F17K3q4hd1GTfSTEA",
+                                "--id": "AF1QipP-Ljyfy5yZ15HBK8ePeckwDkVqtVybj9u-7X0M",
+                                "-url": "https:\/\/www.google.com\/maps\/@45.332395,14.4551108,3a,75y,145.52h,78.2t\/data=!3m8!1e1!3m6!1sAF1QipP-Ljyfy5yZ15HBK8ePeckwDkVqtVybj9u-7X0M!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP-Ljyfy5yZ15HBK8ePeckwDkVqtVybj9u-7X0M%3Dw203-h100-k-no-pi-0-ya187.4813-ro-0-fo100!7i4000!8i2000"
+                            },
+                            "showStreetView": true,
+                            "hideAugmentedView": true,
+                            "hideMapView": true,
+                            "hideListView": true,
+                            "representativeMarker": 707,
+                            "representativeImage": "https:\/\/rijekafiume.geolive.ca\/components\/com_geolive\/users_files\/user_files_0\/Uploads\/xmc_[ImAgE]_3aH_nth_[G].jpg"
+                        }
+                    }
+                }
+            }
         }
     },
     "widget.89": {

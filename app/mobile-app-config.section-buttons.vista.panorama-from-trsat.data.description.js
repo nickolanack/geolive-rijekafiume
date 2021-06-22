@@ -1,0 +1,1 @@
+{section-descriptions.vista.panorama-from-trsat}

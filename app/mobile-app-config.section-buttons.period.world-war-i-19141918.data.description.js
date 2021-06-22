@@ -1,0 +1,1 @@
+{section-descriptions.period.world-war-i-19141918}

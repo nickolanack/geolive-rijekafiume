@@ -1,0 +1,1 @@
+{section-descriptions.category.industry}

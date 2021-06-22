@@ -1,0 +1,1 @@
+{section-descriptions.period.world-war-ii-19411945}
