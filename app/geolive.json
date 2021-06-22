@@ -1571,9 +1571,9 @@
                 "mobile-app-config.parameters.0.json",
                 {
                     "type": "json",
-                    "name": "--views",
+                    "name": "views",
                     "default": [],
-                    "label": "views disabled"
+                    "label": "views"
                 },
                 {
                     "type": "json",
