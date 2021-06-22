@@ -5773,7 +5773,7 @@
                                 "type": "heading",
                                 "className": "small",
                                 "value": "GPS: {data.altitude||`alt`}\u2191 {data.heading||`Loading`}({data.headingCardinal||``}), AR:{data.headingAR||`-`}, {data.headingAROffset||`-`}",
-                                "action": ""
+                                "action": "showLocationDetail"
                             }
                         ]
                     }
