@@ -42,8 +42,12 @@ $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublis
             
             
             
-            if((!isset($json->showTest))&&stripos($item['name'],'Test')!==false){
+            if((!(isset($json->showTest)||isset($json->showTestOnly)))&&stripos($item['name'],'Test')!==false){
                 $testItems[]=array('id'=>$item[id], 'name'=>$item['name']);
+                return false;
+            }
+            
+             if(isset($json->showTestOnly)&&stripos($item['name'],'Test')===false){
                 return false;
             }
             
