@@ -1595,9 +1595,9 @@
                 },
                 {
                     "type": "json",
-                    "name": "--section-icons",
+                    "name": "section-icons",
                     "default": [],
-                    "label": "section-icons disabled"
+                    "label": "section-icons"
                 },
                 {
                     "type": "json",
@@ -6273,7 +6273,8 @@
                 "researcher": [
                     "mobile-app-config.section-button-templates.researcher.0.json"
                 ]
-            }
+            },
+            "section-icons": []
         }
     },
     "widget.89": {
