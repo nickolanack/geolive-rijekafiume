@@ -5772,8 +5772,13 @@
                             {
                                 "type": "heading",
                                 "className": "small",
-                                "value": "GPS: {data.altitude||`alt`}\u2191 {data.heading||`Loading`}({data.headingCardinal||``}), AR:{data.headingAR||`-`}, {data.headingAROffset||`-`}",
+                                "value": "GPS: {data.heading||`Loading`}({data.headingCardinal||``}), AR:{data.headingAR||`-`}, {data.headingAROffset||`-`}",
                                 "action": "showLocationDetail"
+                            },
+                            {
+                                "type": "heading",
+                                "className": "small",
+                                "value": "GPS: {data.latitude||`lat`}, {data.longitude||`lng`}, {data.altitude||`alt`}\u2191]"
                             }
                         ]
                     }
