@@ -5354,7 +5354,470 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "views": {
+                "test-ar": "{views.-menu-v1.fields.0.buttons.1.fields}",
+                "terms": [
+                    "mobile-app-config.views.terms.0.json",
+                    {
+                        "type": "html",
+                        "className": "terms",
+                        "value": "{terms}"
+                    }
+                ],
+                "marker-detail": [
+                    "mobile-app-config.views.marker-detail.0.json",
+                    {
+                        "type": "buttonset",
+                        "position": "bottom-right",
+                        "style": "horizontal-align:right; orientation:horizontal;",
+                        "className": "marker-card-menu",
+                        "buttons": [
+                            "mobile-app-config.views.marker-detail.1.buttons.0.json",
+                            {
+                                "className": "small-icon {data.favorited|?`fav`:`not-fav`}",
+                                "icon": "font:\/\/\uf004",
+                                "action": "favoriteCurrent"
+                            }
+                        ]
+                    }
+                ],
+                "marker-list-item": [
+                    "mobile-app-config.views.marker-list-item.0.json"
+                ],
+                "marker-list-image-preview": [
+                    "mobile-app-config.views.marker-list-image-preview.0.json"
+                ],
+                "marker-list": [
+                    "mobile-app-config.views.marker-list.0.json",
+                    {
+                        "type": "layout",
+                        "name": "action",
+                        "className": "sub-action-bar",
+                        "center": [
+                            "mobile-app-config.views.marker-list.1.center.0.json"
+                        ],
+                        "right": [
+                            "mobile-app-config.views.marker-list.1.right.0.json"
+                        ],
+                        "--right": [
+                            "mobile-app-config.views.marker-list.1.--right.0.json"
+                        ]
+                    },
+                    {
+                        "type": "scroll",
+                        "className": "image-previews",
+                        "fields": [
+                            "mobile-app-config.views.marker-list.2.fields.0.json"
+                        ]
+                    },
+                    {
+                        "className": "list-description",
+                        "type": "label",
+                        "value": "{data.description}",
+                        "fieldFormatter": "textFieldFormat",
+                        "elementFormatter": "textElementFormat",
+                        "valueFormatter": "textValueFormat"
+                    },
+                    {
+                        "type": "buttonset",
+                        "className": "marker-card-menu",
+                        "buttons": [
+                            "mobile-app-config.views.marker-list.4.buttons.0.json",
+                            {
+                                "className": "small-icon augmented-view {data.hideAugmentedView|?`hide-augmented`:`show-augmented`||`show-augmented`}",
+                                "action": "form",
+                                "form": "augmented",
+                                "permissions": [
+                                    "gps",
+                                    "ar"
+                                ],
+                                "label": "{app-labels.buttons.ar}",
+                                "remember": false,
+                                "icon": "{menu-icons.ar}",
+                                "data": {
+                                    "theme-label": "{data.theme-label}",
+                                    "theme": "{data.theme}",
+                                    "layers": "{data.layers}"
+                                }
+                            },
+                            {
+                                "className": "small-icon map-view {data.hideMapView|?`hide-map`:`show-map``||`show-map`}",
+                                "action": "form",
+                                "permissions": [
+                                    "gps"
+                                ],
+                                "form": "mainmap",
+                                "label": "{app-labels.buttons.map}",
+                                "remember": false,
+                                "icon": "{menu-icons.map}",
+                                "data": {
+                                    "theme-label": "{data.theme-label}",
+                                    "theme": "{data.theme}",
+                                    "layers": "{data.layers}"
+                                }
+                            },
+                            {
+                                "className": "small-icon toggle-list-btn list-view {data.listVisible|?`is-visible`:`is-hidden`} {data.hideListView|?`hide-list`:`show-list``||`show-list`}",
+                                "action": "toggleListVisibility",
+                                "label": "{app-labels.buttons.list}",
+                                "icon": "{menu-icons.list}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "className": "list-item-name {data.listVisible|?`is-visible`:`is-hidden`}",
+                        "list": "layer",
+                        "listArgs": "{data.layers}",
+                        "empty": [
+                            "mobile-app-config.views.marker-list.5.empty.0.json"
+                        ],
+                        "listItemFields": "{views.marker-list-item}"
+                    }
+                ],
+                "list-view": [
+                    "mobile-app-config.views.list-view.0.json"
+                ],
+                "-menu-v1": [
+                    "mobile-app-config.views.-menu-v1.0.json"
+                ],
+                "mainmap": [
+                    "mobile-app-config.views.mainmap.0.json",
+                    {
+                        "type": "map",
+                        "position": "detail-top",
+                        "layers": "{data.layers}",
+                        "center": [
+                            45.32011614947399,
+                            14.44043993835453
+                        ],
+                        "markerIcon": "{}",
+                        "zoom": 13,
+                        "zoomToLocation": false,
+                        "markerDetail": {
+                            "remember": false,
+                            "data": {
+                                "id": "{data.feature.id}",
+                                "name": "{data.feature.title}",
+                                "description": "{data.feature.description}",
+                                "researcher": "{data.feature.userData.attributes.researcher}",
+                                "media": "{data.feature.userData.attributes.media}",
+                                "layers": "{data.layers}",
+                                "feature": "{data.feature}"
+                            },
+                            "view": "marker-detail"
+                        }
+                    },
+                    {
+                        "type": "fieldset",
+                        "position": "absolute",
+                        "top": 10,
+                        "left": 10,
+                        "className": "{data.theme} theme-legend",
+                        "fields": [
+                            "mobile-app-config.views.mainmap.2.fields.0.json"
+                        ]
+                    }
+                ],
+                "streetView": [
+                    "mobile-app-config.views.streetView.0.json",
+                    {
+                        "type": "streetView",
+                        "position": "detail-top",
+                        "center": "{data.pano.center||``}",
+                        "id": "{data.pano.id||``}",
+                        "heading": "{data.pano.heading||``}",
+                        "zoom": 1,
+                        "zoomToLocation": false,
+                        "markerDetail": {
+                            "remember": false,
+                            "data": {
+                                "id": "{data.feature.id}",
+                                "name": "{data.feature.title}",
+                                "description": "{data.feature.description}",
+                                "researcher": "{data.feature.userData.attributes.researcher}",
+                                "media": "{data.feature.userData.attributes.media}",
+                                "layers": "{data.layers}",
+                                "feature": "{data.feature}"
+                            },
+                            "view": "marker-detail"
+                        }
+                    }
+                ],
+                "about": [
+                    "mobile-app-config.views.about.0.json",
+                    {
+                        "type": "heading",
+                        "value": "{app-labels.about.heading}"
+                    },
+                    {
+                        "type": "fieldset",
+                        "--position": "bottom-center",
+                        "style": "orientation:horizontal;",
+                        "className": "about-fieldset",
+                        "fields": [
+                            "mobile-app-config.views.about.2.fields.0.json"
+                        ]
+                    },
+                    {
+                        "type": "label",
+                        "value": "{app-labels.about.paragraph0}",
+                        "--valueFormatter": "textParaValueFormat",
+                        "fieldFormatter": "textFieldFormat",
+                        "elementFormatter": "textElementFormat",
+                        "valueFormatter": "textValueFormat"
+                    },
+                    {
+                        "type": "label",
+                        "value": "{app-labels.about.paragraph1}",
+                        "valueFormatter": "textParaValueFormat"
+                    },
+                    {
+                        "type": "label",
+                        "value": "{app-labels.about.paragraph2}",
+                        "valueFormatter": "textParaValueFormat"
+                    },
+                    {
+                        "type": "label",
+                        "value": "{app-labels.about.paragraph3}",
+                        "valueFormatter": "textParaValueFormat"
+                    }
+                ],
+                "placeholder": [
+                    "mobile-app-config.views.placeholder.0.json",
+                    {
+                        "type": "label",
+                        "value": "This is a placeholder page"
+                    }
+                ],
+                "partners": [
+                    "mobile-app-config.views.partners.0.json",
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-1}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-1}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-2}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-2}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-3}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-3}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-4}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-4}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-5}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-5}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-6}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-6}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-7}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-7}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-8}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-8}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-9}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-9}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-10}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-10}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-11}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-11}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-12}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-12}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    },
+                    {
+                        "type": "image",
+                        "image": "{app-labels.about.logo-13}",
+                        "fieldFormatter": "partnerLogoFormat"
+                    },
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.logo-13}",
+                        "valueFormatter": "textPartnerValueFormat"
+                    }
+                ],
+                "credits": [
+                    "mobile-app-config.views.credits.0.json",
+                    {
+                        "type": "html",
+                        "value": "{app-labels.about.paragraphcredits}",
+                        "valueFormatter": "textParaValueFormat"
+                    }
+                ],
+                "augmented": [
+                    "mobile-app-config.views.augmented.0.json",
+                    {
+                        "type": "fieldset",
+                        "position": "absolute",
+                        "top": 20,
+                        "right": 20,
+                        "className": "{data.theme} theme-legend",
+                        "fields": [
+                            "mobile-app-config.views.augmented.1.fields.0.json",
+                            {
+                                "type": "fieldset",
+                                "condition": "{data.visibleMarkers|length}",
+                                "fields": [
+                                    "mobile-app-config.views.augmented.1.fields.1.fields.0.json",
+                                    {
+                                        "type": "heading",
+                                        "value": "{data.visibleMarkers.0.name||`--`}",
+                                        "events": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "fieldset",
+                        "position": "absolute",
+                        "bottom": 20,
+                        "left": 20,
+                        "className": "{data.theme} theme-legend",
+                        "fields": [
+                            "mobile-app-config.views.augmented.2.fields.0.json",
+                            {
+                                "type": "heading",
+                                "className": "small",
+                                "value": "AR State: {data.stateAR||`Loading`}"
+                            },
+                            {
+                                "type": "heading",
+                                "className": "small",
+                                "value": "GPS: {data.altitude||`alt`} {data.heading||`Loading`}({data.headingCardinal||``}), AR:{data.headingAR||`-`}, {data.headingAROffset||`-`}",
+                                "action": ""
+                            }
+                        ]
+                    }
+                ],
+                "language": [
+                    "mobile-app-config.views.language.0.json",
+                    {
+                        "type": "label",
+                        "value": "choose your language"
+                    },
+                    {
+                        "type": "fieldset",
+                        "fieldFormatter": "languageSelectionFormatter",
+                        "style": "orientation:horizontal;",
+                        "fields": [
+                            "mobile-app-config.views.language.2.fields.0.json",
+                            {
+                                "type": "button",
+                                "label": "French",
+                                "action": "submit",
+                                "data": {
+                                    "lang": "fr"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "label": "Italian",
+                                "action": "submit",
+                                "data": {
+                                    "lang": "it"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "label": "Croatian",
+                                "action": "submit",
+                                "data": {
+                                    "lang": "hr"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     },
     "widget.89": {

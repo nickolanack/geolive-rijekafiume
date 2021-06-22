@@ -1,0 +1,23 @@
+{
+    "type": "image",
+    "image": "{{value.attributes.media|images}.0.url}?thumb=x>800y>500",
+    "--stretch": "aspectFit",
+    "action": "form",
+    "name": "image-detail",
+    "elementFormatter": "imageElementFormat",
+    "fields": [
+        {
+            "className": "image-preview",
+            "type": "image",
+            "image": "{{value.attributes.media|images}.0.url}?thumb=x>800y>500"
+        },
+        {
+            "type": "label",
+            "value": "{value.attributes.caption||`missing caption`}"
+        },
+        {
+            "type": "label",
+            "value": "{value.attributes.source||`missing source`}"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "augmentedreality",
+    "position": "detail-top",
+    "card": "{views.marker-card}",
+    "layers": "{data.layers}",
+    "--offsetLatLng": {
+        "lat": 45.322,
+        "lng": 14.452,
+        "alt": 0
+    },
+    "itemDetail": {
+        "remember": false,
+        "data": {
+            "id": "{data.item.id}",
+            "name": "{data.item.name}",
+            "media": "{data.item.attributes.media}",
+            "description": "{data.item.description}",
+            "researcher": "{data.item.attributes.researcher}"
+        },
+        "view": "marker-detail"
+    }
+}

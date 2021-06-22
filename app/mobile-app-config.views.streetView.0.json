@@ -1,0 +1,15 @@
+{
+    "alert": {
+        "title": "Panorama Preview",
+        "message": "This feature is under development",
+        "cancelButtonText": "Close"
+    },
+    "type": "data",
+    "data": {
+        "center": [
+            "lat",
+            "lon",
+            "zoom"
+        ]
+    }
+}

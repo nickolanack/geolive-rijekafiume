@@ -1,0 +1,14 @@
+{
+    "className": "small-icon street-view {data.showStreetView|?`show-street`:`hide-street`||`hide-street`}",
+    "action": "form",
+    "form": "streetView",
+    "label": "Pano",
+    "remember": false,
+    "icon": "{menu-icons.pano}",
+    "data": {
+        "theme-label": "{data.theme-label}",
+        "theme": "{data.theme}",
+        "layers": "{data.layers}",
+        "pano": "{data.pano||``}"
+    }
+}
