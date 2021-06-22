@@ -1607,9 +1607,9 @@
                 },
                 {
                     "type": "json",
-                    "name": "--menu-icons",
+                    "name": "menu-icons",
                     "default": [],
-                    "label": "menu-icons disabled"
+                    "label": "menu-icons"
                 },
                 {
                     "type": "json",
@@ -6317,7 +6317,8 @@
                     "panorama-from-lukobran": "~\/section-icons\/vista\/panorama-from-lukobran.png",
                     "panorama-from-trsat": "~\/section-icons\/vista\/panorama-from-trsat.png"
                 }
-            }
+            },
+            "menu-icons": []
         }
     },
     "widget.89": {
