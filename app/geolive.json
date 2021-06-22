@@ -5778,7 +5778,7 @@
                             {
                                 "type": "heading",
                                 "className": "small",
-                                "value": "GPS: {data.latitude||`lat`}, {data.longitude||`lng`}, {data.altitude||`alt`}\u2191]"
+                                "value": "GPS: {data.latitude||`lat`}, {data.longitude||`lng`}, {data.altitude||`alt`}\u2191"
                             }
                         ]
                     }
