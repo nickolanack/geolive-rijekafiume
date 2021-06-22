@@ -1589,9 +1589,9 @@
                 },
                 {
                     "type": "json",
-                    "name": "--section-views",
+                    "name": "section-views",
                     "default": [],
-                    "label": "section-view disableds"
+                    "label": "section-view"
                 },
                 {
                     "type": "json",
@@ -6329,7 +6329,8 @@
                 "save": "~\/menu-icons\/save.png",
                 "share": "~\/menu-icons\/share.png",
                 "pano": "~\/menu-icons\/pano.png"
-            }
+            },
+            "section-views": []
         }
     },
     "widget.89": {
