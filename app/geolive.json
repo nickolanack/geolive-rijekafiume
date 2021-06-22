@@ -1601,9 +1601,9 @@
                 },
                 {
                     "type": "json",
-                    "name": "--app-icons",
+                    "name": "app-icons",
                     "default": [],
-                    "label": "app-icons disabled"
+                    "label": "app-icons"
                 },
                 {
                     "type": "json",
@@ -6337,7 +6337,8 @@
                 "vista": "marker-list",
                 "saved-locations": "marker-list",
                 "researcher": "marker-list"
-            }
+            },
+            "app-icons": []
         }
     },
     "widget.89": {
