@@ -6330,7 +6330,14 @@
                 "share": "~\/menu-icons\/share.png",
                 "pano": "~\/menu-icons\/pano.png"
             },
-            "section-views": []
+            "section-views": {
+                "category": "marker-list",
+                "period": "marker-list",
+                "tour": "marker-list",
+                "vista": "marker-list",
+                "saved-locations": "marker-list",
+                "researcher": "marker-list"
+            }
         }
     },
     "widget.89": {
