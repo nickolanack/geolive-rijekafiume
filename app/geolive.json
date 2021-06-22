@@ -1577,9 +1577,9 @@
                 },
                 {
                     "type": "json",
-                    "name": "--section-buttons",
+                    "name": "section-buttons",
                     "default": [],
-                    "label": "section-button disableds"
+                    "label": "section-buttons"
                 },
                 {
                     "type": "json",
@@ -5822,7 +5822,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            "section-buttons": []
         }
     },
     "widget.89": {
