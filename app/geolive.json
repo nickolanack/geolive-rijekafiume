@@ -6338,7 +6338,14 @@
                 "saved-locations": "marker-list",
                 "researcher": "marker-list"
             },
-            "app-icons": []
+            "app-icons": {
+                "logo": "~\/app-icons\/logo256.png",
+                "logo512": "~\/app-icons\/logo512.png",
+                "logo1024": "~\/app-icons\/logo1024.png",
+                "splashScreen": "~\/app-icons\/splashScreen1024.png",
+                "splashScreenLandscape": "~\/app-icons\/splashScreenLandscape1024x768Optional.png",
+                "splashScreenPortrait": "~\/app-icons\/splashScreenPortrait768x1024Optional.png"
+            }
         }
     },
     "widget.89": {
