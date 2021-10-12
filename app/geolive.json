@@ -1890,7 +1890,7 @@
                     "paragraph2": "",
                     "paragraph3": "",
                     "headingcredits": "Credits",
-                    "paragraphcredits": "Concept: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nGraphic Design: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgramming: Nick Blackwell\nPresentation: Brigitte Le Normand, Francesca Rolandi\nEditing: Brigitte Le Normand,  Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua\nTesting: Francesca Rolandi, Vanni D'Alessio",
+                    "paragraphcredits": "Concept: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nGraphic Design: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgramming: Nick Blackwell\nPresentation: Brigitte Le Normand, Francesca Rolandi\nEditing: Brigitte Le Normand,  Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua, Eugenio Berra\nTesting: Francesca Rolandi, Vanni D'Alessio",
                     "headingpartners": "Partners",
                     "logo-1": "http:\/\/cas.uniri.hr\/",
                     "logo-2": "http:\/\/cib.uniri.hr\/home\/",
@@ -2062,6 +2062,8 @@
                 "main": {
                     "category": "Categorie",
                     "period": "Periodi",
+                    "researcher": "Ricercatori",
+                    "keywords": "XXXX-XXXX",
                     "tour": "Tour",
                     "vista": "Panorami",
                     "search": "Ricerca",
