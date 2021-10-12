@@ -1793,6 +1793,8 @@
                 "main": {
                     "category": "Categories",
                     "period": "Periods",
+                    "researcher": "Researchers",
+                    "keywords": "XXXX-XXXX",
                     "tour": "Tours",
                     "vista": "Panoramas",
                     "search": "Search",
