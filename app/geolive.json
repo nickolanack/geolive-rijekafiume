@@ -1996,7 +1996,7 @@
                     "paragraph2": "",
                     "paragraph3": "",
                     "headingcredits": "Cr\u00e9dits",
-                    "paragraphcredits": "Concept: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nConception graphique: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgrammation: Nick Blackwell\nPr\u00e9sentation: Brigitte Le Normand, Francesca Rolandi\nMontage: Brigitte Le Normand,  Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua\nEssais: Francesca Rolandi, Vanni D'Alessio",
+                    "paragraphcredits": "Concept: Brigitte Le Normand, Jon Corbett, Nata\u0161a Jankovi\u0107, Marco Abram\nConception graphique: Nata\u0161a Jankovi\u0107, Nick Blackwell\nProgrammation: Nick Blackwell\nPr\u00e9sentation: Brigitte Le Normand, Francesca Rolandi\nMontage: Brigitte Le Normand,  Francesca Rolandi, Oriane Edwards, Angelo Massaro, Diana Stani\u0107, Rina Garcia Chua, Eugenio Berra\nEssais: Francesca Rolandi, Vanni D'Alessio",
                     "headingpartners": "Les partenaires",
                     "logo-1": "http:\/\/cas.uniri.hr\/",
                     "logo-2": "http:\/\/cib.uniri.hr\/home\/",
@@ -2196,6 +2196,8 @@
                 "main": {
                     "category": "Kategorije",
                     "period": "Razdoblja",
+                    "researcher": "Istra\u017eiva\u010di",
+                    "keywords": "XXXX-XXXX",
                     "tour": "Obilasci",
                     "vista": "Panorame",
                     "search": "Pretra\u017eivanje",
