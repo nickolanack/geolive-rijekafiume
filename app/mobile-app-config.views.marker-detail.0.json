@@ -67,7 +67,7 @@
             "type": "label",
             "className": "heading",
             "value": "Videos",
-            "condition": "{{data.media||data.attributes.media}|strip-images|trim|?}",
+            "condition": "{{data.media||data.attributes.media}|strip-images|trim|length}",
             "action": "view",
             "remember": false,
             "view": "references",
