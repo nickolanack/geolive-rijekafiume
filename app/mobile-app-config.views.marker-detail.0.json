@@ -64,36 +64,29 @@
             "fieldFormatter": "itemCategoriesFieldFormat"
         },
         {
-            "type": "fieldset",
-            "condition": "false",
-            "_condition": "{{data.media||data.attributes.media}|strip-images|trim|length|?}",
+            "type": "label",
+            "className": "heading {{data.media||data.attributes.media}|strip-images|trim|length|?`has-video`:`no-video`}",
+            "value": "Videos",
+            "action": "view",
+            "remember": false,
+            "view": "references",
+            "data": {
+                "media": "{data.media||data.attributes.media}"
+            },
             "fields": [
                 {
                     "type": "label",
-                    "className": "heading {{data.media||data.attributes.media}|strip-images|trim|length|?`has-video`:`no-video`}",
-                    "value": "Videos",
-                    "action": "view",
-                    "remember": false,
-                    "view": "references",
-                    "data": {
-                        "media": "{data.media||data.attributes.media}"
-                    },
-                    "fields": [
-                        {
-                            "type": "label",
-                            "className": "heading",
-                            "value": "{data.media|strip-images}",
-                            "action": "link",
-                            "link": "{data.media|strip-images}"
-                        },
-                        {
-                            "type": "youtube-video",
-                            "video": "{data.media|strip-images}"
-                        }
-                    ],
-                    "fieldFormatter": "videoFieldFormat"
+                    "className": "heading",
+                    "value": "{data.media|strip-images}",
+                    "action": "link",
+                    "link": "{data.media|strip-images}"
+                },
+                {
+                    "type": "youtube-video",
+                    "video": "{data.media|strip-images}"
                 }
-            ]
+            ],
+            "fieldFormatter": "videoFieldFormat"
         },
         {
             "type": "label",
