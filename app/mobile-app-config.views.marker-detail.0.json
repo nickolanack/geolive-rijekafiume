@@ -65,7 +65,7 @@
         },
         {
             "type": "fieldset",
-            "condition": false,
+            "condition": "false",
             "_condition": "{{data.media||data.attributes.media}|strip-images|trim|length|?}",
             "fields": [
                 {
