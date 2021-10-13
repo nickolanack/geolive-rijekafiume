@@ -77,7 +77,7 @@
                 {
                     "type": "label",
                     "className": "heading",
-                    "value": "-{data.media|strip-images?`Open in youtube`:`...`}-",
+                    "value": "-{data.media|strip-images|?`Open in youtube`:`...`}-",
                     "action": "link",
                     "link": "{data.media|strip-images}"
                 },
