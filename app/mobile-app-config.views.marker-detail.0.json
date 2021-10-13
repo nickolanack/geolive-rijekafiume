@@ -66,8 +66,8 @@
         {
             "type": "label",
             "className": "heading {{data.media||data.attributes.media}|strip-images|trim|length|?`has-video`:`no-video`}",
-            "value": "Videoss",
-            "_condition": "{{data.media||data.attributes.media}|strip-images|trim|length}",
+            "value": "Videos",
+            "condition": false,
             "action": "view",
             "remember": false,
             "view": "references",
