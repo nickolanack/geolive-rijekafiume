@@ -65,7 +65,7 @@
         },
         {
             "type": "label",
-            "className": "heading",
+            "className": "heading video-link {data.media||``|strip-images|?`has-video`:``} {data.attributes.media||``|strip-images|?`has-video`:``}",
             "value": "Videos",
             "action": "view",
             "remember": false,
