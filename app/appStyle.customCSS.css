@@ -8,12 +8,7 @@
 
 }
 
- .video-link {
-                visibility: collapse;
-            }
-.video-link.has-video {
-                visibility: visible;
-            }
+
 .theme-near.theme-legend Label.label, .theme-near.theme-legend Label.heading, .theme-near.theme-legend Image.font {
         color: #4169e1;
     
