@@ -1,0 +1,62 @@
+{
+    "type": "buttonset",
+    "className": "marker-card-menu about-button-menu",
+    "buttons": [
+        {
+            "type": "button",
+            "icon": "font:\/\/\uf0a3",
+            "label": "{app-labels.menu-terms}",
+            "form": "terms",
+            "fields": [
+                {
+                    "type": "html",
+                    "value": "{terms}"
+                }
+            ],
+            "className": "small about-button-sp",
+            "action": "form"
+        },
+        {
+            "type": "button",
+            "icon": "font:\/\/\uf1ab",
+            "label": "{app-labels.menu-lang}",
+            "form": "language",
+            "action": "form",
+            "className": "small about-button-sp"
+        },
+        {
+            "type": "button",
+            "icon": "font:\/\/\uf0c0",
+            "label": "Partners",
+            "form": "partners",
+            "action": "form",
+            "className": "small about-button-sp"
+        },
+        {
+            "type": "button",
+            "icon": "font:\/\/\uf1f9",
+            "label": "{app-labels.menu-credits}",
+            "form": "credits",
+            "action": "form",
+            "className": "small about-button-sp"
+        },
+        {
+            "type": "button",
+            "icon": "font:\/\/\uf188",
+            "label": "{app-labels.menu-report}",
+            "--form": "credits",
+            "action": "link",
+            "link": "https:\/\/forms.gle\/GubbqmP3vN84yXH57",
+            "className": "small about-button-sp"
+        },
+        {
+            "type": "button",
+            "icon": "font:\/\/\uf2c6",
+            "label": "{app-labels.menu-mail}",
+            "--form": "credits",
+            "action": "link",
+            "link": "http:\/\/eepurl.com\/hr0sVv",
+            "className": "small about-button-sp"
+        }
+    ]
+}
