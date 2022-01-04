@@ -5909,6 +5909,23 @@
                                 "className": "small-icon {data.favorited|?`fav`:`not-fav`}",
                                 "icon": "font:\/\/\uf004",
                                 "action": "favoriteCurrent"
+                            },
+                            {
+                                "className": "small-icon",
+                                "action": "form",
+                                "form": "mainmap",
+                                "permissions": [
+                                    "gps"
+                                ],
+                                "remember": false,
+                                "icon": "{menu-icons.map}",
+                                "data": {
+                                    "theme": "theme-saved",
+                                    "theme-label": "Your saved items",
+                                    "layers": [
+                                        "mobile-app-config.views.marker-detail.1.buttons.2.data.layers.0.json"
+                                    ]
+                                }
                             }
                         ]
                     }
