@@ -1,8 +1,0 @@
-{
-    "type": "button",
-    "label": "English",
-    "action": "submit",
-    "data": {
-        "lang": "en"
-    }
-}
