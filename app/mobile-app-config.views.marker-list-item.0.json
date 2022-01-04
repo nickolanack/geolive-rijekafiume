@@ -1,0 +1,31 @@
+{
+    "type": "card",
+    "className": "card-list-item",
+    "fields": [
+        {
+            "type": "fieldset",
+            "name": "marker-detail",
+            "className": "marker-detail",
+            "fields": [
+                {
+                    "type": "image",
+                    "image": "{{value.attributes.media|images}.0.url}?thumb=x>800y>500"
+                },
+                {
+                    "type": "label",
+                    "value": "{value.name}"
+                }
+            ]
+        }
+    ],
+    "action": "form",
+    "name": "marker-detail",
+    "remember": false,
+    "data": "{value}",
+    "detail": [
+        {
+            "type": "fieldset",
+            "fields": "{views.marker-detail}"
+        }
+    ]
+}
