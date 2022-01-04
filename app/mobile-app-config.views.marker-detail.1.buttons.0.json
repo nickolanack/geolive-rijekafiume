@@ -1,0 +1,5 @@
+{
+    "className": "small-icon",
+    "icon": "~\/app-icons\/share.png",
+    "action": "shareCurrent"
+}
