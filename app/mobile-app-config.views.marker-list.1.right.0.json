@@ -1,0 +1,17 @@
+{
+    "type": "button",
+    "label": "{app-labels.menu-start-tour}",
+    "condition": "{data.showStartTour||false}",
+    "action": "form",
+    "permissions": [
+        "gps"
+    ],
+    "form": "mainmap",
+    "remember": false,
+    "data": {
+        "theme-label": "{data.theme-label}",
+        "theme": "{data.theme}",
+        "layers": "{data.layers}",
+        "startTour": true
+    }
+}
