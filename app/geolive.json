@@ -5921,7 +5921,7 @@
                                 "icon": "{menu-icons.map}",
                                 "data": {
                                     "theme": "theme-saved",
-                                    "theme-label": "Your saved items",
+                                    "theme-label": "{data.name}",
                                     "layers": [
                                         "mobile-app-config.views.marker-detail.1.buttons.2.data.layers.0.json"
                                     ]
