@@ -70,6 +70,10 @@ $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublis
                return $filter->filterCategory==$item['attributes']['category'];
             }
             
+            if(key_exists("filterMarker",$filter)){
+               return $filter->filterMarker==$item['id'];
+            }
+            
             
             
             if(key_exists("filterTour",$filter)){
