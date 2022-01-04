@@ -41,6 +41,11 @@
         {
             "type": "label",
             "className": "heading",
+            "value": "{data.address||data.attributes.address}"
+        },
+        {
+            "type": "label",
+            "className": "heading",
             "value": "References",
             "action": "view",
             "view": "references",
