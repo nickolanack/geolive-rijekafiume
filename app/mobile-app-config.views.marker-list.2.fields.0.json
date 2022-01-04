@@ -1,0 +1,10 @@
+{
+    "type": "list",
+    "list": "layer",
+    "listArgs": "{data.layers}",
+    "empty": [],
+    "listItemFields": "{views.marker-list-image-preview}",
+    "listFormatter": "imageList",
+    "--itemFieldFormatter": "imageFormat",
+    "pageLength": 4
+}
