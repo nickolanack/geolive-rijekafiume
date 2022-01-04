@@ -1,0 +1,13 @@
+{
+    "type": "list",
+    "className": "list-item-name is-visible",
+    "list": "layer",
+    "listArgs": "{data.layers}",
+    "empty": [
+        {
+            "type": "heading",
+            "value": "nothing here"
+        }
+    ],
+    "listItemFields": "{views.marker-list-item}"
+}
