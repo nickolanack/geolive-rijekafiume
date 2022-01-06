@@ -15,7 +15,8 @@
             "name": "{data.item.name}",
             "media": "{data.item.attributes.media}",
             "description": "{data.item.description}",
-            "researcher": "{data.item.attributes.researcher}"
+            "researcher": "{data.item.attributes.researcher}",
+            "attributes": "{data.item.attributes}"
         },
         "view": "marker-detail"
     }

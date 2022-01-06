@@ -6052,7 +6052,8 @@
                                 "researcher": "{data.feature.userData.attributes.researcher}",
                                 "media": "{data.feature.userData.attributes.media}",
                                 "layers": "{data.layers}",
-                                "feature": "{data.feature}"
+                                "feature": "{data.feature}",
+                                "attributes": "{data.feature.userData.attributes}"
                             },
                             "view": "marker-detail"
                         }
@@ -6087,7 +6088,8 @@
                                 "researcher": "{data.feature.userData.attributes.researcher}",
                                 "media": "{data.feature.userData.attributes.media}",
                                 "layers": "{data.layers}",
-                                "feature": "{data.feature}"
+                                "feature": "{data.feature}",
+                                "attributes": "{data.feature.userData.attributes}"
                             },
                             "view": "marker-detail"
                         }
