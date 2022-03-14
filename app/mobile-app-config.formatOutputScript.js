@@ -2,7 +2,6 @@ $analyticUrl=escapeshellarg('https://analytic.fra.geoforms.ca?json='.json_encode
 $cmd  = "curl --max-time 60 ";
 $cmd .= "'" . $analyticUrl . "'";
 $cmd .= " > /dev/null 2>&1 &";
-//echo $cmd;
 exec($cmd, $output, $exit);
    
 
