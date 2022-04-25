@@ -63,7 +63,7 @@ $items=(array_filter($results, function($item)use($json, &$testItems, &$unpublis
             }
             
             $ignorePublished=false;//isset($json->ignorePublished);
-            $ignorePublished=isset($json->ignorePublished)?$json->ignorePublished:false;
+            //$ignorePublished=isset($json->ignorePublished)?$json->ignorePublished:false;
             if((!($ignorePublished))&&($item['attributes']['published']===false||$item['attributes']['published']==="false")){
                 $unpublished[]=array('id'=>$item[id], 'name'=>$item['name']);
                 return false;
