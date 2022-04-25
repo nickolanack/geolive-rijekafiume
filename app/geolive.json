@@ -6080,6 +6080,7 @@
                         "center": "{data.pano.center||``}",
                         "id": "{data.pano.id||``}",
                         "heading": "{data.pano.heading||``}",
+                        "altitude": "{data.pano.altitude||``}",
                         "zoom": 1,
                         "zoomToLocation": false,
                         "markerDetail": {
