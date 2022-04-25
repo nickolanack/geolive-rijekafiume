@@ -5756,7 +5756,8 @@
                                 "center": [
                                     45.3242064,
                                     14.4369604
-                                ]
+                                ],
+                                "altitude": 40
                             },
                             "showStreetView": true,
                             "hideAugmentedView": true,
@@ -5786,6 +5787,7 @@
                                     45.332395,
                                     14.4551108
                                 ],
+                                "altitude": 155,
                                 "-center": [
                                     45.3325441,
                                     14.4554175
