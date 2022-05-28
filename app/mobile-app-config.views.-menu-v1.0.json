@@ -294,6 +294,7 @@
                                             "className": "theme-search search-3",
                                             "label": "{section-names.main.keywords}",
                                             "action": "form",
+                                            "remember": false,
                                             "name": "keywords",
                                             "fields": [
                                                 {
