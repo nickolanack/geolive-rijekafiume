@@ -262,6 +262,7 @@
                                             "className": "theme-search search-2 ",
                                             "label": "{section-names.main.researcher}",
                                             "action": "form",
+                                            "remember": false,
                                             "name": "researcher",
                                             "fields": [
                                                 {
@@ -312,6 +313,7 @@
                                                             "type": "textfield",
                                                             "position": "top-center",
                                                             "className": "search",
+                                                            "remember": false,
                                                             "placeholder": "keyword search",
                                                             "autocorrect": false,
                                                             "name": "keywordSearch"
