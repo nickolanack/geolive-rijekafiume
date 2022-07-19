@@ -126,7 +126,7 @@
             "googleMapsVersion": "",
             "tileCachePath": "{front}\/tiles\/",
             "layerDisplayFilterScript": "",
-            "formatMapitemScript": ""
+            "formatMapitemScript": "plugin.Maps.12.formatMapitemScript.js"
         }
     },
     "plugin.13": {
