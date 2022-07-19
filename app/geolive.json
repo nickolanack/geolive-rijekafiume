@@ -8311,5 +8311,16 @@
             "returnsValue": false,
             "readAccess": "public"
         }
+    },
+    "widget.91": {
+        "name": "Flexible Height Widget",
+        "instance": "FlexibleHeight",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "none",
+            "offset": "100",
+            "maxHeight": "1000",
+            "minHeight": "400"
+        }
     }
 }
