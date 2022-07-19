@@ -7194,7 +7194,7 @@
             "link": true,
             "widgetTitle": "Map Style",
             "target": "forTheCuratedMap",
-            "customCSS": "",
+            "customCSS": "Map Style.customCSS.css",
             "readAccess": "public"
         }
     },
