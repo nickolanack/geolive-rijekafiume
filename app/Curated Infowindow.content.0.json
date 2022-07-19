@@ -10,7 +10,7 @@
         "portraitImageHeight": 100,
         "autoArrange": true,
         "oneLine": true,
-        "maxChars": 0,
+        "maxChars": 500,
         "maxWidth": 0,
         "showAudios": true,
         "showVideos": true,
