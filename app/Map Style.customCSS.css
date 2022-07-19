@@ -23,3 +23,11 @@ a.more {
     text-shadow: 0 0 4px black;
     border-radius: 3px;
 }
+
+.iw-title, .field-value-module .field-label {
+    color: #444444;
+}
+
+.iw-content {
+    line-height: 18px;
+}
