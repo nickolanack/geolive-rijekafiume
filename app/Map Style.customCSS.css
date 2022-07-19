@@ -3,3 +3,14 @@
     font-weight: 400;
     margin: 10px 0;
 }
+
+.media-section>*>span {vertical-align: top;margin: 2px;display: inline-block;}
+
+.media-section {
+    text-align: center;
+    margin-top:10px;
+}
+
+.media-section>* {
+    display: inline-block;
+}
