@@ -6785,7 +6785,7 @@
             "position": "RIGHT_CENTER",
             "fullscreen": true,
             "home": true,
-            "iconset": true,
+            "iconset": false,
             "login": true,
             "logout": false,
             "controlColor": "rgb(0, 0, 0)",
