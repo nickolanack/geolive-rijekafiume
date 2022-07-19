@@ -7192,9 +7192,10 @@
         "parameters": {
             "cacheable": false,
             "link": false,
-            "widgetTitle": "",
-            "target": "none",
-            "customCSS": ""
+            "widgetTitle": "Map Style",
+            "target": "forTheCuratedMap",
+            "customCSS": "",
+            "readAccess": "public"
         }
     },
     "widget.74": {
