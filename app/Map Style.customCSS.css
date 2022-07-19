@@ -14,3 +14,12 @@
 .media-section>* {
     display: inline-block;
 }
+
+a.more {
+    border: 1px solid #3a5689;
+    padding: 0 4px;
+    background: cornflowerblue;
+    color: white;
+    text-shadow: 0 0 4px black;
+    border-radius: 3px;
+}
