@@ -7186,6 +7186,17 @@
             "readAccess": "public"
         }
     },
+    "widget.90": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "cacheable": false,
+            "link": false,
+            "widgetTitle": "",
+            "target": "none",
+            "customCSS": ""
+        }
+    },
     "widget.74": {
         "name": "Attr CSV Export",
         "instance": "ExportData",
