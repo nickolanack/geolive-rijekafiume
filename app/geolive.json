@@ -6932,7 +6932,7 @@
                                     "attributeFieldArray": [
                                         "Curated Infowindow.metadata.positions.content.modules.1.config.attributeFieldArray.0.json"
                                     ],
-                                    "className": "",
+                                    "className": "media-section",
                                     "imageWidth": 300,
                                     "imageHeight": 240,
                                     "multiImageWidth": 100,
