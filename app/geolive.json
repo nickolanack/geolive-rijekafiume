@@ -7203,7 +7203,7 @@
         "instance": "ExportData",
         "parameters": {
             "widgetTitle": "",
-            "readAccess": "public",
+            "readAccess": "special",
             "target": "forTheCuratedMap",
             "position": "RIGHT_CENTER",
             "downloadImage": [],
