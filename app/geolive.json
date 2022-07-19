@@ -6909,7 +6909,7 @@
         "name": "Detail View",
         "instance": "DetailView",
         "parameters": {
-            "widgetTitle": "",
+            "widgetTitle": "Curated Infowindow",
             "target": "forTheCuratedMap",
             "templateName": "default",
             "requireTarget": true,
@@ -6920,17 +6920,17 @@
                 "positions": {
                     "title": {
                         "modules": [
-                            "widget.DetailView.73.metadata.positions.title.modules.0.json"
+                            "Curated Infowindow.metadata.positions.title.modules.0.json"
                         ]
                     },
                     "content": {
                         "modules": [
-                            "widget.DetailView.73.metadata.positions.content.modules.0.json",
+                            "Curated Infowindow.metadata.positions.content.modules.0.json",
                             {
                                 "type": "plugin.Attributes.DescriptionAttribute",
                                 "config": {
                                     "attributeFieldArray": [
-                                        "widget.DetailView.73.metadata.positions.content.modules.1.config.attributeFieldArray.0.json"
+                                        "Curated Infowindow.metadata.positions.content.modules.1.config.attributeFieldArray.0.json"
                                     ],
                                     "className": "",
                                     "imageWidth": 300,
@@ -6958,7 +6958,7 @@
                                 "type": "plugin.Attributes.TextAttributes",
                                 "config": {
                                     "attributeFieldArray": [
-                                        "widget.DetailView.73.metadata.positions.content.modules.2.config.attributeFieldArray.0.json",
+                                        "Curated Infowindow.metadata.positions.content.modules.2.config.attributeFieldArray.0.json",
                                         {
                                             "visibility": "public",
                                             "tableId": "3",
@@ -7168,7 +7168,7 @@
                     },
                     "footer": {
                         "modules": [
-                            "widget.DetailView.73.metadata.positions.footer.modules.0.json"
+                            "Curated Infowindow.metadata.positions.footer.modules.0.json"
                         ]
                     },
                     "menu": {
