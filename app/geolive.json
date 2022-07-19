@@ -8319,7 +8319,7 @@
             "widgetTitle": "",
             "target": "forTheCuratedMap",
             "offset": "100",
-            "maxHeight": "1000",
+            "maxHeight": "2000",
             "minHeight": "400",
             "customScript": "",
             "readAccess": "public"
