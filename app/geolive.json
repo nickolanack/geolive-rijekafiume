@@ -7190,8 +7190,8 @@
         "name": "Stylesheet",
         "instance": "CSS",
         "parameters": {
-            "cacheable": false,
-            "link": false,
+            "cacheable": true,
+            "link": true,
             "widgetTitle": "Map Style",
             "target": "forTheCuratedMap",
             "customCSS": "",
