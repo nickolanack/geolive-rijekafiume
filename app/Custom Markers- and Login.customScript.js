@@ -9,7 +9,7 @@ application.setDefaultLoginView('loginForm');
     
     var map={}
      resp.items.forEach(function(item){
-         map[id]=item;
+         map[item.id]=item;
      });
 	
 	var initItem=function(item){
