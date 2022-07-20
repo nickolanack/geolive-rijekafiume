@@ -29,6 +29,7 @@ application.setDefaultLoginView('loginForm');
     	        
     	        item.setIcon({url:path, size:new google.maps.Size(50,50)});
 	        }catch(e){
+	            console.error(e);
 	            item.hide();
 	        }
 	        
