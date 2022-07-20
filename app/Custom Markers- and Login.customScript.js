@@ -22,7 +22,7 @@ application.setDefaultLoginView('loginForm');
 	        category=category.toLowerCase().replace(/[^0-9a-z ]/g, "").split(' ').join('-');
 	        
 	        var period=data.attributes.period[0];
-	        period=period.toLowerCase().replace(/[^0-9a-z ]/g, "").split(' ').join('-'));
+	        period=period.toLowerCase().replace(/[^0-9a-z ]/g, "").split(' ').join('-');
 	        
 	        var path='https://rijekafiume.geolive.ca/images/slideshow/markers/';
 	        path+=category+'-'+period'+.png';
