@@ -27,7 +27,7 @@ application.setDefaultLoginView('loginForm');
     	        var path='https://rijekafiume.geolive.ca/images/slideshow/markers/';
     	        path+=category+'-'+period+'.png';
     	        
-    	        item.setIcon(path);
+    	        item.setIcon({url:path, size:new google.maps.Size(50,50)});
 	        }catch(e){
 	            item.hide();
 	        }
