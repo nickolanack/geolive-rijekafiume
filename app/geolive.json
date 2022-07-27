@@ -8324,5 +8324,12 @@
             "customScript": "",
             "readAccess": "public"
         }
+    },
+    "widget.92": {
+        "name": "Attribute Cloud",
+        "instance": "AttributesCloud",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
