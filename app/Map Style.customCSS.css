@@ -52,7 +52,7 @@ a.more {
     border-radius: 0 2px 2px 0;
 }
 
-.legend .period {
+.legend .period, .legend .category{
     display: inline-block;
     width: 30px;
     height: 30px;
