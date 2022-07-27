@@ -51,3 +51,14 @@ a.more {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     border-radius: 0 2px 2px 0;
 }
+
+.legend .period {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: coral;
+    margin: 3px;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    cursor: pointer;
+}
