@@ -42,7 +42,7 @@ a.more {
 
 .legend {
     width: 300px;
-    height: 270px;
+    height: 3000px;
     background-color: white;
     content: "";
     position: absolute;
@@ -99,4 +99,5 @@ a.more {
 
 .legend .periods, .legend .categories {
     margin-left: 25px;
+    margin-right: 10px;
 }
