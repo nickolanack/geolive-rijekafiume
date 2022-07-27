@@ -8361,7 +8361,7 @@
         "instance": "MapOverlayView",
         "parameters": {
             "widgetTitle": "",
-            "target": "none",
+            "target": "forTheCuratedMap",
             "className": "",
             "viewType": "view",
             "namedView": "defaultView",
@@ -8378,7 +8378,9 @@
             "filterModulesScript": "return list",
             "itemButtonsScript": "return [];",
             "insertAtTop": false,
-            "targetName": ""
+            "targetName": "",
+            "readAccess": "public",
+            "position": ""
         }
     }
 }
