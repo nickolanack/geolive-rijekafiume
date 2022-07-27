@@ -82,7 +82,7 @@ a.more {
     padding: 2px 10px;
 }
 
-.legend.minimized .periods, .legend.minimized .categories, .legend.minimized h1 {
+.legend.minimized .periods, .legend.minimized .categories, .legend.minimized h1, .legend.minimized h2 {
     display: none;
 }
 
