@@ -8355,5 +8355,30 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.93": {
+        "name": "Map Overlay View",
+        "instance": "MapOverlayView",
+        "parameters": {
+            "widgetTitle": "",
+            "target": "none",
+            "className": "",
+            "viewType": "view",
+            "namedView": "defaultView",
+            "shouldRender": true,
+            "namedViewScript": "return namedView",
+            "showInlineEdit": false,
+            "namedFormView": "defaultView",
+            "formOptions": "{}",
+            "showDeleteButton": false,
+            "deleteItemScript": "defaultBehaviorFn()",
+            "initModuleScript": "",
+            "formatModuleScript": "",
+            "resolveItemScript": "return item",
+            "filterModulesScript": "return list",
+            "itemButtonsScript": "return [];",
+            "insertAtTop": false,
+            "targetName": ""
+        }
     }
 }
