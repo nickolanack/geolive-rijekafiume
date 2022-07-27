@@ -90,3 +90,9 @@ a.more {
     width: 30px;
     height: 30px;
 }
+
+
+
+.legend .periods, .legend .categories {
+    margin-left: 25px;
+}
