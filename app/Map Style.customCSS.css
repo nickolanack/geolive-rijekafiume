@@ -62,6 +62,10 @@ a.more {
     border-radius: 2px;
     cursor: pointer;
 }
+.legend .category {
+    background-size: 100%;
+    background-color: whitesmoke;
+}
 
 .legend .toggle {
     position: absolute;
