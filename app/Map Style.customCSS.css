@@ -62,3 +62,31 @@ a.more {
     border-radius: 2px;
     cursor: pointer;
 }
+
+.legend .toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.legend .toggle:after {
+    content: "<";
+    /* transform: rotate(45deg); */
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 6px;
+}
+
+.legend.minimized .toggle:after{
+    content: ">";
+    padding: 2px 10px;
+}
+
+.legend.minimized .periods, .legend.minimized .categories, .legend.minimized h1 {
+    display: none;
+}
+
+.legend.minimized {
+    width: 30px;
+    height: 30px;
+}
