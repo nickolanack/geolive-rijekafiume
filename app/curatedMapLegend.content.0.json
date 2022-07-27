@@ -2,7 +2,7 @@
     "type": "WizardScriptElement",
     "config": {
         "name": "My Custom Script",
-        "script": "return 'Hello world'",
+        "script": "return new Element('div', {\n    \"class\":\"legend\"\n});\n\n\n\/\/'Hello world'",
         "description": "Info about my custom script"
     }
 }

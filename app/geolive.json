@@ -8379,8 +8379,8 @@
             "itemButtonsScript": "return [];",
             "insertAtTop": false,
             "targetName": "",
-            "readAccess": "public",
-            "position": ""
+            "position": "",
+            "readAccess": "public"
         }
     },
     "widget.94": {
