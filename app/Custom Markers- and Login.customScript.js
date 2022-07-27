@@ -49,7 +49,7 @@ application.setDefaultLoginView('loginForm');
 }).execute();
 
 
-application.getBaseMap().setOptions({styles:{
+application.getBaseMap().setOptions({styles:[{
 				"featureType": "all",
 				"elementType": "geometry",
 				"stylers": [{
@@ -175,4 +175,4 @@ application.getBaseMap().setOptions({styles:{
 				"stylers": [{
 					"lightness": -20
 				}]
-			}});
+			}]});
