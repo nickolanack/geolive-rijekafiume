@@ -8364,7 +8364,7 @@
             "target": "forTheCuratedMap",
             "className": "",
             "viewType": "view",
-            "namedView": "defaultView",
+            "namedView": "curatedMapLegend",
             "shouldRender": true,
             "namedViewScript": "return namedView",
             "showInlineEdit": false,
