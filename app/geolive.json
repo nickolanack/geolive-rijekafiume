@@ -8426,7 +8426,7 @@
         "name": "Attribute Cloud",
         "instance": "AttributesCloud",
         "parameters": {
-            "target": "none",
+            "target": "forTheCuratedMap",
             "tabLabel": "Categories",
             "className": "",
             "showDemoTags": false,
@@ -8441,7 +8441,7 @@
             "hideEmptyPredefinedValues": true,
             "showValuesOutsidePredefined": true,
             "attributeSelection": [
-                "widget.AttributesCloud.95.attributeSelection.0.json"
+                "forTheCuratedMap.attributeSelection.0.json"
             ],
             "cloudMetadata": [],
             "formatCloudScript": "",
@@ -8449,7 +8449,7 @@
             "formatTabButtonScript": "",
             "onSelectionChangedScript": "defaultBehaviorFn();",
             "sendNotifications": false,
-            "widgetTitle": "",
+            "widgetTitle": "forTheCuratedMap",
             "readAccess": "public"
         }
     }
