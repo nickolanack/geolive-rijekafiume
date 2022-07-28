@@ -8426,7 +8426,31 @@
         "name": "Attribute Cloud",
         "instance": "AttributesCloud",
         "parameters": {
-            "target": "none"
+            "target": "none",
+            "tabLabel": "Categories",
+            "className": "",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "tabColor": "#DD4814",
+            "fontColor": "black",
+            "showItemCount": true,
+            "scaleItemsWithCount": true,
+            "scaleItemsMax": 25,
+            "scaleItemsMin": 12,
+            "hideEmptyPredefinedValues": true,
+            "showValuesOutsidePredefined": true,
+            "attributeSelection": [
+                "widget.AttributesCloud.95.attributeSelection.0.json"
+            ],
+            "cloudMetadata": [],
+            "formatCloudScript": "",
+            "formatTagScript": "",
+            "formatTabButtonScript": "",
+            "onSelectionChangedScript": "defaultBehaviorFn();",
+            "sendNotifications": false,
+            "widgetTitle": "",
+            "readAccess": "public"
         }
     }
 }
