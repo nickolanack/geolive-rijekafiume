@@ -8421,5 +8421,12 @@
             },
             "readAccess": "public"
         }
+    },
+    "widget.95": {
+        "name": "Attribute Cloud",
+        "instance": "AttributesCloud",
+        "parameters": {
+            "target": "none"
+        }
     }
 }
