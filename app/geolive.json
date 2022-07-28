@@ -6964,38 +6964,6 @@
                                             "tableId": "3",
                                             "tableName": "curatedAttributes",
                                             "tableSuffix": "_7331",
-                                            "title": "category",
-                                            "label": "Category",
-                                            "description": "",
-                                            "fieldType": "text",
-                                            "color": "rgb(NaN, NaN, NaN)",
-                                            "searchability": "public",
-                                            "editability": "registered",
-                                            "fieldTextOptions": {
-                                                "textType": "input",
-                                                "inputOptions": {
-                                                    "buildAutocomplete": false,
-                                                    "requireModeration": false,
-                                                    "limitMaxChars": 0,
-                                                    "limitMaxWords": 0,
-                                                    "allowHtml": false,
-                                                    "allowMedia": true,
-                                                    "allowLinks": true
-                                                },
-                                                "listOptions": {
-                                                    "takeSugesstions": true,
-                                                    "buildTree": false,
-                                                    "iconize": false,
-                                                    "colorize": false
-                                                }
-                                            },
-                                            "allowMultiple": false
-                                        },
-                                        {
-                                            "visibility": "public",
-                                            "tableId": "3",
-                                            "tableName": "curatedAttributes",
-                                            "tableSuffix": "_7331",
                                             "title": "period",
                                             "label": "Period",
                                             "description": "",
