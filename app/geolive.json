@@ -8136,8 +8136,8 @@
         "instance": "CustomBehaviorScript",
         "parameters": {
             "target": "forTheCuratedMap",
-            "customScript": "Custom Markers- and Login.customScript.js",
-            "widgetTitle": "Custom Markers, and Login",
+            "customScript": "Custom Map- Markers- and Login.customScript.js",
+            "widgetTitle": "Custom Map, Markers, and Login",
             "readAccess": "public"
         }
     },
