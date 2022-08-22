@@ -59,8 +59,8 @@ application.setDefaultLoginView('loginForm');
 	var initLayer=function(layer){
 	    
 	    
-	    layer.getItems().forEach(initItem);
-	    layer.addEvent('addItem',initItem);
+	   // layer.getItems().forEach(initItem);
+	  //  layer.addEvent('addItem',initItem);
 	    
 	};
 	application.getLayerManager().getLayer(36, initLayer);
