@@ -21,6 +21,12 @@ application.setDefaultLoginView('loginForm');
 	       var period="undefined";
 	            
 	        try{
+	            
+	            if(!(data.attributes.period&&data.attributes.period.length>0)){
+	                
+	                item.hide();
+	                return;
+	            }
 
     	        var period_=data.attributes.period[0];
     	        period=period_.toLowerCase().replace(/[^0-9a-z ]/g, "").split(' ').join('-');
@@ -31,6 +37,8 @@ application.setDefaultLoginView('loginForm');
 	        }
 	        
 	        try{
+	            
+	          
     	        var category=data.attributes.category;
     	        category=category.toLowerCase().replace(/[^0-9a-z ]/g, "").split(' ').join('-');
     	        
@@ -45,7 +53,7 @@ application.setDefaultLoginView('loginForm');
 	        
 	    }
 	   
-	}
+	};
 	var initLayer=function(layer){
 	    
 	    
