@@ -123,7 +123,7 @@
             "enableLayerSyncronization": true,
             "onlyShowMarkersInIconset": false,
             "googleMapsServerApiKey": "XXXX-XXXX",
-            "googleMapsVersion": "",
+            "googleMapsVersion": "3.50",
             "tileCachePath": "{front}\/tiles\/",
             "layerDisplayFilterScript": "plugin.Maps.12.layerDisplayFilterScript.js",
             "formatMapitemScript": "plugin.Maps.12.formatMapitemScript.js"
@@ -7171,7 +7171,7 @@
         "instance": "ExportData",
         "parameters": {
             "widgetTitle": "",
-            "readAccess": "special",
+            "readAccess": "public",
             "target": "forTheCuratedMap",
             "position": "RIGHT_CENTER",
             "downloadImage": [],
