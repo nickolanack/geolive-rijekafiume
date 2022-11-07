@@ -8284,7 +8284,10 @@
         "name": "Ajax Method",
         "instance": "AjaxMethod",
         "parameters": {
-            "target": "none"
+            "target": "getViewData",
+            "customScript": "widget.AjaxMethod.96.customScript.js",
+            "widgetTitle": "",
+            "readAccess": "public"
         }
     },
     "widget.91": {
