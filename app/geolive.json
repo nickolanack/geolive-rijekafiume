@@ -8280,6 +8280,13 @@
             "readAccess": "public"
         }
     },
+    "widget.96": {
+        "name": "Ajax Method",
+        "instance": "AjaxMethod",
+        "parameters": {
+            "target": "none"
+        }
+    },
     "widget.91": {
         "name": "Flexible Height Widget",
         "instance": "FlexibleHeight",
