@@ -4,7 +4,8 @@ application.setDefaultLoginView('loginForm');
 
 
 (new AjaxControlQuery(CoreAjaxUrlRoot, 'user_function', {
-	"widget": "listMarkers"
+	"widget": "listMarkers",
+	"origin":"web"
 })).addEvent('onSuccess', function(resp) {
     
     var map={}
