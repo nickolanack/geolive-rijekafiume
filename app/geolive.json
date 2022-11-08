@@ -5758,7 +5758,7 @@
                                     14.4369604
                                 ],
                                 "altitude": 10,
-                                "headingAdjust": 0
+                                "headingAdjust": 20
                             },
                             "showStreetView": true,
                             "hideAugmentedView": true,
