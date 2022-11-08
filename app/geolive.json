@@ -6081,6 +6081,7 @@
                         "center": "{data.pano.center||``}",
                         "id": "{data.pano.id||``}",
                         "heading": "{data.pano.heading||``}",
+                        "headingAdjust": "{data.pano.headingAdjust||``}",
                         "altitude": "{data.pano.altitude||``}",
                         "zoom": 1,
                         "zoomToLocation": false,
