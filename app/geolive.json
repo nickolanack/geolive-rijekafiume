@@ -5783,7 +5783,6 @@
                             "title": "{section-names.vista.panorama-from-trsat|split(:)|pop|trim}",
                             "description": "mobile-app-config.section-buttons.vista.panorama-from-trsat.data.description.js",
                             "pano": {
-                                "bearingOffset": 100,
                                 "center": [
                                     45.332395,
                                     14.4551108
@@ -5797,6 +5796,7 @@
                                     45.3323676,
                                     14.4551285
                                 ],
+                                "headingAdjust": 100,
                                 "heading": 130,
                                 "-id": "F17K3q4hd1GTfSTEA",
                                 "--id": "AF1QipP-Ljyfy5yZ15HBK8ePeckwDkVqtVybj9u-7X0M",
