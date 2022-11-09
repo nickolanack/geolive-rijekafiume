@@ -5759,7 +5759,7 @@
                                 ],
                                 "altitude": 0,
                                 "headingAdjust": 20,
-                                "tiltAdjust": 15
+                                "tiltAdjust": -15
                             },
                             "showStreetView": true,
                             "hideAugmentedView": true,
