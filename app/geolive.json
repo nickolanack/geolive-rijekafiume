@@ -6084,6 +6084,7 @@
                         "id": "{data.pano.id||``}",
                         "heading": "{data.pano.heading||``}",
                         "headingAdjust": "{data.pano.headingAdjust||``}",
+                        "tiltAdjust": "{data.pano.tiltAdjust||``}",
                         "altitude": "{data.pano.altitude||``}",
                         "zoom": 1,
                         "zoomToLocation": false,
