@@ -63,7 +63,7 @@
         },
         {
             "type": "label",
-            "condition": "{data.pano||data.attributes.pano|?}",
+            "condition": "{data.pano||data.attributes.pano||``|?}",
             "value": "Pano"
         },
         {
