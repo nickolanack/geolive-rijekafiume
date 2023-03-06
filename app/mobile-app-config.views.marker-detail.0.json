@@ -11,25 +11,6 @@
             "value": "{data.name}"
         },
         {
-            "type": "fieldset",
-            "condition": "{data.pano||data.attributes.pano|?}",
-            "fields": [
-                {
-                    "type": "buttonset",
-                    "style": "horizontal-align:right; orientation:horizontal;",
-                    "className": "marker-card-menu",
-                    "buttons": [
-                        {
-                            "className": "small-icon",
-                            "icon": "{menu-icons.pano}",
-                            "label": "Pano",
-                            "--action": "shareCurrent"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "type": "scroll",
             "className": "image-previews",
             "fields": [
@@ -47,6 +28,25 @@
                     "listFormatter": "imageListModel",
                     "--itemFieldFormatter": "imageFormat",
                     "pageLength": 4
+                }
+            ]
+        },
+        {
+            "type": "fieldset",
+            "condition": "{data.pano||data.attributes.pano|?}",
+            "fields": [
+                {
+                    "type": "buttonset",
+                    "style": "horizontal-align:right; orientation:horizontal;",
+                    "className": "marker-card-menu",
+                    "buttons": [
+                        {
+                            "className": "small-icon",
+                            "icon": "{menu-icons.pano}",
+                            "label": "Pano",
+                            "--action": "shareCurrent"
+                        }
+                    ]
                 }
             ]
         },
