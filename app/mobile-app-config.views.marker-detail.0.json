@@ -73,6 +73,7 @@
                         {
                             "className": "small-icon",
                             "icon": "{menu-icons.pano}",
+                            "label": "Pano",
                             "--action": "shareCurrent"
                         }
                     ]
