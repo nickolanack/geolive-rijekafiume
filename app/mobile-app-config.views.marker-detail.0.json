@@ -47,11 +47,14 @@
                             "label": "Pano",
                             "action": "view",
                             "remember": false,
+                            "data": {
+                                "pano": "{data.pano||data.attributes.pano}"
+                            },
                             "view": "pano",
                             "fields": {
                                 "type": "webpage",
                                 "position": "detail-top",
-                                "src": "https:\/\/media.geolive.ca\/gpano\/?pano=low_terminal_2",
+                                "src": "https:\/\/media.geolive.ca\/gpano\/?pano={data.pano}",
                                 "style": "width:100%; height:100%;"
                             }
                         }
