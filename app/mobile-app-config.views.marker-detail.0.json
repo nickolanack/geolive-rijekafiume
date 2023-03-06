@@ -62,9 +62,22 @@
             "fieldFormatter": "citationFieldFormat"
         },
         {
-            "type": "label",
-            "condition": "{data.pano||data.attributes.pano||``|?}",
-            "value": "Pano"
+            "type": "fieldset",
+            "condition": "{data.pano||data.attributes.pano|?}",
+            "fields": [
+                {
+                    "type": "buttonset",
+                    "style": "horizontal-align:right; orientation:horizontal;",
+                    "className": "marker-card-menu",
+                    "buttons": [
+                        {
+                            "className": "small-icon",
+                            "icon": "{menu-icons.pano}",
+                            "--action": "shareCurrent"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "type": "buttonset",
