@@ -5759,7 +5759,8 @@
                                 ],
                                 "altitude": 0,
                                 "headingAdjust": 20,
-                                "tiltAdjust": -13
+                                "tiltAdjust": -13,
+                                "maxDistance": 500
                             },
                             "showStreetView": true,
                             "hideAugmentedView": true,
