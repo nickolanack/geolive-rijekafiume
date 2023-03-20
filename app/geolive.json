@@ -6086,6 +6086,7 @@
                         "headingAdjust": "{data.pano.headingAdjust||``}",
                         "tiltAdjust": "{data.pano.tiltAdjust||``}",
                         "altitude": "{data.pano.altitude||``}",
+                        "maxDistance": "{data.pano.maxDistance||`1000`}",
                         "zoom": 1,
                         "zoomToLocation": false,
                         "markerDetail": {
