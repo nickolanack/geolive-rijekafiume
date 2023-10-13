@@ -1,3 +1,7 @@
+.geolive-top-bar {
+    z-index: 1;
+}
+
 .iw-title {
     font-size: 20px;
     font-weight: 400;
