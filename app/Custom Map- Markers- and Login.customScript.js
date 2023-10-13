@@ -1,7 +1,6 @@
 application.setDefaultLoginView('loginForm');
 
 
-return;
 
 (new AjaxControlQuery(CoreAjaxUrlRoot, 'user_function', {
 	"widget": "listMarkers",
@@ -48,7 +47,7 @@ return;
     	        
     	        console.log(path);
     	        
-    	        //item.getMapObject().setIcon({url:path, scaledSize:new google.maps.Size(50,50)});
+    	        item.getMapObject().setIcon({url:path, scaledSize:new google.maps.Size(50,50)});
 	        }catch(e){
 	            console.error(e);
 	            item.hide();
