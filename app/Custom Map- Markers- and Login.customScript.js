@@ -48,6 +48,8 @@ application.setDefaultLoginView('loginForm');
     	        console.log(path);
     	        
     	        item.getMapObject().setIcon({url:path, scaledSize:new google.maps.Size(50,50)});
+	            item.getMapObject().setLabel('a');
+	            
 	        }catch(e){
 	            console.error(e);
 	            item.hide();
