@@ -1,7 +1,7 @@
 application.setDefaultLoginView('loginForm');
 
 
-
+return;
 
 (new AjaxControlQuery(CoreAjaxUrlRoot, 'user_function', {
 	"widget": "listMarkers",
