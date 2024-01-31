@@ -123,7 +123,7 @@
             "enableLayerSyncronization": true,
             "onlyShowMarkersInIconset": false,
             "googleMapsServerApiKey": "XXXX-XXXX",
-            "googleMapsVersion": "3.51",
+            "googleMapsVersion": "3.52",
             "tileCachePath": "{front}\/tiles\/",
             "layerDisplayFilterScript": "plugin.Maps.12.layerDisplayFilterScript.js",
             "formatMapitemScript": "plugin.Maps.12.formatMapitemScript.js"
