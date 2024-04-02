@@ -33,7 +33,7 @@
         },
         {
             "type": "fieldset",
-            "condition": "{data.pano||data.attributes.pano||``|?}",
+            "condition": "{data.attributes.pano||data.pano||``|?}",
             "fields": [
                 {
                     "type": "buttonset",
@@ -48,7 +48,7 @@
                             "action": "view",
                             "remember": false,
                             "data": {
-                                "pano": "{data.pano||data.attributes.pano}"
+                                "pano": "{data.attributes.pano||data.pano}"
                             },
                             "view": "pano",
                             "fields": {
